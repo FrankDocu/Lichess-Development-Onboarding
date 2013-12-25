@@ -57,3 +57,68 @@ Join the game=This is one of the two buttons that appear when your opponent offe
 White plays=This is what a spectator sees in the right-hand box when watching a game and it is White's turn to play.
 
 Black plays=This is what a spectator sees in the right-hand box when watching a game and it is Black's turn to play.
+
+The other player may have left the game. You can claim victory, call the game a draw, or wait.=This appears after 3 minutes have elapsed with one player disconnected. Below it are two buttons: "Claim victory" and "Call draw".
+
+Make your opponent resign=The alt text (what you see when you hover the mouse over) of "Claim victory". You don't have to translate it like this; you can translate to e.g. "Force victory", or whatever best explains the button in your language.
+
+Claim victory=One of the two buttons that appears when your opponent leaves the game. Clicking this ends the game and grants you the win.
+
+Call draw=One of the two buttons that appears when your opponent leaves the game. Clicking this draws the game. It's considered the more "chivalrous" option of the two.
+
+Talk in chat=This is the placeholder text (greyed-out text that disappears) in the input box for the chat. Keep it as short as possible.
+
+The first person to come to this URL will play with you.=This appears at the top in the "Play with a friend" menu while you are waiting for a friend to come to the link.
+
+White creates the game=This is a system message that appears in the chat box at the start of the game if the White player created the game.
+
+Black creates the game=This is a system message that appears in the chat box at the start of the game if the Black player created the game.
+
+White joins the game=This is a system message that appears in the chat box at the start of the game when the White player joins a game.
+
+Black joins the game=This is a system message that appears in the chat box at the start of the game when the Black player joins a game.
+
+White resigned=This is a system message that appears in the chat box when the White player resigns from the game
+
+Black resigned=This is a system message that appears in the chat box when the White player resigns from the game
+
+White left the game=This is a system message that appears in the chat box when the White player aborts the game before it started (or with just one move having taken place).
+
+Black left the game=This is a system message that appears in the chat box when the Black player aborts the game before it started (or with just one move having taken place).
+
+Share this URL to let spectators see the game=The alt text (what you see when you hover the mouse over) of the link just below the board which you can send to people so they can watch the game.
+
+You are viewing this game as a spectator=This appears in the top left box when you watch a game that is currently playing as a spectator.
+
+Computer analysis in progress=This is the text in a new box that comes up once you have requested a computer analysis of a chess game.
+
+The computer analysis you requested is now available=This is a box that appears when the computer analysis you have requested is ready to be displayed. If you refresh the page without following this link, it changes to "View computer analysis". This message only appears to the player that requested it.
+
+The computer analysis has failed=This is an error message that appears when the computer analysis can't be displayed for some reason. It appears in the same box as "Computer analysis in progress" (which disappears if this error appears) does.
+
+View the computer analysis=This is a link in the box below the board to the the "Replay and analyse" screen, which contains the computer analysis.
+
+Request a computer analysis=This is one of the actions in the box normally below the board. The box includes "Flip board", PGN and FEN downloads, and other actions a player might want to take.
+
+Blunders=This is one of the categories of problems discovered by the computer analysis. If no equivalent word exists, use "Serious mistakes".
+
+Mistakes=This is one of the categories of problems discovered by the computer analysis.
+
+Inaccuracies=This is one of the categories of problems discovered by the computer analysis.
+
+View game stats=This is one of the links in the box normally below the board. It takes you to a page that contains various stats about times taken to make moves in the game.
+
+Flip board=This is one of the links in the box normally below the board. It flips the board upside-down.
+
+Threefold repetition=This is one of the conditions by which a game ends. It appears on the box on the right-hand side of the screen. It also appears in player profiles. Please use the official term by your country's or locale's chess federation or club.
+
+Claim a draw=This a button that appears to players when threefold repetition occurs.
+
+Offer draw=This is a small button in the right-hand side box that offers ending the game by draw to your opponent.
+
+Draw=This appears in various places, including players' profiles and the right-hand side boxes in individual games.
+
+%s players=This is the counter of how many players are connected right now, displayed at the top of every page on lichess.
+
+Talk about chess and discuss lichess in the forum=The alt text (what you see when you hover the mouse over) of the "Forum" link at the top of every page.
+
