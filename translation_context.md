@@ -38,8 +38,6 @@ Random color=The alt text (what you see when you hover the mouse over) of the la
 
 Create a game=One of the 3 buttons on the "Play" page. This creates a game that is listed in the list (or graph) of open games.
 
-No game available right now, create one!=This appears when there are no games that you can join. It is a button. Clicking it opens the "Create a game" menu.
-
 White is victorious=This appears in the top left box of a game, and also the player profile, when the white player wins the game.
 
 Black is victorious=This appears in the top left box of a game, and also the player profile, when the black player wins the game.
