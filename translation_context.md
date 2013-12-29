@@ -1,8 +1,8 @@
-Play with a friend=One of the 3 buttons on the "Play" page. This creates a unique URL that you can send to someone and play.
+Play with a friend=One of the 3 buttons on the "Play" page (http://lichess.org/). This creates a unique URL that you can send to someone and play.
 
 Invite a friend to play with you=The alt text (what you see when you hover the mouse over) of "Play with a friend".
 
-Play with the machine=One of the 3 buttons on the "Play" page. Translate "machine" as "[chess] engine" if possible, omitting the word "chess".
+Play with the machine=One of the 3 buttons on the "Play" page (http://lichess.org/). Translate "machine" as "[chess] engine" if possible, omitting the word "chess".
 
 Challenge the artificial intelligence=The alt text (what you see when you hover the mouse over) of 'Play with the machine'.
 
@@ -16,7 +16,7 @@ Waiting=This appears in the box while you are playing a game, and are waiting fo
 
 Your turn=This appears in the box while you are playing a game. It indicates it is your turn to play.
 
-%s level %s=AI name and level, e.g. "Stockfish level 3". Note that the 'Stockfish' part will always be first no matter where you place the %s, though you can rearrange them to e.g. "%s at %s levels", which would produce e.g. "Stockfish at 3 levels".
+%s level %s=AI name and level, e.g. "Stockfish level 3". Note that the "Stockfish" part will always be first no matter where you place the %s, though you can rearrange them to e.g. "%s at %s levels", which would produce e.g. "Stockfish at 3 levels". Use the translation that sounds best in your language.
 
 Level=This appears in the "Challenge the Artificial Intelligence" menu as a heading. Below it are skill levels (1 through 8) of the AI that you can play against.
 
@@ -76,13 +76,13 @@ White joins the game=This is a system message that appears in the chat box at th
 
 Black joins the game=This is a system message that appears in the chat box at the start of the game when the Black player joins a game.
 
-White resigned=This is a system message that appears in the chat box when the White player resigns from the game
+White resigned=This is a appears in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game when the White player resigns from the game
 
-Black resigned=This is a system message that appears in the chat box when the White player resigns from the game
+Black resigned=This is a appears in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game when the Black player resigns from the game
 
-White left the game=This is a system message that appears in the chat box when the White player aborts the game before it started (or with just one move having taken place).
+White left the game=This is a appears in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game when the White player leaves the game either by aborting or by being absent for too long.
 
-Black left the game=This is a system message that appears in the chat box when the Black player aborts the game before it started (or with just one move having taken place).
+Black left the game=This is a appears in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game when the Black player leaves the game either by aborting or by being absent for too long.
 
 Share this URL to let spectators see the game=The alt text (what you see when you hover the mouse over) of the link just below the board which you can send to people so they can watch the game.
 
@@ -120,3 +120,30 @@ Draw=This appears in various places, including players' profiles and the right-h
 
 Talk about chess and discuss lichess in the forum=The alt text (what you see when you hover the mouse over) of the "Forum" link at the top of every page.
 
+See the games being played in real time and review past games=The alt text (what you see when you hover the mouse over) of the "Games" link at the top of every page. The page lists games being currently played and also offers the ability to find past games.
+
+Current games=This is a shorter phrase for "Games being played right now". It is what the link at the top that says "Games" links to (http://lichess.org/games). Please try to keep your translation as short as possible.
+
+%s Games=Links to http://lichess.org/games/all. %s here is the number of all the games ever played on Lichess.
+
+%s Checkmates=Links to http://lichess.org/games/checkmate and is found on the left hand side of the "Games" pages. %s is the number of all the games that ended in checkmate on Lichess.
+
+%s Bookmarks=Links to http://lichess.org/games/bookmark. It only appears to registered users that have bookmarked certain games. It displays a list of your bookmarked games. %s is the number of games you have bookmarked
+
+%s Popular games=Links to http://lichess.org/games/popular. It is a list of games bookmarked by many people. %s is the number of games with one or more bookmarks
+
+%s Analysed games=Links to http://lichess.org/games/analysed. It is a list of any game that has had a computer analysis performed on it. %s is the number of games with a complete computer analysis.
+
+Bookmarked by %s players=This appears above the bookmark star in a game that has been bookmarked. Example here: http://lichess.org/analyse/vyvcbk8s/black. %s is the number of players.
+
+View in full size=The alt text (what you see when you hover the mouse over) of the small chess boards dotted around the site. These small boards are most prominent in the "Games" pages (http://lichess.org/games). Clicking one of these small boards brings you to the game's unique page.
+
+Sign out=This is part of the profile dropdown on the top of every page when you are signed in to an account.
+
+Sign in=This is an orange-coloured button that appears at the top when you are not signed in to an account, or playing anonymously. Please keep it as short as possible.
+
+New to Lichess?=This appears in the "Sign in" page. It is next to a button that allows you to register an account on the website. The translation should be friendly and inviting; free translations are recommended for this string.
+
+You need an account to do that=This appears when trying actions or going to pages that require being signed in with a user account.
+
+Register=This is a button on the "Sign in" page that allows you to register an account.
