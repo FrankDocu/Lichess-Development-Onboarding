@@ -166,3 +166,372 @@ Time control=This appears in all the game creation menus (e.g. "Create a game", 
 
 Time=This appears in the table of games you can join on the "Play" page (http://lichess.org/).
 
+Username=
+
+Password=
+
+Have an account?=
+
+All you need is a username and a password.=
+
+Change password=
+
+Learn more about Lichess=
+
+Rank=
+
+Games played=
+
+%s games with you=
+
+Decline invitation=
+
+Cancel=
+
+Time out=
+
+Draw offer sent=
+
+Draw offer declined=
+
+Draw offer accepted=
+
+Draw offer canceled=
+
+Your opponent offers a draw=
+
+Accept=
+
+Decline=
+
+Playing right now=
+
+Finished=
+
+Abort game=
+
+Game aborted=
+
+Standard=
+
+Unlimited=
+
+Mode=
+
+Casual=
+
+Rated=
+
+This game is rated=
+
+Rematch=
+
+Rematch offer sent=
+
+Rematch offer accepted=
+
+Rematch offer canceled=
+
+Rematch offer declined=
+
+Cancel rematch offer=
+
+View rematch=
+
+Play=
+
+Inbox=
+
+Chat room=
+
+Spectator room=
+
+Compose message=
+
+Sent messages=
+
+No new messages=
+
+Subject=
+
+Recipient=
+
+Send=
+
+Increment in seconds=
+
+Free Online Chess=
+
+Spectators:=
+
+%s wins=
+
+%s losses=
+
+%s draws=
+
+Export games=
+
+Color=
+
+Rating range=
+
+Give %s seconds=
+
+All players=
+
+Premove enabled - Click anywhere to cancel=
+
+This player uses chess computer assistance=
+
+Opening=
+
+Takeback=
+
+Propose a takeback=
+
+Takeback proposition sent=
+
+Takeback proposition declined=
+
+Takeback proposition accepted=
+
+Takeback proposition canceled=
+
+Your opponent proposes a takeback=
+
+Bookmark this game=
+
+Toggle background color=
+
+Search=
+
+Advanced Search=
+
+Tournament=
+
+Tournaments=
+
+Tournament points=
+
+View tournament=
+
+Free online Chess game. Play Chess now in a clean interface. No registration, no ads, no plugin required. Play Chess with the computer, friends or random opponents.=
+
+Teams=
+
+%s members=
+
+All teams=
+
+New team=
+
+My teams=
+
+No team found=
+
+Join team=
+
+Quit team=
+
+Free for all=
+
+A confirmation is required to join=
+
+Joining policy=
+
+Team leader=
+
+Team best players=
+
+Team recent members=
+
+%s joined team %s=
+
+%s created team %s=
+
+Average rating=
+
+Location=
+
+Settings=
+
+Filter games=
+
+Reset=
+
+Apply=
+
+Leaderboard=
+
+Paste the FEN string here=
+
+Paste the PGN string here=
+
+From position=
+
+Continue from here=
+
+Import game=
+
+%s Imported games=
+
+This is a chess CAPTCHA.=
+
+Click on the board to make your move, and prove you are human.=
+
+Not a checkmate=
+
+%s plays; checkmate in one move=
+
+Retry=
+
+Reconnecting=
+
+Online friends=
+
+No friends online=
+
+Find friends=
+
+Favorite opponents=
+
+Follow=
+
+Following=
+
+Unfollow=
+
+Block=
+
+Blocked=
+
+Unblock=
+
+Follows you=
+
+%s started following %s=
+
+%s followers=
+
+%s following=
+
+More=
+
+Member since=
+
+Last login=
+
+Challenge to a game=
+
+Player=
+
+List=
+
+Graph=
+
+All=
+
+Less than %s minutes=
+
+%s to %s minutes=
+
+Text is too short.=
+
+Text is too long.=
+
+Required.=
+
+Add to Chrome=
+
+Open tournaments=
+
+Duration=
+
+Winner=
+
+Standing=
+
+Create a new tournament=
+
+Join=
+
+Withdraw=
+
+Points=
+
+Wins=
+
+Losses=
+
+Win streak=
+
+Created by=
+
+Waiting for %s players=
+
+Tournament is starting=
+
+%s minutes/side + %s seconds/move=
+
+Members only=
+
+Board editor=
+
+Start position=
+
+Clear board=
+
+Save position=
+
+Load position=
+
+Private=
+
+Report %s to moderators=
+
+Profile=
+
+Edit profile=
+
+First name=
+
+Last name=
+
+Biography=
+
+Country=
+
+Preferences=
+
+Watch Lichess TV=
+
+Previously on Lichess TV=
+
+Today's leaders=
+
+Online players=
+
+Progress today=
+
+Progress this week=
+
+Progress this month=
+
+Progress this week=
+
+Progress this month=
+
+Active today=
+
+Active this week=
+
+Active players=
+
+Best bullet players=
+
+Best blitz players=
+
+Best slow players=
+
+Beware, the game is rated but has no clock!=
