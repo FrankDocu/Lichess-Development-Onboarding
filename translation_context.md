@@ -18,7 +18,7 @@ Your turn=This appears in the box while you are playing a game. It indicates it 
 
 %s level %s=AI name and level, e.g. "Stockfish level 3". Note that the "Stockfish" part will always be first no matter where you place the %s, though you can rearrange them to e.g. "%s at %s levels", which would produce e.g. "Stockfish at 3 levels". Use the translation that sounds best in your language.
 
-Level=This appears in the "Challenge the Artificial Intelligence" menu as a heading. Below it are skill levels (1 through 8) of the AI that you can play against.
+Level=This appears in the "Play with the machine" menu as a heading. Below it are skill levels (1 through 8) of the AI that you can play against.
 
 Toggle the chat=This is the checkbox on the top-right of the chat box. It turns the chat room on or off.
 
@@ -140,10 +140,29 @@ View in full size=The alt text (what you see when you hover the mouse over) of t
 
 Sign out=This is part of the profile dropdown on the top of every page when you are signed in to an account.
 
-Sign in=This is an orange-coloured button that appears at the top when you are not signed in to an account, or playing anonymously. Please keep it as short as possible.
+Sign in=This is a red-coloured button that appears at the top when you are not signed in to an account, or playing anonymously. Please keep it as short as possible.
 
 New to Lichess?=This appears in the "Sign in" page. It is next to a button that allows you to register an account on the website. The translation should be friendly and inviting; free translations are recommended for this string.
 
 You need an account to do that=This appears when trying actions or going to pages that require being signed in with a user account.
 
 Register=This is a button on the "Sign in" page that allows you to register an account.
+
+People=Links to http://lichess.org/people. The page contains statistics about the most successful players of Lichess by various measures. "People" is one of the links at the top of every page, so keep it as short as possible
+
+Games=Links to http://lichess.org/games. The page displays games currently being played and has links to various other tools on the site, such as a search engine that queries the database for past games. "Games" is one of the links at the top of every page, so keep it as short as possible.
+
+Forum=Links to http://lichess.org/forum. It is Lichess's webforum, where users can discuss various topics, chess-related or not. These are sometimes called "bulletin boards". "Forum" is one of the links at the top of every page, so keep it as short as possible.
+
+%s posted in discussion %s=This is one of the messages that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player. The first %s is the player's name and the second %s is the title of the discussion in the forum.
+
+Players=The alt text (what you see when you hover the mouse over) of the "People" link at the top of every page.
+
+Minutes per side=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") after you have ticked "Time control". Below it is a slider that lets you select how many minutes each player will have on the clock.
+
+Variant=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). Below it is a selection of variants the player can choose from. Currently only Standard chess and Chess960 are supported.
+
+Time control=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). It also appears in player profiles next to games that have time controls implemented. This message acts as a heading to time controls for the game. Next to it is a checkbox. Ticking the box allows for time controls to be implemented in the game. If the box is left unticked the game is of unlimited time.
+
+Time=This appears in the table of games you can join on the "Play" page (http://lichess.org/).
+
