@@ -2,9 +2,9 @@ Play with a friend=One of the 3 buttons on the "Play" page (http://lichess.org/)
 
 Invite a friend to play with you=The alt text (what you see when you hover the mouse over) of "Play with a friend".
 
-Play with the machine=One of the 3 buttons on the "Play" page (http://lichess.org/). Translate "machine" as "[chess] engine" if possible, omitting the word "chess".
+Play with the machine=One of the 3 buttons on the "Play" page (http://lichess.org/). Translate "machine" as "[chess] engine" if it sounds better in your language, omitting the word "chess".
 
-Challenge the artificial intelligence=The alt text (what you see when you hover the mouse over) of 'Play with the machine'.
+Challenge the artificial intelligence=The alt text (what you see when you hover the mouse over) of "Play with the machine".
 
 To invite someone to play, give this URL=This appears after you have created a game for a friend (in the "Play with a friend" menu). Feel free to translate "URL" as "address", or whatever is most common in your language.
 
@@ -16,7 +16,7 @@ Waiting=This appears in the box while you are playing a game, and are waiting fo
 
 Your turn=This appears in the box while you are playing a game. It indicates it is your turn to play.
 
-%s level %s=AI name and level, e.g. "Stockfish level 3". Note that the "Stockfish" part will always be first no matter where you place the %s, though you can rearrange them to e.g. "%s at %s levels", which would produce e.g. "Stockfish at 3 levels". Use the translation that sounds best in your language.
+%s level %s=AI name and level, e.g. "Stockfish level 3". Note that the "Stockfish" part will always be first no matter where you place the %s, though you can rearrange them to e.g. "%s at %s levels", which would produce e.g. "Stockfish at 3 levels". Use the translation that sounds best in your language. Appears in the box on the left-hand side in the page of the game, and also on your profile, in the list of games.
 
 Level=This appears in the "Play with the machine" menu as a heading. Below it are skill levels (1 through 8) of the AI that you can play against.
 
@@ -46,11 +46,11 @@ Play with the same opponent again=The alt text (what you see when you hover the 
 
 New opponent=This is a button that appears at the end of a game just below the "Rematch" button. Clicking it takes you back to the "Play" page.
 
-Play with another opponent=This is one of the two buttons that appear when your opponent offers you a rematch. Clicking it takes you back to the "Play" page.
+Play with another opponent=This is one of the two buttons that appear when your opponent offers you a rematch. Clicking it takes you back to the "Play" page (http://lichess.org).
 
 Your opponent wants to play a new game with you=This text appears when your opponent offers you a rematch.
 
-Join the game=This is one of the two buttons that appear when your opponent offers you a rematch. Clicking it takes you back to the "Play" page.
+Join the game=This is one of the two buttons that appear when your opponent offers you a rematch. Clicking it lets you join a new game against the same opponent.
 
 White plays=This is what a spectator sees in the right-hand box when watching a game and it is White's turn to play.
 
@@ -76,9 +76,9 @@ White joins the game=This is a system message that appears in the chat box at th
 
 Black joins the game=This is a system message that appears in the chat box at the start of the game when the Black player joins a game.
 
-White resigned=This is a appears in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game when the White player resigns from the game
+White resigned=This is a appears in the right hand-side box in a game, the list of games on the profile, and also the left hand-side box in a game when the White player resigns from the game.
 
-Black resigned=This is a appears in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game when the Black player resigns from the game
+Black resigned=This is a appears in the right hand-side box in a game, the list of games on the profile, and also the left hand-side box in a game when the Black player resigns from the game.
 
 White left the game=This is a appears in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game when the White player leaves the game either by aborting or by being absent for too long.
 
@@ -118,7 +118,7 @@ Draw=This appears in various places, including players' profiles and the right-h
 
 %s players=This is the counter of how many players are connected right now, displayed at the top of every page on lichess.
 
-Talk about chess and discuss lichess in the forum=The alt text (what you see when you hover the mouse over) of the "Forum" link at the top of every page.
+Talk about chess and discuss lichess in the forum=The alt text (what you see when you hover the mouse over) of the "Forum" link (http://lichess.org/forum/) at the top of every page.
 
 See the games being played in real time and review past games=The alt text (what you see when you hover the mouse over) of the "Games" link at the top of every page. The page lists games being currently played and also offers the ability to find past games.
 
@@ -166,15 +166,15 @@ Time control=This appears in all the game creation menus (e.g. "Create a game", 
 
 Time=This appears in the table of games you can join on the "Play" page (http://lichess.org/).
 
-Username=
+User name=The name you use to sign in, e.g. "thibault".
 
-Password=
+Password=This is the password you must type to sign in to your profile.
 
-Have an account?=
+Have an account?=This appears on the top-right of the registration page (http://lichess.org/signup -- must be signed out to see this). Next to it is a "sign in" button.
 
-All you need is a username and a password.=
+All you need is a user name and a password.=This appears in the registration page (http://lichess.org/signup -- must be signed out to see this). It explains the only two details a user needs to provide to have an account on Lichess.
 
-Change password=
+Change password=This is a link in the settings page to a menu that allows you to change your password (http://lichess.org/account/passwd).
 
 Learn more about Lichess=
 
@@ -306,7 +306,7 @@ Toggle background color=
 
 Search=
 
-Advanced Search=
+Advanced search=
 
 Tournament=
 
@@ -332,9 +332,9 @@ No team found=
 
 Join team=
 
-Quit team=
+Leave team=
 
-Free for all=
+Free for all=This is the joining policy of a team that has no application or invitation process; anyone can join it.
 
 A confirmation is required to join=
 
@@ -342,9 +342,9 @@ Joining policy=
 
 Team leader=
 
-Team best players=
+Best players=This is for teams. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon) and is a listing of best players.
 
-Team recent members=
+Recent members=This is for teams. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon) and is a listing of all players in the team by the order of who joined most recently.
 
 %s joined team %s=
 
@@ -420,7 +420,7 @@ More=
 
 Member since=
 
-Last login=
+Last sign in=The last time a player signed into this account. Appears on profile pages.
 
 Challenge to a game=
 
