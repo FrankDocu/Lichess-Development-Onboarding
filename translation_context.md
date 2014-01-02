@@ -1,8 +1,8 @@
-Play with a friend=One of the 3 buttons on the "Play" page (http://lichess.org/). This creates a unique URL that you can send to someone and play.
+Play with a friend=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). This creates a unique URL that you can send to someone and play.
 
 Invite a friend to play with you=The alt text (what you see when you hover the mouse over) of "Play with a friend".
 
-Play with the machine=One of the 3 buttons on the "Play" page (http://lichess.org/). Translate "machine" as "[chess] engine" if it sounds better in your language, omitting the word "chess".
+Play with the machine=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). Translate "machine" as "[chess] engine" if it sounds better in your language, omitting the word "chess".
 
 Challenge the artificial intelligence=The alt text (what you see when you hover the mouse over) of "Play with the machine".
 
@@ -36,7 +36,7 @@ Black=The alt text (what you see when you hover the mouse over) of the Black Kin
 
 Random color=The alt text (what you see when you hover the mouse over) of the large button in the "Create a game" menu that makes Lichess randomly pick a color for you.
 
-Create a game=One of the 3 buttons on the "Play" page. This creates a game that is listed in the list (or graph) of open games.
+Create a game=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). This creates a game that is listed in the list (or graph) of open games.
 
 White is victorious=This appears in the top left box of a game, and also the player profile, when the white player wins the game.
 
@@ -188,7 +188,7 @@ Decline invitation=
 
 Cancel=
 
-Time out=
+Time out=This is the condition of a game ending by time-out, which is when one player's clock runs out of time. This message appears in the list of games in the profile page and in the game screen.
 
 Draw offer sent=
 
@@ -200,9 +200,9 @@ Draw offer canceled=
 
 Your opponent offers a draw=
 
-Accept=
+Accept=This is a button that, if clicked, will accept your opponent's offer and let the action the oppoent requested happen. It appears when your opponent sends an offer to something (such as a takeback or ending the game by draw).
 
-Decline=
+Decline=This is a button that, if clicked, will reject your opponent's offer. It appears when your opponent sends an offer to something (such as a takeback or ending the game by draw).
 
 Playing right now=
 
@@ -214,7 +214,7 @@ Game aborted=
 
 Standard=
 
-Unlimited=
+Unlimited=This is short for "Unlimited time". It describes games that have no time controls and can therefore run for an infinite amount of time. This message appears in many locations that it would be pointless to list here. Please keep this message as short as possible.
 
 Mode=
 
@@ -240,7 +240,7 @@ View rematch=
 
 Play=
 
-Inbox=
+Inbox=This is in the title for the "Inbox" page (http://lichess.org/inbox) that you can go to by clicking the mail link at the top when you are signed in. The translation should match whatever is used for popular email clients such as GMail and Outlook in your language.
 
 Chat room=
 
@@ -250,29 +250,29 @@ Compose message=
 
 Sent messages=
 
-No new messages=
+No new messages=This is the text that appears when you mouseover the mail icon at the top, but have no new messages to read.
 
-Subject=
+Subject=Next to this is the field where you put in a few words about the subject, or topic, of your message. It appears on the page you compose a new message. (http://lichess.org/inbox/new)
 
-Recipient=
+Recipient=Next to this is a field with the name of the player that receives this message.
 
-Send=
+Send=This is the button you use to send messages in the compose message page. (http://lichess.org/inbox/new)
 
-Increment in seconds=
+Increment in seconds=Increment in this context means how many seconds are added every time you make a move. So if you set time to 5 minutes and increment in seconds to 2, it would be a "5+2" game. This means that each player would have 5 minutes on the clock, and every time the player makes a move, 2 seconds are added. This message appears in the "Create a game" menu.
 
 Free Online Chess=
 
-Spectators:=
+Spectators:="Spectators:" precedes a list of spectators. It appears just below the chat box on any game that is being spectated, such as the games on Lichess TV (http://lichess.org/tv)
 
-%s wins=
+%s wins=This appears as a clickable tab in player profiles. The %s is the number of games won.
 
-%s losses=
+%s losses=This appears as a clickable tab in player profiles. The %s is the number of games lost.
 
-%s draws=
+%s draws=This appears as a clickable tab in player profiles. The %s is the number of games that ended in draw.
 
-Export games=
+Export games=This function lets you download a table of all your games in CSV format. The button in question is a folder with an arrow pointing downwards overlayed on it. It can be seen at profile pages, e.g. http://lichess.org/@/thibault.
 
-Color=
+Color=This button appears on the top bar in a game page. Clicking it opens a menu that allows you to change the colour of the chess board.
 
 Rating range=
 
@@ -286,7 +286,7 @@ This player uses chess computer assistance=
 
 Opening=
 
-Takeback=
+Takeback=This is an action you can take in-game that undoes a move. Clicking it sends an offer to your opponent. Translate freely, but keep it short. For instance, this has been translated to "Cancel move" in several languages.
 
 Propose a takeback=
 
@@ -426,9 +426,9 @@ Challenge to a game=
 
 Player=
 
-List=
+List=This is one of the two ways of sorting open games on the "Play" page (http://lichess.org/). Clicking it presents all games you can join in a list format.
 
-Graph=
+Graph=This is one of the two ways of sorting open games on the "Play" page (http://lichess.org/). Clicking it presents all games you can join on a graph, with x and y axes.
 
 All=
 
@@ -442,7 +442,7 @@ Text is too long.=
 
 Required.=
 
-Add to Chrome=
+Add to Chrome=This button appears at the bottom of the page if you are using the Google Chrome web browser. It is a link to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg).
 
 Open tournaments=
 
@@ -454,7 +454,7 @@ Standing=
 
 Create a new tournament=
 
-Join=
+Join=This button is found on the "Play" (http://lichess.org) and "Tournaments" (http://lichess.org/tournament) pages. Clicking it lets you enter the tournament.
 
 Withdraw=
 
@@ -466,7 +466,7 @@ Losses=
 
 Win streak=
 
-Created by=
+Created by=This appears in a box on the top-left hand corner of tournament pages. The message is followed by the name of the player that created it, e.g. "Created by thibault" (example -- http://lichess.org/tournament/gwlomxqd).
 
 Waiting for %s players=
 
