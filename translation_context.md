@@ -6,7 +6,7 @@ Play with the machine=One of the 3 rectangular buttons on the "Play" page (http:
 
 Challenge the artificial intelligence=The alt text (what you see when you hover the mouse over) of "Play with the machine".
 
-To invite someone to play, give this URL=This appears after you have created a game for a friend (in the "Play with a friend" menu). Feel free to translate "URL" as "address", or whatever is most common in your language.
+To invite someone to play, give this URL=This appears after you have created a game for a friend (in the "Play with a friend" menu). Feel free to translate "URL" as "address", or whatever is most familiar in your language.
 
 Game Over=This appears in the box when a game ends.
 
@@ -28,7 +28,7 @@ Resign=Small button in the box on the right while playing a game. It is an actio
 
 Checkmate=Appears in the box of a game if you end a game by checkmate.
 
-Stalemate=Appears in the box of a game if you end a game by stalemate. If you don't know what this is, see http://www.chessvariants.org/d.chess/matefaq.html
+Stalemate=If you don't know what this rule is, see http://www.chessvariants.org/d.chess/matefaq.html. Appears in the box of a game if you end a game by stalemate. Please use the official term used by your country's or locale's chess federation or club.
 
 White=The alt text (what you see when you hover the mouse over) of the White King button in the "Create a game" menu.
 
@@ -36,7 +36,7 @@ Black=The alt text (what you see when you hover the mouse over) of the Black Kin
 
 Random color=The alt text (what you see when you hover the mouse over) of the large button in the "Create a game" menu that makes Lichess randomly pick a color for you.
 
-Create a game=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). This creates a game that is listed in the list (or graph) of open games.
+Create a game=This button opens a menu that lets you create a game that is listed in the list (or graph) of open games. It is one of the 3 rectangular buttons on the "Play" page (http://lichess.org/).
 
 White is victorious=This appears in the top left box of a game, and also the player profile, when the white player wins the game.
 
@@ -44,13 +44,13 @@ Black is victorious=This appears in the top left box of a game, and also the pla
 
 Play with the same opponent again=The alt text (what you see when you hover the mouse over) of "Rematch", a button that appears for players (not spectators) at the end of a game if they wish to play again.
 
-New opponent=This is a button that appears at the end of a game just below the "Rematch" button. Clicking it takes you back to the "Play" page.
+New opponent=Clicking this takes you back to the "Play" page (http://lichess.org). This is a button that appears at the end of a game just below the "Rematch" button.
 
-Play with another opponent=This is one of the two buttons that appear when your opponent offers you a rematch. Clicking it takes you back to the "Play" page (http://lichess.org).
+Play with another opponent=Clicking it takes you back to the "Play" page (http://lichess.org). This is one of the two buttons that appear when your opponent offers you a rematch.
 
 Your opponent wants to play a new game with you=This text appears when your opponent offers you a rematch.
 
-Join the game=This is one of the two buttons that appear when your opponent offers you a rematch. Clicking it lets you join a new game against the same opponent.
+Join the game=Clicking this lets you join a new game against the same opponent. This is one of the two buttons that appear when your opponent offers you a rematch.
 
 White plays=This is what a spectator sees in the right-hand box when watching a game and it is White's turn to play.
 
@@ -64,7 +64,7 @@ Claim victory=One of the two buttons that appears when your opponent leaves the 
 
 Call draw=One of the two buttons that appears when your opponent leaves the game. Clicking this draws the game. It's considered the more "chivalrous" option of the two.
 
-Talk in chat=This is the placeholder text (greyed-out text that disappears) in the input box for the chat. Keep it as short as possible.
+Talk in chat=This is the placeholder text (greyed-out text that disappears when you click) in the input box for the chat. Keep it as short as possible.
 
 The first person to come to this URL will play with you.=This appears at the top in the "Play with a friend" menu while you are waiting for a friend to come to the link.
 
@@ -76,13 +76,13 @@ White joins the game=This is a system message that appears in the chat box at th
 
 Black joins the game=This is a system message that appears in the chat box at the start of the game when the Black player joins a game.
 
-White resigned=This is a appears in the right hand-side box in a game, the list of games on the profile, and also the left hand-side box in a game when the White player resigns from the game.
+White resigned=This message appears in the right hand-side box in a game, the list of games on the profile, and also the left hand-side box in a game when the White player resigns from the game.
 
-Black resigned=This is a appears in the right hand-side box in a game, the list of games on the profile, and also the left hand-side box in a game when the Black player resigns from the game.
+Black resigned=This message appears in the right hand-side box in a game, the list of games on the profile, and also the left hand-side box in a game when the Black player resigns from the game.
 
-White left the game=This is a appears in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game when the White player leaves the game either by aborting or by being absent for too long.
+White left the game=This appears when the White player leaves the game either by aborting or by being absent for too long. It can found in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game.
 
-Black left the game=This is a appears in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game when the Black player leaves the game either by aborting or by being absent for too long.
+Black left the game=This message appears when the Black player leaves the game either by aborting or by being absent for too long. It can found in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game.
 
 Share this URL to let spectators see the game=The alt text (what you see when you hover the mouse over) of the link just below the board which you can send to people so they can watch the game.
 
@@ -96,25 +96,25 @@ The computer analysis has failed=This is an error message that appears when the 
 
 View the computer analysis=This is a link in the box below the board to the the "Replay and analyse" screen, which contains the computer analysis.
 
-Request a computer analysis=This is one of the actions in the box normally below the board. The box includes "Flip board", PGN and FEN downloads, and other actions a player might want to take.
+Request a computer analysis=Clicking this puts the game in the queue for computer analysis, which is usually completed within a minute. This is one of the actions in the box normally below the board.
 
-Blunders=This is one of the categories of problems discovered by the computer analysis. If no equivalent word exists, use "Serious mistakes".
+Blunders=If no equivalent word exists, use "Serious mistakes". This is one of the categories of problems discovered by the computer analysis.
 
 Mistakes=This is one of the categories of problems discovered by the computer analysis.
 
 Inaccuracies=This is one of the categories of problems discovered by the computer analysis.
 
-View game stats=This is one of the links in the box normally below the board. It takes you to a page that contains various stats about times taken to make moves in the game.
+View game stats=Clicking this takes you to a page that contains statistics about times taken per move in the game for each player. This is one of the links in the box normally below the board.
 
-Flip board=This is one of the links in the box normally below the board. It flips the board upside-down.
+Flip board=Clicking this flips the board upside-down. This message is one of the links in the box normally below the board.
 
-Threefold repetition=This is one of the conditions by which a game ends. It appears on the box on the right-hand side of the screen. It also appears in player profiles. Please use the official term by your country's or locale's chess federation or club.
+Threefold repetition=This is one of the conditions by which a game ends. It appears on the box on the right-hand side of the screen. It also appears in player profiles. Please use the official term used by your country's or locale's chess federation or club.
 
 Claim a draw=This a button that appears to players when threefold repetition occurs.
 
 Offer draw=This is a small button in the right-hand side box that offers ending the game by draw to your opponent.
 
-Draw=This appears in various places, including players' profiles and the right-hand side boxes in individual games.
+Draw=This appears in various places, including players' profiles and the right-hand side boxes in individual games. It should be translated as a noun, NOT as a verb.
 
 %s players=This is the counter of how many players are connected right now, displayed at the top of every page on lichess.
 
@@ -124,17 +124,17 @@ See the games being played in real time and review past games=The alt text (what
 
 Current games=This is a shorter phrase for "Games being played right now". It is what the link at the top that says "Games" links to (http://lichess.org/games). Please try to keep your translation as short as possible.
 
-%s Games=Links to http://lichess.org/games/all. %s here is the number of all the games ever played on Lichess.
+%s Games=%s here is the number of all the games ever played on Lichess. Links to http://lichess.org/games/all.
 
-%s Checkmates=Links to http://lichess.org/games/checkmate and is found on the left hand side of the "Games" pages. %s is the number of all the games that ended in checkmate on Lichess.
+%s Checkmates=%s is the number of all the games that ended in checkmate on Lichess. Links to http://lichess.org/games/checkmate and is found on the left hand side of the "Games" pages.
 
-%s Bookmarks=Links to http://lichess.org/games/bookmark. It only appears to registered users that have bookmarked certain games. It displays a list of your bookmarked games. %s is the number of games you have bookmarked
+%s Bookmarks=%s is the number of games you have bookmarked. Links to http://lichess.org/games/bookmark. It only appears to registered users that have bookmarked certain games. It displays a list of your bookmarked games.
 
-%s Popular games=Links to http://lichess.org/games/popular. It is a list of games bookmarked by many people. %s is the number of games with one or more bookmarks
+%s Popular games=%s is the number of games with one or more bookmarks. Links to http://lichess.org/games/popular. It is a list of games bookmarked by many people.
 
-%s Analysed games=Links to http://lichess.org/games/analysed. It is a list of any game that has had a computer analysis performed on it. %s is the number of games with a complete computer analysis.
+%s Analysed games=%s is the number of games with a complete computer analysis. Links to http://lichess.org/games/analysed. It is a list of any game that has had a computer analysis performed on it.
 
-Bookmarked by %s players=This appears above the bookmark star in a game that has been bookmarked. Example here: http://lichess.org/analyse/vyvcbk8s/black. %s is the number of players.
+Bookmarked by %s players=%s is the number of players. This appears above the bookmark star in a game that has been bookmarked. Example here: http://lichess.org/analyse/vyvcbk8s/black.
 
 View in full size=The alt text (what you see when you hover the mouse over) of the small chess boards dotted around the site. These small boards are most prominent in the "Games" pages (http://lichess.org/games). Clicking one of these small boards brings you to the game's unique page.
 
@@ -142,7 +142,7 @@ Sign out=This is part of the profile dropdown on the top of every page when you 
 
 Sign in=This is a red-coloured button that appears at the top when you are not signed in to an account, or playing anonymously. Please keep it as short as possible.
 
-New to Lichess?=This appears in the "Sign in" page. It is next to a button that allows you to register an account on the website. The translation should be friendly and inviting; free translations are recommended for this string.
+New to Lichess?=It is next to a button that allows you to register an account on the website. The translation should be friendly and inviting; free translations are recommended for this string. This message appears in the "Sign in" page.
 
 You need an account to do that=This appears when trying actions or going to pages that require being signed in with a user account.
 
@@ -150,11 +150,11 @@ Register=This is a button on the "Sign in" page that allows you to register an a
 
 People=Links to http://lichess.org/people. The page contains statistics about the most successful players of Lichess by various measures. "People" is one of the links at the top of every page, so keep it as short as possible
 
-Games=Links to http://lichess.org/games. The page displays games currently being played and has links to various other tools on the site, such as a search engine that queries the database for past games. "Games" is one of the links at the top of every page, so keep it as short as possible.
+Games=Links to http://lichess.org/games. The page displays games currently being played and has links to various other tools on the site to find out about past games on lichess, such as a search engine that queries the database of games. "Games" is one of the links at the top of every page, so keep it as short as possible.
 
 Forum=Links to http://lichess.org/forum. It is Lichess's webforum, where users can discuss various topics, chess-related or not. These are sometimes called "bulletin boards". "Forum" is one of the links at the top of every page, so keep it as short as possible.
 
-%s posted in discussion %s=This is one of the messages that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player. The first %s is the player's name and the second %s is the title of the discussion in the forum.
+%s posted in discussion %s=The first %s is the player's name and the second %s is the title of the discussion in the forum. This is one of the messages that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
 
 Players=The alt text (what you see when you hover the mouse over) of the "People" link at the top of every page.
 
@@ -176,11 +176,11 @@ All you need is a user name and a password.=This appears in the registration pag
 
 Change password=This is a link in the settings page to a menu that allows you to change your password (http://lichess.org/account/passwd).
 
-Learn more about Lichess=
+Learn more about Lichess=The alt text (what you see when you hover the mouse over) of the "Wiki" link at the footer (bottom) of every page on the website.
 
-Rank=
+Rank=This is the rank of a player relative to the top several 75% of players on lichess. For example, http://lichess.org/@/thinkabit is as of the time of writing the #1 player out of 126000 players. The message appears at the top of the player profile.
 
-Games played=
+Games played=Before it is the number of games the player has played. For example, http://lichess.org/@/thibault/ currently reads "2037 Games Played". Make sure you take the number that appears before this message into account when preparing your translation. This message appears as a tab on player profiles, just above the list of games.
 
 %s games with you=
 
@@ -190,13 +190,13 @@ Cancel=
 
 Time out=This is the condition of a game ending by time-out, which is when one player's clock runs out of time. This message appears in the list of games in the profile page and in the game screen.
 
-Draw offer sent=
+Draw offer sent=This is a system message that appears in the chat box when a draw offer is sent by either player.
 
-Draw offer declined=
+Draw offer declined=This is a system message that appears in the chat box when a offer to draw the game is declined.
 
-Draw offer accepted=
+Draw offer accepted=This is a system message that appears in the chat box when a draw offer is accepted (this ends the game).
 
-Draw offer canceled=
+Draw offer canceled=This is a system message that appears in the chat box when the player that sent the draw offer cancels it before his/her opponent has a chance to respond.
 
 Your opponent offers a draw=
 
@@ -238,7 +238,7 @@ Cancel rematch offer=
 
 View rematch=
 
-Play=
+Play=Links to http://lichess.org. This is the home page of Lichess. It has a lobby, a feed of what your friends have been up to and various statistics, among other things. "Play" in this context is a verb.
 
 Inbox=This is in the title for the "Inbox" page (http://lichess.org/inbox) that you can go to by clicking the mail link at the top when you are signed in. The translation should match whatever is used for popular email clients such as GMail and Outlook in your language.
 
@@ -246,7 +246,7 @@ Chat room=
 
 Spectator room=
 
-Compose message=
+Compose message=Another word for this could be "Create message". This is a link on the left-hand side of http://lichess.org/inbox. Please follow the standard set by popular email clients such as GMail or Outlook in translating this message.
 
 Sent messages=
 
@@ -284,7 +284,7 @@ Premove enabled - Click anywhere to cancel=
 
 This player uses chess computer assistance=
 
-Opening=
+Opening=The chess opening used in the game. It appears in the box below the board, like so: http://lichess.org/analyse/vyvcbk8s/black. This appears in the "Replay and analyse" screen.
 
 Takeback=This is an action you can take in-game that undoes a move. Clicking it sends an offer to your opponent. Translate freely, but keep it short. For instance, this has been translated to "Cancel move" in several languages.
 
@@ -494,13 +494,13 @@ Profile=
 
 Edit profile=
 
-First name=
+First name=Also known as a "given name", "forename" or "Christian name" in some countries. The message appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
 
-Last name=
+Last name=Also known as "surname" or "family name". You put in your last name in this field, which will in turn appear on your profile page. The message appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
 
 Biography=
 
-Country=
+Country=This is a field for the country you are located at. Appears on player profiles (example: http://lichess.org/@/thibault). The message appears in the "Edit profile" menu (http://lichess.org/account/profile).
 
 Preferences=
 
