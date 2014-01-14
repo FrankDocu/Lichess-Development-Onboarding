@@ -11,4 +11,20 @@ Firstly you will notice that when clicking on your name on the top right of the 
 <insert image>
 
 ### The Staff Forum
-The Staff Forum is a private forum that can be used to discuss private moderator business. Most discussions that happen here revolve around features that can be added to make moderating lichess easier, and 'fringe cases' where one moderator cannot determine if a player is cheating or not.
+The Staff Forum is a private forum that can be used to discuss private moderator business. Most discussions that happen here revolve around features that can be added to make moderating lichess easier, and _fringe cases_ where one moderator cannot determine if a player is cheating or not.
+
+### Mod[erator] Log
+This page has a summary of all the moderator level actions that other moderators have carried out, i.e. marking a player and an engine, mark as troll, closing forums, etc...
+
+### User Reports
+This is where all reports that users generate through the [report page](http://en.lichess.org/report) appear. The first column is who created the report, second is who is being accused, and the final column is a description. Once you have taken care of a report, press the large "check" button to mark the report as checked.
+
+<insert image>
+
+Currently only thibault can investigate abuse via private messaging, so leave these unchecked for now.
+
+### Cheater Hunting Tools
+When it comes to determining if a player is cheating, there is an arsenal of tools at your disposal. There are 3 key indicators that a player is cheating in any particular game:
+1. Very few errors in computer analysis. This is the first sign of a cheater, but not the most incriminating - anyone can have a couple of good games.
+2. High _blur_ percentage. 'What does that mean?' I hear you ask, good question. When a player leaves the current game window and _focusses_ on another application, they trigger a _blur_ event and this is captured by lichess. We cannot see what they turn their attention to; it might be a conversation with a friend, but it might also be a chess-engine that they are using. When this percentage starts to move over 90% you can be fairly confident that they are using a chess-engine to assist them.
+3. A flat move-time graph. If a player is using an engine to determine their moves, they will generally make all their moves in a consistent amount of time as they are not thinking for themselves. A normal player will usually move quickly during the opening because they are familiar with the lines that are being played, then slow down in the middle game, but still make some moves very snappily (such as moving out of check).
