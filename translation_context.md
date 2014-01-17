@@ -30,11 +30,11 @@ Checkmate=Appears in the box of a game if you end a game by checkmate.
 
 Stalemate=If you don't know what this rule is, see http://www.chessvariants.org/d.chess/matefaq.html. Appears in the box of a game if you end a game by stalemate. Please use the official term used by your country's or locale's chess federation or club.
 
-White=The alt text (what you see when you hover the mouse over) of the White King button in the "Create a game" menu.
+White=The alt text (what you see when you hover the mouse over) of the White King button in the "Create a game" menu (http://lichess.org/#hook).
 
-Black=The alt text (what you see when you hover the mouse over) of the Black King button in the "Create a game" menu.
+Black=The alt text (what you see when you hover the mouse over) of the Black King button in the "Create a game" menu (http://lichess.org/#hook).
 
-Random color=The alt text (what you see when you hover the mouse over) of the large button in the "Create a game" menu that makes Lichess randomly pick a color for you.
+Random color=The alt text (what you see when you hover the mouse over) of the large button in the "Create a game" menu that makes Lichess randomly pick a color for you (http://lichess.org/#hook).
 
 Create a game=This button opens a menu that lets you create a game that is listed in the list (or graph) of open games. It is one of the 3 rectangular buttons on the "Play" page (http://lichess.org/).
 
@@ -182,15 +182,11 @@ Rank=This is the rank of a player relative to the top several 75% of players on 
 
 Games played=Before it is the number of games the player has played. For example, http://lichess.org/@/thibault/ currently reads "2037 Games Played". Make sure you take the number that appears before this message into account when preparing your translation. This message appears as a tab on player profiles, just above the list of games.
 
-%s games with you=
-// no idea where this appears
-// http://lichess.org/@/thibault/me it's the game tab showing the games you played with me
+%s games with you=%s is the number of games this player has played with you. This appears as a tab on the profile pages of people that you have played with. Try to keep it fairly short.
 
-Decline invitation= // Refuse the takeback proposed by the opponent
+Decline invitation=Clicking this refuses the takeback. A "takeback" undoes a move. Appears after a takeback has been proposed by your opponent.
 
-Cancel=
-// appears in a variety of places? I really don't know
-// Indeed... it's a generic word.
+Cancel=This is a generic word that appears in a wide variety of places and is used to cancel actions of all sorts. It is recommended to translate it according to whatever your operating system (e.g. Microsoft Windows) uses for your language.
 
 Time out=This is the condition of a game ending by time-out, which is when one player's clock runs out of time. This message appears in the list of games in the profile page and in the game screen.
 
@@ -220,7 +216,7 @@ Standard=
 
 Unlimited=This is short for "Unlimited time". It describes games that have no time controls and can therefore run for an infinite amount of time. This message appears in many locations that it would be pointless to list here. Please keep this message as short as possible.
 
-Mode=
+Mode="Mode" here is in the context of filtering between Casual and Rated games. The message appears in the "Filter games" menu, which is just above the list of games on the "Play" page (http://lichess.org/).
 
 Casual=
 
@@ -242,7 +238,7 @@ Cancel rematch offer=
 
 View rematch=
 
-Play=Links to http://lichess.org. This is the home page of Lichess. It has a lobby, a feed of what your friends have been up to and various statistics, among other things. "Play" in this context is a verb.
+Play=Links to http://lichess.org. This is the home page of Lichess. It has a chat link, a feed of what your friends have been up to and various statistics, among other things. "Play" in this context is a verb.
 
 Inbox=This is in the title for the "Inbox" page (http://lichess.org/inbox) that you can go to by clicking the mail link at the top when you are signed in. The translation should match whatever is used for popular email clients such as GMail and Outlook in your language.
 
@@ -264,7 +260,7 @@ Recipient=Next to this is a field with the name of the player that receives this
 
 Send=This is the button you use to send messages in the compose message page. (http://lichess.org/inbox/new)
 
-Increment in seconds=Increment in this context means how many seconds are added every time you make a move. So if you set time to 5 minutes and increment in seconds to 2, it would be a "5+2" game. This means that each player would have 5 minutes on the clock, and every time the player makes a move, 2 seconds are added. This message appears in the "Create a game" menu.
+Increment in seconds=Increment in this context means how many seconds are added every time you make a move. So if you set time to 5 minutes and increment in seconds to 2, it would be a "5+2" game. This means that each player would have 5 minutes on the clock, and every time the player makes a move, 2 seconds are added. This message appears in the "Create a game" menu (http://lichess.org/#hook).
 
 Free Online Chess=This message appears in the title of every page e.g. "lichess  • Free Online Chess" on the "Play" page as it appears in the English version. This means it shows up as the title of browser windows and tabs. Technical: by title here we are literally referring to the HTML <title> tag that carries this.
 
@@ -280,7 +276,7 @@ Export games=This function lets you download a table of all your games in CSV fo
 
 Color=Clicking this opens a menu that allows you to change the colour or texture of the chess board. This button appears on the top bar in a game page.
 
-Rating range=Below this is a slider that lets you chee
+Rating range=Below this is a slider that lets you choose the accepted player ratings. The message appears in the "Create a game" (http://lichess.org/#hook) and "Filter games" menus. 
 
 Give %s seconds=
 
@@ -362,11 +358,11 @@ Location=This is before an input box that lets you write where you are located (
 
 Settings=
 
-Filter games=Clicking this opens a menu that lets you define criteria by which you can filter games in the lobby. This appears above and to the right of the lobby on the "Play" page (http://lichess.org/). Note that "filter" does not necessarily mean "reduce". It is recommended to translate this as search engines such as Google Search, Yandex or Baidu do.
+Filter games=Clicking this opens a menu that lets you define criteria by which you can filter games in the game list. This appears above and to the right of the game list on the "Play" page (http://lichess.org/). Note that "filter" does not necessarily mean "reduce". It is recommended to translate this as search engines such as Google Search, Yandex or Baidu do.
 
 Reset=Clicking it resets all options back to their defaults. Appears in the "Filter games" sub-menu and your profile configuration (http://lichess.org/account/profile).
 
-Apply=Clicking this applies the lobby game filtering rules that the player has chosen. Appears in the "Filter games" sub-menu, which in turn appears on the "Play" page (http://lichess.org/).
+Apply=Clicking this applies the game filtering rules that the player has chosen. Appears in the "Filter games" sub-menu, which in turn appears on the "Play" page (http://lichess.org/).
 
 Leaderboard=
 
