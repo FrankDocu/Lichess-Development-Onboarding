@@ -184,11 +184,13 @@ Games played=Before it is the number of games the player has played. For example
 
 %s games with you=
 // no idea where this appears
+// http://lichess.org/@/thibault/me it's the game tab showing the games you played with me
 
-Decline invitation=
+Decline invitation= // Refuse the takeback proposed by the opponent
 
 Cancel=
 // appears in a variety of places? I really don't know
+// Indeed... it's a generic word.
 
 Time out=This is the condition of a game ending by time-out, which is when one player's clock runs out of time. This message appears in the list of games in the profile page and in the game screen.
 
@@ -246,14 +248,13 @@ Inbox=This is in the title for the "Inbox" page (http://lichess.org/inbox) that 
 
 Chat room=
 // not currently used anywhere; has presumably been around since the old homepage chat days
+// will be useful again soon
 
 Spectator room=
 // was previously used for spectator rooms
+// will be useful again soon
 
 Compose message=Another word for this could be "Create message". This is a link on the left-hand side of http://lichess.org/inbox. Please follow the standard set by popular email clients such as GMail or Outlook in translating this message.
-
-Sent messages=
-// this string was not used anywhere since the new chat system was added, but I'll keep an eye on it due to the pending changes to the chat system
 
 No new messages=This is the text that appears when you mouseover the mail icon at the top, but have no new messages to read.
 
@@ -283,13 +284,11 @@ Rating range=Below this is a slider that lets you chee
 
 Give %s seconds=
 
-All players=
-// not currently in use
-
 Premove enabled - Click anywhere to cancel=A premove is when you set up a move before it is your turn to play. You can make one by clicking on your piece and then clicking on a position it could go to. As the message suggests, clicking anywhere prevents the premove from being executed. Translate premove to whatever sounds best in your language; for example, this is translated to "pre-selection" in some languages.
 
 This player uses chess computer assistance=Appears in a red box on player profiles that have been marked as cheater accounts by the site moderators. An example is http://lichess.org/@/LiyuXe.
 // insert painfully obvious cheater account with funny description (e.g. "I am a grandmaster") here
+// http://lichess.org/@/ko1
 
 Opening=The chess opening used in the game. It appears in the box below the board, like so: http://lichess.org/analyse/vyvcbk8s/black. This appears in the "Replay and analyse" screen.
 
