@@ -6,7 +6,7 @@ Play with the machine=One of the 3 rectangular buttons on the "Play" page (http:
 
 Challenge the artificial intelligence=The alt text (what you see when you hover the mouse over) of "Play with the machine".
 
-To invite someone to play, give this URL=This appears after you have created a game for a friend (in the "Play with a friend" menu). Feel free to translate "URL" as "address", or whatever is most familiar in your language.
+To invite someone to play, give this URL=This appears after you have created a game for a friend (through the "Play with a friend" menu). Feel free to translate "URL" as "address", or whatever is most familiar in your language.
 
 Game Over=This appears in the box when a game ends.
 
@@ -18,7 +18,7 @@ Your turn=This appears in the box while you are playing a game. It indicates it 
 
 %s level %s=AI name and level, e.g. "Stockfish level 3". Note that the "Stockfish" part will always be first no matter where you place the %s, though you can rearrange them to e.g. "%s at %s levels", which would produce e.g. "Stockfish at 3 levels". Use the translation that sounds best in your language. Appears in the box on the left-hand side in the page of the game, and also on your profile, in the list of games.
 
-Level=This appears in the "Play with the machine" menu as a heading. Below it are skill levels (1 through 8) of the AI that you can play against.
+Level=This appears in the "Play with the machine" menu (http://lichess.org/#ai) as a heading. Below it are skill levels (1 through 8) of the AI that you can play against.
 
 Toggle the chat=This is the checkbox on the top-right of the chat box. It turns the chat room on or off.
 
@@ -154,7 +154,7 @@ Games=Links to http://lichess.org/games. The page displays games currently being
 
 Forum=Links to http://lichess.org/forum. It is Lichess's webforum, where users can discuss various topics, chess-related or not. These are sometimes called "bulletin boards". "Forum" is one of the links at the top of every page, so keep it as short as possible.
 
-%s posted in discussion %s=The first %s is the player's name and the second %s is the title of the discussion in the forum. This is one of the messages that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s posted in topic %s=The first %s is the player's name and the second %s is the title of the topic in the forum. By "topic" here we mean a discussion, sometimes called a "thread" in this context. This is one of the messages that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
 
 Players=The alt text (what you see when you hover the mouse over) of the "People" link at the top of every page.
 
@@ -183,10 +183,12 @@ Rank=This is the rank of a player relative to the top several 75% of players on 
 Games played=Before it is the number of games the player has played. For example, http://lichess.org/@/thibault/ currently reads "2037 Games Played". Make sure you take the number that appears before this message into account when preparing your translation. This message appears as a tab on player profiles, just above the list of games.
 
 %s games with you=
+// no idea where this appears
 
 Decline invitation=
 
 Cancel=
+// appears in a variety of places? I really don't know
 
 Time out=This is the condition of a game ending by time-out, which is when one player's clock runs out of time. This message appears in the list of games in the profile page and in the game screen.
 
@@ -243,12 +245,15 @@ Play=Links to http://lichess.org. This is the home page of Lichess. It has a lob
 Inbox=This is in the title for the "Inbox" page (http://lichess.org/inbox) that you can go to by clicking the mail link at the top when you are signed in. The translation should match whatever is used for popular email clients such as GMail and Outlook in your language.
 
 Chat room=
+// not currently used anywhere; has presumably been around since the old homepage chat days
 
 Spectator room=
+// was previously used for spectator rooms
 
 Compose message=Another word for this could be "Create message". This is a link on the left-hand side of http://lichess.org/inbox. Please follow the standard set by popular email clients such as GMail or Outlook in translating this message.
 
 Sent messages=
+// this string was not used anywhere since the new chat system was added, but I'll keep an eye on it due to the pending changes to the chat system
 
 No new messages=This is the text that appears when you mouseover the mail icon at the top, but have no new messages to read.
 
@@ -260,9 +265,9 @@ Send=This is the button you use to send messages in the compose message page. (h
 
 Increment in seconds=Increment in this context means how many seconds are added every time you make a move. So if you set time to 5 minutes and increment in seconds to 2, it would be a "5+2" game. This means that each player would have 5 minutes on the clock, and every time the player makes a move, 2 seconds are added. This message appears in the "Create a game" menu.
 
-Free Online Chess=
+Free Online Chess=This message appears in the title of every page e.g. "lichess  • Free Online Chess" on the "Play" page as it appears in the English version. This means it shows up as the title of browser windows and tabs. Technical: by title here we are literally referring to the HTML <title> tag that carries this.
 
-Spectators:="Spectators:" precedes a list of spectators. It appears just below the chat box on any game that is being spectated, such as the games on Lichess TV (http://lichess.org/tv)
+Spectators:="Spectators:" precedes a list of spectators. It appears just below the chat box on any game that is being spectated, such as the games on Lichess TV (http://lichess.org/tv).
 
 %s wins=This appears as a clickable tab in player profiles. The %s is the number of games won.
 
@@ -272,17 +277,19 @@ Spectators:="Spectators:" precedes a list of spectators. It appears just below t
 
 Export games=This function lets you download a table of all your games in CSV format. The button in question is a folder with an arrow pointing downwards overlayed on it. It can be seen at profile pages, e.g. http://lichess.org/@/thibault.
 
-Color=This button appears on the top bar in a game page. Clicking it opens a menu that allows you to change the colour of the chess board.
+Color=Clicking this opens a menu that allows you to change the colour or texture of the chess board. This button appears on the top bar in a game page.
 
-Rating range=
+Rating range=Below this is a slider that lets you chee
 
 Give %s seconds=
 
 All players=
+// not currently in use
 
-Premove enabled - Click anywhere to cancel=
+Premove enabled - Click anywhere to cancel=A premove is when you set up a move before it is your turn to play. You can make one by clicking on your piece and then clicking on a position it could go to. As the message suggests, clicking anywhere prevents the premove from being executed. Translate premove to whatever sounds best in your language; for example, this is translated to "pre-selection" in some languages.
 
-This player uses chess computer assistance=
+This player uses chess computer assistance=Appears in a red box on player profiles that have been marked as cheater accounts by the site moderators. An example is http://lichess.org/@/LiyuXe.
+// insert painfully obvious cheater account with funny description (e.g. "I am a grandmaster") here
 
 Opening=The chess opening used in the game. It appears in the box below the board, like so: http://lichess.org/analyse/vyvcbk8s/black. This appears in the "Replay and analyse" screen.
 
@@ -342,9 +349,9 @@ Joining policy=
 
 Team leader=
 
-Best players=This is for teams. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon) and is a listing of best players.
+Best players=This is for teams. It is a listing of the best players in the team. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon).
 
-Recent members=This is for teams. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon) and is a listing of all players in the team by the order of who joined most recently.
+Recent members=This is for teams. It is a listing of all players in the team sorted by who joined most recently. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon). 
 
 %s joined team %s=
 
@@ -352,15 +359,15 @@ Recent members=This is for teams. It appears on the left-hand side of any team's
 
 Average rating=
 
-Location=
+Location=This is before an input box that lets you write where you are located (a city, town, or whatever you want to write in it). Appears in the "Edit profile" page (http://lichess.org/account/profile).
 
 Settings=
 
-Filter games=
+Filter games=Clicking this opens a menu that lets you define criteria by which you can filter games in the lobby. This appears above and to the right of the lobby on the "Play" page (http://lichess.org/). Note that "filter" does not necessarily mean "reduce". It is recommended to translate this as search engines such as Google Search, Yandex or Baidu do.
 
-Reset=
+Reset=Clicking it resets all options back to their defaults. Appears in the "Filter games" sub-menu and your profile configuration (http://lichess.org/account/profile).
 
-Apply=
+Apply=Clicking this applies the lobby game filtering rules that the player has chosen. Appears in the "Filter games" sub-menu, which in turn appears on the "Play" page (http://lichess.org/).
 
 Leaderboard=
 
@@ -442,7 +449,7 @@ Text is too long.=
 
 Required.=
 
-Add to Chrome=This button appears at the bottom of the page if you are using the Google Chrome web browser. It is a link to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg).
+Add to Chrome=This button appears at the bottom of every page if you are using the Google Chrome web browser. It is a link to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg).
 
 Open tournaments=
 
