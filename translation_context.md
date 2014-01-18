@@ -1,6 +1,6 @@
 Play with a friend=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). This creates a unique URL that you can send to someone and play.
 
-Invite a friend to play with you=The alt text (what you see when you hover the mouse over) of "Play with a friend".
+Invite a friend to play with you=The alt text (what you see when you hover the mouse over) of the "Play with a friend" button on the "Play" page (http://lichess.org).
 
 Play with the machine=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). Translate "machine" as "[chess] engine" if it sounds better in your language, omitting the word "chess".
 
@@ -8,7 +8,7 @@ Challenge the artificial intelligence=The alt text (what you see when you hover 
 
 To invite someone to play, give this URL=This appears after you have created a game for a friend (through the "Play with a friend" menu). Feel free to translate "URL" as "address", or whatever is most familiar in your language.
 
-Game Over=This appears in the box when a game ends.
+Game Over=This appears in the right-hand side box when a game ends.
 
 Waiting for opponent=This appears after you have created a public game (through the "Create a game" menu), while you're waiting for an opponent to join it.
 
@@ -66,7 +66,7 @@ Call draw=One of the two buttons that appears when your opponent leaves the game
 
 Talk in chat=This is the placeholder text (greyed-out text that disappears when you click) in the input box for the chat. Keep it as short as possible.
 
-The first person to come to this URL will play with you.=This appears at the top in the "Play with a friend" menu while you are waiting for a friend to come to the link.
+The first person to come to this URL will play with you.=This appears at the top in the "Play with a friend" menu while you are waiting for a friend to come to the link. It appears after you have created the game.
 
 White creates the game=This is a system message that appears in the chat box at the start of the game if the White player created the game.
 
@@ -198,7 +198,7 @@ Draw offer accepted=This is a system message that appears in the chat box when a
 
 Draw offer canceled=This is a system message that appears in the chat box when the player that sent the draw offer cancels it before his/her opponent has a chance to respond.
 
-Your opponent offers a draw=
+Your opponent offers a draw=This message appears in the right-hand side box while playing a game after your opponent offers you a draw.
 
 Accept=This is a button that, if clicked, will accept your opponent's offer and let the action the oppoent requested happen. It appears when your opponent sends an offer to something (such as a takeback or ending the game by draw).
 
@@ -218,11 +218,11 @@ Unlimited=This is short for "Unlimited time". It describes games that have no ti
 
 Mode="Mode" here is in the context of filtering between Casual and Rated games. The message appears in the "Filter games" menu, which is just above the list of games on the "Play" page (http://lichess.org/).
 
-Casual=
+Casual="Casual" in this context means the game is unrated; players will not gain or lose points. Has been translated to "Friendly" (after the football term) and simply "Unrated" in some languages. Be creative. The message appears in the "Filter games" menu, which can be accessed through the "Play" page (http://lichess.org).
 
-Rated=
+Rated="Rated" means that the outcome of the game will result in a gain or loss of rating points for either players. This message appears in a variety of places, including the pages of individual games (which are rated) and the "Filter games" page.
 
-This game is rated=
+This game is rated="Rated" means that the outcome of the game will result in a gain or loss of rating points for either players. This message appears in profile page listings of games and games lists (e.g. http://lichess.org/games/all).
 
 Rematch=
 
@@ -282,9 +282,7 @@ Give %s seconds=
 
 Premove enabled - Click anywhere to cancel=A premove is when you set up a move before it is your turn to play. You can make one by clicking on your piece and then clicking on a position it could go to. As the message suggests, clicking anywhere prevents the premove from being executed. Translate premove to whatever sounds best in your language; for example, this is translated to "pre-selection" in some languages.
 
-This player uses chess computer assistance=Appears in a red box on player profiles that have been marked as cheater accounts by the site moderators. An example is http://lichess.org/@/LiyuXe.
-// insert painfully obvious cheater account with funny description (e.g. "I am a grandmaster") here
-// http://lichess.org/@/ko1
+This player uses chess computer assistance=Appears in a red box on player profiles that have been marked as cheater accounts by the site moderators. An example is http://lichess.org/@/ko1.
 
 Opening=The chess opening used in the game. It appears in the box below the board, like so: http://lichess.org/analyse/vyvcbk8s/black. This appears in the "Replay and analyse" screen.
 
@@ -500,7 +498,7 @@ First name=Also known as a "given name", "forename" or "Christian name" in some 
 
 Last name=Also known as "surname" or "family name". You put in your last name in this field, which will in turn appear on your profile page. The message appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
 
-Biography=
+Biography=This is next to a text field wherein you can put anything you wish. For example, http://lichess.org/@/thibault reads "Developer of lichess". This message appears in the "Edit profile" menu (http://lichess.org/account/profile).
 
 Country=This is a field for the country you are located at. Appears on player profiles (example: http://lichess.org/@/thibault). The message appears in the "Edit profile" menu (http://lichess.org/account/profile).
 
