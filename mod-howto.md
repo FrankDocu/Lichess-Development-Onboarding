@@ -1,4 +1,4 @@
-# Your job as moderator
+# Your job as a moderator
 As a moderator, it is your job to keep the peace in lichess. Most of your time will be spent handling user reports; on average in a 24 hour period there will be no more than 20 reports. Most often these reports concern cheating, or unfriendly behaviour (trolling). The rest of your time moderating lichess can be spent looking after the forum; closing rampant discussions, and removing abusive posts (spam, "just testing the captcha!", insults, and whatnot), or going on a good ole' cheater hunt!
 
 For the rest of the time you are free to do what you like, but remember, _you represent lichess_.
@@ -10,13 +10,13 @@ Firstly you will notice that when clicking on your name on the top right of the 
 
 <insert image>
 
-### The staff forum
+### Staff Forum
 The Staff Forum is a private forum that can be used to discuss private moderator business. Most discussions that happen here revolve around features that can be added to make moderating lichess easier, and _fringe cases_ where one moderator cannot determine if a player is cheating or not.
 
-### Mod[erator] log
+### Mod[erator] Log
 This page has a summary of all the moderator level actions that other moderators have carried out, i.e. marking a player and an engine, mark as troll, closing forum topics, and so on...
 
-### User reports
+### User Reports
 This is where all reports that users generate through the [report page](http://en.lichess.org/report) appear. The first column is who created the report, second is who is being accused, and the final column is a description. Once you have taken care of a report, press the large "check" button to mark the report as checked.
 
 <insert image>
