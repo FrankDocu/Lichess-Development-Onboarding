@@ -204,15 +204,16 @@ Accept=This is a button that, if clicked, will accept your opponent's offer and 
 
 Decline=This is a button that, if clicked, will reject your opponent's offer. It appears when your opponent sends an offer to something (such as a takeback or ending the game by draw).
 
-Playing right now=
+Playing right now=This message indicates that the game is being played as you're reading this message. Appears on the "Tournaments" page (http://lichess.org/tournament) if any tournaments are currently being played, and also on the pages of individual games.
 
-Finished=
+Finished=This is for tournaments. It means the tournament is over. Appears on individual tournament pages (e.g. http://lichess.org/tournament/67hj23c2) and also on the "Tournaments" page (http://lichess.org/tournament) to denote finished tournaments. Translate as plural; another message will be added at some point for individual tournament pages.
+// there should really be two words for this
 
-Abort game=
+Abort game=Clicking this aborts the game. This means that no points are won or lost. You can only perform this action until the second move of the game. It is NOT a resignation (which has a different message). Appears in the right-hand side box on the page of a game you are playing.
 
-Game aborted=
+Game aborted=Indicates that the game has been aborted. Appears in the left and right hand side boxes, as well as in the games list, for aborted games. Note that aborted games are removed from the database after 48 hours.
 
-Standard=
+Standard="Standard" here means "not a variant". Selecting this means you play standard intentional chess, not Chess960 or another variant. Appears in the "Create a game" menu (http://lichess.org/#hook).
 
 Unlimited=This is short for "Unlimited time". It describes games that have no time controls and can therefore run for an infinite amount of time. This message appears in many locations that it would be pointless to list here. Please keep this message as short as possible.
 
@@ -278,7 +279,7 @@ Color=Clicking this opens a menu that allows you to change the colour or texture
 
 Rating range=Below this is a slider that lets you choose the accepted player ratings. The message appears in the "Create a game" (http://lichess.org/#hook) and "Filter games" menus. 
 
-Give %s seconds=
+Give %s seconds=%s here is the number of seconds, usually 15. This is the alt text (the text you see when you hover the mouse over) of the green-white "+" button that appears next to players' names in timed matches. Clicking it adds "%s" seconds to the player's clock.
 
 Premove enabled - Click anywhere to cancel=A premove is when you set up a move before it is your turn to play. You can make one by clicking on your piece and then clicking on a position it could go to. As the message suggests, clicking anywhere prevents the premove from being executed. Translate premove to whatever sounds best in your language; for example, this is translated to "pre-selection" in some languages.
 
