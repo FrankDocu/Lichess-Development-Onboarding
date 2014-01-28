@@ -225,19 +225,19 @@ Rated="Rated" means that the outcome of the game will result in a gain or loss o
 
 This game is rated="Rated" means that the outcome of the game will result in a gain or loss of rating points for either players. This message appears in profile page listings of games and games lists (e.g. http://lichess.org/games/all).
 
-Rematch=
+Rematch=Translated as a verb if possible. This is a button that appears at the end of a game in the right hand side box. Clicking it sends a rematch offer.
 
-Rematch offer sent=
+Rematch offer sent=This is message informing you that your offer of a rematch has been sent to your opponent. This is a system message that appears in the chat box, and also in the right-hand side box.
 
-Rematch offer accepted=
+Rematch offer accepted=This is a system message that appears in the chat box when either player accepts an offer of a rematch.
 
-Rematch offer canceled=
+Rematch offer canceled=This is a system message that appears in the chat box when the offer to a rematch a player sent is canceled. (Note: "canceled" is not a typo, it is valid American English)
 
-Rematch offer declined=
+Rematch offer declined=This is a system message that appears in the chat box when the offer to a rematch a player sent is declined.
 
-Cancel rematch offer=
+Cancel rematch offer=Clicking this cancels the rematch you offered. Obviously, this button appears after you have sent a rematch offer.
 
-View rematch=
+View rematch=A button that appears on game pages if the two players had a rematch. Example: http://lichess.org/rc7l3n66/black
 
 Play=Links to http://lichess.org. This is the home page of Lichess. It has a chat link, a feed of what your friends have been up to and various statistics, among other things. "Play" in this context is a verb.
 
@@ -489,7 +489,7 @@ Load position=
 
 Private=
 
-Report %s to moderators=
+Report %s to moderators=%s is the name of the player. Clicking this will take you to a form where you can report the player for things like cheating and trolling. Appears on player profiles.
 
 Profile=
 
