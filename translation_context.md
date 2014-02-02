@@ -88,6 +88,8 @@ Share this URL to let spectators see the game=The alt text (what you see when yo
 
 You are viewing this game as a spectator=This appears in the top left box when you watch a game that is currently playing as a spectator.
 
+Computer analysis=An automated analysis of a game performed by lichess. It provides an advantage charts and possible variation for a game. Example: http://lichess.org/vyvcbk8s/black
+
 Computer analysis in progress=This is the text in a new box that comes up once you have requested a computer analysis of a chess game.
 
 The computer analysis you requested is now available=This is a box that appears when the computer analysis you have requested is ready to be displayed. If you refresh the page without following this link, it changes to "View computer analysis". This message only appears to the player that requested it.
@@ -277,7 +279,7 @@ Export games=This function lets you download a table of all your games in CSV fo
 
 Color=Clicking this opens a menu that allows you to change the colour or texture of the chess board. This button appears on the top bar in a game page.
 
-Rating range=Below this is a slider that lets you choose the accepted player ratings. The message appears in the "Create a game" (http://lichess.org/#hook) and "Filter games" menus. 
+Rating range=Below this is a slider that lets you choose the accepted player ratings. The message appears in the "Create a game" (http://lichess.org/#hook) and "Filter games" menus.
 
 Give %s seconds=%s here is the number of seconds, usually 15. This is the alt text (the text you see when you hover the mouse over) of the green-white "+" button that appears next to players' names in timed matches. Clicking it adds "%s" seconds to the player's clock.
 
@@ -345,7 +347,7 @@ Team leader=
 
 Best players=This is for teams. It is a listing of the best players in the team. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon).
 
-Recent members=This is for teams. It is a listing of all players in the team sorted by who joined most recently. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon). 
+Recent members=This is for teams. It is a listing of all players in the team sorted by who joined most recently. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon).
 
 %s joined team %s=
 
@@ -536,3 +538,5 @@ Best blitz players=
 Best slow players=
 
 Beware, the game is rated but has no clock!=
+
+moveTimes=In a game analysis, time spent on each move by the players (example: http://lichess.org/6iaj1eh0/stats)
