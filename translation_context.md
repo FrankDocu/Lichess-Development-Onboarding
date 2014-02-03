@@ -539,4 +539,4 @@ Best slow players=
 
 Beware, the game is rated but has no clock!=
 
-moveTimes=In a game analysis, time spent on each move by the players (example: http://lichess.org/6iaj1eh0/stats)
+Move times=In a game analysis, time spent on each move by the players (example: http://lichess.org/6iaj1eh0/stats)
