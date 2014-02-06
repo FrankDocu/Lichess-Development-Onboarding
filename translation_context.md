@@ -88,25 +88,23 @@ Share this URL to let spectators see the game=The alt text (what you see when yo
 
 You are viewing this game as a spectator=This appears in the top left box when you watch a game that is currently playing as a spectator.
 
-Computer analysis=An automated analysis of a game performed by lichess. It provides an advantage charts and possible variation for a game. Example: http://lichess.org/vyvcbk8s/black
+Computer analysis=An automated analysis of a game performed by lichess. It provides an advantage charts and possible variation for a game. Appears as a tab below the chess board in replay and analysis views. Example: http://lichess.org/vyvcbk8s
 
 Computer analysis in progress=This is the text in a new box that comes up once you have requested a computer analysis of a chess game.
 
 The computer analysis you requested is now available=This is a box that appears when the computer analysis you have requested is ready to be displayed. If you refresh the page without following this link, it changes to "View computer analysis". This message only appears to the player that requested it.
 
-The computer analysis has failed=This is an error message that appears when the computer analysis can't be displayed for some reason. It appears in the same box as "Computer analysis in progress" (which disappears if this error appears) does.
+The computer analysis has failed=This is an error message that appears when the computer analysis can't be displayed for some reason. It appears the "Computer analysis" tab
 
-View the computer analysis=This is a link in the box below the board to the the "Replay and analyse" screen, which contains the computer analysis.
+View the computer analysis=Clicking this button takes you to the computer analysis. The message appears only for the player that requested it, in the "Computer analysis" tab.
 
-Request a computer analysis=Clicking this puts the game in the queue for computer analysis, which is usually completed within a minute. This is one of the actions in the box normally below the board.
+Request a computer analysis=Clicking this puts the game in the queue for computer analysis, which is usually completed within a minute. This is one of the actions below the board in the "Replay and analyse" view.
 
-Blunders=If no equivalent word exists, use "Serious mistakes". This is one of the categories of problems discovered by the computer analysis.
+Blunders=If no equivalent word exists, translate to "Serious mistakes". This is one of the categories of problems discovered by the computer analysis.
 
-Mistakes=This is one of the categories of problems discovered by the computer analysis.
+Mistakes=This is one of the categories of problems discovered by the computer analysis. Appears on the right hand side of pages with analyzed games. Example: http://lichess.org/vyvcbk8s
 
 Inaccuracies=This is one of the categories of problems discovered by the computer analysis.
-
-View game stats=Clicking this takes you to a page that contains statistics about times taken per move in the game for each player. This is one of the links in the box normally below the board.
 
 Flip board=Clicking this flips the board upside-down. This message is one of the links in the box normally below the board.
 
@@ -136,7 +134,7 @@ Current games=This is a shorter phrase for "Games being played right now". It is
 
 %s Analysed games=%s is the number of games with a complete computer analysis. Links to http://lichess.org/games/analysed. It is a list of any game that has had a computer analysis performed on it.
 
-Bookmarked by %s players=%s is the number of players. This appears above the bookmark star in a game that has been bookmarked. Example here: http://lichess.org/analyse/vyvcbk8s/black.
+Bookmarked by %s players=%s is the number of players. This appears above the bookmark star in a game that has been bookmarked. Example here: http://lichess.org/analyse/vyvcbk8s.
 
 View in full size=The alt text (what you see when you hover the mouse over) of the small chess boards dotted around the site. These small boards are most prominent in the "Games" pages (http://lichess.org/games). Clicking one of these small boards brings you to the game's unique page.
 
@@ -245,13 +243,9 @@ Play=Links to http://lichess.org. This is the home page of Lichess. It has a cha
 
 Inbox=This is in the title for the "Inbox" page (http://lichess.org/inbox) that you can go to by clicking the mail link at the top when you are signed in. The translation should match whatever is used for popular email clients such as GMail and Outlook in your language.
 
-Chat room=
-// not currently used anywhere; has presumably been around since the old homepage chat days
-// will be useful again soon
+Chat room=The chat function for one-to-one chat. A box on the left-hand side on games pages. Appears only in games you're in, not games you are spectating.
 
-Spectator room=
-// was previously used for spectator rooms
-// will be useful again soon
+Spectator room=The chat room for spectators. Appears in a box to the left-hand side on analysis pages, as well as games pages while the game is playing. Example: http://lichess.org/vyvcbk8s
 
 Compose message=Another word for this could be "Create message". This is a link on the left-hand side of http://lichess.org/inbox. Please follow the standard set by popular email clients such as GMail or Outlook in translating this message.
 
@@ -279,7 +273,7 @@ Export games=This function lets you download a table of all your games in CSV fo
 
 Color=Clicking this opens a menu that allows you to change the colour or texture of the chess board. This button appears on the top bar in a game page.
 
-Rating range=Below this is a slider that lets you choose the accepted player ratings. The message appears in the "Create a game" (http://lichess.org/#hook) and "Filter games" menus.
+Rating range=Below this is a slider that lets you choose the accepted player ratings. The message appears in the "Create a game" (http://lichess.org/#hook) and "Filter games" menus. Please do NOT translate rating as "Elo", because lichess has been using the superior Glicko rating system since late 2013.
 
 Give %s seconds=%s here is the number of seconds, usually 15. This is the alt text (the text you see when you hover the mouse over) of the green-white "+" button that appears next to players' names in timed matches. Clicking it adds "%s" seconds to the player's clock.
 
@@ -287,7 +281,7 @@ Premove enabled - Click anywhere to cancel=A premove is when you set up a move b
 
 This player uses chess computer assistance=Appears in a red box on player profiles that have been marked as cheater accounts by the site moderators. An example is http://lichess.org/@/ko1.
 
-Opening=The chess opening used in the game. It appears in the box below the board, like so: http://lichess.org/analyse/vyvcbk8s/black. This appears in the "Replay and analyse" screen.
+Opening=The chess opening used in the game. It appears beneath the move list on the right hand side of games, like so: http://lichess.org/analyse/vyvcbk8s. This appears in the "Replay and analyse" screen.
 
 Takeback=This is an action you can take in-game that undoes a move. Clicking it sends an offer to your opponent. Translate freely, but keep it short. For instance, this has been translated to "Cancel move" in several languages.
 
@@ -337,7 +331,7 @@ Join team=
 
 Leave team=
 
-Free for all=This is the joining policy of a team that has no application or invitation process; anyone can join it.
+Free for all=This is the joining policy of a team that has no application or invitation process; "free for all" means anyone can join it, without an application process of any sort.
 
 A confirmation is required to join=
 
@@ -431,7 +425,7 @@ Player=
 
 List=This is one of the two ways of sorting open games on the "Play" page (http://lichess.org/). Clicking it presents all games you can join in a list format.
 
-Graph=This is one of the two ways of sorting open games on the "Play" page (http://lichess.org/). Clicking it presents all games you can join on a graph, with x and y axes.
+Graph=This is one of the two ways of sorting open games on the "Play" page (http://lichess.org/). Clicking it presents all games you can join on a graph, with x (time) and y (player rating) axes.
 
 All=
 
@@ -445,7 +439,7 @@ Text is too long.=
 
 Required.=
 
-Add to Chrome=This button appears at the bottom of every page if you are using the Google Chrome web browser. It is a link to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg).
+Add to Chrome=This button appears at the bottom of every page only if you are using the Google Chrome web browser. It is a link to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg).
 
 Open tournaments=
 
@@ -457,7 +451,7 @@ Standing=
 
 Create a new tournament=
 
-Join=This button is found on the "Play" (http://lichess.org) and "Tournaments" (http://lichess.org/tournament) pages. Clicking it lets you enter the tournament.
+Join=Clicking this lets you enter the tournament. This button is found on the "Play" (http://lichess.org) and "Tournaments" (http://lichess.org/tournament) pages.
 
 Withdraw=
 
@@ -539,4 +533,4 @@ Best slow players=
 
 Beware, the game is rated but has no clock!=
 
-Move times=In a game analysis, time spent on each move by the players (example: http://lichess.org/6iaj1eh0/stats)
+Move times=Time spent on each move by the players. Appears as a tab in the "Replay and analyse" screen, below the chess board. Example: http://lichess.org/6iaj1eh0
