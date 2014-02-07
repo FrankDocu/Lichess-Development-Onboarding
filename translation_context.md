@@ -92,8 +92,6 @@ Computer analysis=An automated analysis of a game performed by lichess. It provi
 
 Computer analysis in progress=This is the text in a new box that comes up once you have requested a computer analysis of a chess game.
 
-The computer analysis you requested is now available=This is a box that appears when the computer analysis you have requested is ready to be displayed. If you refresh the page without following this link, it changes to "View computer analysis". This message only appears to the player that requested it.
-
 The computer analysis has failed=This is an error message that appears when the computer analysis can't be displayed for some reason. It appears the "Computer analysis" tab
 
 View the computer analysis=Clicking this button takes you to the computer analysis. The message appears only for the player that requested it, in the "Computer analysis" tab.
@@ -117,10 +115,6 @@ Offer draw=This is a small button in the right-hand side box that offers ending 
 Draw=This appears in various places, including players' profiles and the right-hand side boxes in individual games. It should be translated as a noun, NOT as a verb.
 
 %s players=The %s is the counter of how many players are connected right now. This message is displayed at the top of every page on lichess.
-
-Talk about chess and discuss lichess in the forum=The title text (what you see when you hover the mouse over) of the "Forum" link (http://lichess.org/forum/) at the top of every page.
-
-See the games being played in real time and review past games=The title text (what you see when you hover the mouse over) of the "Games" link at the top of every page. The page lists games being currently played and also offers the ability to find past games.
 
 Current games=This is a shorter phrase for "Games being played right now". It is what the link at the top that says "Games" links to (http://lichess.org/games). Please try to keep your translation as short as possible.
 
