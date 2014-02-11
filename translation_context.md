@@ -76,13 +76,13 @@ White joins the game=Informs that the White player joined the game. This is a sy
 
 Black joins the game=Informs that the Black player joined the game. This is a system message that appears in the chat box at the start of the game.
 
-White resigned=This message appears in the right hand-side box in a game, the list of games on the profile, and also the left hand-side box in a game when the White player resigns from the game.
+White resigned=This sentence appears in the right hand-side box in a game, the list of games on the profile, and also the left hand-side box in a game when the White player resigns from the game.
 
-Black resigned=This message appears in the right hand-side box in a game, the list of games on the profile, and also the left hand-side box in a game when the Black player resigns from the game.
+Black resigned=This sentence appears in the right hand-side box in a game, the list of games on the profile, and also the left hand-side box in a game when the Black player resigns from the game.
 
 White left the game=This appears when the White player leaves the game either by aborting or by being absent for too long. It can found in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game.
 
-Black left the game=This message appears when the Black player leaves the game either by aborting or by being absent for too long. It can found in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game.
+Black left the game=This sentence appears when the Black player leaves the game either by aborting or by being absent for too long. It can found in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game.
 
 Share this URL to let spectators see the game=The title text (what you see when you hover the mouse over) of the link just below the board which you can send to people so they can watch the game.
 
@@ -94,7 +94,7 @@ Computer analysis in progress=This is the text in a new box that comes up once y
 
 The computer analysis has failed=This is an error message that appears when the computer analysis can't be displayed for some reason. It appears the "Computer analysis" tab
 
-View the computer analysis=Clicking this button takes you to the computer analysis. The message appears only for the player that requested it, in the "Computer analysis" tab.
+View the computer analysis=Clicking this button takes you to the computer analysis. The sentence appears only for the player that requested it, in the "Computer analysis" tab.
 
 Request a computer analysis=Clicking this puts the game in the queue for computer analysis, which is usually completed within a minute. This is one of the actions below the board in the "Replay and analyse" view.
 
@@ -104,7 +104,7 @@ Mistakes=This is one of the categories of problems discovered by the computer an
 
 Inaccuracies=This is one of the categories of problems discovered by the computer analysis.
 
-Flip board=Clicking this flips the board upside-down. This message is one of the links in the box normally below the board.
+Flip board=Clicking this flips the board upside-down. This sentence is one of the links in the box normally below the board.
 
 Threefold repetition=This is one of the conditions by which a game ends. It appears on the box on the right-hand side of the screen. It also appears in player profiles. Please use the official term used by your country's or locale's chess federation or club.
 
@@ -114,7 +114,7 @@ Offer draw=This is a small button in the right-hand side box that offers ending 
 
 Draw=This appears in various places, including players' profiles and the right-hand side boxes in individual games. It should be translated as a noun, NOT as a verb.
 
-%s players=The %s is the counter of how many players are connected right now. This message is displayed at the top of every page on lichess.
+%s players=The %s is the counter of how many players are connected right now. This sentence is displayed at the top of every page on lichess.
 
 Current games=This is a shorter phrase for "Games being played right now". It is what the link at the top that says "Games" links to (http://lichess.org/games). Please try to keep your translation as short as possible.
 
@@ -136,7 +136,7 @@ Sign out=This is part of the profile dropdown on the top of every page when you 
 
 Sign in=This is a red-coloured button that appears at the top when you are not signed in to an account, or playing anonymously. Please keep it as short as possible.
 
-New to Lichess?=It is next to a button that allows you to register an account on the website. The translation should be friendly and inviting; free translations are recommended for this string. This message appears in the "Sign in" page.
+New to Lichess?=It is next to a button that allows you to register an account on the website. The translation should be friendly and inviting; free translations are recommended for this string. This sentence appears on the "Sign in" page.
 
 You need an account to do that=This appears when trying actions or going to pages that require being signed in with a user account.
 
@@ -148,7 +148,7 @@ Games=Links to http://lichess.org/games. The page displays games currently being
 
 Forum=Links to http://lichess.org/forum. It is Lichess's webforum, where users can discuss various topics, chess-related or not. These are sometimes called "bulletin boards". "Forum" is one of the links at the top of every page, so keep it as short as possible.
 
-%s posted in topic %s=The first %s is the player's name and the second %s is the title of the topic in the forum. By "topic" here we mean a discussion, sometimes called a "thread" in this context. This is one of the messages that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s posted in topic %s=The first %s is the player's name and the second %s is the title of the topic in the forum. By "topic" here we mean a discussion, sometimes called a "thread" in this context. This is one of the sentences that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
 
 Players=The title text (what you see when you hover the mouse over) of the "People" link at the top of every page.
 
@@ -156,7 +156,7 @@ Minutes per side=This appears in all the game creation menus (e.g. "Create a gam
 
 Variant=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). Below it is a selection of variants the player can choose from. Currently only Standard chess and Chess960 are supported.
 
-Time control=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). It also appears in player profiles next to games that have time controls implemented. This message acts as a heading to time controls for the game. Next to it is a checkbox. Ticking the box allows for time controls to be implemented in the game. If the box is left unticked the game is of unlimited time.
+Time control=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). It also appears in player profiles next to games that have time controls implemented. This sentence is a heading to time controls for the game. Next to it is a checkbox. Ticking the box allows for time controls to be implemented in the game. If the box is left unticked, the game is one of unlimited time.
 
 Time=This appears in the table of games you can join on the "Play" page (http://lichess.org/).
 
@@ -172,9 +172,9 @@ Change password=This is a link in the settings page to a menu that allows you to
 
 Learn more about Lichess=The title text (what you see when you hover the mouse over) of the "Wiki" link at the footer (bottom) of every page on the website.
 
-Rank=This is the rank of a player relative to the top several 75% of players on lichess. For example, http://lichess.org/@/thinkabit is as of the time of writing the #1 player out of 126000 players. The message appears at the top of the player profile.
+Rank=This is the rank of a player relative to the top several 75% of players on lichess. For example, http://lichess.org/@/thinkabit is as of the time of writing the #1 player out of 126000 players. The sentence appears at the top of the player profile.
 
-Games played=Before it is the number of games the player has played. For example, http://lichess.org/@/thibault/ currently reads "2037 Games Played". Make sure you take the number that appears before this message into account when preparing your translation. This message appears as a tab on player profiles, just above the list of games.
+Games played=Before it is the number of games the player has played. For example, http://lichess.org/@/thibault/ currently reads "2037 Games Played". Make sure you take the number that appears before this sentence into account when preparing your translation. This sentence appears as a tab on player profiles, just above the list of games.
 
 %s games with you=%s is the number of games this player has played with you. This appears as a tab on the profile pages of people that you have played with. Try to keep it fairly short.
 
@@ -182,7 +182,7 @@ Decline invitation=Clicking this refuses the takeback. A "takeback" undoes a mov
 
 Cancel=This is a generic word that appears in a wide variety of places and is used to cancel actions of all sorts. It is recommended to translate it according to whatever your operating system (e.g. Microsoft Windows) uses for your language.
 
-Time out=This is the condition of a game ending by time-out, which is when one player's clock runs out of time. This message appears in the list of games in the profile page and in the game screen.
+Time out=This is the condition of a game ending by time-out, which is when one player's clock runs out of time. This sentence appears in the list of games in the profile page and in the game screen.
 
 Draw offer sent=Informs that a draw offer has been sent. This is a system message that appears in the chat box.
 
@@ -192,36 +192,36 @@ Draw offer accepted=Informs that a draw offer has been accepted. This is a syste
 
 Draw offer canceled= Informs that the player that sent the draw offer canceled it before his/her opponent responded. This is a system message that appears in the chat box
 
-Your opponent offers a draw=This message appears in the right-hand side box while playing a game after your opponent offers you a draw.
+Your opponent offers a draw=This sentence appears in the right-hand side box while playing a game after your opponent offers you a draw.
 
 Accept=This is a button that, if clicked, will accept your opponent's offer and let the action the oppoent requested happen. It appears when your opponent sends an offer to something (such as a takeback or ending the game by draw).
 
 Decline=This is a button that, if clicked, will reject your opponent's offer. It appears when your opponent sends an offer to something (such as a takeback or ending the game by draw).
 
-Playing right now=This message indicates that the game is being played as you're reading this message. Appears on the "Tournaments" page (http://lichess.org/tournament) if any tournaments are currently being played, and also on the pages of individual games.
+Playing right now=This sentence indicates that the game you're looking at is playing right now. Appears on the "Tournaments" page (http://lichess.org/tournament) if any tournaments are currently being played, and also on the pages of individual games.
 
-Finished=This is for tournaments. It means the tournament is over. Appears on individual tournament pages (e.g. http://lichess.org/tournament/67hj23c2) and also on the "Tournaments" page (http://lichess.org/tournament) to denote finished tournaments. Translate as plural; another message will be added at some point for individual tournament pages.
+Finished=This is for tournaments. It means the tournament is over. Appears on individual tournament pages (e.g. http://lichess.org/tournament/67hj23c2) and also on the "Tournaments" page (http://lichess.org/tournament) to denote finished tournaments. Translate as plural; another sentence will be added at some point for individual tournament pages.
 // there should really be two words for this
 
-Abort game=Clicking this aborts the game. This means that no points are won or lost. You can only perform this action until the second move of the game. It is NOT a resignation (which has a different message). Appears in the right-hand side box on the page of a game you are playing.
+Abort game=Clicking this aborts the game. This means that no points are won or lost. You can only perform this action until the second move of the game. It is NOT a resignation (which has a different sentence). Appears in the right-hand side box on the page of a game you are playing.
 
 Game aborted=Indicates that the game has been aborted. Appears in the left and right hand side boxes, as well as in the games list, for aborted games. Note that aborted games are removed from the database after 48 hours.
 
 Standard="Standard" here means "not a variant". Selecting this means you play standard intentional chess, not Chess960 or another variant. Appears in the "Create a game" menu (http://lichess.org/#hook).
 
-Unlimited=This is short for "Unlimited time". It describes games that have no time controls and can therefore run for an infinite amount of time. This message appears in many locations that it would be pointless to list here. Please keep this message as short as possible.
+Unlimited=This is short for "Unlimited time". It describes games that have no time controls and can therefore run for an infinite amount of time. This sentence appears in many locations that it would be pointless to list here. Please keep this sentence as short as possible.
 
-Mode="Mode" here is in the context of filtering between Casual and Rated games. The message appears in the "Filter games" menu, which is just above the list of games on the "Play" page (http://lichess.org/).
+Mode="Mode" here is in the context of filtering between Casual and Rated games. The sentence appears in the "Filter games" menu, which is just above the list of games on the "Play" page (http://lichess.org/).
 
-Casual="Casual" in this context means the game is unrated; players will not gain or lose points. Has been translated to "Friendly" (after the football term) and simply "Unrated" in some languages. Be creative. The message appears in the "Filter games" menu, which can be accessed through the "Play" page (http://lichess.org).
+Casual="Casual" in this context means the game is unrated; players will not gain or lose points. Has been translated to "Friendly" (after the football term) and simply "Unrated" in some languages. Be creative. The sentence appears in the "Filter games" menu, which can be accessed through the "Play" page (http://lichess.org).
 
-Rated="Rated" means that the outcome of the game will result in a gain or loss of rating points for either players. This message appears in a variety of places, including the pages of individual games (which are rated) and the "Filter games" page.
+Rated="Rated" means that the outcome of the game will result in a gain or loss of rating points for either players. This sentence appears in a variety of places, including the pages of individual games (which are rated) and the "Filter games" page.
 
-This game is rated="Rated" means that the outcome of the game will result in a gain or loss of rating points for either players. This message appears in profile page listings of games and games lists (e.g. http://lichess.org/games/all).
+This game is rated="Rated" means that the outcome of the game will result in a gain or loss of rating points for either players. This sentence appears in profile page listings of games and games lists (e.g. http://lichess.org/games/all).
 
 Rematch=Translated as a verb if possible. This is a button that appears at the end of a game in the right hand side box. Clicking it sends a rematch offer.
 
-Rematch offer sent=This is message informing you that your offer of a rematch has been sent to your opponent. This is a system message that appears in the chat box, and also in the right-hand side box.
+Rematch offer sent=Informs you that your offer of a rematch has been sent to your opponent. This is a system message that appears in the chat box, and also in the right-hand side box.
 
 Rematch offer accepted=Informs that the rematch offer was accepted. This is a system message that appears in the chat box.
 
@@ -241,19 +241,19 @@ Chat room=The chat function for one-to-one chat. A box on the left-hand side on 
 
 Spectator room=The chat room for spectators. Appears in a box to the left-hand side on analysis pages, as well as games pages while the game is playing. Example: http://lichess.org/vyvcbk8s
 
-Compose message=Another word for this could be "Create message". This is a link on the left-hand side of http://lichess.org/inbox. Please follow the standard set by popular email clients such as GMail or Outlook in translating this message.
+Compose message=Another word for this could be "Create message". This is a link on the left-hand side of http://lichess.org/inbox. Please follow the standard set by popular email clients such as GMail or Outlook in translating this sentence.
 
 No new messages=This is the text that appears when you mouseover the mail icon at the top, but have no new messages to read.
 
-Subject=Next to this is the field where you put in a few words about the subject, or topic, of your message. It appears on the page you compose a new message. (http://lichess.org/inbox/new)
+Subject=Next to this is the field where you put in a few words about the subject, or topic, of your message. It appears on the page on which you can compose a new message. (http://lichess.org/inbox/new)
 
-Recipient=Next to this is a field with the name of the player that receives this message.
+Recipient=Next to this is a field where you can input the name of the player that receives this message.
 
 Send=This is the button you use to send messages in the compose message page. (http://lichess.org/inbox/new)
 
-Increment in seconds=Increment in this context means how many seconds are added every time you make a move. So if you set time to 5 minutes and increment in seconds to 2, it would be a "5+2" game. This means that each player would have 5 minutes on the clock, and every time the player makes a move, 2 seconds are added. This message appears in the "Create a game" menu (http://lichess.org/#hook).
+Increment in seconds=Increment in this context means how many seconds are added every time you make a move. So if you set time to 5 minutes and increment in seconds to 2, it would be a "5+2" game. This means that each player would have 5 minutes on the clock, and every time the player makes a move, 2 seconds are added. This sentence appears in the "Create a game" menu (http://lichess.org/#hook).
 
-Free Online Chess=This message appears in the title of every page e.g. "lichess  • Free Online Chess" on the "Play" page as it appears in the English version. This means it shows up as the title of browser windows and tabs. Technical: by title here we are literally referring to the HTML <title> tag that carries this.
+Free Online Chess=This sentence appears in the title of every page e.g. "lichess  • Free Online Chess" on the "Play" page as it appears in the English version. This means it shows up as the title of browser windows and tabs. Technical: by title here we are literally referring to the HTML <title> tag that carries this.
 
 Spectators:="Spectators:" precedes a list of spectators. It appears just below the chat box on any game that is being spectated, such as the games on Lichess TV (http://lichess.org/tv).
 
@@ -267,11 +267,11 @@ Export games=This function lets you download a table of all your games in CSV fo
 
 Color=Clicking this opens a menu that allows you to change the colour or texture of the chess board. This button appears on the top bar in a game page.
 
-Rating range=Below this is a slider that lets you choose the accepted player ratings. The message appears in the "Create a game" (http://lichess.org/#hook) and "Filter games" menus. Please do NOT translate "rating" to "Elo", because lichess has been using the superior Glicko rating system since late 2013.
+Rating range=Below this is a slider that lets you choose the accepted player ratings. The sentence appears in the "Create a game" (http://lichess.org/#hook) and "Filter games" menus. Please do NOT translate "rating" to "Elo", because lichess has been using the superior Glicko rating system since late 2013.
 
 Give %s seconds=%s here is the number of seconds, usually 15. This is the title text (the text you see when you hover the mouse over) of the green-white "+" button that appears next to players' names in timed matches. Clicking it adds "%s" seconds to the player's clock.
 
-Premove enabled - Click anywhere to cancel=A premove is when you set up a move before it is your turn to play. You can make one by clicking on your piece and then clicking on a position it could go to. As the message suggests, clicking anywhere prevents the premove from being executed. Translate premove to whatever sounds best in your language; for example, this is translated to "pre-selection" in some languages.
+Premove enabled - Click anywhere to cancel=A premove is when you set up a move before it is your turn to play. You can make one by clicking on your piece and then clicking on a position it could go to. As the sentence suggests, clicking anywhere prevents the premove from being executed. Translate premove to whatever sounds best in your language; for example, this is translated to "pre-selection" in some languages.
 
 This player uses chess computer assistance=Appears in a red box on player profiles that have been marked as cheater accounts by the site moderators. An example is http://lichess.org/@/ko1.
 
@@ -291,7 +291,7 @@ Takeback proposition canceled=Informs the player that a takeback proposition was
 
 Your opponent proposes a takeback=Appears on the right-hand side box while playing a game. Below it are two buttons that allow you to either accept or decline the takeback proposal.
 
-Bookmark this game=
+Bookmark this game=The title text (what you see when you hover the mouse over) of the bookmark button (a star-shaped symbol — ★). Appears on the pages of individual games. Example: http://lichess.org/vyvcbk8s
 
 Toggle background color=
 
@@ -365,7 +365,7 @@ Continue from here=
 
 Import game=This form lets you paste a PGN (Portable Game Notation), which imports the game into lichess. Links to http://lichess.org/paste. Appears as a tab in the "Games" pages.
 
-%s Imported games=
+%s Imported games=%s is the number of games imported into the Lichess database using the "Import games" tool. Links to http://lichess.org/games/imported and is found on the left hand side of the "Games" pages.
 
 This is a chess CAPTCHA.=
 
@@ -401,15 +401,15 @@ Unblock=
 
 Follows you=
 
-%s started following %s=
+%s started following %s=The two %s's are players' names. The first %s is the name of the follower, and the second %s is the name of the followed. This is one of the sentences that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
 
-%s followers=
+%s followers=%s is the number of people that follow this player. Example: http://lichess.org/@/thibault — as of the time of writing, Thibault has 254 people following him.
 
-%s following=
+%s following=%s is the number of players this player is following. Example: http://lichess.org/@/thibault — Thibault is following 75 players as of the time of writing. 
 
 More=
 
-Member since=
+Member since=Tells how long the player has been a member of lichess. Appears on profile pages. For example, http://lichess.org/@/thibault has been a member since 2010-11-22.
 
 Last sign in=The last time a player signed into this account. Appears on profile pages.
 
@@ -457,7 +457,7 @@ Losses=
 
 Win streak=
 
-Created by=This appears in a box on the top-left hand corner of tournament pages. The message is followed by the name of the player that created it, e.g. "Created by thibault" (example -- http://lichess.org/tournament/gwlomxqd).
+Created by=This appears in a box on the top-left hand corner of tournament pages. The sentence is followed by the name of the player that created it. Example: http://lichess.org/tournament/gwlomxqd — "Created by thibault".
 
 Waiting for %s players=
 
@@ -485,13 +485,13 @@ Profile=
 
 Edit profile=
 
-First name=Also known as a "given name", "forename" or "Christian name" in some countries. The message appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
+First name=Also known as a "given name", "forename" or "Christian name" in some countries. This sentence appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
 
-Last name=Also known as "surname" or "family name". You put in your last name in this field, which will in turn appear on your profile page. The message appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
+Last name=Also known as "surname" or "family name". You put in your last name in this field, which will in turn appear on your profile page. This sentence appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
 
-Biography=This is next to a text field wherein you can put anything you wish. For example, http://lichess.org/@/thibault reads "Developer of lichess". This message appears in the "Edit profile" menu (http://lichess.org/account/profile).
+Biography=This is next to a text field wherein you can put anything you wish. For example, http://lichess.org/@/thibault reads "Developer of lichess". This sentence appears in the "Edit profile" menu (http://lichess.org/account/profile).
 
-Country=This is a field for the country you are located at. Appears on player profiles (example: http://lichess.org/@/thibault). The message appears in the "Edit profile" menu (http://lichess.org/account/profile).
+Country=This is a field for the country you are located at. Appears on player profiles (example: http://lichess.org/@/thibault). The sentence appears in the "Edit profile" menu (http://lichess.org/account/profile).
 
 Preferences=
 
