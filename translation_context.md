@@ -293,7 +293,7 @@ Your opponent proposes a takeback=Appears on the right-hand side box while playi
 
 Bookmark this game=The title text (what you see when you hover the mouse over) of the bookmark button (a star-shaped symbol — ★). Appears on the pages of individual games. Example: http://lichess.org/vyvcbk8s
 
-Toggle background color=
+Toggle background color=The title text (what you see when you hover the mouse over) of the yin and yang symbol at the top of every page. Clicking it toggles the theme between light and dark.
 
 Search=
 
@@ -303,7 +303,7 @@ Tournament=
 
 Tournaments=
 
-Tournament points=
+Tournament points=The number of points the player has gained in tournament games. Could be translated as "points from tournaments", but please keep it as short as possible. Appears on profile pages. Example: http://lichess.org/@/thibault — Thibault has 40 tournament points as of the time of writing.
 
 View tournament=
 
@@ -319,7 +319,7 @@ New team=Clicking this takes you to a form for creating a new team. Links to htt
 
 My teams=A list of the teams you are a member of. Links to: http://lichess.org/team/me. Appears as a tab in the "Teams" pages after you have joined a team.
 
-No team found=
+No team found=Appears when you are not a member of any team on http://lichess.org/team/me.
 
 Join team=Clicking this button makes you join the team you are looking at. Appears on the pages of teams (such as http://lichess.org/team/linux).
 
@@ -329,17 +329,17 @@ Free for all=This is the joining policy of a team that has no application or inv
 
 A confirmation is required to join=
 
-Joining policy=
+Joining policy=This determines how players can join the team: by invitation, by application or without restrictions. Appears on the new team creation page (http://lichess.org/team/new).
 
-Team leader=
+Team leader=Shows who the leader of the team is (usually its creator). Appears on team pages. Example: http://lichess.org/team/linux — "untitled" is the leader of the team.
 
-Best players=This is for teams. It is a listing of the best players in the team. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon).
+Best players=This is for teams. It is a listing of the best players in the team. It appears on the left-hand side of any team's page. Example http://lichess.org/team/saloon
 
 Recent members=This is for teams. It is a listing of all players in the team sorted by who joined most recently. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon).
 
-%s joined team %s=
+%s joined team %s=The first %s is the name of the player, and the second %s is the team the player joined. This is one of the sentences that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) when one of the players you follow joins a team.
 
-%s created team %s=
+%s created team %s=The first %s is the name of the player, and the second %s is the team the player created. This is one of the sentences that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) when one of the players you follow creates a new team.
 
 Average rating=
 
@@ -411,9 +411,9 @@ More=
 
 Member since=Tells how long the player has been a member of lichess. Appears on profile pages. For example, http://lichess.org/@/thibault has been a member since 2010-11-22.
 
-Last sign in=The last time a player signed into this account. Appears on profile pages.
+Last sign in=The last time a player signed into this account. Appears on profile pages. Example: http://lichess.org/@/thibault — "Last sign in about 4 hours ago" (as of the time of writing).
 
-Challenge to a game=
+Challenge to a game=Clicking this lets you ask the player to play a game with you, and takes you to the set-up screen. Appears on profile pages as a title text (what you see when you hover the mouse over) for the King symbol. Example. http://lichess.org/@/thibault.
 
 Player=
 
@@ -433,29 +433,29 @@ Text is too long.=
 
 Required.=
 
-Add to Chrome=This button appears at the bottom of every page only if you are using the Google Chrome web browser. It is a link to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg).
+Add to Chrome= Links to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg). This button appears only if you are using the Google Chrome web browser, at the bottom of every page .
 
-Open tournaments=
+Open tournaments="Open" here means you can join the tournament. Below it is a list of tournaments you are able to join. Appears as a heading on http://lichess.org/tournament
 
-Duration=
+Duration=Length of the tournament in minutes. Appears on the left-hand side box on the pages of tournaments. Example: http://lichess.org/tournament/67hj23c2
 
-Winner=
+Winner=Indicates the player won the tournament. This is the title text (what you see when you hover the mouse over) the trophy icon on tournaments pages. Example: http://lichess.org/tournament/67hj23c2
 
-Standing=
+Standing=Shows the order of the players in a tournament, ordered by their score. Could be translated as "position" or "score" if your language has no equivalent. Appears in the left-most column on the pages of individual tournaments. Example: http://lichess.org/tournament/67hj23c2
 
-Create a new tournament=
+Create a new tournament=Clicking this lets you create a new tournament. Appears as a heading and a button on the tournament creation page, among other places. Links to http://lichess.org/tournament/new.
 
 Join=Clicking this lets you enter the tournament. This button is found on the "Play" (http://lichess.org) and "Tournaments" (http://lichess.org/tournament) pages.
 
-Withdraw=
+Withdraw=Clicking this makes you withdraw from (leave) the tournament you have entered. Appears on the tournament page after you have entered it.
 
-Points=
+Points=The number of points the player has attained in this tournament. Appears as a column heading on tournament pages. Example: http://lichess.org/tournament/67hj23c2
 
-Wins=
+Wins=The number of games the player has won in this tournament. Appears as a column heading on tournament pages. Example: http://lichess.org/tournament/67hj23c2
 
-Losses=
+Losses=The number of games the player has lost in this tournament. Appears as a column heading on tournament pages. Example: http://lichess.org/tournament/67hj23c2
 
-Win streak=
+Win streak=The number of games the player won consecutively without losing. Appears as a column heading on tournament pages. Example: http://lichess.org/tournament/67hj23c2 — Thibault won all 6 games in a row, jordach 3 and graphitemaster 2.
 
 Created by=This appears in a box on the top-left hand corner of tournament pages. The sentence is followed by the name of the player that created it. Example: http://lichess.org/tournament/gwlomxqd — "Created by thibault".
 
