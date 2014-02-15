@@ -433,7 +433,7 @@ Text is too long.=
 
 Required.=
 
-Add to Chrome= Links to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg). This button appears only if you are using the Google Chrome web browser, at the bottom of every page .
+Add to Chrome= Links to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg). This button appears only if you are using the Google Chrome web browser, at the footer (bottom) of every page.
 
 Open tournaments="Open" here means you can join the tournament. Below it is a list of tournaments you are able to join. Appears as a heading on http://lichess.org/tournament
 
