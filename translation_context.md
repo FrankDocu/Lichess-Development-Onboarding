@@ -18,7 +18,7 @@ Your turn=This appears in the box while you are playing a game. It indicates it 
 
 %s level %s=AI name and level, e.g. "Stockfish level 3". Note that the "Stockfish" part will always be first no matter where you place the %s, though you can rearrange them to e.g. "%s at %s levels", which would produce e.g. "Stockfish at 3 levels". Use the translation that sounds best in your language. Appears in the box on the left-hand side in the page of the game, and also on your profile, in the list of games.
 
-Level=This appears in the "Play with the machine" menu (http://lichess.org/#ai) as a heading. Below it are skill levels (1 through 8) of the AI that you can play against.
+Level=This appears in the "Play with the machine" menu (http://lichess.org/setup/ai) as a heading. Below it are skill levels (1 through 8) of the AI that you can play against.
 
 Toggle the chat=This is the checkbox on the top-right of the chat box. It turns the chat room on or off.
 
@@ -30,11 +30,11 @@ Checkmate=Appears in the box of a game if you end a game by checkmate.
 
 Stalemate=If you don't know what this rule is, see http://www.chessvariants.org/d.chess/matefaq.html. Appears in the box of a game if you end a game by stalemate. Please use the official term used by your country's or locale's chess federation or club.
 
-White=The title text (what you see when you hover the mouse over) of the White King button in the "Create a game" menu (http://lichess.org/#hook).
+White=The title text (what you see when you hover the mouse over) of the White King button in the "Create a game" menu (http://lichess.org/setup/hook).
 
-Black=The title text (what you see when you hover the mouse over) of the Black King button in the "Create a game" menu (http://lichess.org/#hook).
+Black=The title text (what you see when you hover the mouse over) of the Black King button in the "Create a game" menu (http://lichess.org/setup/hook).
 
-Random color=The title text (what you see when you hover the mouse over) of the large button in the "Create a game" menu that makes Lichess randomly pick a color for you (http://lichess.org/#hook).
+Random color=The title text (what you see when you hover the mouse over) of the large button in the "Create a game" menu that makes Lichess randomly pick a color for you (http://lichess.org/setup/hook).
 
 Create a game=This button opens a menu that lets you create a game that is listed in the list (or graph) of open games. It is one of the 3 rectangular buttons on the "Play" page (http://lichess.org/).
 
@@ -207,7 +207,7 @@ Abort game=Clicking this aborts the game. This means that no points are won or l
 
 Game aborted=Indicates that the game has been aborted. Appears in the left and right hand side boxes, as well as in the games list, for aborted games. Note that aborted games are removed from the database after 48 hours.
 
-Standard="Standard" here means "not a variant". Selecting this means you play standard intentional chess, not Chess960 or another variant. Appears in the "Create a game" menu (http://lichess.org/#hook).
+Standard="Standard" here means "not a variant". Selecting this means you play standard intentional chess, not Chess960 or another variant. Appears in the "Create a game" menu (http://lichess.org/setup/hook).
 
 Unlimited=This is short for "Unlimited time". It describes games that have no time controls and can therefore run for an infinite amount of time. This sentence appears in many locations that it would be pointless to list here. Please keep this sentence as short as possible.
 
@@ -251,7 +251,7 @@ Recipient=Next to this is a field where you can input the name of the player tha
 
 Send=This is the button you use to send messages in the compose message page. (http://lichess.org/inbox/new)
 
-Increment in seconds=Increment in this context means how many seconds are added every time you make a move. So if you set time to 5 minutes and increment in seconds to 2, it would be a "5+2" game. This means that each player would have 5 minutes on the clock, and every time the player makes a move, 2 seconds are added. This sentence appears in the "Create a game" menu (http://lichess.org/#hook).
+Increment in seconds=Increment in this context means how many seconds are added every time you make a move. So if you set time to 5 minutes and increment in seconds to 2, it would be a "5+2" game. This means that each player would have 5 minutes on the clock, and every time the player makes a move, 2 seconds are added. This sentence appears in the "Create a game" menu (http://lichess.org/setup/hook).
 
 Free Online Chess=This sentence appears in the title of every page e.g. "lichess  • Free Online Chess" on the "Play" page as it appears in the English version. This means it shows up as the title of browser windows and tabs. Technical: by title here we are literally referring to the HTML <title> tag that carries this.
 
@@ -267,7 +267,7 @@ Export games=This function lets you download a table of all your games in CSV fo
 
 Color=Clicking this opens a menu that allows you to change the colour or texture of the chess board. This button appears on the top bar in a game page.
 
-Rating range=Below this is a slider that lets you choose the accepted player ratings. The sentence appears in the "Create a game" (http://lichess.org/#hook) and "Filter games" menus. Please do NOT translate "rating" to "Elo", because lichess has been using the superior Glicko rating system since late 2013.
+Rating range=Below this is a slider that lets you choose the accepted player ratings. The sentence appears in the "Create a game" (http://lichess.org/setup/hook) and "Filter games" menus. Please do NOT translate "rating" to "Elo", because lichess has been using the superior Glicko rating system since late 2013.
 
 Give %s seconds=%s here is the number of seconds, usually 15. This is the title text (the text you see when you hover the mouse over) of the green-white "+" button that appears next to players' names in timed matches. Clicking it adds "%s" seconds to the player's clock.
 
@@ -341,11 +341,11 @@ Recent members=This is for teams. It is a listing of all players in the team sor
 
 %s created team %s=The first %s is the name of the player, and the second %s is the team the player created. This is one of the sentences that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) when one of the players you follow creates a new team.
 
-Average rating=
+Average rating=This is the mean average rating of all players in the team. Appears on the information box on team pages. Example: http://lichess.org/team/linux
 
 Location=This is before an input box that lets you write where you are located (a city, town, or whatever you want to write in it). Appears in the "Edit profile" page (http://lichess.org/account/profile).
 
-Settings=
+Settings=Appears in the profile dropdown on the top-right of every page, and also as a heading. Please keep it short. Links to the settings page: http://lichess.org/account/preferences
 
 Filter games=Clicking this opens a menu that lets you define criteria by which you can filter games in the game list. This appears above and to the right of the game list on the "Play" page (http://lichess.org/). Note that "filter" does not necessarily mean "reduce". It is recommended to translate this as search engines such as Google Search, Yandex or Baidu do.
 
@@ -353,31 +353,29 @@ Reset=Clicking it resets all options back to their defaults. Appears in the "Fil
 
 Apply=Clicking this applies the game filtering rules that the player has chosen. Appears in the "Filter games" sub-menu, which in turn appears on the "Play" page (http://lichess.org/).
 
-Leaderboard=
+Leaderboard=A table of the best players on Lichess. Appears on the "Players" page (http://lichess.org/people). Could be translated as "Score table" or even "Best players" (though it is recommended to avoid this) if your language has no equivalent.
 
-Paste the FEN string here=
+Paste the FEN string here=This is the placeholder text (greyed-out text that disappears when you click)  for FEN pasting, so you can play a game from a certain position against the computer. Appears in the "Play with the computer" menu (http://lichess.org/setup/ai).
 
-Paste the PGN string here=
+Paste the PGN string here=This is the placeholder text (greyed-out text that disappears when you click)  for importing games stored in PGN files. Appears in the "Import game" menu (http://lichess.org/paste).
 
 From position=
-
-Continue from here=
 
 Import game=This form lets you paste a PGN (Portable Game Notation), which imports the game into lichess. Links to http://lichess.org/paste. Appears as a tab in the "Games" pages.
 
 %s Imported games=%s is the number of games imported into the Lichess database using the "Import games" tool. Links to http://lichess.org/games/imported and is found on the left hand side of the "Games" pages.
 
-This is a chess CAPTCHA.=
+This is a chess CAPTCHA.=A "CAPTCHA" is, in short, a test to see if the user is human or a bot. You have probably comes across them before; they usually involve putting in a word or answering a question that only a human would know the answer to. CAPTCHAs appear before registering and when posting on the forum.
 
-Click on the board to make your move, and prove you are human.=
+Click on the board to make your move, and prove you are human.=Informs the player on how to complete the CAPTCHA test. Appears next to the chess CAPTCHA. CAPTCHAs appear before registering and when posting on the forum.
 
-Not a checkmate=
+Not a checkmate=Appears next to the chess CAPTCHA when you make a wrong move. CAPTCHAs appear before registering and when posting on the forum.
 
-%s plays; checkmate in one move=
+%s plays; checkmate in one move=%s is the side that you are playing. Appears next to the chess CAPTCHA. CAPTCHAs appear before registering and when posting on the forum.
 
-Retry=
+Retry=Clicking this clears the board and lets you try again. Appears as a button when you get a chess CAPTCHA wrong. CAPTCHAs appear before registering and when posting on the forum.
 
-Reconnecting=
+Reconnecting=Informs the player that lichess is in the process of re-establishing a connection. Appears at the top of the page in red colour when lichess loses connection.
 
 Online friends=
 
@@ -422,10 +420,11 @@ List=This is one of the two ways of sorting open games on the "Play" page (http:
 Graph=This is one of the two ways of sorting open games on the "Play" page (http://lichess.org/). Clicking it presents all games you can join on a graph, with x (time) and y (player rating) axes.
 
 All=
+// what in the Sam Hill is this? Searching the source code didn't bring anything up. Could it be part of advanced search?
 
-Less than %s minutes=
+Less than %s minutes=%s is the number of minutes. Ticking this checkbox means that games that last less than 3 minutes will show up in the list of games. The sentence appears in the "Filter games" menu, which can be accessed through the "Play" page (http://lichess.org).
 
-%s to %s minutes=
+%s to %s minutes=%s, in both cases, is the number of minutes. Ticking this checkbox means that games that last certain predefined amounts (e.g. Blitz is 3 to 8 minutes) will show up in the list of games. The sentence appears in the "Filter games" menu, which can be accessed through the "Play" page (http://lichess.org).
 
 Text is too short.=
 
