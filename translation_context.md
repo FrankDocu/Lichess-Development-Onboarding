@@ -10,7 +10,7 @@ To invite someone to play, give this URL=This appears after you have created a g
 
 Game Over=This appears in the right-hand side box when a game ends.
 
-Waiting for opponent=This appears after you have created a public game (through the "Create a game" menu), while you're waiting for an opponent to join it.
+Waiting for opponent=This appears after you have created a public game (through the "Create a game" menu), while you are waiting for an opponent to join it.
 
 Waiting=This appears in the box while you are playing a game, and are waiting for your opponent to make a move or otherwise finish his/her turn.
 
@@ -150,7 +150,7 @@ Forum=Links to http://lichess.org/forum. It is Lichess's webforum, where users c
 
 %s posted in topic %s=The first %s is the player's name and the second %s is the title of the topic in the forum. By "topic" here we mean a discussion, sometimes called a "thread" in this context. This is one of the sentences that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
 
-Players=The title text (what you see when you hover the mouse over) of the "People" link at the top of every page.
+Players=Some have been translating as "[Chess] Players". This is acceptable only if it is one word (e.g. "Szachiści" in Polish). Otherwise, keep just translate to "Players". This appears as one of the links on the navigation bar at the top of every page.  Links to http://lichess.org/people
 
 Minutes per side=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") after you have ticked "Time control". Below it is a slider that lets you select how many minutes each player will have on the clock.
 
@@ -198,7 +198,7 @@ Accept=This is a button that, if clicked, will accept your opponent's offer and 
 
 Decline=This is a button that, if clicked, will reject your opponent's offer. It appears when your opponent sends an offer to something (such as a takeback or ending the game by draw).
 
-Playing right now=This sentence indicates that the game you're looking at is playing right now. Appears on the "Tournaments" page (http://lichess.org/tournament) if any tournaments are currently being played, and also on the pages of individual games.
+Playing right now=This sentence indicates that the game you are looking at is playing right now. Appears on the "Tournaments" page (http://lichess.org/tournament) if any tournaments are currently being played, and also on the pages of individual games.
 
 Finished=This is for tournaments. It means the tournament is over. Appears on individual tournament pages (e.g. http://lichess.org/tournament/67hj23c2) and also on the "Tournaments" page (http://lichess.org/tournament) to denote finished tournaments. Translate as plural; another sentence will be added at some point for individual tournament pages.
 // there should really be two words for this
@@ -237,7 +237,7 @@ Play=Links to http://lichess.org. This is the home page of Lichess. It has a cha
 
 Inbox=This is in the title for the "Inbox" page (http://lichess.org/inbox) that you can go to by clicking the mail link at the top when you are signed in. The translation should match whatever is used for popular email clients such as GMail and Outlook in your language.
 
-Chat room=The chat function for one-to-one chat. A box on the left-hand side on games pages. Appears only in games you're in, not games you are spectating.
+Chat room=The chat function for one-to-one chat. A box on the left-hand side on games pages. Appears only in games you are in, not games you are spectating.
 
 Spectator room=The chat room for spectators. Appears in a box to the left-hand side on analysis pages, as well as games pages while the game is playing. Example: http://lichess.org/vyvcbk8s
 
@@ -301,13 +301,13 @@ Advanced search=
 
 Tournament=
 
-Tournaments=
+Tournaments=Clicking this takes you to a page all about tournaments on lichess, where you can see open, running and finished tournaments, as well as create your own. Appears as one of the links at the top of the navigation bar. Links to http://lichess.org/tournament
 
 Tournament points=The number of points the player has gained in tournament games. Could be translated as "points from tournaments", but please keep it as short as possible. Appears on profile pages. Example: http://lichess.org/@/thibault — Thibault has 40 tournament points as of the time of writing.
 
-View tournament=
+View tournament=Clicking this button takes you to the tournament overview page. Can also be translated to "Watch tournament" (watch being a verb). Appears when you are watching a game that is part of a tournament. This button only appears when watching a tournament game when the tournament is still running.
 
-Free online Chess game. Play Chess now in a clean interface. No registration, no ads, no plugin required. Play Chess with the computer, friends or random opponents.=
+Free online Chess game. Play Chess now in a clean interface. No registration, no ads, no plugin required. Play Chess with the computer, friends or random opponents.=This is what search engines (like Google, Baidu or Yandex) see when Lichess.org appears as a search result. Keep it as short as possible and make Lichess sound good!
 
 Teams=Teams on lichess are groups of people with their own forum boards and chat channels. Appears at the top of every page on lichess.
 
@@ -327,9 +327,9 @@ Leave team=Clicking this button makes you leave the team. Appears on the pages o
 
 Free for all=This is the joining policy of a team that has no application or invitation process; "free for all" means anyone can join it, without an application process of any sort.
 
-A confirmation is required to join=
+A confirmation is required to join=Means that the team leader must confirm every player's application to join the team. Appears as an option on the new team creation page (http://lichess.org/team/new).
 
-Joining policy=This determines how players can join the team: by invitation, by application or without restrictions. Appears on the new team creation page (http://lichess.org/team/new).
+Joining policy=This determines how players can join the team: by application or without restrictions. Appears on the new team creation page (http://lichess.org/team/new).
 
 Team leader=Shows who the leader of the team is (usually its creator). Appears on team pages. Example: http://lichess.org/team/linux — "untitled" is the leader of the team.
 
@@ -379,13 +379,13 @@ Reconnecting=Informs the player that lichess is in the process of re-establishin
 
 Online friends=
 
-No friends online=
+No friends online=Informs you that none of your friends are on lichess right now. Appears when the friends box is raised on the bottom-right hand corner of the page.
 
-Find friends=
+Find friends=Clicking on this takes you to a page that suggests players that could be made friends based on how many times you have played with them. Appears as a button when you hover the mouse cursor over the friends box (when raised) on the bottom-right hand corner of the page, when none of your friends are online. Also appears as a heading on the page with suggested friends. Example: these are Thibault's suggested friends: http://lichess.org/@/thibault/suggestions
 
 Favorite opponents=The players you play most against. Appears in profile pages and leads to a table of favorite opponents. Example http://lichess.org/@/thibault/opponents — this lists Thibault's favorite opponents.
 
-Follow=Clicking this lets you follow the player and find out what they've been up to around lichess through the activity feed. Appears on profile pages and in popups over player names. It is recommended to use the translation for this on Twitter, where the words were taken from in the interests of familiarity. Should be translated as a verb.
+Follow=Clicking this lets you follow the player and find out what they've been up to around lichess through the activity feed. Appears as a title text (what you see when you hover the mouse over) of the thumbs up symbol, which in turn appears on profile pages and player name popups. It is recommended to use the translation for this on Twitter, where the words were taken from in the interests of familiarity. Should be translated as a verb.
 
 Following=Indicates that you are following the player. Replaces the "Follow" button, which appears on profile pages and in popups over player names. It is recommended to use the same translation for this as the one on Twitter, where the words were taken from in the interests of familiarity.
 
@@ -434,7 +434,7 @@ Required.=
 
 Add to Chrome= Links to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg). This button appears only if you are using the Google Chrome web browser, at the footer (bottom) of every page.
 
-Open tournaments="Open" here means you can join the tournament. Below it is a list of tournaments you are able to join. Appears as a heading on http://lichess.org/tournament
+Open tournaments="Open" here means you can join the tournament. Below it is a list of tournaments you are able to join. Appears as a heading on http://lichess.org/tournament and also on the "Play" page (http://lichess.org/)
 
 Duration=Length of the tournament in minutes. Appears on the left-hand side box on the pages of tournaments. Example: http://lichess.org/tournament/67hj23c2
 
