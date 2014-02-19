@@ -182,7 +182,7 @@ Decline invitation=Clicking this refuses the takeback. A "takeback" undoes a mov
 
 Cancel=This is a generic word that appears in a wide variety of places and is used to cancel actions of all sorts. It is recommended to translate it according to whatever your operating system (e.g. Microsoft Windows) uses for your language.
 
-Time out=This is the condition of a game ending by time-out, which is when one player's clock runs out of time. This sentence appears in the list of games in the profile page and in the game screen.
+Time out=This is the condition of a game ending by time-out, which is when one player's clock runs out of time. This sentence appears in the list of games in the profile page and in the game view.
 
 Draw offer sent=Informs that a draw offer has been sent. This is a system message that appears in the chat box.
 
@@ -275,7 +275,7 @@ Premove enabled - Click anywhere to cancel=A premove is when you set up a move b
 
 This player uses chess computer assistance=Appears in a red box on player profiles that have been marked as cheater accounts by the site moderators. An example is http://lichess.org/@/ko1.
 
-Opening=The chess opening used in the game. It appears beneath the move list on the right hand side of games, like so: http://lichess.org/analyse/vyvcbk8s. This appears in the "Replay and analyse" screen.
+Opening=The chess opening used in the game. It appears beneath the move list on the right hand side of games, like so: http://lichess.org/analyse/vyvcbk8s. This appears in the "Replay and analyse" view.
 
 Takeback=This is an action you can take in-game that undoes a move. Clicking it sends an offer to your opponent. Translate freely, but keep it short. For instance, this has been translated to "Cancel move" in several languages.
 
@@ -411,7 +411,7 @@ Member since=Tells how long the player has been a member of lichess. Appears on 
 
 Last sign in=The last time a player signed into this account. Appears on profile pages. Example: http://lichess.org/@/thibault — "Last sign in about 4 hours ago" (as of the time of writing).
 
-Challenge to a game=Clicking this lets you ask the player to play a game with you, and takes you to the set-up screen. Appears on profile pages and popups over player names as a title text (what you see when you hover the mouse over) for the crossed swords symbol. Example. http://lichess.org/@/thibault.
+Challenge to a game=Clicking this lets you ask the player to play a game with you, and takes you to the game set-up view. Appears on profile pages and popups over player names as a title text (what you see when you hover the mouse over) for the crossed swords symbol. Example. http://lichess.org/@/thibault.
 
 Player=
 
@@ -458,33 +458,34 @@ Win streak=The number of games the player won consecutively without losing. Appe
 
 Created by=This appears in a box on the top-left hand corner of tournament pages. The sentence is followed by the name of the player that created it. Example: http://lichess.org/tournament/gwlomxqd — "Created by thibault".
 
-Waiting for %s players=
+Waiting for %s players=%s is the number of players. Indicates that more players are needed to start the tournament. This sentence appears on the pages of tournaments that have not started yet.
 
-Tournament is starting=
+The tournament is starting=Appears as a pop-up when the tournament you have joined is about to start.
 
 %s minutes/side + %s seconds/move=
 
 Members only=
 
-Board editor=
+Board editor=The board editor lets you prepare a chess board and play from the position you set up. Appears as a heading on the editor page, and also as a tab in the "Games" pages. Links to http://lichess.org/editor
 
-Start position=
+Starting position=Clicking this resets the state of the board to the starting position in standard chess. Being a board editor feature, it appears on the board editor's page — http://lichess.org/editor
 
-Clear board=
+Clear board=Clicking this removes all the pieces from the chess board you are setting up. Being a board editor feature, it appears on the board editor's page — http://lichess.org/editor
 
 Save position=
+//unused
 
-Load position=
+Load position=Clicking this opens a form that lets you paste a FEN text (FEN is a notation system used to store precise positions on a board). Being a board editor feature, it appears on the board editor's page — http://lichess.org/editor
 
-Private=
+Private=Means the tournament you're looking at is protected with a password. Appears in the information box on the tournament's page. Example: http://lichess.org/tournament/67hj23c2
 
 Report %s to moderators=%s is the name of the player. Clicking this will take you to a form where you can report the player for things like cheating and trolling. Appears on player profiles.
 
-Profile=
+Profile=Links to your player profile (account). Appears in the drop-down menu for your name at the navigation bar on the top of every page on lichess.
 
-Edit profile=
+Edit profile=Clicking this lets you edit the information about you displayed on your player profile. Appears on your profile page and also as a heading and tab on the preferences configuration pages. Links to http://lichess.org/account/profile
 
-First name=Also known as a "given name", "forename" or "Christian name" in some countries. This sentence appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
+Given name=Also known as a "first name", "forename" or even "Christian name" in some countries. This sentence appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
 
 Last name=Also known as "surname" or "family name". You put in your last name in this field, which will in turn appear on your profile page. This sentence appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
 
@@ -526,4 +527,4 @@ Best slow players=
 
 Beware, the game is rated but has no clock!=
 
-Move times=Time spent on each move by the players. Appears as a tab in the "Replay and analyse" screen, below the chess board. Example: http://lichess.org/6iaj1eh0
+Move times=Time spent on each move by the players. Appears as a tab in the "Replay and analyse" view, below the chess board. Example: http://lichess.org/6iaj1eh0
