@@ -269,7 +269,7 @@ Color=Clicking this opens a menu that allows you to change the colour or texture
 
 Rating range=Below this is a slider that lets you choose the accepted player ratings. The sentence appears in the "Create a game" (http://lichess.org/setup/hook) and "Filter games" menus. Please do NOT translate "rating" to "Elo", because lichess has been using the superior Glicko rating system since late 2013.
 
-Give %s seconds=%s here is the number of seconds, usually 15. This is the title text (the text you see when you hover the mouse over) of the green-white "+" button that appears next to players' names in timed matches. Clicking it adds "%s" seconds to the player's clock.
+Give %s seconds=%s here is the number of seconds, usually 15. This is the title text (the text you see when you hover the mouse over) of the "+" button that appears next to players' names in timed matches. Clicking it adds "%s" seconds to the player's clock.
 
 Premove enabled - Click anywhere to cancel=A premove is when you set up a move before it is your turn to play. You can make one by clicking on your piece and then clicking on a position it could go to. As the sentence suggests, clicking anywhere prevents the premove from being executed. Translate premove to whatever sounds best in your language; for example, this is translated to "pre-selection" in some languages.
 
@@ -383,27 +383,27 @@ No friends online=
 
 Find friends=
 
-Favorite opponents=
+Favorite opponents=The players you play most against. Appears in profile pages and leads to a table of favorite opponents. Example http://lichess.org/@/thibault/opponents — this lists Thibault's favorite opponents.
 
-Follow=
+Follow=Clicking this lets you follow the player and find out what they've been up to around lichess through the activity feed. Appears on profile pages and in popups over player names. It is recommended to use the translation for this on Twitter, where the words were taken from in the interests of familiarity. Should be translated as a verb.
 
-Following=
+Following=Indicates that you are following the player. Replaces the "Follow" button, which appears on profile pages and in popups over player names. It is recommended to use the same translation for this as the one on Twitter, where the words were taken from in the interests of familiarity.
 
-Unfollow=
+Unfollow=Clicking this makes you stop following that player. Appears when you hover the mouse cursor over the "Following" button, after you have followed the player. It is recommended to use the same translation for this as the one on Twitter, where the words were taken from in the interests of familiarity. Should be translated as a verb if possible.
 
-Block=
+Block=Clicking this blocks the user, which prevents you from challenging them to games and talking to them privately, among other things. Appears in profile pages and popups over players' names. Should be translated as a verb.
 
-Blocked=
+Blocked=Indicates that you have blocked the player. Replaces the "Block" button, which appears in profile pages and popups over players' names.
 
-Unblock=
+Unblock=Appears when you hover the mouse cursor over the "Blocked" button, after you have blocked the player. Should be translated as a verb if possible.
 
-Follows you=
+Follows you=Indicates that this player is following you. Appears on the informative popups that appear when you hover the mouse cursor over players' names.
 
 %s started following %s=The two %s's are players' names. The first %s is the name of the follower, and the second %s is the name of the followed. This is one of the sentences that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
 
-%s followers=%s is the number of people that follow this player. Example: http://lichess.org/@/thibault — as of the time of writing, Thibault has 254 people following him.
+%s followers=%s is the number of people that follow this player. Example: http://lichess.org/@/thibault — as of the time of writing, Thibault has 263 people following him.
 
-%s following=%s is the number of players this player is following. Example: http://lichess.org/@/thibault — Thibault is following 75 players as of the time of writing. 
+%s following=%s is the number of players this player is following. Example: http://lichess.org/@/thibault — as of the time of writing, Thibault is following 81 players.
 
 More=
 
@@ -411,7 +411,7 @@ Member since=Tells how long the player has been a member of lichess. Appears on 
 
 Last sign in=The last time a player signed into this account. Appears on profile pages. Example: http://lichess.org/@/thibault — "Last sign in about 4 hours ago" (as of the time of writing).
 
-Challenge to a game=Clicking this lets you ask the player to play a game with you, and takes you to the set-up screen. Appears on profile pages as a title text (what you see when you hover the mouse over) for the King symbol. Example. http://lichess.org/@/thibault.
+Challenge to a game=Clicking this lets you ask the player to play a game with you, and takes you to the set-up screen. Appears on profile pages and popups over player names as a title text (what you see when you hover the mouse over) for the crossed swords symbol. Example. http://lichess.org/@/thibault.
 
 Player=
 
@@ -426,9 +426,9 @@ Less than %s minutes=%s is the number of minutes. Ticking this checkbox means th
 
 %s to %s minutes=%s, in both cases, is the number of minutes. Ticking this checkbox means that games that last certain predefined amounts (e.g. Blitz is 3 to 8 minutes) will show up in the list of games. The sentence appears in the "Filter games" menu, which can be accessed through the "Play" page (http://lichess.org).
 
-Text is too short.=
+Text is too short.=Error message that indicates the text put in the form is too short. Appears in forms around the site of all kinds, including registration and team creation.
 
-Text is too long.=
+Text is too long.=Error message that indicates the text put in the form is too long. Appears in forms around the site of all kinds, including registration and team creation.
 
 Required.=
 
