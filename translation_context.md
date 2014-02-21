@@ -514,31 +514,31 @@ Watch Lichess TV=Clicking this take you to the TV page, where you can watch the 
 
 Previously on Lichess TV=A list of games that were aired on lichess TV before. Appears as a heading to a box below the board on the TV page (http://lichess.org/tv).
 
-Today's leaders=A list of the highest-ranked players. Appears on the "Play" page (http://lichess.org) as a heading to a box that contains a list of the day's leaders. "The best of today" is an acceptable translation if you cannot come up with anything.
+Today's leaders=A list of very highly-ranked players on lichess that have played at least one game today. Appears on the "Play" page (http://lichess.org) as a heading to a box that contains a list of the day's leaders. "The best of today" is an acceptable translation if you cannot come up with anything.
 
 Online players=A list of players that are connected right now. Appears as a heading on http://lichess.org/people
 
-Progress today=
+Progress today=A list of players ordered by the advance in rating (points) they have made over the last 24 hours. Appears on the "Play" page (http://lichess.org) as a heading to a box that contains a list of the day's leaders. Also appears as on the "Players" page (http://lichess.org/people).
 
-Progress this week=
+Progress this week=A list of players ordered by the advance in rating (points) they have made over the last 7 days. Appears as a heading on the "Players" page (http://lichess.org/people).
 
-Progress this month=
+Progress this month=A list of players ordered by the advance in rating (points) they have made over the last 30 days. Appears as a heading on the "Players" page (http://lichess.org/people).
 
-Progress this week=
+Leaders this week=A list of very highly-ranked players that have played at least one game within the last 7 days. Appears as a heading on the "Players" page (http://lichess.org/people).
 
-Progress this month=
+Leaders this month=A list of very highly-ranked players that have played at least one game within the last 30 days. Appears as a heading on the "Players" page (http://lichess.org/people).
 
-Active today=
+Active today=A list of players ordered by how many games they played today. Appears as a heading on the "Players" page (http://lichess.org/people).
 
-Active this week=
+Active this week=A list of players ordered by how many games they have played over the last 7 days. Appears as a heading on the "Players" page (http://lichess.org/people).
 
-Active players=
+Active players=A list of players ordered by how many games they have played over the last 30 days. Appears as a heading on the "Players" page (http://lichess.org/people).
 
-Best bullet players=
+Best bullet players=A list of the best bullet players. "Bullet" refers to games that are less than 3 minutes in length. Appears as a heading on the "Players" page (http://lichess.org/people). The word "bullet" should NOT be translated unless your country's or locale's chess federation has a name for it in your language.
 
-Best blitz players=
+Best blitz players=A list of the best blitz players. "Blitz" refers to games that are 3 to 8 minutes in length. Appears as a heading on the "Players" page (http://lichess.org/people). The word "blitz" should NOT be translated unless your country's or locale's chess federation has a name for it in your language.
 
-Best slow players=
+Best slow players=A list of the best slow players. "Slow" refers to games that are 8 to 20 minutes in length. Appears as a heading on the "Players" page (http://lichess.org/people). The word "slow" should NOT be translated unless your country's or locale's chess federation has a name for it in your language.
 
 Beware, the game is rated but has no clock!=Warning message that appears when you are about to join a game of unlimited time. This is only for games created via the "Play with a friend" menu (http://lichess.org/setup/friend), as creating public rated games with no time control is not allowed.
 
