@@ -128,19 +128,19 @@ Current games=This is a shorter phrase for "Games being played right now". It is
 
 %s Analysed games=%s is the number of games with a complete computer analysis. Links to http://lichess.org/games/analysed. It is a list of any game that has had a computer analysis performed on it.
 
-Bookmarked by %s players=%s is the number of players. This appears above the bookmark star in a game that has been bookmarked. Example here: http://lichess.org/analyse/vyvcbk8s.
+Bookmarked by %s players=%s is the number of players. This appears above the bookmark star in a game that has been bookmarked. Example: http://lichess.org/analyse/vyvcbk8s.
 
 View in full size=The title text (what you see when you hover the mouse over) of the small chess boards dotted around the site. These small boards are most prominent in the "Games" pages (http://lichess.org/games). Clicking one of these small boards brings you to the game's unique page.
 
-Sign out=This is part of the profile dropdown on the top of every page when you are signed in to an account.
+Sign out=Clicking this signs you out of your lichess profile. This is part of the profile drop-down menu on the top of every page when you are signed in to an account.
 
-Sign in=This is a red-coloured button that appears at the top when you are not signed in to an account, or playing anonymously. Please keep it as short as possible.
+Sign in=Clicking takes you to a form that allows you to sign into your lichess profile (account). This is a red-coloured button that appears at the navigation bar at the top when you are not signed in to an account, or playing anonymously. Please keep it as short as possible.
 
 New to Lichess?=It is next to a button that allows you to register an account on the website. The translation should be friendly and inviting; free translations are recommended for this string. This sentence appears on the "Sign in" page.
 
-You need an account to do that=This appears when trying actions or going to pages that require being signed in with a user account.
+You need an account to do that=This error message appears when trying actions or going to pages that require being signed in with a user account.
 
-Register=This is a button on the "Sign in" page that allows you to register an account.
+Register=Allows you to register an account. Appears as a button on the "Sign in" page. It is recommended to translate this word as a verb.
 
 People=Links to http://lichess.org/people. The page contains statistics about the most successful players of Lichess by various measures. "People" is one of the links at the top of every page, so keep it as short as possible
 
@@ -148,7 +148,7 @@ Games=Links to http://lichess.org/games. The page displays games currently being
 
 Forum=Links to http://lichess.org/forum. It is Lichess's webforum, where users can discuss various topics, chess-related or not. These are sometimes called "bulletin boards". "Forum" is one of the links at the top of every page, so keep it as short as possible.
 
-%s posted in topic %s=The first %s is the player's name and the second %s is the title of the topic in the forum. By "topic" here we mean a discussion, sometimes called a "thread" in this context. This is one of the sentences that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s posted in topic %s=The first %s is the player's name and the second %s is the title of the topic in the forum. By "topic" here we mean a discussion, sometimes called a "thread" in this context. This is one of the sentences that appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
 
 Players=Some have been translating as "[Chess] Players". This is acceptable only if it is one word (e.g. "Szachiści" in Polish). Otherwise, keep just translate to "Players". This appears as one of the links on the navigation bar at the top of every page.  Links to http://lichess.org/people
 
@@ -296,10 +296,13 @@ Bookmark this game=The title text (what you see when you hover the mouse over) o
 Toggle background color=The title text (what you see when you hover the mouse over) of the yin and yang symbol at the top of every page. Clicking it toggles the theme between light and dark.
 
 Search=
+// currently unused due to elasticsearch
 
 Advanced search=
+// currently unused due to elasticsearch
 
 Tournament=
+// currently unused; I strongly suggest leaving it in regardless
 
 Tournaments=Clicking this takes you to a page all about tournaments on lichess, where you can see open, running and finished tournaments, as well as create your own. Appears as one of the links at the top of the navigation bar. Links to http://lichess.org/tournament
 
@@ -337,9 +340,9 @@ Best players=This is for teams. It is a listing of the best players in the team.
 
 Recent members=This is for teams. It is a listing of all players in the team sorted by who joined most recently. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon).
 
-%s joined team %s=The first %s is the name of the player, and the second %s is the team the player joined. This is one of the sentences that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) when one of the players you follow joins a team.
+%s joined team %s=The first %s is the name of the player, and the second %s is the team the player joined. This is one of the sentences that appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) when one of the players you follow joins a team.
 
-%s created team %s=The first %s is the name of the player, and the second %s is the team the player created. This is one of the sentences that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) when one of the players you follow creates a new team.
+%s created team %s=The first %s is the name of the player, and the second %s is the team the player created. This is one of the sentences that appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) when one of the players you follow creates a new team.
 
 Average rating=This is the mean average rating of all players in the team. Appears on the information box on team pages. Example: http://lichess.org/team/linux
 
@@ -359,7 +362,9 @@ Paste the FEN string here=This is the placeholder text (greyed-out text that dis
 
 Paste the PGN string here=This is the placeholder text (greyed-out text that disappears when you click)  for importing games stored in PGN files. Appears in the "Import game" menu (http://lichess.org/paste).
 
-From position=
+From position="From position" means the game was started from a board set up in a non-standard way. Typically used to continue games. Appears on the pages of games started from position, as well as games lists on player profiles. Example: http://lichess.org/JHFiNdy2/black
+
+Continue from here=Clicking this lets you continue the game from that position against the AI, or a friend. Appears as a button with two crossed swords on it, just below the board on game pages. Example: http://lichess.org/vyvcbk8s — click on any move, then click the "Continue from here" button.
 
 Import game=This form lets you paste a PGN (Portable Game Notation), which imports the game into lichess. Links to http://lichess.org/paste. Appears as a tab in the "Games" pages.
 
@@ -377,7 +382,7 @@ Retry=Clicking this clears the board and lets you try again. Appears as a button
 
 Reconnecting=Informs the player that lichess is in the process of re-establishing a connection. Appears at the top of the page in red colour when lichess loses connection.
 
-Online friends=
+Online friends=Appears as a heading for the friends box on the bottom-right hand corner of the screen; it is a list of friends that are on lichess right now. Translate simply as "Friends" if no good-sounding equivalent to "Online friends" or "Connected friends" exists in your language.
 
 No friends online=Informs you that none of your friends are on lichess right now. Appears when the friends box is raised on the bottom-right hand corner of the page.
 
@@ -385,7 +390,7 @@ Find friends=Clicking on this takes you to a page that suggests players that cou
 
 Favorite opponents=The players you play most against. Appears in profile pages and leads to a table of favorite opponents. Example http://lichess.org/@/thibault/opponents — this lists Thibault's favorite opponents.
 
-Follow=Clicking this lets you follow the player and find out what they've been up to around lichess through the activity feed. Appears as a title text (what you see when you hover the mouse over) of the thumbs up symbol, which in turn appears on profile pages and player name popups. It is recommended to use the translation for this on Twitter, where the words were taken from in the interests of familiarity. Should be translated as a verb.
+Follow=Clicking this lets you follow the player and find out what they've been up to around lichess through the activity timeline. Appears as a title text (what you see when you hover the mouse over) of the thumbs up symbol, which in turn appears on profile pages and player name popups. It is recommended to use the translation for this on Twitter, where the words were taken from in the interests of familiarity. Should be translated as a verb.
 
 Following=Indicates that you are following the player. Replaces the "Follow" button, which appears on profile pages and in popups over player names. It is recommended to use the same translation for this as the one on Twitter, where the words were taken from in the interests of familiarity.
 
@@ -399,28 +404,25 @@ Unblock=Appears when you hover the mouse cursor over the "Blocked" button, after
 
 Follows you=Indicates that this player is following you. Appears on the informative popups that appear when you hover the mouse cursor over players' names.
 
-%s started following %s=The two %s's are players' names. The first %s is the name of the follower, and the second %s is the name of the followed. This is one of the sentences that appears in the activity feed on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s started following %s=The two %s's are players' names. The first %s is the name of the follower, and the second %s is the name of the followed. This is one of the sentences that appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
 
 %s followers=%s is the number of people that follow this player. Example: http://lichess.org/@/thibault — as of the time of writing, Thibault has 263 people following him.
 
 %s following=%s is the number of players this player is following. Example: http://lichess.org/@/thibault — as of the time of writing, Thibault is following 81 players.
 
-More=
+More=Generic message that lets you view more. Appears on the left-hand side of http://lichess.org/people, which lets you view a list of connected players. Also appears on the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) if there are too many messages in the timeline. "More" may be used in other places around Lichess in the future, so please make your translation as generic as possible.
 
 Member since=Tells how long the player has been a member of lichess. Appears on profile pages. For example, http://lichess.org/@/thibault has been a member since 2010-11-22.
 
 Last sign in=The last time a player signed into this account. Appears on profile pages. Example: http://lichess.org/@/thibault — "Last sign in about 4 hours ago" (as of the time of writing).
 
-Challenge to a game=Clicking this lets you ask the player to play a game with you, and takes you to the game set-up view. Appears on profile pages and popups over player names as a title text (what you see when you hover the mouse over) for the crossed swords symbol. Example. http://lichess.org/@/thibault.
+Challenge to a game=Clicking this lets you ask the player to play a game with you, and takes you to the game set-up view. Appears on profile pages and popups over player names as a title text (what you see when you hover the mouse over) for the crossed swords symbol. Please translate "Challenge" as a verb if possible. Example. http://lichess.org/@/thibault.
 
-Player=
+Player=Clicking on this lets you sort the list of games by player names. Appears as a column heading in the list of open games on the "Play" page (http://lichess.org/).
 
 List=This is one of the two ways of sorting open games on the "Play" page (http://lichess.org/). Clicking it presents all games you can join in a list format.
 
 Graph=This is one of the two ways of sorting open games on the "Play" page (http://lichess.org/). Clicking it presents all games you can join on a graph, with x (time) and y (player rating) axes.
-
-All=
-// what in the Sam Hill is this? Searching the source code didn't bring anything up. Could it be part of advanced search?
 
 Less than %s minutes=%s is the number of minutes. Ticking this checkbox means that games that last less than 3 minutes will show up in the list of games. The sentence appears in the "Filter games" menu, which can be accessed through the "Play" page (http://lichess.org).
 
@@ -430,7 +432,7 @@ Text is too short.=Error message that indicates the text put in the form is too 
 
 Text is too long.=Error message that indicates the text put in the form is too long. Appears in forms around the site of all kinds, including registration and team creation.
 
-Required.=
+Required.=Error message that indicates that some required text fields in the form were not filled in. Appears in forms around the site of all kinds, including registration and team creation.
 
 Add to Chrome= Links to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg). This button appears only if you are using the Google Chrome web browser, at the footer (bottom) of every page.
 
@@ -464,7 +466,7 @@ The tournament is starting=Appears as a pop-up when the tournament you have join
 
 %s minutes/side + %s seconds/move=
 
-Members only=
+Members only=Ticking this checkbox makes the game so only lichess members can join it. Appears in the game creation menu (http://lichess.org/setup/hook).
 
 Board editor=The board editor lets you prepare a chess board and play from the position you set up. Appears as a heading on the editor page, and also as a tab in the "Games" pages. Links to http://lichess.org/editor
 
@@ -473,7 +475,7 @@ Starting position=Clicking this resets the state of the board to the starting po
 Clear board=Clicking this removes all the pieces from the chess board you are setting up. Being a board editor feature, it appears on the board editor's page — http://lichess.org/editor
 
 Save position=
-//unused
+// currently unused
 
 Load position=Clicking this opens a form that lets you paste a FEN text (FEN is a notation system used to store precise positions on a board). Being a board editor feature, it appears on the board editor's page — http://lichess.org/editor
 
