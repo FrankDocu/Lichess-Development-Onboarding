@@ -1,18 +1,30 @@
+// It is recommended to enable _text wrapping_ to read this page.
+
+// The contexts tend to follow a format of first describing what action the string does, or what it informs the player about in other words. It could also be a description of a feature, such as computer analysis or the forum. Afterwards, each page the strings appear on is noted, preferably with a link to the pages for visual confirmation should the translator desire it.
+
+// The content of format specifiers ("%s") is _always_ described at the start of the context, should any exist in the source strings.
+// Recommendations on how to translate the string are generally placed at the end of the translation context. Sometimes, an alternate way to phrase the original English string is placed at the start to ensure the sentence is understood. In rare situations, the functional context of the string is placed first (e.g. "Teams"); this is purely because lichess does not support grouping translatable strings as of yet.
+// Technical words such as "part of the <head>" are to be avoided at all costs. When they do occur, a rigorous description must _always_ be trailing them, since translations are constantly being refined after being completed and even new ones are rarely translated in one go. The most prominent example of this are the lengthy but necessary descriptions of HTML's title attribute ("title text [what you see when ...]" and so on).
+// Contexts are to be kept as short as possible, while maintaining grammatical sense. Therefore, statements such as "This sentence is self-explanatory" have no place in the contexts.
+
+// There is no guideline on what pronoun to use when giving examples, but addressing the translator directly (the second person) is preferred. In synoptical descriptions, passive voice is preferred.
+// Stylistically, the author of this document prefers [WP:MOS](https://en.wikipedia.org/wiki/WP:MOS). This style guide includes insightful guidelines about all aspects of the usage of the English language. For instance, it recommends against the usage of contractions (e.g. "It's" as opposed to "It is"). However, these guidelines are beyond the scope of this document.
+
 Play with a friend=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). This creates a unique URL that you can send to someone and play.
 
 Invite a friend to play with you=The title text (what you see when you hover the mouse over) of the "Play with a friend" button on the "Play" page (http://lichess.org).
 
 Play with the machine=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). Translate "machine" as "[chess] engine" if it sounds better in your language, omitting the word "chess".
 
-Challenge the artificial intelligence=The title text (what you see when you hover the mouse over) of "Play with the machine".
+Challenge the artificial intelligence=The title text (what you see when you hover the mouse over) of "Play with the machine". "Challenge" here is used as a verb.
 
 To invite someone to play, give this URL=This appears after you have created a game for a friend (through the "Play with a friend" menu). Feel free to translate "URL" as "address", or whatever is most familiar in your language.
 
 Game Over=This appears in the right-hand side box when a game ends.
 
-Waiting for opponent=This appears after you have created a public game (through the "Create a game" menu), while you are waiting for an opponent to join it.
+Waiting for opponent=Indicates you are waiting for an opponent to join your game. This appears after you have created a public game (through the "Create a game" menu).
 
-Waiting=This appears in the box while you are playing a game, and are waiting for your opponent to make a move or otherwise finish his/her turn.
+Waiting=This appears in the right-hand side box while you are playing a game, and are waiting for your opponent to make a move and finish his/her turn.
 
 Your turn=This appears in the box while you are playing a game. It indicates it is your turn to play.
 
@@ -20,11 +32,11 @@ Your turn=This appears in the box while you are playing a game. It indicates it 
 
 Level=This appears in the "Play with the machine" menu (http://lichess.org/setup/ai) as a heading. Below it are skill levels (1 through 8) of the AI that you can play against.
 
-Toggle the chat=This is the checkbox on the top-right of the chat box. It turns the chat room on or off.
+Toggle the chat=Turns the chat room (or player chat) on or off. This is the title text (what you see when you hover the mouse over) of the checkbox on the top-right of the chat box.
 
-Toggle sound=This is a button on the top-right hand corner of the screen. It turns sound on or off. If you use the Internet Explorer browser, you may not be able to see this.
+Toggle sound=Clicking this turns sound on or off. This is a button on the top-right hand corner of the screen. If you use the Internet Explorer browser, you may not be able to see this.
 
-Resign=Small button in the box on the right while playing a game. It is an action button that makes you resign from the game.
+Resign=Clicking this makes you resign from the game. Small button in the box on the right while playing a game.
 
 Checkmate=Appears in the box of a game if you end a game by checkmate.
 
@@ -34,21 +46,21 @@ White=The title text (what you see when you hover the mouse over) of the White K
 
 Black=The title text (what you see when you hover the mouse over) of the Black King button in the "Create a game" menu (http://lichess.org/setup/hook).
 
-Random color=The title text (what you see when you hover the mouse over) of the large button in the "Create a game" menu that makes Lichess randomly pick a color for you (http://lichess.org/setup/hook).
+Random color=Makes Lichess randomly pick a side for you. The title text (what you see when you hover the mouse over) of the large button in the "Create a game" menu (http://lichess.org/setup/hook).
 
-Create a game=This button opens a menu that lets you create a game that is listed in the list (or graph) of open games. It is one of the 3 rectangular buttons on the "Play" page (http://lichess.org/).
+Create a game=This button opens a menu (http://lichess.org/setup/hook) that lets you create a game that is listed in the list (or graph) of open games. It is one of the 3 rectangular buttons on the "Play" page (http://lichess.org/).
 
-White is victorious=This appears in the top left box of a game, and also the player profile, when the white player wins the game.
+White is victorious=Indicates the white player won the game. This appears in the top left box of a game, and also the player profile.
 
-Black is victorious=This appears in the top left box of a game, and also the player profile, when the black player wins the game.
+Black is victorious=Indicates the black player won the game. This appears in the top left box of a game, and also the player profile.
 
 Play with the same opponent again=The title text (what you see when you hover the mouse over) of "Rematch", a button that appears for players (not spectators) at the end of a game if they wish to play again.
 
 New opponent=Clicking this takes you back to the "Play" page (http://lichess.org). This is a button that appears at the end of a game just below the "Rematch" button.
 
-Play with another opponent=Clicking it takes you back to the "Play" page (http://lichess.org). This is one of the two buttons that appear when your opponent offers you a rematch.
+Play with another opponent=Clicking this takes you back to the "Play" page (http://lichess.org). This is one of the two buttons that appear when your opponent offers you a rematch.
 
-Your opponent wants to play a new game with you=This text appears when your opponent offers you a rematch.
+Your opponent wants to play a new game with you=This sentence appears when your opponent offers you a rematch.
 
 Join the game=Clicking this lets you join a new game against the same opponent. This is one of the two buttons that appear when your opponent offers you a rematch.
 
@@ -58,11 +70,11 @@ Black plays=This is what a spectator sees in the right-hand box when watching a 
 
 The other player may have left the game. You can claim victory, call the game a draw, or wait.=This appears after 3 minutes have elapsed with one player disconnected. Below it are two buttons: "Claim victory" and "Call draw".
 
-Make your opponent resign=The title text (what you see when you hover the mouse over) of "Claim victory". You don't have to translate it like this; you can translate to e.g. "Force victory", or whatever best explains the button in your language.
+Make your opponent resign=The title text (what you see when you hover the mouse over) of "Claim victory". You don't have to translate it like this; you can translate to e.g. "Force victory", or whatever best explains the button in your language. Title texts can be as long as you want, within reason.
 
-Claim victory=One of the two buttons that appears when your opponent leaves the game. Clicking this ends the game and grants you the win.
+Claim victory=Clicking this ends the game and grants you the win. One of the two buttons that appears when your opponent leaves the game.
 
-Call draw=One of the two buttons that appears when your opponent leaves the game. Clicking this draws the game. It's considered the more "chivalrous" option of the two.
+Call draw=Clicking this draws the game. It is considered the more "chivalrous" option of the two. One of the two buttons that appears when your opponent leaves the game.
 
 Talk in chat=This is the placeholder text (greyed-out text that disappears when you click) in the input box for the chat. Keep it as short as possible.
 
@@ -92,25 +104,26 @@ Computer analysis=An automated analysis of a game performed by lichess. It provi
 
 Computer analysis in progress=This is the text in a new box that comes up once you have requested a computer analysis of a chess game.
 
-The computer analysis has failed=This is an error message that appears when the computer analysis can't be displayed for some reason. It appears the "Computer analysis" tab
+The computer analysis has failed=This is an error message that appears when the computer analysis can't be displayed for some reason. It appears the "Computer analysis" tab.
 
 View the computer analysis=Clicking this button takes you to the computer analysis. The sentence appears only for the player that requested it, in the "Computer analysis" tab.
 
 Request a computer analysis=Clicking this puts the game in the queue for computer analysis, which is usually completed within a minute. This is one of the actions below the board in the "Replay and analyse" view.
 
-Blunders=If no equivalent word exists, translate to "Serious mistakes". This is one of the categories of problems discovered by the computer analysis.
+Blunders=This is one of the categories of problems discovered by the computer analysis. If no equivalent word exists, translate to "Serious mistakes".
 
 Mistakes=This is one of the categories of problems discovered by the computer analysis. Appears on the right hand side of pages with analyzed games. Example: http://lichess.org/vyvcbk8s
 
-Inaccuracies=This is one of the categories of problems discovered by the computer analysis.
+Inaccuracies=The most minor of errors a player can make. This is one of the categories of problems discovered by the computer analysis.
 
 Flip board=Clicking this flips the board upside-down. This sentence is one of the links in the box normally below the board.
+// this functionality may be added to games while that are in play
 
 Threefold repetition=This is one of the conditions by which a game ends. It appears on the box on the right-hand side of the screen. It also appears in player profiles. Please use the official term used by your country's or locale's chess federation or club.
 
-Claim a draw=This a button that appears to players when threefold repetition occurs.
+Claim a draw=Clicking this draws the game. This a button that appears to players when threefold repetition occurs.
 
-Offer draw=This is a small button in the right-hand side box that offers ending the game by draw to your opponent.
+Offer draw=Clicking this send an offer to draw the game to your opponent. This is a small button in the right-hand side box.
 
 Draw=This appears in various places, including players' profiles and the right-hand side boxes in individual games. It should be translated as a noun, NOT as a verb.
 
@@ -128,35 +141,34 @@ Current games=This is a shorter phrase for "Games being played right now". It is
 
 %s Analysed games=%s is the number of games with a complete computer analysis. Links to http://lichess.org/games/analysed. It is a list of any game that has had a computer analysis performed on it.
 
-Bookmarked by %s players=%s is the number of players. This appears above the bookmark star in a game that has been bookmarked. Example: http://lichess.org/analyse/vyvcbk8s.
+Bookmarked by %s players=%s is the number of players. This appears above the bookmark star in a game that has been bookmarked. Example: http://lichess.org/analyse/vyvcbk8s
 
-View in full size=The title text (what you see when you hover the mouse over) of the small chess boards dotted around the site. These small boards are most prominent in the "Games" pages (http://lichess.org/games). Clicking one of these small boards brings you to the game's unique page.
+View in full size=Clicking one of these small boards brings you to the game's unique page. This is the title text (what you see when you hover the mouse over) of the small chess boards dotted around the site. These small boards are most prominent in the "Games" pages (http://lichess.org/games).
 
 Sign out=Clicking this signs you out of your lichess profile. This is part of the profile drop-down menu on the top of every page when you are signed in to an account.
 
 Sign in=Clicking takes you to a form that allows you to sign into your lichess profile (account). This is a red-coloured button that appears at the navigation bar at the top when you are not signed in to an account, or playing anonymously. Please keep it as short as possible.
 
-New to Lichess?=It is next to a button that allows you to register an account on the website. The translation should be friendly and inviting; free translations are recommended for this string. This sentence appears on the "Sign in" page.
+New to Lichess?=It is next to a button that allows you to register an account on the website. The translation should be friendly and inviting; free/loose translations are recommended for this string. This sentence appears on the "Sign in" page.
 
 You need an account to do that=This error message appears when trying actions or going to pages that require being signed in with a user account.
 
-Register=Allows you to register an account. Appears as a button on the "Sign in" page. It is recommended to translate this word as a verb.
+Register=Clicking this allows you to register an account. Appears as a button on the "Sign in" page. It is recommended to translate this word as a verb.
+// will soon appear on the training page (for anonymous players), too
 
-People=Links to http://lichess.org/people. The page contains statistics about the most successful players of Lichess by various measures. "People" is one of the links at the top of every page, so keep it as short as possible
+Games=The page displays games currently being played and has links to various other tools on the site to find out about past games on lichess, such as a search engine that queries the database of games. "Games" is one of the links at the top of every page, so keep it as short as possible. Links to http://lichess.org/games
 
-Games=Links to http://lichess.org/games. The page displays games currently being played and has links to various other tools on the site to find out about past games on lichess, such as a search engine that queries the database of games. "Games" is one of the links at the top of every page, so keep it as short as possible.
-
-Forum=Links to http://lichess.org/forum. It is Lichess's webforum, where users can discuss various topics, chess-related or not. These are sometimes called "bulletin boards". "Forum" is one of the links at the top of every page, so keep it as short as possible.
+Forum=It is Lichess's webforum, where users can discuss various topics, chess-related or not. These are sometimes called "bulletin boards". "Forum" is one of the links at the top of every page, so keep it as short as possible. Links to http://lichess.org/forum
 
 %s posted in topic %s=The first %s is the player's name and the second %s is the title of the topic in the forum. By "topic" here we mean a discussion, sometimes called a "thread" in this context. This is one of the sentences that appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
 
 Players=Some have been translating as "[Chess] Players". This is acceptable only if it is one word (e.g. "Szachiści" in Polish). Otherwise, keep just translate to "Players". This appears as one of the links on the navigation bar at the top of every page.  Links to http://lichess.org/people
 
-Minutes per side=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") after you have ticked "Time control". Below it is a slider that lets you select how many minutes each player will have on the clock.
+Minutes per side=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") after you have ticked "Time control". Below it is a slider that lets you select how many minutes each player will have on their chess clock.
 
 Variant=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). Below it is a selection of variants the player can choose from. Currently only Standard chess and Chess960 are supported.
 
-Time control=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). It also appears in player profiles next to games that have time controls implemented. This sentence is a heading to time controls for the game. Next to it is a checkbox. Ticking the box allows for time controls to be implemented in the game. If the box is left unticked, the game is one of unlimited time.
+Time control=Ticking this checkbox allows for time controls to be implemented in the game. If the box is left unticked, the game is one of unlimited time. This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). It also appears in player profiles next to games that have time controls implemented. This sentence is a heading to time controls for the game.
 
 Time=This appears in the table of games you can join on the "Play" page (http://lichess.org/).
 
@@ -194,9 +206,9 @@ Draw offer canceled= Informs that the player that sent the draw offer canceled i
 
 Your opponent offers a draw=This sentence appears in the right-hand side box while playing a game after your opponent offers you a draw.
 
-Accept=This is a button that, if clicked, will accept your opponent's offer and let the action the oppoent requested happen. It appears when your opponent sends an offer to something (such as a takeback or ending the game by draw).
+Accept=Clicking this will accept your opponent's offer and let the action the opponent requested happen. A generic word that appears as a button when your opponent sends an offer to do something (such as a takeback or ending the game by draw). Please translate as a verb if possible.
 
-Decline=This is a button that, if clicked, will reject your opponent's offer. It appears when your opponent sends an offer to something (such as a takeback or ending the game by draw).
+Decline=Clicking this will reject your opponent's offer. A generic word that appears as a button when your opponent sends an offer to do something (such as a takeback or ending the game by draw). Please translate as a verb if possible.
 
 Playing right now=This sentence indicates that the game you are looking at is playing right now. Appears on the "Tournaments" page (http://lichess.org/tournament) if any tournaments are currently being played, and also on the pages of individual games.
 
@@ -277,7 +289,7 @@ This player uses chess computer assistance=Appears in a red box on player profil
 
 Opening=The chess opening used in the game. It appears beneath the move list on the right hand side of games, like so: http://lichess.org/analyse/vyvcbk8s. This appears in the "Replay and analyse" view.
 
-Takeback=This is an action you can take in-game that undoes a move. Clicking it sends an offer to your opponent. Translate freely, but keep it short. For instance, this has been translated to "Cancel move" in several languages.
+Takeback=This is an action you can take in-game that undoes a move. Clicking it sends an offer to your opponent. Appears in the box on right right-hand side. Translate freely, but keep it short. For instance, this has been translated to "Cancel move" in several languages.
 
 Propose a takeback=The title text (what you see when you hover the mouse over) of "Takeback".
 
