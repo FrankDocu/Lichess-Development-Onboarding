@@ -4,8 +4,9 @@
 
 // The content of format specifiers ("%s") is _always_ described at the start of the context, should any exist in the source strings.
 // Recommendations on how to translate the string are generally placed at the end of the translation context. Sometimes, an alternate way to phrase the original English string is placed at the start to ensure the sentence is understood. In rare situations, the functional context of the string is placed first (e.g. "Teams"); this is purely because lichess does not support grouping translatable strings as of yet.
-// Technical words such as "part of the <head>" are to be avoided at all costs. When they do occur, a rigorous description must _always_ be trailing them, since translations are constantly being refined after being completed and even new ones are rarely translated in one go. The most prominent example of this are the lengthy but necessary descriptions of HTML's title attribute ("title text [what you see when ...]" and so on).
+// Technical words such as "part of the <head>" are to be avoided at all costs. When they do occur, a rigorous description must _always_ be trailing them, since translations are constantly being refined after being completed and even new ones are rarely translated in one go. The most prominent example of this are the lengthy but necessary descriptions of HTML's title attribute ("title text [what you see when ...]" and so on). Even home page is too technical (requires knowledge of common internet conventions) for the purposes of the project, as it is called "Play" on lichess.
 // Contexts are to be kept as short as possible, while maintaining grammatical sense. Therefore, statements such as "This sentence is self-explanatory" have no place in the contexts.
+// Contexts (as well as source strings) must have a strong sense of internal consistency, e.g. you should use "signed in" instead of "logged in" or "connected", if your button for accessing a user account says "Sign in" on it.
 
 // There is no guideline on what pronoun to use when giving examples, but addressing the translator directly (the second person) is preferred. In synoptical descriptions, passive voice is preferred.
 // Stylistically, the author of this document prefers [WP:MOS](https://en.wikipedia.org/wiki/WP:MOS). This style guide includes insightful guidelines about all aspects of the usage of the English language. For instance, it recommends against the usage of contractions (e.g. "It's" as opposed to "It is"). However, these guidelines are beyond the scope of this document.
@@ -507,15 +508,15 @@ Biography=This is next to a text field wherein you can put anything you wish. Fo
 
 Country=This is a field for the country you are located at. Appears on player profiles (example: http://lichess.org/@/thibault). The sentence appears in the "Edit profile" menu (http://lichess.org/account/profile).
 
-Preferences=
+Preferences=Lets you configure lichess so it responds the way you prefer. Appears in the profile drop-down menu at the top of all pages when signed in. Links to http://lichess.org/account/preferences
 
-Watch Lichess TV=
+Watch Lichess TV=Clicking this take you to the TV page, where you can watch the current game being aired on lichess TV. Appears on the "Play" page (http://lichess.org/) below the miniboard showing the current TV game, as well as appearing as a tab on the "Games" pages (http://lichess.org/games). Links to http://lichess.org/tv — the TV page. Please keep this string as short as possible.
 
-Previously on Lichess TV=
+Previously on Lichess TV=A list of games that were aired on lichess TV before. Appears as a heading to a box below the board on the TV page (http://lichess.org/tv).
 
-Today's leaders=
+Today's leaders=A list of the highest-ranked players. Appears on the "Play" page (http://lichess.org) as a heading to a box that contains a list of the day's leaders. "The best of today" is an acceptable translation if you cannot come up with anything.
 
-Online players=
+Online players=A list of players that are connected right now. Appears as a heading on http://lichess.org/people
 
 Progress today=
 
@@ -539,6 +540,6 @@ Best blitz players=
 
 Best slow players=
 
-Beware, the game is rated but has no clock!=
+Beware, the game is rated but has no clock!=Warning message that appears when you are about to join a game of unlimited time. This is only for games created via the "Play with a friend" menu (http://lichess.org/setup/friend), as creating public rated games with no time control is not allowed.
 
 Move times=Time spent on each move by the players. Appears as a tab in the "Replay and analyse" view, below the chess board. Example: http://lichess.org/6iaj1eh0
