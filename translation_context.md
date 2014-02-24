@@ -544,3 +544,59 @@ Best slow players=A list of the best slow players. "Slow" refers to games that a
 Beware, the game is rated but has no clock!=Warning message that appears when you are about to join a game of unlimited time. This is only for games created via the "Play with a friend" menu (http://lichess.org/setup/friend), as creating public rated games with no time control is not allowed.
 
 Move times=Time spent on each move by the players. Appears as a tab in the "Replay and analyse" view, below the chess board. Example: http://lichess.org/6iaj1eh0
+
+Training=
+
+Your puzzle rating: %s=
+
+Find the best move for %s.=
+
+To track your progress:=
+
+Lichess will provide puzzles that match your ability, making for better training sessions.=
+
+Recently played puzzles=
+
+Puzzle %s=
+
+Good move=
+
+But you can do better.=
+
+Best move!=
+
+Keep going…=
+
+Puzzle failed=
+
+But you can keep trying.=
+
+Victory!=
+
+Give up=
+
+Puzzle solved in %s seconds.=
+
+Was this puzzle any good?=
+
+Help lichess improve by voting, using the up or down arrow:=
+
+Thank you!=
+
+Rating: %s=
+
+Played %s times=
+
+Win rate: %s=
+
+From game %s=
+
+Start training=
+
+Continue training=
+
+Retry this puzzle=
+
+This puzzle is correct and interesting=
+
+This puzzle is wrong or boring=
