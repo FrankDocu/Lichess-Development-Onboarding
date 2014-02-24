@@ -163,6 +163,8 @@ Forum=It is Lichess's webforum, where users can discuss various topics, chess-re
 
 %s posted in topic %s=The first %s is the player's name and the second %s is the title of the topic in the forum. By "topic" here we mean a discussion, sometimes called a "thread" in this context. This is one of the sentences that appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
 
+Latest forum posts=A list of the most recent posts on the forum. Appears as a heading to a box near the bottom of the "Play" page (http://lichess.org/).
+
 Players=Some have been translating as "[Chess] Players". This is acceptable only if it is one word (e.g. "Szachiści" in Polish). Otherwise, keep just translate to "Players". This appears as one of the links on the navigation bar at the top of every page.  Links to http://lichess.org/people
 
 Minutes per side=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") after you have ticked "Time control". Below it is a slider that lets you select how many minutes each player will have on their chess clock.
