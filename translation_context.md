@@ -118,7 +118,6 @@ Mistakes=This is one of the categories of problems discovered by the computer an
 Inaccuracies=The most minor of errors a player can make. This is one of the categories of problems discovered by the computer analysis.
 
 Flip board=Clicking this flips the board upside-down. This sentence is one of the links in the box normally below the board.
-// this functionality may be added to games while that are in play
 
 Threefold repetition=This is one of the conditions by which a game ends. It appears on the box on the right-hand side of the screen. It also appears in player profiles. Please use the official term used by your country's or locale's chess federation or club.
 
