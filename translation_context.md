@@ -153,8 +153,7 @@ New to Lichess?=It is next to a button that allows you to register an account on
 
 You need an account to do that=This error message appears when trying actions or going to pages that require being signed in with a user account.
 
-Register=Clicking this allows you to register an account. Appears as a button on the "Sign in" page. It is recommended to translate this word as a verb.
-// will soon appear on the training page (for anonymous players), too
+Register=Clicking this allows you to register an account. Appears as a button on the "Sign in" page and the "Training" page (http://lichess.org/training) when playing unregistered (encouraging the player to register an account with Lichess). It is recommended to translate this word as a verb.
 
 Games=The page displays games currently being played and has links to various other tools on the site to find out about past games on lichess, such as a search engine that queries the database of games. "Games" is one of the links at the top of every page, so keep it as short as possible. Links to http://lichess.org/games
 
@@ -551,11 +550,11 @@ Your puzzle rating: %s=%s is your numerical puzzle rating. Appears on the left-h
 
 Find the best move for %s.=%s here is the side (white or black). Informs the player what side they are playing. Appears on the left-hand side when trying puzzles while not logged in, on the "Training" page (http://lichess.org/training).
 
-To track your progress:=
+To track your progress:=Encourages the player to register. Below this message is a "Register" button. Appears on the "Training" page (http://lichess.org/training).
 
-Lichess will provide puzzles that match your ability, making for better training sessions.=
+Lichess will provide puzzles that match your ability, making for better training sessions.=Encourages the player to register an account to enjoy Lichess's "Training" feature more. Appears below the "Register" button when doing chess puzzles without being logged in, on the "Training" page (http://lichess.org/training).
 
-Recently played puzzles=
+Recently played puzzles=A list of your last-played puzzles. Appears as a heading below the board on the "Training" page (http://lichess.org/training).
 
 Puzzle %s=%s is the number of the puzzle. This means the way it appears on the site will be something like "Puzzle 5705". Appears on the "Training" page (http://lichess.org/training).
 
