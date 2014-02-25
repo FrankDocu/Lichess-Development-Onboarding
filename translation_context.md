@@ -546,13 +546,13 @@ Move times=Time spent on each move by the players. Appears as a tab in the "Repl
 
 Training=A page that offers chess puzzles. These help you improve how you play chess. Could also be translated as "Practise" (verb) or a similar word. This appears as one of the links on the navigation bar at the top of every page, so it should be kept as short as possible. Links to http://lichess.org/training
 
-Your puzzle rating: %s=%s is your numerical puzzle rating. Appears on the left-hand side of the "Training" page (http://lichess.org/training), above the graph.
+Your puzzle rating: %s=%s is your numerical puzzle rating. Appears in a box left of the board on the "Training" page (http://lichess.org/training), above the graph.
 
-Find the best move for %s.=%s here is the side (white or black). Informs the player what side they are playing. Appears on the left-hand side when trying puzzles while not logged in, on the "Training" page (http://lichess.org/training).
+Find the best move for %s.=%s here is the side (white or black). Informs the player what side they are playing. Appears on the left-hand side when trying puzzles while not signed in, on the "Training" page (http://lichess.org/training).
 
-To track your progress:=Encourages the player to register. Below this message is a "Register" button. Appears on the "Training" page (http://lichess.org/training).
+To track your progress:=Encourages the player to register. Below this message is a "Register" button. Appears in a box left of the board on the "Training" page (http://lichess.org/training) when trying puzzles and not being signed in.
 
-Lichess will provide puzzles that match your ability, making for better training sessions.=Encourages the player to register an account to enjoy Lichess's "Training" feature more. Appears below the "Register" button when doing chess puzzles without being logged in, on the "Training" page (http://lichess.org/training).
+Lichess will provide puzzles that match your ability, making for better training sessions.=Encourages the player to register an account to enjoy Lichess's "Training" feature more. Appears below the "Register" button when doing chess puzzles without being logged in, in a box left of the board on the "Training" page (http://lichess.org/training).
 
 Recently played puzzles=A list of your last-played puzzles. Appears as a heading below the board on the "Training" page (http://lichess.org/training).
 
@@ -560,25 +560,25 @@ Puzzle %s=%s is the number of the puzzle. This means the way it appears on the s
 
 Good move=Informs the player that they played a good move, but not the best they could make. Appears in a green box on the left-hand side of the "Training" page (http://lichess.org/training), in reference to the chess puzzle you are currently playing. Keep your translation short, as a longer sentence (also translatable) just below this one informs them it is not the best move they could play.
 
-But you can do better.=Informs you that your move was good, but not the best move possible. "But there is a better move" is an alternate way to translate this. Appears in a green box on the left-hand side of the "Training" page (http://lichess.org/), just below the "Good move" sentence. It is used in reference to the chess puzzle you are currently playing.
+But you can do better.=Informs you that your move was good, but not the best move possible. "But there is a better move" is an alternate way to translate this. Appears in a green box left of the board on the "Training" page (http://lichess.org/), just below the "Good move" sentence. It is used in reference to the chess puzzle you are currently playing.
 
 Best move!=Informs the player that the move they just played is the best they could possibly play. Appears in a green box on the left-hand side "Training" page (http://lichess.org/training) while playing a puzzle.
 
-Keep going…=Informs you that the puzzle is not yet finished. Appears just below "Best move!" on the in a green box left-hand side of the Training page (http://lichess.org/training), after you made the best possible move.
+Keep going…=Informs you that the puzzle is not yet finished. Appears just below "Best move!" in a green box on the left of the board on the Training page (http://lichess.org/training), after you have made the best possible move.
 
-Puzzle failed=
+Puzzle failed=Informs you that you failed at the puzzle. Appears in a red box left of the board on the Training page (http://lichess.org/training) when you fail the puzzle.
 
-But you can keep trying.=
+But you can keep trying.=Informs you that the fact you failed the puzzle (again) does not mean you have given up. Appears in a red box left of the board on the Training page (http://lichess.org/training) when you are retrying a puzzle you have already failed… and fail it again.
 
-Victory!=
+Victory!=Informs the player that they completed the puzzle successfully. Appears in a green box left of the board on the "Training" page (http://lichess.org/training) when you beat a puzzle.
 
-Give up=
+Give up=Clicking this lets you go to the next puzzle and to the replay screen. It counts as failing the puzzle. Appears as a button in the box on the right of the board on the "Training" page (http://lichess.org/training) while you are playing the puzzle.
 
-Puzzle solved in %s seconds.=
+Puzzle solved in %s seconds.=%s is the number of seconds it took you to solve the chess puzzle. Appears in the box right of the board on the "Training" page (http://lichess.org/training).
 
-Was this puzzle any good?=
+Was this puzzle any good?=Poses a question to the user on whether the chess puzzle they just played was good or not. This is intended to entice players to vote, so please be encouraging in tone. This message appears occasionally on the "Training" page (http://lichess.org/training), after a player has played several puzzles without voting.
 
-Help lichess improve by voting, using the up or down arrow:=
+Help lichess improve by voting, using the up or down arrow:=Inform the player why they should vote, and how to vote. Appears above a box with two buttons that you can use to vote on whether the puzzle was good or bad. This message appears occasionally on the "Training" page (http://lichess.org/training), after a player has played several puzzles without voting.
 
 Thank you!=Politely thanks the players for voting. Appears on the "Training" page (http://lichess.org/training) after voting for a puzzle. Please use the polite version of "Thank you" in your language.
 
@@ -586,16 +586,16 @@ Rating: %s=%s is the numerical rating and rating deviation for the puzzle. This 
 
 Played %s times=%s is the number of times this puzzle has been played. Appears in the box on the right-hand side the "Training" page (http://lichess.org/training/) after you have succeeded at or failed the puzzle.
 
-Win rate: %s=%s is the percentage rate at which this puzzle was won. Appears in the box on the right-hand side on the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
+Win rate: %s=%s is the percentage rate at which this puzzle was won. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
 
-From game %s=
+From game %s=%s is the name of the game. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
 
-Start training=
+Start training=Clicking this takes you to a new puzzle. Only happens for links to individual puzzles, e.g. http://lichess.org/training/6958. Appears as a button underneath the box on the right hand side after you have succeeded or failed at the puzzle. "Training" should be translated as a verb, or as "[the process of] training" for this sentence.
 
-Continue training=
+Continue training=Clicking this takes you to a new puzzle. Appears as a button underneath the box on the right hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle. "Training" should be translated as a verb, or as "[the process of] training" for this sentence.
 
-Retry this puzzle=
+Retry this puzzle=Clicking this lets you try the same the puzzle again. Appears just below the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have failed the puzzle.
 
-This puzzle is correct and interesting=
+This puzzle is correct and interesting=The title text (what you see when you hover the mouse over) of the upwards-pointing triangle, which is a positive vote for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
 
-This puzzle is wrong or boring=
+This puzzle is wrong or boring=The title text (what you see when you hover the mouse over) of the downwards-pointing triangle, which is a negative vote for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle. 
