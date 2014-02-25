@@ -554,7 +554,7 @@ To track your progress:=Encourages the player to register. Below this message is
 
 Lichess will provide puzzles that match your ability, making for better training sessions.=Encourages the player to register an account to enjoy Lichess's "Training" feature more. Appears below the "Register" button when doing chess puzzles without being logged in, in a box left of the board on the "Training" page (http://lichess.org/training).
 
-Recently played puzzles=A list of your last-played puzzles. Appears as a heading below the board on the "Training" page (http://lichess.org/training).
+Recently played puzzles=A list of your last-played puzzles. Appears as a heading below the board on the "Training" page (http://lichess.org/training). Do NOT translate "played" as "finished", because that implies success at the puzzles, which is not always the case.
 
 Puzzle %s=%s is the number of the puzzle. This means the way it appears on the site will be something like "Puzzle 5705". Appears on the "Training" page (http://lichess.org/training).
 
@@ -566,19 +566,19 @@ Best move!=Informs the player that the move they just played is the best they co
 
 Keep going…=Informs you that the puzzle is not yet finished. Appears just below "Best move!" in a green box on the left of the board on the Training page (http://lichess.org/training), after you have made the best possible move.
 
-Puzzle failed=Informs you that you failed at the puzzle. Appears in a red box left of the board on the Training page (http://lichess.org/training) when you fail the puzzle.
+Puzzle failed=Informs you that you lost the puzzle. Appears in a red box left of the board on the Training page (http://lichess.org/training) when you fail the puzzle by making a wrong move. Could also be translated as "You have failed the puzzle", if it is short enough and sounds better. 
 
 But you can keep trying.=Informs you that the fact you failed the puzzle (again) does not mean you have given up. Appears in a red box left of the board on the Training page (http://lichess.org/training) when you are retrying a puzzle you have already failed… and fail it again.
 
-Victory!=Informs the player that they completed the puzzle successfully. Appears in a green box left of the board on the "Training" page (http://lichess.org/training) when you beat a puzzle.
+Victory!=Informs the player that they completed the puzzle successfully. Appears in a green box left of the board on the "Training" page (http://lichess.org/training) when you beat a puzzle. Can also be translated as "Success!", but we found "Victory!" to sound more romantic/heroic.
 
 Give up=Clicking this lets you go to the next puzzle and to the replay screen. It counts as failing the puzzle. Appears as a button in the box on the right of the board on the "Training" page (http://lichess.org/training) while you are playing the puzzle.
 
-Puzzle solved in %s seconds.=%s is the number of seconds it took you to solve the chess puzzle. Appears in the box right of the board on the "Training" page (http://lichess.org/training).
+Puzzle solved in %s seconds.=%s is the number of seconds it took you to solve the chess puzzle. Appears in the box right of the board on the "Training" page (http://lichess.org/training). You can address the player directly here, so something like "You solved the puzzle in %s seconds" is acceptable if it is kept short enough.
 
-Was this puzzle any good?=Poses a question to the user on whether the chess puzzle they just played was good or not. This is intended to entice players to vote, so please be encouraging in tone. This message appears occasionally on the "Training" page (http://lichess.org/training), after a player has played several puzzles without voting.
+Was this puzzle any good?=Poses a question to the user on whether the chess puzzle they just played was good or not. This is intended to entice players to vote, so please be encouraging in tone. This message appears occasionally on the "Training" page (http://lichess.org/training), after a player has played several puzzles without voting. An alternate way to phrase this sentence could be "How did you find this puzzle?".
 
-Help lichess improve by voting, using the up or down arrow:=Inform the player why they should vote, and how to vote. Appears above a box with two buttons that you can use to vote on whether the puzzle was good or bad. This message appears occasionally on the "Training" page (http://lichess.org/training), after a player has played several puzzles without voting.
+Help lichess improve by voting, using the up or down arrow:=Inform the player why they should vote, and how to vote. Appears above a box with two buttons that you can use to vote on whether the puzzle was good or bad. This message appears occasionally on the "Training" page (http://lichess.org/training), after a player has played several puzzles without voting. You can phrase the first part as "Improve lichess by voting", if that helps.
 
 Thank you!=Politely thanks the players for voting. Appears on the "Training" page (http://lichess.org/training) after voting for a puzzle. Please use the polite version of "Thank you" in your language.
 
