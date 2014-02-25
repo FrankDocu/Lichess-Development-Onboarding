@@ -79,7 +79,7 @@ Call draw=Clicking this draws the game. It is considered the more "chivalrous" o
 
 Talk in chat=This is the placeholder text (greyed-out text that disappears when you click) in the input box for the chat. Keep it as short as possible.
 
-The first person to come to this URL will play with you.=This appears at the top in the "Play with a friend" menu while you are waiting for a friend to come to the link. It appears after you have created the game.
+The first person to come to this URL will play with you.=Informs you that Lichess waiting for your friend to visit the link. This appears at the top of the pane after you have created a game through the "Play with a friend" menu.
 
 White creates the game=Informs that the White player created the game. This is a system message that appears in the chat box at the start of the game.
 
@@ -545,11 +545,11 @@ Beware, the game is rated but has no clock!=Warning message that appears when yo
 
 Move times=Time spent on each move by the players. Appears as a tab in the "Replay and analyse" view, below the chess board. Example: http://lichess.org/6iaj1eh0
 
-Training=
+Training=A page that offers chess puzzles. These help you improve how you play chess. Could also be translated as "Practise" (verb) or a similar word. This appears as one of the links on the navigation bar at the top of every page, so it should be kept as short as possible. Links to http://lichess.org/training
 
-Your puzzle rating: %s=
+Your puzzle rating: %s=%s is your numerical puzzle rating. Appears on the left-hand side of the "Training" page (http://lichess.org/training), above the graph.
 
-Find the best move for %s.=
+Find the best move for %s.=%s here is the side (white or black). Informs the player what side they are playing. Appears on the left-hand side when trying puzzles while not logged in, on the "Training" page (http://lichess.org/training).
 
 To track your progress:=
 
@@ -557,7 +557,7 @@ Lichess will provide puzzles that match your ability, making for better training
 
 Recently played puzzles=
 
-Puzzle %s=
+Puzzle %s=%s is the number of the puzzle. This means the way it appears on the site will be something like "Puzzle 5705". Appears on the "Training" page (http://lichess.org/training).
 
 Good move=
 
@@ -581,13 +581,13 @@ Was this puzzle any good?=
 
 Help lichess improve by voting, using the up or down arrow:=
 
-Thank you!=
+Thank you!=Politely thanks the players for voting. Appears on the "Training" page (http://lichess.org/training) after voting for a puzzle. Please use the polite version of "Thank you" in your language.
 
-Rating: %s=
+Rating: %s=%s is the numerical rating and rating deviation for the puzzle. This is the rating of individual chess puzzles in the "Training" pages (http://lichess.org/training/5705). Appears on the right-hand side box after you have succeeded at or failed at the puzzle. Note that this is the rating of the puzzle, NOT the player.
 
-Played %s times=
+Played %s times=%s is the number of times this puzzle has been played. Appears in the box on the right-hand side the "Training" page (http://lichess.org/training/) after you have succeeded at or failed the puzzle.
 
-Win rate: %s=
+Win rate: %s=%s is the percentage rate at which this puzzle was won. Appears in the box on the right-hand side on the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
 
 From game %s=
 
