@@ -558,13 +558,13 @@ Recently played puzzles=A list of your last-played puzzles. Appears as a heading
 
 Puzzle %s=%s is the number of the puzzle. This means the way it appears on the site will be something like "Puzzle 5705". Appears on the "Training" page (http://lichess.org/training).
 
-Good move=
+Good move=Informs the player that they played a good move, but not the best they could make. Appears in a green box on the left-hand side of the "Training" page (http://lichess.org/training), in reference to the chess puzzle you are currently playing. Keep your translation short, as a longer sentence (also translatable) just below this one informs them it is not the best move they could play.
 
-But you can do better.=
+But you can do better.=Informs you that your move was good, but not the best move possible. "But there is a better move" is an alternate way to translate this. Appears in a green box on the left-hand side of the "Training" page (http://lichess.org/), just below the "Good move" sentence. It is used in reference to the chess puzzle you are currently playing.
 
-Best move!=
+Best move!=Informs the player that the move they just played is the best they could possibly play. Appears in a green box on the left-hand side "Training" page (http://lichess.org/training) while playing a puzzle.
 
-Keep going…=
+Keep going…=Informs you that the puzzle is not yet finished. Appears just below "Best move!" on the in a green box left-hand side of the Training page (http://lichess.org/training), after you made the best possible move.
 
 Puzzle failed=
 
