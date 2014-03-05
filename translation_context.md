@@ -323,6 +323,8 @@ Tournament points=The number of points the player has gained in tournament games
 
 View tournament=Clicking this button takes you to the tournament overview page. Can also be translated to "Watch tournament" (watch being a verb). Appears when you are watching a game that is part of a tournament. This button only appears when watching a tournament game when the tournament is still running.
 
+Back to tournament=Appears when you finish a tournament game. Clicking this button takes you back to the running tournament. Can also be translated to "Return to the tournament".
+
 Free online Chess game. Play Chess now in a clean interface. No registration, no ads, no plugin required. Play Chess with the computer, friends or random opponents.=This is what search engines (like Google, Baidu or Yandex) see when Lichess.org appears as a search result. Keep it as short as possible and make Lichess sound good!
 
 Teams=Teams on lichess are groups of people with their own forum boards and chat channels. Appears at the top of every page on lichess.
