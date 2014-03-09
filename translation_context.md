@@ -77,7 +77,7 @@ Claim victory=Clicking this ends the game and grants you the win. One of the two
 
 Call draw=Clicking this draws the game. It is considered the more "chivalrous" option of the two. One of the two buttons that appears when your opponent leaves the game.
 
-Talk in chat=This is the placeholder text (greyed-out text that disappears when you click) in the input box for the chat. Keep it as short as possible.
+Talk in chat=This is the placeholder text (greyed-out text that disappears when you click) in the input box for the chat. Please keep it as short as possible.
 
 The first person to come to this URL will play with you.=Informs you that Lichess waiting for your friend to visit the link. This appears at the top of the pane after you have created a game through the "Play with a friend" menu.
 
@@ -308,11 +308,9 @@ Bookmark this game=The title text (what you see when you hover the mouse over) o
 
 Toggle background color=The title text (what you see when you hover the mouse over) of the yin and yang symbol at the top of every page. Clicking it toggles the theme between light and dark.
 
-Search=
-// currently unused due to elasticsearch
+Search=This is the placeholder text (greyed-out text that disappears when you click) for the search box on the forum page (http://lichess.org/forum). Should be translated as a verb if possible. Do not make it too long because it may not fit in the box.
 
-Advanced search=
-// currently unused due to elasticsearch
+Advanced search=A powerful search engine that searches games in the database. Appears as a heading on the advanced search function's page, in the "Games" pages. Should be translated as a noun. Link: http://lichess.org/games/search
 
 Tournament=
 // currently unused; I strongly suggest leaving it in regardless
