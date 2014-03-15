@@ -312,8 +312,7 @@ Search=This is the placeholder text (greyed-out text that disappears when you cl
 
 Advanced search=A powerful search engine that searches games in the database. Appears as a heading on the advanced search function's page, in the "Games" pages. Should be translated as a noun. Link: http://lichess.org/games/search
 
-Tournament=
-// currently unused; I strongly suggest leaving it in regardless
+Tournament=Clicking this takes you to the page of the tournament. Appears on the lists of games on player profiles, for games that were played as part of a tournament on Lichess.
 
 Tournaments=Clicking this takes you to a page all about tournaments on lichess, where you can see open, running and finished tournaments, as well as create your own. Appears as one of the links at the top of the navigation bar. Links to http://lichess.org/tournament
 
@@ -322,6 +321,8 @@ Tournament points=The number of points the player has gained in tournament games
 View tournament=Clicking this button takes you to the tournament overview page. Can also be translated to "Watch tournament" (watch being a verb). Appears when you are watching a game that is part of a tournament. This button only appears when watching a tournament game when the tournament is still running.
 
 Back to tournament=Clicking this takes you back to the running tournament. Appears as a button when you finish a tournament game. Can also be translated to "Return to the tournament".
+
+%s tournament=%s is the name of the tournament. The name is created randomly from the name of great chess players, so it will be something like "Kasparov tournament".
 
 Free online Chess game. Play Chess now in a clean interface. No registration, no ads, no plugin required. Play Chess with the computer, friends or random opponents.=This is what search engines (like Google, Baidu or Yandex) see when Lichess.org appears as a search result. Keep it as short as possible and make Lichess sound good!
 
@@ -559,6 +560,8 @@ Recently played puzzles=A list of your last-played puzzles. Appears as a heading
 Puzzle %s=%s is the number of the puzzle. This means the way it appears on the site will be something like "Puzzle 5705". Appears on the "Training" page (http://lichess.org/training).
 
 Puzzle of the day=A random chess puzzle presented on right-hand side the "Play" page (http://lichess.org). As the name suggests, there is a different puzzle every day.
+
+Click to solve=The title text (what you see when you hover the mouse over) of the chess board for the puzzle of the day on the "Play" page (http://lichess.org).
 
 Good move=Informs the player that they played a good move, but not the best they could make. Appears in a green box on the left-hand side of the "Training" page (http://lichess.org/training), in reference to the chess puzzle you are currently playing. Keep your translation short, as a longer sentence (also translatable) just below this one informs them it is not the best move they could play.
 
