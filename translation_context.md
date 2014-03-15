@@ -65,9 +65,9 @@ Your opponent wants to play a new game with you=This sentence appears when your 
 
 Join the game=Clicking this lets you join a new game against the same opponent. This is one of the two buttons that appear when your opponent offers you a rematch.
 
-White plays=This is what a spectator sees in the right-hand box when watching a game and it is White's turn to play.
+White to play=This is what a spectator sees in the right-hand box when watching a game and it is White's turn to play.
 
-Black plays=This is what a spectator sees in the right-hand box when watching a game and it is Black's turn to play.
+Black to play=This is what a spectator sees in the right-hand box when watching a game and it is Black's turn to play.
 
 The other player may have left the game. You can claim victory, call the game a draw, or wait.=This appears after 3 minutes have elapsed with one player disconnected. Below it are two buttons: "Claim victory" and "Call draw".
 
