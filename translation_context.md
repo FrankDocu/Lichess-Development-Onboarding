@@ -322,7 +322,7 @@ View tournament=Clicking this button takes you to the tournament overview page. 
 
 Back to tournament=Clicking this takes you back to the running tournament. Appears as a button when you finish a tournament game. Can also be translated to "Return to the tournament".
 
-%s tournament=%s is the name of the tournament. The name is created randomly from the name of great chess players, so it will be something like "Kasparov tournament".
+%s tournament=%s is the name of the tournament. The name is created randomly from common English surnames, such as "Smith". Appears only on the tournaments page (http://lichess.org/tournament), not the "Play" page, so you can make this longer than usual if you can justify it.
 
 Free online Chess game. Play Chess now in a clean interface. No registration, no ads, no plugin required. Play Chess with the computer, friends or random opponents.=This is what search engines (like Google, Baidu or Yandex) see when Lichess.org appears as a search result. Keep it as short as possible and make Lichess sound good!
 
