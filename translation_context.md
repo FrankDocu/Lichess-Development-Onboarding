@@ -603,4 +603,6 @@ Retry this puzzle=Clicking this lets you try the same the puzzle again. Appears 
 
 This puzzle is correct and interesting=The title text (what you see when you hover the mouse over) of the upwards-pointing triangle, which is a positive vote for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
 
-This puzzle is wrong or boring=The title text (what you see when you hover the mouse over) of the downwards-pointing triangle, which is a negative vote for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle. 
+This puzzle is wrong or boring=The title text (what you see when you hover the mouse over) of the downwards-pointing triangle, which is a negative vote for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
+
+Computers and computer-assisted players are not allowed to play. Please do not get assistance from chess engines, databases, or from other players while playing.=The text users read when creating an account. Appears in the signup form (http://lichess.org/signup).
