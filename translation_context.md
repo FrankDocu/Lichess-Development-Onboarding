@@ -591,6 +591,8 @@ Rating: %s=%s is the numerical rating and rating deviation for the puzzle. This 
 
 Played %s times=%s is the number of times this puzzle has been played. Appears in the box on the right-hand side the "Training" page (http://lichess.org/training/) after you have succeeded at or failed the puzzle.
 
+From game %s=%s is the name of the game. Appears as a button title at the bottom of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
+
 Start training=Clicking this takes you to a new puzzle. Only happens for links to individual puzzles, e.g. http://lichess.org/training/6958. Appears as a button underneath the box on the right hand side after you have succeeded or failed at the puzzle. "Training" should be translated as a verb, or as "[the process of] training" for this sentence.
 
 Continue training=Clicking this takes you to a new puzzle. Appears as a button underneath the box on the right hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle. "Training" should be translated as a verb, or as "[the process of] training" for this sentence.
