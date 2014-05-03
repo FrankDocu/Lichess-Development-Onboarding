@@ -549,7 +549,9 @@ Training=A page that offers chess puzzles. These help you improve how you play c
 
 Your puzzle rating: %s=%s is your numerical puzzle rating. Appears in a box left of the board on the "Training" page (http://lichess.org/training), above the graph.
 
-Find the best move for %s.=%s here is the side (white or black). Informs the player what side they are playing. Appears on the left-hand side when trying puzzles while not signed in, on the "Training" page (http://lichess.org/training).
+Find the best move for white.=Informs the player what side they are playing. Appears on the left-hand side when trying puzzles while not signed in, on the "Training" page (http://lichess.org/training).
+
+Find the best move for black.=Informs the player what side they are playing. Appears on the left-hand side when trying puzzles while not signed in, on the "Training" page (http://lichess.org/training).
 
 To track your progress:=Encourages the player to register. Below this message is a "Register" button. Appears in a box left of the board on the "Training" page (http://lichess.org/training) when trying puzzles and not being signed in.
 
