@@ -1,7 +1,7 @@
 Are you streaming chess games on [twitch.tv](http://www.twitch.tv/) or [Ustream](http://www.ustream.tv/)? Get featured on lichess.org and boost your traffic!
 Lichess can detect when your stream is on air, and automatically show it on its homepage.
 
-Both twitch.tv and Ustream are supported; we recommend using twitch.tv for technical reasons.
+Both twitch.tv and Ustream are supported; twitch.tv is recommended for technical reasons.
 
 ### Set up with twitch.tv
 
