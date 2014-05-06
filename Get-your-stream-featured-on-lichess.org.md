@@ -13,11 +13,7 @@ Please remove "lichess.org" from the title when you're not streaming games from 
 
 ### Set up with Ustream
 
-Add "lichess.org" to your channel title (not description).
-
-Renaming an existing channel will not work. You _have_ to create a new channel for streaming only games played on lichess. You can create a new channel [http://www.ustream.tv/manage-show](here).
-
-Something like "MyName on lichess.org" will do.
+Prepend "lichess.org" to your channel description. The description **must start with** "lichess.org" or ustream API won't find it. There's nothing we can do about it, and it's the reason why we recommend twitch.tv over ustream.tv.
 
 ### Is that it?
 
