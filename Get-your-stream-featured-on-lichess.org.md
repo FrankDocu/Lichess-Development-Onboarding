@@ -15,6 +15,9 @@ Please remove "lichess.org" from the title when you're not streaming games from 
 
 Prepend "lichess.org" to your channel description. The description **must start with** "lichess.org" or ustream API won't find it. There's nothing we can do about it, and it's the reason why we recommend twitch.tv over ustream.tv.
 
+Please remove "lichess.org" from the description when you're not streaming games from the website.
+
+
 ### Is that it?
 
 Yes. Lichess searches for the keyword "lichess.org" on theses sites every 5 seconds. As soon as a live stream is found, it is displayed right away on http://lichess.org for everyone to join and watch.
