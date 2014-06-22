@@ -1,8 +1,8 @@
-Are you streaming chess games on [twitch.tv](http://www.twitch.tv/) or [Ustream](http://www.ustream.tv/)? Get featured on lichess.org and boost your traffic!
+Are you streaming chess games on [twitch.tv](http://www.twitch.tv/) or [Ustream](http://www.ustream.tv/)? Get featuhttp://en.lichess.org/inbox/new?user=jrobichesshttp://en.lichess.org/inbox/new?user=jrobichessred on lichess.org and boost your traffic!
 Lichess can detect when your stream is on air, and automatically show it on its homepage.
 
 ### Approval process
-It's quite easy. Drop me a message at http://en.lichess.org/inbox/new?user=thibault so show me a stream you made. I'll add you to the streamers whitelist ASAP.
+It's quite easy. Just drop me a message at http://en.lichess.org/inbox/new?user=thibault to show me a stream you made. I'll add you to the streamers whitelist ASAP.
 
 ### Set up with twitch.tv
 
