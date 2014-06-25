@@ -606,3 +606,5 @@ This puzzle is correct and interesting=The title text (what you see when you hov
 This puzzle is wrong or boring=The title text (what you see when you hover the mouse over) of the downwards-pointing triangle (▾), which is a negative (-1) vote for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
 
 Computers and computer-assisted players are not allowed to play. Please do not get assistance from chess engines, databases, or from other players while playing.=The text users read when creating an account. Appears in the registration (new account) form (http://lichess.org/signup).
+
+You have %s seconds to make your first move!=Explains the rule for the pools feature. If you do not play in the first, say, 30 seconds, you automatically resign the game. Appears when playing a game in a pool, such as http://lichess.org/pool/3-0
