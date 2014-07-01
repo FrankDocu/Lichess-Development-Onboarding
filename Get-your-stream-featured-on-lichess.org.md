@@ -1,9 +1,9 @@
-Are you streaming chess games on [twitch.tv](http://www.twitch.tv/) or [Ustream](http://www.ustream.tv/)? Get featured on lichess.org and boost your traffic!
+Are you streaming chess games on [twitch.tv](http://www.twitch.tv/)? Get featured on lichess.org and boost your traffic!
 Lichess can detect when your stream is on air, and automatically show it on its homepage.
 
 ### Approval process
 In order to ensure excellent TV quality, we are very picky in our choice of streamers.
-We expect great chess level (comparable to http://www.twitch.tv/amazingoid) or great entertainment value (like http://www.twitch.tv/chesswhiz). Note that you should ressemble these guys: be unique. But if your stream is not in par in terms of educational or entertainment value, it probably won't cut it.
+We expect great chess level (comparable to http://www.twitch.tv/amazingoid) or great entertainment value (like http://www.twitch.tv/chesswhiz). Of course we don't want you to be like these guys: be unique. But if your stream is not in par in terms of educational or entertainment value, it probably won't cut it.
 Also, video and sound quality must be good, and you should be comfortable with the streaming tools.
 Talking is a must, using a camera is a plus.
 When you think you are ready, just drop me a message at http://en.lichess.org/inbox/new?user=thibault to show me a stream you made.
