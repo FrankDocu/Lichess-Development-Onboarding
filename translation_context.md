@@ -149,7 +149,7 @@ Sign out=Clicking this signs you out of your lichess profile. This is part of th
 
 Sign in=Clicking takes you to a form that allows you to sign into your lichess profile (account). This is a red-coloured button that appears at the navigation bar at the top when you are not signed in to an account, or playing anonymously. Please keep it as short as possible.
 
-New to Lichess?=It is next to a button that allows you to register an account on the website. The translation should be friendly and inviting; free/loose translations are recommended for this string. This sentence appears on the "Sign in" page.
+New to Lichess?=It is next to a button that allows you to register an account on the website. The translation should be friendly and inviting; free/loose translations are recommended for this sentence. This sentence appears on the "Sign in" page.
 
 You need an account to do that=This error message appears when trying actions or going to pages that require being signed in with a user account.
 
@@ -511,7 +511,7 @@ Country=This is a field for the country you are located at. Appears on player pr
 
 Preferences=Lets you configure lichess so it responds the way you prefer. Appears in the profile drop-down menu at the top of all pages when signed in. Links to http://lichess.org/account/preferences
 
-Watch Lichess TV=Clicking this take you to the TV page, where you can watch the current game being aired on lichess TV. Appears on the "Play" page (http://lichess.org/) below the miniboard showing the current TV game, as well as appearing as a tab on the "Games" pages (http://lichess.org/games). Links to http://lichess.org/tv — the TV page. Please keep this string as short as possible.
+Watch Lichess TV=Clicking this take you to the TV page, where you can watch the current game being aired on lichess TV. Appears on the "Play" page (http://lichess.org/) below the miniboard showing the current TV game, as well as appearing as a tab on the "Games" pages (http://lichess.org/games). Links to http://lichess.org/tv — the TV page. Please keep this sentence as short as possible.
 
 Previously on Lichess TV=A list of games that were aired on lichess TV before. Appears as a heading to a box below the board on the TV page (http://lichess.org/tv).
 
@@ -608,3 +608,5 @@ This puzzle is wrong or boring=The title text (what you see when you hover the m
 Computers and computer-assisted players are not allowed to play. Please do not get assistance from chess engines, databases, or from other players while playing.=The text users read when creating an account. Appears in the registration (new account) form (http://lichess.org/signup).
 
 You have %s seconds to make your first move!=Explains the rule for the pools feature. If you do not play in the first, say, 30 seconds, you automatically resign the game. Appears when playing a game in a pool, such as http://lichess.org/pool/3-0
+
+%s games in play=%s is the number of games. Appears below the title of "lichess.org" on the "Play" page (http://lichess.org). Could be translated as "%s games being played".
