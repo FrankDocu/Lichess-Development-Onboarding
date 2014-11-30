@@ -43,11 +43,11 @@ Checkmate=Appears in the box of a game if you end a game by checkmate.
 
 Stalemate=If you don't know what this rule is, see http://www.chessvariants.org/d.chess/matefaq.html. Appears in the box of a game if you end a game by stalemate. Please use the official term used by your country's or locale's chess federation or club.
 
-White=The title text (what you see when you hover the mouse over) of the White King button in the "Create a game" menu (http://lichess.org/setup/hook).
+White=The title text (what you see when you hover the mouse over) of the White King button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
-Black=The title text (what you see when you hover the mouse over) of the Black King button in the "Create a game" menu (http://lichess.org/setup/hook).
+Black=The title text (what you see when you hover the mouse over) of the Black King button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
-Random color=Makes Lichess randomly pick a side for you. The title text (what you see when you hover the mouse over) of the large button in the "Create a game" menu (http://lichess.org/setup/hook).
+Random color=Makes Lichess randomly pick a side for you. The title text (what you see when you hover the mouse over) of the large button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
 Create a game=This button opens a menu (http://lichess.org/setup/hook) that lets you create a game that is listed in the list (or graph) of open games. It is one of the 3 rectangular buttons on the "Play" page (http://lichess.org/).
 
@@ -169,21 +169,21 @@ Minutes per side=This appears in all the game creation menus (e.g. "Create a gam
 
 Variant=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). Below it is a selection of variants the player can choose from. Currently only Standard chess and Chess960 are supported.
 
-Time control=Ticking this checkbox allows for time controls to be implemented in the game. If the box is left unticked, the game is one of unlimited time. This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). It also appears in player profiles next to games that have time controls implemented. This sentence is a heading to time controls for the game.
+Time control=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page. It also appears in player profiles next to games that have time controls implemented. This sentence is a heading to time controls for the game.
 
-Clock=This means chess played on limited time, with a clock for each player. This is one of three time control settings in the "Create a game" menu (http://lichess.org/setup/hook).
+Clock=This means chess played on limited time, with a clock for each player. This is one of three time control settings in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
-Correspondence=Correspondence chess is chess played over a long period of time, often with several days per move. This is one of three time control settings in the "Create a game" menu (http://lichess.org/setup/hook). Please do not translate literally; if your language does not have an equivalent term, translate to "long" games or something similar.
+Correspondence=Correspondence chess is chess played over a long period of time, often with several days per move. This is one of three time control settings in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page. Please do NOT translate literally; if your language does not have an equivalent term, translate to "long" games or something similar.
 
-Days per turn=This is a slider specifically for correspondence chess games. Appears in the "Create a game" menu (http://lichess.org/setup/hook) when you have selected the "Correspondence" time control.
+Days per turn=This is a slider specifically for correspondence chess games. Appears in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page when you have selected the "Correspondence" time control.
 
-%s days=The maximum number of days for each turn. This appears next to te slider for the correspondence chess time control in the "Create a game" menu (http://lichess.org/setup/hook).
+%s days=The maximum number of days for each turn. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
 Time=The time control for the game. This appears as a column heading in the table of games you can join on the "Play" page (http://lichess.org/).
 
-User name=The name you use to sign in, e.g. "thibault".
+User name=The name you use to sign in, e.g. "thibault". Appears on the sign-in and registration pages.
 
-Password=This is the password you must type to sign in to your profile.
+Password=This is the password you must type to sign in to your profile. Appears on the sign-in and registration pages.
 
 Have an account?=This appears on the top-right of the registration page (http://lichess.org/signup -- must be signed out to see this). Next to it is a "sign in" button.
 
@@ -228,7 +228,7 @@ Abort game=Clicking this aborts the game. This means that no points are won or l
 
 Game aborted=Indicates that the game has been aborted. Appears in the left and right hand side boxes, as well as in the games list, for aborted games. Note that aborted games are removed from the database after 48 hours.
 
-Standard="Standard" here means "not a variant". Selecting this means you play standard intentional chess, not Chess960 or another variant. Appears in the "Create a game" menu (http://lichess.org/setup/hook).
+Standard="Standard" here means "not a variant". Selecting this means you play international standard chess, not Chess960 or another variant. Appears in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
 Unlimited=This is short for "Unlimited time". It describes games that have no time controls and can therefore run for an infinite amount of time. This sentence appears in many locations, including game pages and the "Create a game" menu. Please keep this sentence as short as possible.
 
@@ -272,7 +272,7 @@ Recipient=Next to this is a field where you can input the name of the player tha
 
 Send=This is the button you use to send messages in the compose message page. (http://lichess.org/inbox/new)
 
-Increment in seconds=Increment in this context means how many seconds are added every time you make a move. So if you set time to 5 minutes and increment in seconds to 2, it would be a "5+2" game. This means that each player would have 5 minutes on the clock, and every time the player makes a move, 2 seconds are added. This sentence appears in the "Create a game" menu (http://lichess.org/setup/hook).
+Increment in seconds=Increment in this context means how many seconds are added every time you make a move. So if you set time to 5 minutes and increment in seconds to 2, it would be a "5+2" game. This means that each player would have 5 minutes on the clock, and every time the player makes a move, 2 seconds are added. Appears in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page with the "Clock" time control.
 
 Free Online Chess=This sentence appears in the title of every page e.g. "lichess  • Free Online Chess" on the "Play" page as it appears in the English version. This means it shows up as the title of browser windows and tabs. Technical: by title here we are literally referring to the HTML <title> tag that carries this.
 
@@ -288,7 +288,7 @@ Export games=This function lets you download a table of all your games in CSV fo
 
 Color=Clicking this opens a menu that allows you to change the colour or texture of the chess board. This button appears on the top bar in a game page.
 
-Rating range=Below this is a slider that lets you choose the accepted player ratings. The sentence appears in the "Create a game" (http://lichess.org/setup/hook) and "Filter games" menus. Please do NOT translate "rating" to "Elo", because lichess has been using the superior Glicko rating system since late 2013.
+Rating range=Below this is a slider that lets you choose the accepted player ratings. The sentence appears in the "Create a game" (http://lichess.org/setup/hook) and "Filter games" menus. Please do NOT translate "rating" to "Elo", because lichess has been using the superior Glicko-2 rating system since late 2013.
 
 Give %s seconds=%s here is the number of seconds, usually 15. This is the title text (the text you see when you hover the mouse over) of the "+" button that appears next to players' names in timed matches. Clicking it adds "%s" seconds to the player's clock.
 
@@ -485,8 +485,6 @@ Created by=This appears in a box on the top-left hand corner of tournament pages
 Waiting for %s players=%s is the number of players. Indicates that more players are needed to start the tournament. This sentence appears on the pages of tournaments that have not started yet.
 
 The tournament is starting=Appears as a pop-up when the tournament you have joined is about to start.
-
-%s minutes/side + %s seconds/move=
 
 Members only=Ticking this checkbox makes the game so only lichess members can join it. Appears in the game creation menu (http://lichess.org/setup/hook).
 
