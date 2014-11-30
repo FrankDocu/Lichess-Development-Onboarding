@@ -171,7 +171,15 @@ Variant=This appears in all the game creation menus (e.g. "Create a game", "Play
 
 Time control=Ticking this checkbox allows for time controls to be implemented in the game. If the box is left unticked, the game is one of unlimited time. This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). It also appears in player profiles next to games that have time controls implemented. This sentence is a heading to time controls for the game.
 
-Time=This appears in the table of games you can join on the "Play" page (http://lichess.org/).
+Clock=This means chess played on limited time, with a clock for each player. This is one of three time control settings in the "Create a game" menu (http://lichess.org/setup/hook).
+
+Correspondence=Correspondence chess is chess played over a long period of time, often with several days per move. This is one of three time control settings in the "Create a game" menu (http://lichess.org/setup/hook). Please do not translate literally; if your language does not have an equivalent term, translate to "long" games or something similar.
+
+Days per turn=This is a slider specifically for correspondence chess games. Appears in the "Create a game" menu (http://lichess.org/setup/hook) when you have selected the "Correspondence" time control.
+
+%s days=The maximum number of days for each turn. This appears next to te slider for the correspondence chess time control in the "Create a game" menu (http://lichess.org/setup/hook).
+
+Time=The time control for the game. This appears as a column heading in the table of games you can join on the "Play" page (http://lichess.org/).
 
 User name=The name you use to sign in, e.g. "thibault".
 
@@ -222,7 +230,7 @@ Game aborted=Indicates that the game has been aborted. Appears in the left and r
 
 Standard="Standard" here means "not a variant". Selecting this means you play standard intentional chess, not Chess960 or another variant. Appears in the "Create a game" menu (http://lichess.org/setup/hook).
 
-Unlimited=This is short for "Unlimited time". It describes games that have no time controls and can therefore run for an infinite amount of time. This sentence appears in many locations that it would be pointless to list here. Please keep this sentence as short as possible.
+Unlimited=This is short for "Unlimited time". It describes games that have no time controls and can therefore run for an infinite amount of time. This sentence appears in many locations, including game pages and the "Create a game" menu. Please keep this sentence as short as possible.
 
 Mode="Mode" here is in the context of filtering between Casual and Rated games. The sentence appears in the "Filter games" menu, which is just above the list of games on the "Play" page (http://lichess.org/).
 
