@@ -2,13 +2,20 @@
 
 // The contexts tend to follow a format of first describing what action the string does, or what it informs the player about in other words. It could also be a description of a feature, such as computer analysis or the forum. Afterwards, each page the strings appear on is noted, preferably with a link to the pages for visual confirmation should the translator desire it.
 
+//FORMAT:
+
 // The content of format specifiers ("%s") is _always_ described at the start of the context, should any exist in the source strings.
+
 // Recommendations on how to translate the string are generally placed at the end of the translation context. Sometimes, an alternate way to phrase the original English string is placed at the start to ensure the sentence is understood. In rare situations, the functional context of the string is placed first (e.g. "Teams"); this is purely because lichess does not support grouping translatable strings as of yet.
-// Technical words such as ``part of the <head>`` are to be avoided at all costs. When they do occur, a rigorous description must _always_ be trailing them, since translations are constantly being refined after being completed and even new ones are rarely translated in one go. The most prominent example of this are the lengthy but necessary descriptions of HTML's title attribute ("title text [what you see when ...]" and so on). Even home page is too technical (requires knowledge of common internet conventions) for the purposes of the project, as it is called "Play" on lichess.
+
+// Technical words such as part of the ``<head>`` are to be avoided at all costs. When they do occur, a rigorous description must _always_ be trailing them, since translations are constantly being refined after being completed and even new ones are rarely translated in one go. The most prominent example of this are the lengthy but necessary descriptions of HTML's title attribute ("title text [what you see when ...]" and so on). Even home page is too technical (requires knowledge of common internet conventions) for the purposes of the project, as it is called "Play" on lichess.
+
 // Contexts are to be kept as short as possible, while maintaining grammatical sense. Therefore, statements such as "This sentence is self-explanatory" have no place in the contexts.
+
 // Contexts (as well as source strings) must have a strong sense of internal consistency, e.g. you should use "signed in" instead of "logged in" or "connected", if your button for accessing a user account says "Sign in" on it.
 
 // There is no guideline on what pronoun to use when giving examples, but addressing the translator directly (the second person) is preferred. In synoptical descriptions, passive voice is preferred.
+
 // Stylistically, the author of this document prefers [WP:MOS](https://en.wikipedia.org/wiki/WP:MOS). This style guide includes insightful guidelines about all aspects of the usage of the English language. For instance, it recommends against the usage of contractions (e.g. "It's" as opposed to "It is"). However, these guidelines are beyond the scope of this document.
 
 Play with a friend=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). This creates a unique URL that you can send to someone and play.
@@ -176,6 +183,8 @@ Clock=This means chess played on limited time, with a clock for each player. Thi
 Correspondence=Correspondence chess is chess played over a long period of time, often with several days per move. This is one of three time control settings in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page. Please do NOT translate literally; if your language does not have an equivalent term, translate to "long" games or something similar.
 
 Days per turn=This is a slider specifically for correspondence chess games. Appears in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page when you have selected the "Correspondence" time control.
+
+One day=Means each turn may take up to one day. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page. Please translate "one" as a word, not a number (not "1").
 
 %s days=The maximum number of days for each turn. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
