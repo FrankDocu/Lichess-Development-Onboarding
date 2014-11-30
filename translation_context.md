@@ -625,3 +625,13 @@ Computers and computer-assisted players are not allowed to play. Please do not g
 You have %s seconds to make your first move!=Explains the rule for the pools feature. If you do not play in the first, say, 30 seconds, you automatically resign the game. Appears when playing a game in a pool, such as http://lichess.org/pool/3-0
 
 %s games in play=%s is the number of games. Appears below the title of "lichess.org" on the "Play" page (http://lichess.org). Could be translated as "%s games being played".
+
+Analysis=Button leading to the analysis page
+
+White offers draw=
+
+Black offers draw=
+
+White declines draw=
+
+Black declines draw=
