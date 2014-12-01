@@ -176,7 +176,7 @@ Minutes per side=This appears in all the game creation menus (e.g. "Create a gam
 
 Variant=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). Below it is a selection of variants the player can choose from. Currently only Standard chess and Chess960 are supported.
 
-Time control=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page. It also appears in player profiles next to games that have time controls implemented. This sentence is a heading to time controls for the game.
+Time control=This sentence is a heading to time controls for the game. This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
 Clock=This means chess played on limited time, with a clock for each player. This is one of three time control settings in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
@@ -626,12 +626,12 @@ You have %s seconds to make your first move!=Explains the rule for the pools fea
 
 %s games in play=%s is the number of games. Appears below the title of "lichess.org" on the "Play" page (http://lichess.org). Could be translated as "%s games being played".
 
-Analysis=Button leading to the analysis page
+Analysis=Button that leads to analysis page. Appears only on your own games, after they have finished.
 
-White offers draw=
+White offers draw=Informs that the White player wants to draw the game. This is a system message that appears in the chat box.
 
-Black offers draw=
+Black offers draw=Informs that the Black player wants to draw the game. This is a system message that appears in the chat box.
 
-White declines draw=
+White declines draw=Informs that the White player declined Black's offer to draw the game. This is a system message that appears in the chat box.
 
-Black declines draw=
+Black declines draw=Informs that the Black player declined White's offer to draw the game. This is a system message that appears in the chat box.
