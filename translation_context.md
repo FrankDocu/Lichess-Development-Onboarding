@@ -176,17 +176,17 @@ Minutes per side=This appears in all the game creation menus (e.g. "Create a gam
 
 Variant=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). Below it is a selection of variants the player can choose from. Currently only Standard chess and Chess960 are supported.
 
-Time control=This sentence is a heading to time controls for the game. This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
+Time control=This sentence is a heading to time controls for the game. This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") that can be found on the "Play" page.
 
 Clock=This means chess played on limited time, with a clock for each player. This is one of three time control settings in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
-Correspondence=Correspondence chess is chess played over a long period of time, often with several days per move. This is one of three time control settings in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page. Please do NOT translate literally; if your language does not have an equivalent term, translate to "long" games or something similar.
+Correspondence=Correspondence chess is chess played over a long period of time, often with several days per move. This is one of three time control settings in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page. Please do NOT translate literally; if your language does not have an equivalent, established term, translate to "long" games or something similar.
 
-Days per turn=This is a slider specifically for correspondence chess games. Appears in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page when you have selected the "Correspondence" time control.
+Days per turn=This is a slider specifically for correspondence chess games. Appears in the game creation menus (e.g. "Create a game", "Play with a friend") when you have selected the "Correspondence" time control.
 
-One day=Means each turn may take up to one day. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page. Please translate "one" as a word, not a number (not "1").
+One day=Means each turn may take up to one day. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend"). Please translate "one" as a word ("one"), not a number (not "1"). It also appears on the clock in correspondence chess games.
 
-%s days=The maximum number of days for each turn. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
+%s days=The maximum number of days for each turn. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend"). It also appears on the clock and information box in correspondence chess games. Please keep this sentence as short as possible.
 
 Time=The time control for the game. This appears as a column heading in the table of games you can join on the "Play" page (http://lichess.org/).
 
