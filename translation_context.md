@@ -186,7 +186,7 @@ Days per turn=This is a slider specifically for correspondence chess games. Appe
 
 One day=Means each turn may take up to one day. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend"). Please translate "one" as a word ("one"), not a number (not "1"). It also appears on the clock in correspondence chess games.
 
-%s days=The maximum number of days for each turn. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend"). It also appears on the clock and information box in correspondence chess games. Please keep this sentence as short as possible.
+%s days=%s is maximum number of days for each turn. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend"). It also appears on the clock and information box in correspondence chess games. Please keep this sentence as short as possible.
 
 Time=The time control for the game. This appears as a column heading in the table of games you can join on the "Play" page (http://lichess.org/).
 
