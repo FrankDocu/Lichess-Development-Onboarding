@@ -5,7 +5,7 @@ It may be possible to build in Windows but this has not been verified. Some of t
 ## Getting Help
 If you get stuck during the install process the most suitable place to seek help is the `#lichess` IRC channel on `irc.freenode.org`. The main developer of Lichess (Ornicar) can be found there as well as several people who have successfully installed the stack.
 
-## Prerequisets
+## Prerequisites
 
 Before beginning, please make sure you have the following tools installed, using your favourite package manager to install them where applicable.
 
