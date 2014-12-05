@@ -1,6 +1,6 @@
 # Lichess Development Onboarding
 
-The following instructions outline how to set up your development environment for starting development on Lichess. The instructions are deliberately aimed to be agnostic of the platform the stack is installed on so a working knowledge the specifics of your gnu/Linux distribution or other such Unix based Operating System is assumed. 
+The following instructions outline how to set up your development environment for starting development on Lichess. The instructions are deliberately aimed to be agnostic of the platform the stack is installed on so a working knowledge the specifics of your Gnu/Linux distribution or other such Unix based Operating System is assumed. 
 
 It may be possible to build in Windows, but this hasn't been tested. Some of the scripts that must be ran as part of the process are written as Linux shell scripts, so it would be neccessary to modify these scripts accordingly or verify these scripts work on cygwin or similar.
 
