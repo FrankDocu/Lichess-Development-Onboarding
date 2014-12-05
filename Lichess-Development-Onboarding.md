@@ -15,7 +15,7 @@ Before beginning, please make sure you have the following tools installed, using
 * `npm`
 
 ### Infrastructure
-* `Mongodb`
+* `mongodb`
 * `nginx`
 
 ### Compilers
