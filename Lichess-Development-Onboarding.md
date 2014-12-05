@@ -1,6 +1,6 @@
 The following instructions outline how to set up your development environment for starting development on Lichess. The instructions are aimed to be agnostic of the platform the stack is installed on so a working knowledge the specifics of your GNU/Linux distribution or other such Unix based Operating System is assumed. 
 
-It may be possible to build in Windows but this has not been verified. Some of the scripts that must be ran as part of the process are written as Linux shell scripts so it would be neccessary to modify these scripts accordingly or verify these scripts work on cygwin or similar.
+It may be possible to build in Windows but this has not been verified. Some of the scripts that must be ran as part of the process are written as GNU/Linux shell scripts so it would be neccessary to modify these scripts accordingly or verify these scripts work on cygwin or similar.
 
 ## Getting Help
 If you get stuck during the install process the most suitable place to seek help is the `#lichess` IRC channel on `irc.freenode.org`. The main developer of Lichess (Ornicar) can be found there as well as several people who have successfully installed the stack.
