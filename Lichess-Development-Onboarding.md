@@ -27,7 +27,7 @@ Before beginning, please make sure you have the following tools installed, using
 ### Setting up your Lichess configuration and Compiling the Web App.
 1. Fork the lila project on github and clone it from your repository using git.
 
-1. Set up the submodules by executing the following command: `git submodule update –init –recursive`.
+1. Set up the submodules by executing the following command: `git submodule update --init --recursive`.
 
 1. Add the base application configuration file to the `conf` directory in the checked out project. **This must be retrieved from Ornicar himself.**
 
