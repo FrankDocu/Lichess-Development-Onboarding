@@ -35,7 +35,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Using your favourite terminal emulator, change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts.
 
-1. Run `sudo npm install gulp --global` (or `npm install gulp` and then add gulp to your path.)
+1. Run `sudo npm install gulp --global` (or `npm install gulp` and then add the install path of gulp to your PATH variable.)
 
 1. Run `./bin/build-deps.sh`
 
