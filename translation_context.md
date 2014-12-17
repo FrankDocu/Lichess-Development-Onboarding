@@ -192,7 +192,7 @@ Time=The time control for the game. This appears as a column heading in the tabl
 
 User name=The name you use to sign in, e.g. "thibault". Appears on the sign-in and registration pages.
 
-Password=This is the password you must type to sign in to your profile. Appears on the sign-in and registration pages.
+Password=This is the password you must type to sign in to your profile. Appears on the sign-in, registration, tournament creation and "Preferences" pages. Please keep this sentence as short as possible. Next to the sentence is a box where you can type in your password.
 
 Have an account?=This appears on the top-right of the registration page (http://lichess.org/signup -- must be signed out to see this). Next to it is a "sign in" button.
 
@@ -200,9 +200,19 @@ All you need is a user name and a password.=This appears in the registration pag
 
 Change password=This is a link in the settings page to a menu that allows you to change your password (http://lichess.org/account/passwd).
 
+Change email=Appears as a menu item and heading on the "Preferences" pages (http://lichess.org/account/email).
+
+Email=Short for "Your email address", but please keep this sentence as short as possible. This appears above text boxes where you can type in your email, on the "Preferences" page.
+
+Email is optional. Lichess will use your email address to reset your password if you forget it.=This is a help text, explaining how email works on lichess. Appears on the "Change email" page (http://lichess.org/account/email).
+
+Password reset=Appears as a heading in the link you are given after you asked for an email to reset (change) your password if you have forgotten it.
+
+Forgot password?=You click here if you forgot your password and want it reset. Please adopt an inviting tone to the user. Also see how other popular websites (e.g. YouTube) phrase the same question in your language. Appears on the "Sign in" page.
+
 Learn more about Lichess=The title text (what you see when you hover the mouse over) of the "Wiki" link at the footer (bottom) of every page on the website.
 
-Rank=This is the rank of a player relative to the top several 75% of players on lichess. For example, http://lichess.org/@/thinkabit is as of the time of writing the #1 player out of 126000 players. The sentence appears at the top of the player profile.
+Rank=This sentence is not currently used on the site, but feel free to translate it.
 
 Games played=Before it is the number of games the player has played. For example, http://lichess.org/@/thibault/ currently reads "2037 Games Played". Make sure you take the number that appears before this sentence into account when preparing your translation. This sentence appears as a tab on player profiles, just above the list of games.
 
@@ -503,8 +513,7 @@ Starting position=Clicking this resets the state of the board to the starting po
 
 Clear board=Clicking this removes all the pieces from the chess board you are setting up. Being a board editor feature, it appears on the board editor's page — http://lichess.org/editor
 
-Save position=
-// currently unused
+Save position=This sentence is not currently used on the site, but feel free to translate it
 
 Load position=Clicking this opens a form that lets you paste a FEN text (FEN is a notation system used to store precise positions on a board). Being a board editor feature, it appears on the board editor's page — http://lichess.org/editor
 
@@ -520,7 +529,7 @@ Given name=Also known as a "first name", "forename" or even "Christian name" in 
 
 Last name=Also known as "surname" or "family name". You put in your last name in this field, which will in turn appear on your profile page. This sentence appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
 
-Biography=This is next to a text field wherein you can put anything you wish. For example, http://lichess.org/@/thibault reads "Developer of lichess". This sentence appears in the "Edit profile" menu (http://lichess.org/account/profile).
+Biography=This is next to a text field where you can write anything you wish to describe yourself. For example, http://lichess.org/@/thibault reads "I write bugs for lichess.org". This sentence appears in the "Edit profile" menu (http://lichess.org/account/profile).
 
 Country=This is a field for the country you are located at. Appears on player profiles (example: http://lichess.org/@/thibault). The sentence appears in the "Edit profile" menu (http://lichess.org/account/profile).
 
