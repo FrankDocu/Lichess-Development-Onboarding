@@ -178,8 +178,6 @@ Variant=This appears in all the game creation menus (e.g. "Create a game", "Play
 
 Time control=This sentence is a heading to time controls for the game. This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") that can be found on the "Play" page.
 
-Clock=This means chess played on limited time, with a clock for each player. This is one of three time control settings in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
-
 Correspondence=Correspondence chess is chess played over a long period of time, often with several days per move. This is one of three time control settings in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page. Please do NOT translate literally; if your language does not have an equivalent, established term, translate to "long" games or something similar.
 
 realTime=Real time chess is chess played over a short period of time, using a chess clock. This is one of three time control settings in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page. Please do NOT translate literally; if your language does not have an equivalent, established term, translate to "quick" games or something similar.
