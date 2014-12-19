@@ -182,6 +182,8 @@ Clock=This means chess played on limited time, with a clock for each player. Thi
 
 Correspondence=Correspondence chess is chess played over a long period of time, often with several days per move. This is one of three time control settings in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page. Please do NOT translate literally; if your language does not have an equivalent, established term, translate to "long" games or something similar.
 
+realTime=Real time chess is chess played over a short period of time, using a chess clock. This is one of three time control settings in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page. Please do NOT translate literally; if your language does not have an equivalent, established term, translate to "quick" games or something similar.
+
 Days per turn=This is a slider specifically for correspondence chess games. Appears in the game creation menus (e.g. "Create a game", "Play with a friend") when you have selected the "Correspondence" time control.
 
 One day=Means each turn may take up to one day. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend"). Please translate "one" as a word ("one"), not a number (not "1"). It also appears on the clock in correspondence chess games.
