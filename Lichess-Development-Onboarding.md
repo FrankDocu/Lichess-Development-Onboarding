@@ -12,7 +12,8 @@ Before beginning, please make sure you have the following tools installed, using
 ### Tools and dependency managers
 * `git`
 * `sbt`
-* `npm`
+* `npm` (from nodejs)
+* `svgcleaner`
 
 ### Infrastructure
 * `mongodb`
@@ -22,6 +23,7 @@ Before beginning, please make sure you have the following tools installed, using
 * `gcc` 
 * `make` (Required to build stockfish)
 * `closure` (JavaScript compiler)
+* `Java 8`
 
 ## Installation Steps
 ### Setting up your Lichess configuration and Compiling the Web App.
@@ -41,7 +43,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Run `./bin/compile-client`
 
-1. Run `./bin/install-stockfish`
+1. Run `./bin/install-stockfish` (edit first if you are not running 64bit)
 
 1. Run `./bin/svg-optimise`
 
