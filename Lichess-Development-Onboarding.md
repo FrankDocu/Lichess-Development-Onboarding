@@ -45,7 +45,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Run `./bin/install-stockfish` (edit first if you are not running 64bit)
 
-1. Run `./bin/svg-optimise`
+1. Run `./bin/svg-optimize`
 
 ### Setting Up Your Web Server
 
