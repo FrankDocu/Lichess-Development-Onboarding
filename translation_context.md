@@ -644,3 +644,7 @@ Black offers draw=Informs that the Black player wants to draw the game. This is 
 White declines draw=Informs that the White player declined Black's offer to draw the game. This is a system message that appears in the chat box.
 
 Black declines draw=Informs that the Black player declined White's offer to draw the game. This is a system message that appears in the chat box.
+
+Auto switch=Short for 'automatically switch [to the next game]'. A toggleable button that appears below the board when playing multiple games. It makes lichess switch to the next game you are playing automatically for you. When enabled: in correspondence, it cycles through your current games; in simuls, it quickly switches game, focusing on urgent ones. Please keep this as short as possible, as it has an explanatory text that appears when you hover the mouse over.
+
+Automatically proceed to next game after moving=Informs the player what the button does. This appears as the title text (what you see when you hover the mouse over) of 'Auto switch', a button that appears when you are playing more than one game. See the explanation for 'Auto switch' for more details
