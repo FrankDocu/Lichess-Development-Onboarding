@@ -347,7 +347,9 @@ Tournament points=The number of points the player has gained in tournament games
 
 View tournament=Clicking this button takes you to the tournament overview page. Can also be translated to "Watch tournament" (watch being a verb). Appears when you are watching a game that is part of a tournament. This button only appears when watching a tournament game when the tournament is still running.
 
-Back to tournament=Clicking this takes you back to the running tournament. Appears as a button when you finish a tournament game. Can also be translated to "Return to the tournament".
+Return to tournament=Clicking this takes you back to the running tournament. Appears as a button when you finish a tournament game. Can also be translated to "Back to the tournament".
+
+Return to game=Clicking this takes you back to the running game Appears as a button when you are analysing an ongoing game. Can also be translated to "Back to the game".
 
 %s tournament=%s is the name of the tournament. The name is created randomly from common English surnames, such as "Smith". Appears only on the tournaments page (http://lichess.org/tournament), not the "Play" page, so you can make this longer than usual if you can justify it.
 
