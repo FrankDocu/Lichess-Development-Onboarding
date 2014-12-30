@@ -649,4 +649,6 @@ Black declines draw=Informs that the Black player declined White's offer to draw
 
 Auto switch=Short for 'automatically switch [to the next game]'. A toggleable button that appears below the board when playing multiple games. It makes lichess switch to the next game you are playing automatically for you. When enabled: in correspondence, it cycles through your current games; in simuls, it quickly switches game, focusing on urgent ones. Please keep this as short as possible, as it has an explanatory text that appears when you hover the mouse over.
 
-Automatically proceed to next game after moving=Informs the player what the button does. This appears as the title text (what you see when you hover the mouse over) of 'Auto switch', a button that appears when you are playing more than one game. See the explanation for 'Auto switch' for more details
+Automatically proceed to next game after moving=Informs the player what the button does. This appears as the title text (what you see when you hover the mouse over) of 'Auto switch', a button that appears when you are playing more than one game. See the explanation for 'Auto switch' for more details.
+
+Rating=The rating of the player (e.g. 1500). Appears on the lobby list on http://lichess.org/
