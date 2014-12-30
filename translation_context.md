@@ -8,7 +8,7 @@
 
 // Recommendations on how to translate the string are generally placed at the end of the translation context. Sometimes, an alternate way to phrase the original English string is placed at the start to ensure the sentence is understood. In rare situations, the functional context of the string is placed first (e.g. "Teams"); this is purely because lichess does not support grouping translatable strings as of yet.
 
-// Technical words such as "part of the ``<head>``" are to be avoided at all costs. When they do occur, a rigorous description must _always_ be trailing them, since translations are constantly being refined after being completed and even new ones are rarely translated in one go. Even the term 'home page' is too technical (requires knowledge of common internet conventions) for the purposes of the project, as it is called "Play" on lichess.
+// Technical words such as "part of the ``<head>``" are to be avoided at all costs. When they do occur, a rigorous description must _always_ be trailing them, since translations are constantly being refined after being completed and even new ones are rarely translated in one go. Even the term "home page" is too technical (requires knowledge of common internet conventions) for the purposes of the project, as it is called "Play" on lichess.
 
 // Contexts are to be kept as short as possible, while maintaining grammatical sense. Therefore, statements such as "This sentence is self-explanatory" have no place in the contexts.
 
@@ -293,7 +293,7 @@ Send=This is the button you use to send messages in the compose message page. (h
 
 Increment in seconds=Increment in this context means how many seconds are added every time you make a move. So if you set time to 5 minutes and increment in seconds to 2, it would be a "5+2" game. This means that each player would have 5 minutes on the clock, and every time the player makes a move, 2 seconds are added. Appears in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page with the "Clock" time control.
 
-Free Online Chess=This sentence appears in the title of every page e.g. "lichess  • Free Online Chess" on the "Play" page as it appears in the English version. This means it shows up as the title of browser windows and tabs. Technical: by title here we are literally referring to the HTML <title> tag that carries this.
+Free Online Chess=This sentence appears in the title of every page e.g. "lichess  • Free Online Chess" on the "Play" page as it appears in the English version. This means it shows up as the title of browser windows and tabs. Technical information: by title here we are literally referring to the HTML <title> tag that carries this.
 
 Spectators:="Spectators:" precedes a list of spectators. It appears just below the chat box on any game that is being spectated, such as the games on Lichess TV (http://lichess.org/tv).
 
@@ -331,9 +331,9 @@ Takeback proposition canceled=Informs the player that a takeback proposition was
 
 Your opponent proposes a takeback=Appears on the right-hand side box while playing a game. Below it are two buttons that allow you to either accept or decline the takeback proposal.
 
-Bookmark this game=The title text (what you see when you hover the mouse over) of the bookmark button (a star-shaped symbol — ★). Appears on the pages of individual games. Example: http://lichess.org/vyvcbk8s
+Bookmark this game=The mouseover text of the bookmark button (a star-shaped symbol — ★). Appears on the pages of individual games. Example: http://lichess.org/vyvcbk8s
 
-Toggle background color=The title text (what you see when you hover the mouse over) of the yin and yang symbol at the top of every page. Clicking it toggles the theme between light and dark.
+Toggle background color=This sentence is not currently used on the site, but feel free to translate it.
 
 Search=This is the placeholder text (greyed-out text that disappears when you click) for the search box on the forum page (http://lichess.org/forum). Should be translated as a verb if possible. Do not make it too long because it may not fit in the box.
 
@@ -431,9 +431,9 @@ No friends online=Informs you that none of your friends are on lichess right now
 
 Find friends=Clicking on this takes you to a page that suggests players that could be made friends based on how many times you have played with them. Appears as a button when you hover the mouse cursor over the friends box (when raised) on the bottom-right hand corner of the page, when none of your friends are online. Also appears as a heading on the page with suggested friends. Example: these are Thibault's suggested friends: http://lichess.org/@/thibault/suggestions
 
-Favorite opponents=The players you play most against. Appears in profile pages and leads to a table of favorite opponents. Example http://lichess.org/@/thibault/opponents — this lists Thibault's favorite opponents.
+Favorite opponents=The players you play most against. Appears in profile pages and leads to a table of favorite opponents. Example http://lichess.org/@/thibault/opponents — this lists the players Thibault plays most against.
 
-Follow=Clicking this lets you follow the player and find out what they've been up to around lichess through the activity timeline. Appears as a title text (what you see when you hover the mouse over) of the thumbs up symbol, which in turn appears on profile pages and player name popups. It is recommended to use the translation for this on Twitter, where the words were taken from in the interests of familiarity. Should be translated as a verb.
+Follow=Clicking this lets you follow the player and find out what they've been up to around lichess through the activity timeline. Appears as a mouseover text of the thumbs up symbol, which in turn appears on profile pages and player name information boxes. It is recommended to use the translation for this on Twitter, where the words were taken from in the interests of familiarity. Should be translated as a verb.
 
 Following=Indicates that you are following the player. Replaces the "Follow" button, which appears on profile pages and in popups over player names. It is recommended to use the same translation for this as the one on Twitter, where the words were taken from in the interests of familiarity.
 
@@ -459,7 +459,7 @@ Member since=Tells how long the player has been a member of lichess. Appears on 
 
 Last sign in=The last time a player signed into this account. Appears on profile pages. Example: http://lichess.org/@/thibault — "Last sign in about 4 hours ago" (as of the time of writing).
 
-Challenge to a game=Clicking this lets you ask the player to play a game with you, and takes you to the game set-up view. Appears on profile pages and popups over player names as a title text (what you see when you hover the mouse over) for the crossed swords symbol. Please translate "Challenge" as a verb if possible. Example. http://lichess.org/@/thibault.
+Challenge to a game=Clicking this lets you ask the player to play a game with you, and takes you to the game set-up view. Appears on profile pages and popups over player names as a mouseover text for the crossed swords symbol. Please translate "Challenge" as a verb if possible. Example. http://lichess.org/@/thibault.
 
 Player=Clicking on this lets you sort the list of games by player names. Appears as a column heading in the list of open games on the "Play" page (http://lichess.org/).
 
@@ -483,7 +483,7 @@ Open tournaments="Open" here means you can join the tournament. Below it is a li
 
 Duration=Length of the tournament in minutes. Appears on the left-hand side box on the pages of tournaments. Example: http://lichess.org/tournament/67hj23c2
 
-Winner=Indicates the player won the tournament. This is the title text (what you see when you hover the mouse over) the trophy icon on tournaments pages. Example: http://lichess.org/tournament/67hj23c2
+Winner=Indicates the player won the tournament. This is the mouseover text of the trophy icon on tournaments pages. Example: http://lichess.org/tournament/67hj23c2
 
 Standing=Shows the order of the players in a tournament, ordered by their score. Could be translated as "position" or "score" if your language has no equivalent. Appears in the left-most column on the pages of individual tournaments. Example: http://lichess.org/tournament/67hj23c2
 
@@ -589,7 +589,7 @@ Puzzle %s=%s is the number of the puzzle. This means the way it appears on the s
 
 Puzzle of the day=A random chess puzzle presented on right-hand side the "Play" page (http://lichess.org). As the name suggests, there is a different puzzle every day.
 
-Click to solve=The title text (what you see when you hover the mouse over) of the chess board for the puzzle of the day on the "Play" page (http://lichess.org).
+Click to solve=The mouseover text of the chess board for the puzzle of the day on the "Play" page (http://lichess.org).
 
 Good move=Informs the player that they played a good move, but not the best they could make. Appears in a green box on the left-hand side of the "Training" page (http://lichess.org/training), in reference to the chess puzzle you are currently playing. Keep your translation short, as a longer sentence (also translatable) just below this one informs them it is not the best move they could play.
 
@@ -627,9 +627,9 @@ Continue training=Clicking this takes you to a new puzzle. Appears as a button u
 
 Retry this puzzle=Clicking this lets you try the same the puzzle again. Appears just below the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have failed the puzzle.
 
-This puzzle is correct and interesting=The title text (what you see when you hover the mouse over) of the upwards-pointing triangle (▴), which is a positive vote (+1) for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
+This puzzle is correct and interesting=The mouseover text of the upwards-pointing triangle (▴), which is a positive vote (+1) for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
 
-This puzzle is wrong or boring=The title text (what you see when you hover the mouse over) of the downwards-pointing triangle (▾), which is a negative (-1) vote for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
+This puzzle is wrong or boring=The mouseover text of the downwards-pointing triangle (▾), which is a negative (-1) vote for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
 
 Computers and computer-assisted players are not allowed to play. Please do not get assistance from chess engines, databases, or from other players while playing.=The text users read when creating an account. Appears in the registration (new account) form (http://lichess.org/signup).
 
@@ -647,8 +647,8 @@ White declines draw=Informs that the White player declined Black's offer to draw
 
 Black declines draw=Informs that the Black player declined White's offer to draw the game. This is a system message that appears in the chat box.
 
-Auto switch=Short for 'automatically switch [to the next game]'. A toggleable button that appears below the board when playing multiple games. It makes lichess switch to the next game you are playing automatically for you. When enabled: in correspondence, it cycles through your current games; in simuls, it quickly switches game, focusing on urgent ones. Please keep this as short as possible, as it has an explanatory text that appears when you hover the mouse over.
+Auto switch=Short for "automatically switch [to the next game]". A toggleable button that appears below the board when playing multiple games. It makes lichess switch to the next game you are playing automatically for you. When enabled: in correspondence, it cycles through your current games; in simuls, it quickly switches game, focusing on urgent ones. Please keep this as short as possible, as it has an explanatory text that appears when you hover the mouse over.
 
-Automatically proceed to next game after moving=Informs the player what the button does. This appears as the mouseover text of 'Auto switch', a button that appears when you are playing more than one game. See the explanation for 'Auto switch' for more details.
+Automatically proceed to next game after moving=Informs the player what the button does. This appears as the mouseover text of "Auto switch", a button that appears when you are playing more than one game. See the explanation for "Auto switch" for more details.
 
 Rating=The rating of the player (e.g. 1500). Appears on the lobby list on http://lichess.org/
