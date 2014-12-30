@@ -8,7 +8,7 @@
 
 // Recommendations on how to translate the string are generally placed at the end of the translation context. Sometimes, an alternate way to phrase the original English string is placed at the start to ensure the sentence is understood. In rare situations, the functional context of the string is placed first (e.g. "Teams"); this is purely because lichess does not support grouping translatable strings as of yet.
 
-// Technical words such as part of the ``<head>`` are to be avoided at all costs. When they do occur, a rigorous description must _always_ be trailing them, since translations are constantly being refined after being completed and even new ones are rarely translated in one go. The most prominent example of this are the lengthy but necessary descriptions of HTML's title attribute ("title text [what you see when ...]" and so on). Even home page is too technical (requires knowledge of common internet conventions) for the purposes of the project, as it is called "Play" on lichess.
+// Technical words such as "part of the ``<head>``" are to be avoided at all costs. When they do occur, a rigorous description must _always_ be trailing them, since translations are constantly being refined after being completed and even new ones are rarely translated in one go. Even the term 'home page' is too technical (requires knowledge of common internet conventions) for the purposes of the project, as it is called "Play" on lichess.
 
 // Contexts are to be kept as short as possible, while maintaining grammatical sense. Therefore, statements such as "This sentence is self-explanatory" have no place in the contexts.
 
@@ -20,11 +20,11 @@
 
 Play with a friend=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). This creates a unique URL that you can send to someone and play.
 
-Invite a friend to play with you=The title text (what you see when you hover the mouse over) of the "Play with a friend" button on the "Play" page (http://lichess.org).
+Invite a friend to play with you=The mouseover text of the "Play with a friend" button on the "Play" page (http://lichess.org).
 
 Play with the machine=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). Translate "machine" as "[chess] engine" if it sounds better in your language, omitting the word "chess".
 
-Challenge the artificial intelligence=The title text (what you see when you hover the mouse over) of "Play with the machine". "Challenge" here is used as a verb.
+Challenge the artificial intelligence=The mouseover text of "Play with the machine". "Challenge" here is used as a verb.
 
 To invite someone to play, give this URL=This appears after you have created a game for a friend (through the "Play with a friend" menu). Feel free to translate "URL" as "address", or whatever is most familiar in your language.
 
@@ -40,7 +40,7 @@ Your turn=This appears in the box while you are playing a game. It indicates it 
 
 Level=This appears in the "Play with the machine" menu (http://lichess.org/setup/ai) as a heading. Below it are skill levels (1 through 8) of the AI that you can play against.
 
-Toggle the chat=Turns the chat room (or player chat) on or off. This is the title text (what you see when you hover the mouse over) of the checkbox on the top-right of the chat box.
+Toggle the chat=Turns the chat room (or player chat) on or off. This is the mouseover text of the checkbox on the top-right of the chat box.
 
 Toggle sound=Clicking this turns sound on or off. This is a button on the top-right hand corner of the screen. If you use the Internet Explorer browser, you may not be able to see this.
 
@@ -50,11 +50,11 @@ Checkmate=Appears in the box of a game if you end a game by checkmate.
 
 Stalemate=If you don't know what this rule is, see http://www.chessvariants.org/d.chess/matefaq.html. Appears in the box of a game if you end a game by stalemate. Please use the official term used by your country's or locale's chess federation or club.
 
-White=The title text (what you see when you hover the mouse over) of the White King button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
+White=The mouseover text of the White King button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
-Black=The title text (what you see when you hover the mouse over) of the Black King button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
+Black=The mouseover text of the Black King button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
-Random color=Makes Lichess randomly pick a side for you. The title text (what you see when you hover the mouse over) of the large button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
+Random color=Makes Lichess randomly pick a side for you. The mouseover text of the large button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
 Create a game=This button opens a menu (http://lichess.org/setup/hook) that lets you create a game that is listed in the list (or graph) of open games. It is one of the 3 rectangular buttons on the "Play" page (http://lichess.org/).
 
@@ -62,7 +62,7 @@ White is victorious=Indicates the white player won the game. This appears in the
 
 Black is victorious=Indicates the black player won the game. This appears in the top left box of a game, and also the player profile.
 
-Play with the same opponent again=The title text (what you see when you hover the mouse over) of "Rematch", a button that appears for players (not spectators) at the end of a game if they wish to play again.
+Play with the same opponent again=The mouseover text of "Rematch", a button that appears for players (not spectators) at the end of a game if they wish to play again.
 
 New opponent=Clicking this takes you back to the "Play" page (http://lichess.org). This is a button that appears at the end of a game just below the "Rematch" button.
 
@@ -78,7 +78,7 @@ Black to play=This is what a spectator sees in the right-hand box when watching 
 
 The other player may have left the game. You can claim victory, call the game a draw, or wait.=This appears after 3 minutes have elapsed with one player disconnected. Below it are two buttons: "Claim victory" and "Call draw".
 
-Make your opponent resign=The title text (what you see when you hover the mouse over) of "Claim victory". You don't have to translate it like this; you can translate to e.g. "Force victory", or whatever best explains the button in your language. Title texts can be as long as you want, within reason.
+Make your opponent resign=The mouseover text of "Claim victory". You don't have to translate it like this; you can translate to e.g. "Force victory", or whatever best explains the button in your language. Mouseover texts can be as long as you want, within reason.
 
 Claim victory=Clicking this ends the game and grants you the win. One of the two buttons that appears when your opponent leaves the game.
 
@@ -104,7 +104,7 @@ White left the game=This appears when the White player leaves the game either by
 
 Black left the game=This sentence appears when the Black player leaves the game either by aborting or by being absent for too long. It can found in the right hand-side box in a game, the list of games on the profile and also the left hand-side box in a game.
 
-Share this URL to let spectators see the game=The title text (what you see when you hover the mouse over) of the link just below the board which you can send to people so they can watch the game.
+Share this URL to let spectators see the game=The mouseover text of the link just below the board which you can send to people so they can watch the game.
 
 You are viewing this game as a spectator=This appears in the top left box when you watch a game that is currently playing as a spectator.
 
@@ -150,7 +150,7 @@ Current games=This is a shorter phrase for "Games being played right now". It is
 
 Bookmarked by %s players=%s is the number of players. This appears above the bookmark star in a game that has been bookmarked. Example: http://lichess.org/analyse/vyvcbk8s
 
-View in full size=Clicking one of these small boards brings you to the game's unique page. This is the title text (what you see when you hover the mouse over) of the small chess boards dotted around the site. These small boards are most prominent in the "Games" pages (http://lichess.org/games).
+View in full size=Clicking one of these small boards brings you to the game's unique page. This is the mouseover text of the small chess boards dotted around the site. These small boards are most prominent in the "Games" pages (http://lichess.org/games).
 
 Sign out=Clicking this signs you out of your lichess profile. This is part of the profile drop-down menu on the top of every page when you are signed in to an account.
 
@@ -210,7 +210,7 @@ Password reset=Appears as a heading in the link you are given after you asked fo
 
 Forgot password?=You click here if you forgot your password and want it reset. Please adopt an inviting tone to the user. Also see how other popular websites (e.g. YouTube) phrase the same question in your language. Appears on the "Sign in" page.
 
-Learn more about Lichess=The title text (what you see when you hover the mouse over) of the "Wiki" link at the footer (bottom) of every page on the website.
+Learn more about Lichess=The mouseover text of the "Wiki" link at the footer (bottom) of every page on the website.
 
 Rank=This sentence is not currently used on the site, but feel free to translate it.
 
@@ -309,7 +309,7 @@ Color=Clicking this opens a menu that allows you to change the colour or texture
 
 Rating range=Below this is a slider that lets you choose the accepted player ratings. The sentence appears in the "Create a game" (http://lichess.org/setup/hook) and "Filter games" menus. Please do NOT translate "rating" to "Elo", because lichess has been using the superior Glicko-2 rating system since late 2013.
 
-Give %s seconds=%s here is the number of seconds, usually 15. This is the title text (the text you see when you hover the mouse over) of the "+" button that appears next to players' names in timed matches. Clicking it adds "%s" seconds to the player's clock.
+Give %s seconds=%s here is the number of seconds, usually 15. This is the mouseover text of the "+" button that appears next to players' names in timed matches. Clicking it adds "%s" seconds to the player's clock.
 
 Premove enabled - Click anywhere to cancel=A premove is when you set up a move before it is your turn to play. You can make one by clicking on your piece and then clicking on a position it could go to. As the sentence suggests, clicking anywhere prevents the premove from being executed. Translate premove to whatever sounds best in your language; for example, this is translated to "pre-selection" in some languages.
 
@@ -319,7 +319,7 @@ Opening=The chess opening used in the game. It appears beneath the move list on 
 
 Takeback=This is an action you can take in-game that undoes a move. Clicking it sends an offer to your opponent. Appears in the box on right right-hand side. Translate freely, but keep it short. For instance, this has been translated to "Cancel move" in several languages.
 
-Propose a takeback=The title text (what you see when you hover the mouse over) of "Takeback".
+Propose a takeback=The mouseover text of "Takeback". See its description for details.
 
 Takeback proposition sent=Informs the player that a takeback proposition has been sent. This is a system message that appears in the chat box.
 
@@ -649,6 +649,6 @@ Black declines draw=Informs that the Black player declined White's offer to draw
 
 Auto switch=Short for 'automatically switch [to the next game]'. A toggleable button that appears below the board when playing multiple games. It makes lichess switch to the next game you are playing automatically for you. When enabled: in correspondence, it cycles through your current games; in simuls, it quickly switches game, focusing on urgent ones. Please keep this as short as possible, as it has an explanatory text that appears when you hover the mouse over.
 
-Automatically proceed to next game after moving=Informs the player what the button does. This appears as the title text (what you see when you hover the mouse over) of 'Auto switch', a button that appears when you are playing more than one game. See the explanation for 'Auto switch' for more details.
+Automatically proceed to next game after moving=Informs the player what the button does. This appears as the mouseover text of 'Auto switch', a button that appears when you are playing more than one game. See the explanation for 'Auto switch' for more details.
 
 Rating=The rating of the player (e.g. 1500). Appears on the lobby list on http://lichess.org/
