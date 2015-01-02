@@ -27,21 +27,18 @@ Before beginning, please make sure you have the following tools installed, using
 
 ## Installation Steps
 ### Setting up your Lichess configuration and Compiling the Web App.
+
 1. Fork the lila project on github and clone it from your repository using git.
-
-1. Set up the submodules by executing the following command: `git submodule update --init --recursive`.
-
-1. Compile the scala application with `sbt compile`
-
-1. Add the base application configuration file to the `conf` directory in the checked out project. **This must be retrieved from Ornicar himself.**
-
-1. Add the application override configuration file to the `conf` directory in the checked out project. This can be found at : https://gist.github.com/clarkerubber/e0da7c22500fc6831a17 . **Note:** you should remove the exec_path unless you intend to use your own installed version of stockfish. If this is the case, you should change the path to point there instead.
 
 1. Using your favourite terminal emulator, change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts.
 
-1. Run `sudo npm install gulp --global` (or `npm install gulp` and then add the install path of gulp to your PATH variable.)
+1. Set up the submodules by executing the following command: `git submodule update --init --recursive`.
 
 1. Run `./bin/build-deps.sh`
+
+1. Compile the scala application with `sbt compile`
+
+1. Run `sudo npm install gulp --global` (or `npm install gulp` and then add the install path of gulp to your PATH variable.)
 
 1. Run `./ui/build`
 
@@ -97,9 +94,12 @@ Before beginning, please make sure you have the following tools installed, using
 
 ### Running the Application
 
+1. Add the base application configuration file to the `conf` directory in the checked out project. **This must be retrieved from Ornicar himself.**
+
+1. Add the application override configuration file to the `conf` directory in the checked out project. This can be found at : https://gist.github.com/clarkerubber/e0da7c22500fc6831a17 . **Note:** you should remove the exec_path unless you intend to use your own installed version of stockfish. If this is the case, you should change the path to point there instead.
+
 1. Make sure that mongodb and nginx are both running.
 
 1. From the top level of the lichess project, execute `sbt -Dhttp.port=9663`
 
 1. When sbt is finished retrieving dependencies, type `run` and press enter.
- 
