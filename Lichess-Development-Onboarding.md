@@ -14,6 +14,7 @@ Before beginning, please make sure you have the following tools installed, using
 * `sbt`
 * `npm` (from nodejs)
 * `svgcleaner`
+* `zsh`
 
 ### Infrastructure
 * `mongodb`
