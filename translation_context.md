@@ -575,9 +575,9 @@ Training=A page that offers chess puzzles. These help you improve how you play c
 
 Your puzzle rating: %s=%s is your numerical puzzle rating. Appears in a box left of the board on the "Training" page (http://lichess.org/training), above the graph.
 
-Find the best move for white.=Informs the player what side they are playing. Appears on the left-hand side when trying puzzles while not signed in, on the "Training" page (http://lichess.org/training).
+Find the best move for white.=Informs the player what side they are playing. Appears on the right-hand side of the puzzle trainer, on the "Training" page (http://lichess.org/training).
 
-Find the best move for black.=Informs the player what side they are playing. Appears on the left-hand side when trying puzzles while not signed in, on the "Training" page (http://lichess.org/training).
+Find the best move for black.=Informs the player what side they are playing. Appears on the right-hand side of the puzzle trainer, on the "Training" page (http://lichess.org/training).
 
 To track your progress:=Encourages the player to register. Below this message is a "Register" button. Appears in a box left of the board on the "Training" page (http://lichess.org/training) when trying puzzles and not being signed in.
 
@@ -607,7 +607,7 @@ Victory!=Informs the player that they completed the puzzle successfully. Appears
 
 Give up=Clicking this lets you go to the next puzzle and to the replay screen. It counts as failing the puzzle. Appears as a button in the box on the right of the board on the "Training" page (http://lichess.org/training) while you are playing the puzzle.
 
-Puzzle solved in %s seconds.=%s is the number of seconds it took you to solve the chess puzzle. Appears in the box right of the board on the "Training" page (http://lichess.org/training). You can address the player directly here, so something like "You solved the puzzle in %s seconds" is acceptable if it is kept short enough.
+Puzzle solved in %s seconds.=%s is the number of seconds it took you to solve the chess puzzle. Appears in the box left of the board on the "Training" page (http://lichess.org/training). You can address the player directly here, so something like "You solved the puzzle in %s seconds" is acceptable if it is kept short enough.
 
 Was this puzzle any good?=Poses a question to the user on whether the chess puzzle they just played was good or not. This is intended to entice players to vote, so please be encouraging in tone. This message appears occasionally on the "Training" page (http://lichess.org/training), after a player has played several puzzles without voting. An alternate way to phrase this sentence could be "How did you find this puzzle?".
 
@@ -652,3 +652,15 @@ Auto switch=Short for "automatically switch [to the next game]". A toggleable bu
 Automatically proceed to next game after moving=Informs the player what the button does. This appears as the mouseover text of "Auto switch", a button that appears when you are playing more than one game. See the explanation for "Auto switch" for more details.
 
 Rating=The rating of the player (e.g. 1500). Appears on the lobby list on http://lichess.org/
+
+Opening %s=%s is the number of the opening training. This means the way it appears on the site will be something like "Opening 5705". Appears on the "Opening" page (http://lichess.org/training/opening).
+
+Your opening rating: %s=%s is your numerical opening trainer rating. Appears in a box left of the board on the "Opening" page (http://lichess.org/training/opening), above the graph.
+
+Find %s strong moves=Informs the player home many opening strong moves they have to find. Appears on the right-hand side when using the opening trainer, on the "Opening" page (http://lichess.org/training/opening).
+
+This move gives your opponent the advantage=Informs you that you played a weak move on the opening trainer. Appears in a red box left of the board on the Opening page (http://lichess.org/training/opening).
+
+Opening failed=Informs you that you lost the opening. Appears in a red box left of the board on the Training page (http://lichess.org/training) when the opening training completes with a loss. Could also be translated as "You have failed the opening", if it is short enough and sounds better. 
+
+Opening solved=Appears in the box left of the board on the "Opening" page (http://lichess.org/training/opening). You can address the player directly here, so something like "You solved the opening" is acceptable if it is kept short enough.
