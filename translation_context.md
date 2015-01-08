@@ -664,3 +664,5 @@ This move gives your opponent the advantage=Informs you that you played a weak m
 Opening failed=Informs you that you lost the opening. Appears in a red box left of the board on the Training page (http://lichess.org/training) when the opening training completes with a loss. Could also be translated as "You have failed the opening", if it is short enough and sounds better. 
 
 Opening solved=Appears in the box left of the board on the "Opening" page (http://lichess.org/training/opening). You can address the player directly here, so something like "You solved the opening" is acceptable if it is kept short enough.
+
+Recently played openings=A list of your last-played openings. Appears as a heading below the board on the "Opening" page (http://lichess.org/training/opening). Do NOT translate "played" as "finished", because that implies success at the openings, which is not always the case.
