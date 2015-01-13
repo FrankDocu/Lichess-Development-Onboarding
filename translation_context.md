@@ -679,23 +679,23 @@ Tournament winners=A list of tournament winners. Appears on the "Play" page (htt
 
 Name=This appears in the form for creating a new team (http://lichess.org/team/new). You choose your team name in this field.
 
-Description=This appears in the form for creating a new team (http://lichess.org/team/new). You write a description for your team in this field.
+Description=This appears in the form for creating a new team (http://lichess.org/team/new). You can write a description for your team in this field.
 
-No=Appears in the settings (http://lichess.org/account/preferences).
+No=Appears in the settings for multiple options (http://lichess.org/account/preferences).
 
-Yes=Appears in the settings (http://lichess.org/account/preferences).
+Yes=Appears in the settings for multiple options (http://lichess.org/account/preferences).
 
-Help:=Appears next to the chess CAPTCHA when signing up (http://lichess.org/signup) with a link after it. It also appears in the forum when you want to post something.
+Help:=Appears next to chess CAPTCHAs when signing up, posting on the forum and other actions with a link to the game it is referenced from.
 
 Create a new topic=Click this button in the forum (http://lichess.org/forum/general-chess-discussion) to create a new topic.
 
-Topics=Appears in the forum and showss how many topics a category has (http://lichess.org/forum).
+Topics=Appears as a column in the forum and shows how many topics a category has (http://lichess.org/forum).
 
 Posts=Appears in the forum and shows how many posts a category has (http://lichess.org/forum).
 
 Last post=Appears in the forum and shows the time of the last post (http://lichess.org/forum).
 
-Views=Appears in the forum and shows how many views a topic has (http://lichess.org/forum).
+Views=Appears in the forum and shows how many views a topic has (http://lichess.org/forum/general-chess-discussion).
 
 Replies=Appears in the forum and shows how many replies a topic has (http://lichess.org/forum/general-chess-discussion).
 
@@ -711,46 +711,46 @@ Reopen the topic=Click this button in the forum to reopen a topic that earlier w
 
 Close the topic=Click this button in the forum to close a topic.
 
-Report a user=The header on this page (http://lichess.org/report). Use this form to report a user.
+Report a user=Appears as a heading for this form (http://lichess.org/report). Use this form to report a user.
 
 User=To report a user, you need to write their name in this field (http://lichess.org/report).
 
 Reason=Choose a reason for reporting a user (http://lichess.org/report).
 
-What's the matter?=Default choice in dropdown that describes the options to choose from (http://lichess.org/report).
+What's the matter?=Default choice in drop-down menu that describes the options to choose from (http://lichess.org/report).
 
-Cheat=Choose this option if a user cheated. Appears in the reason dropdown on the page (http://lichess.org/report).
+Cheat=Choose this option if a user cheated. Appears in the drop-down menu for reasons in the report form (http://lichess.org/report).
 
-Insult=Choose this option if a user insulted you. Appears in the reason dropdown on the page (http://lichess.org/report).
+Insult=Choose this option if a user insulted you. Appears in the drop-down menu for reasons in the report form (http://lichess.org/report).
 
-Troll=Choose this option if a user is trolling. Appears in the reason dropdown on the page (http://lichess.org/report).
+Troll=Choose this option if a user is trolling. Appears in the dropdown menu for reasons in the report form (http://lichess.org/report).
 
-Other=Choose this option if you have another reason than the ones in the dropdown list. Appears in the reason dropdown on the page (http://lichess.org/report).
+Other=Choose this option if you have another reason than the ones in the dropdown list. Appears in the drop-down menu for reasons in the report form(http://lichess.org/report).
 
 Paste the link to the game(s) and explain what is wrong about this user behavior.=Appears under the description box on the page for reporting a user (http://lichess.org/report).
 
-by %s=The %s is the username of the poster in the forum. This is used in the 'Last post' column (http://sv.lichess.org/forum/general-chess-discussion).
+by %s=The %s is the username of the poster in the forum. This is used in the 'Last post' column (http://lichess.org/forum/general-chess-discussion).
 
 This topic is now closed.=This sentence appears in the forum when a topic is closed.
 
-Theming=Clicking this opens a menu that allows you to change the colour or texture of the chess board. This button that looks like an eye appears on the top bar in all the pages and it says "Theming" when you hover it.
+Theming=Clicking this opens a menu that allows you to change the colour or texture of the chess board. This button that looks like an eye appears on the top bar in all the pages and it says "Theming" when you hover over it.
 
-Donate=Click this button (at the bottom of any page) to make a donation.
+Donate=Click this button (at the bottom of all pages) to make a donation.
 
-Blog=Appears in the bottom left of any page and redirects you to the blog.
+Blog=Appears in the bottom left of any page and links to the blog.
 
 Map=Appears in the bottom left of any page and redirects you to the world map where you can see real time chess moves. (http://lichess.org/world-map)
 
-Real time world map of chess moves=This sentence appears when you hover over "Map" at the bottom left on any page.
+Real time world map of chess moves=This sentence appears when you hover over "Map" on the bottom left of any page. The link leads to http://lichess.org/world-map
 
-Questions & Answers=Appears when you hover over "Q&A" at the bottom left on any page.
+Questions & Answers=Appears when you hover over "Q&A" (http://lichess.org/qa) at the bottom left on any page. Translate freely. If you cannot find a good translation, consider leaving this untranslated so another speaker of your language can look at it.
 
-Notes=Appears on the left side while playing a game. Click this to type your private notes.
+Notes=Appears on the left side while playing a game. You can type your private notes on the game in this tab.
 
-Type private notes here=Appears in the "Notes" box on the left side while playing a game. Click in the box to type your private notes.
+Type private notes here=Click in the box to type your private notes. This is the placeholder text (greyed-out text that disappears when you click) for the "Notes" box on the left side while playing a game. Please use a verb and active voice to address the user in this sentence
 
-Game display=The title on your account preferences page where you can change your game design (http://lichess.org/account/preferences).
+Game display=The title on your account preferences page where you can change how the board and pieces are displayed, among other things (http://lichess.org/account/preferences).
 
 Piece animation=Here you can change the speed of your piece animation or select none (http://lichess.org/account/preferences).
 
-Material difference=Choose if you want to see the material difference while playing a game. (http://lichess.org/account/preferences).
+Material difference=Choose if you want to see the difference in material while playing a game. (http://lichess.org/account/preferences).
