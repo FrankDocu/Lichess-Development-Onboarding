@@ -11,9 +11,9 @@ Before beginning, please make sure you have the following tools installed, using
 
 ### Tools and dependency managers
 * `git`
-* `sbt`
+* `sbt` ([instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
 * `npm` (from nodejs)
-* `svgcleaner`
+* `svgcleaner` ([PPA](https://code.launchpad.net/~svg-cleaner-team/+archive/ubuntu/svgcleaner))
 * `zsh`
 
 ### Infrastructure
