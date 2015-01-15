@@ -754,3 +754,119 @@ Game display=The title on your account preferences page where you can change how
 Piece animation=Here you can change the speed of your piece animation or select none (http://lichess.org/account/preferences).
 
 Material difference=Choose if you want to see the difference in material while playing a game. (http://lichess.org/account/preferences).
+
+Close account=Clicking this lets you close your account. Appears in the left menu on the settings page http://lichess.org/account/preferences
+
+Close your account=Appears as a heading on the page for closing your account http://lichess.org/account/close
+
+Close my account=Your account gets removed when you click this button. Appears here http://lichess.org/account/close
+
+I changed my mind, don't close my account=This sentence appears on the page for closing your account http://lichess.org/account/close. You can click this button if you don't want to close your account. When you click the button you will get redirected to your profile page.
+
+Are you sure you want to close your account? Closing your account is a permanent decision. You will no longer be able to login, and your profile page will no longer be accessible.=These sentences appear under the heading on the page for closing your account http://lichess.org/account/close.
+
+This account is closed.=This text appears after you have clicked the "Close my account" button. http://lichess.org/account/close
+
+Invalid username or password=This text appears on the log in page when you enter the wrong username/password http://lichess.org/login
+
+Email me a link=Click this button to reset your password http://lichess.org/password/reset
+
+Current password=Appears on the page for changing your password http://lichess.org/account/passwd. Write your current password in this field.
+
+New password=Appears on the page for changing your password http://lichess.org/account/passwd. Write your new password in this field.
+
+New password (again)=Appears on the page for changing your password http://lichess.org/account/passwd. Write your new password again in this field.
+
+Board highlights (last move and check)=Choose if you want to see highlights, on the game board, for last move and check. http://lichess.org/account/preferences
+
+Piece destinations (valid moves and premoves)=Choose if you want to see where all the pieces can move to on the board. http://lichess.org/account/preferences
+
+Board coordinates (A-H, 1-8)=Choose if you want to see the coordinates on the board, and where to show them. http://lichess.org/account/preferences
+
+Move list while playing=Choose if you want to see a list of all moves made, on the right side of the board. http://lichess.org/account/preferences
+
+Chess clock=One of the subtitles on your account preferences page (http://lichess.org/account/preferences). In this section you can choose between different options regarding the time.
+
+Tenths of seconds=Choose if you want to see tenths of seconds while playing a game. http://lichess.org/account/preferences
+
+Never=Appears in the settings (http://lichess.org/account/preferences).
+
+When time remaining < 10 seconds=Appears in the settings (http://lichess.org/account/preferences).
+
+Horizontal green progress bars=Choose if you want to see a green progress bar while playing a game. (http://lichess.org/account/preferences).
+
+Sound when time gets critical=Choose if you want to hear a special sound, while playing a game, when you start running out of time. (http://lichess.org/account/preferences).
+
+Game behavior=One of the subtitles on your account preferences page (http://lichess.org/account/preferences). In this section you can choose between different options regarding the game.
+
+Premoves (playing during opponent turn)=Choose if you want to be able to make premoves while waiting for your opponent to make a move. (http://lichess.org/account/preferences).
+
+Takebacks (with opponent approval)=Choose if you want to enable takebacks in games. (http://lichess.org/account/preferences)
+
+Promote to Queen automatically=Choose if you want the pawn to promote to a queen automatically when you reach the other side of the board. (http://lichess.org/account/preferences)
+
+Claim draw on %sthreefold repetition%s automatically=These two %s should be put around the words that you translate "threefold repetition" into, this links to wikipedia in enligsh for a description of the meaning. The two %s can be left out if users of your language generally can't read english. On this page http://lichess.org/account/preferences you can choose if you want to be able to automatically claim a draw when threefold repetition occurs.
+
+Privacy=One of the subtitles on your account preferences page (http://lichess.org/account/preferences). In this section you can choose between different options regarding your privacy.
+
+Let other players follow you=Choose if you want to let other players be able to follow you. http://lichess.org/account/preferences
+
+Let other players challenge you=Choose if you want to let other players be able to challenge you to a game. http://lichess.org/account/preferences
+
+Sound=The last subtitle on your account preferences page (http://lichess.org/account/preferences).
+
+The sound control is in the top bar of every page, on the right side.=This section informs you where the sound control is on lichess. http://lichess.org/account/preferences
+
+Your preferences have been saved.=This sentence appears on the bottom of your account preferences page. http://lichess.org/account/preferences. It informs you that all the changes you've made have been saved.
+
+None=Choose this option if you want to disable piece animation. http://lichess.org/account/preferences
+
+Fast=Choose this option if you want your piece animation to be fast. http://lichess.org/account/preferences
+
+Normal=Choose this option if you want your piece animation to be normal. http://lichess.org/account/preferences
+
+Slow=Choose this option if you want your piece animation to be slow. http://lichess.org/account/preferences
+
+Inside the board=Choose if you want to see the coordinates on the game board. http://lichess.org/account/preferences
+
+Outside the board=Choose if you want to see the coordinates outside the game board. http://lichess.org/account/preferences
+
+On slow games=Choose this option if you only want to see the list of moves on slow games. http://lichess.org/account/preferences
+
+Always=Appears on the preferences page http://lichess.org/account/preferences
+
+In casual games only=Choose this if you only want to allow takebacks on casual games. http://lichess.org/account/preferences
+
+When premoving=One of the options for promoting to a queen automatically. http://lichess.org/account/preferences
+
+When time remaining < 30 seconds=One of the options for claiming a draw when threefold repetition occurs. http://lichess.org/account/preferences
+
+Easy=Click this button to select easy as your difficulty. Appears on the training page when solving puzzles http://lichess.org/training/
+
+Normal=Click this button to select normal as your difficulty. Appears on the training page when solving puzzles http://lichess.org/training/
+
+Hard=Click this button to select hard as your difficulty. Appears on the training page when solving puzzles http://lichess.org/training/
+
+%s left a note on %s=First %s is the name of the player that left a note, and the second %s is the player who got a note on their profile. Shows up on the main page under logotype http://lichess.org and http://lichess.org/timeline/more
+
+%s competes in %s=First %s is the name of the player that competes in a tournament, and the second %s is the tournament name. Shows up on the timeline on the main page under logotype http://lichess.org and here http://lichess.org/timeline/more
+
+%s asked %s=First %s is the name of the player that asked, and the second %s is the title of the question in Q&A. Shows up on the timeline on the main page under logotype http://lichess.org and here http://lichess.org/timeline/more
+
+%s answered %s=First %s is the name of the player that answered, and the second %s is the title of the question in Q&A. Shows up on the timeline on the main page under logotype http://lichess.org and here http://lichess.org/timeline/more
+
+%s commented %s=First %s is the name of the player that commented, and the second %s is the title of the question in Q&A. Shows up on the timeline on the main page under logotype http://lichess.org and here http://lichess.org/timeline/more
+
+Timeline=Appears on the main page under logotype http://lichess.org and http://sv.lichess.org/timeline/more. The list shows recent events on lichess.
+
+See all tournaments=This text appears when you hover over the "more" link for "open tournaments" on the main page http://lichess.org/
+
+Starting:=To see an example click on an open tournament from the tournament page http://sv.lichess.org/tournament. This text appears to the left of the "join" button and it informs you when the tournament is starting.
+
+All information is public and optional.=This sentence appears under the header on the page where you change your profile http://lichess.org/account/profile
+
+Your city, region, or department.=This text appears under the field where you write your location. http://lichess.org/account/profile
+
+Tell about you, what you like in chess, your favorite openings, games, players…=This sentence appears under the biography description box on the page where you edit your profile http://lichess.org/account/profile
+
+Maximum: 400 characters.=This text appears under the biography description box to inform you the maximum length of your description. http://lichess.org/account/profile
