@@ -705,11 +705,7 @@ Reply=The button at the bottom of a topic page. Click the button to reply to a t
 
 Message=This is where you write your message for replying to a topic or creating a topic in the forum.
 
-Create the topic=The button at the bottom of the page (http://lichess.org/forum/general-chess-discussion/form). Click it to create your topic.
-
-Reopen the topic=Click this button in the forum to reopen a topic that earlier was closed.
-
-Close the topic=Click this button in the forum to close a topic.
+Create the topic=The button at the bottom of forum pages (http://lichess.org/forum/general-chess-discussion/form). Click it to create your topic.
 
 Report a user=Appears as a heading for this form (http://lichess.org/report). Use this form to report a user.
 
