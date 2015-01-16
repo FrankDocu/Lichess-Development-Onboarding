@@ -865,4 +865,4 @@ Your city, region, or department.=This text appears under the field where you wr
 
 Tell about you, what you like in chess, your favorite openings, games, players…=This sentence appears under the biography description box on the page where you edit your profile http://lichess.org/account/profile
 
-Maximum: 400 characters.=This text appears under the biography description box to inform you the maximum length your description can have. http://lichess.org/account/profile
+Maximum: %s characters.=This text appears under the biography description box to inform you the maximum length your description can have. http://lichess.org/account/profile
