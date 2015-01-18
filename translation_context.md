@@ -48,7 +48,7 @@ Resign=Clicking this makes you resign from the game. Small button in the box on 
 
 Checkmate=Appears in the box of a game if you end a game by checkmate.
 
-Stalemate=If you don't know what this rule is, see http://www.chessvariants.org/d.chess/matefaq.html. Appears in the box of a game if you end a game by stalemate. Please use the official term used by your country's or locale's chess federation or club.
+Stalemate=If you do not know what this rule is, see http://www.chessvariants.org/d.chess/matefaq.html. Appears in the box of a game if you end a game by stalemate. Please use the official term used by your country's or locale's chess federation or club.
 
 White=The mouseover text of the White King button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
@@ -78,7 +78,7 @@ Black to play=This is what a spectator sees in the right-hand box when watching 
 
 The other player may have left the game. You can claim victory, call the game a draw, or wait.=This appears after 3 minutes have elapsed with one player disconnected. Below it are two buttons: "Claim victory" and "Call draw".
 
-Make your opponent resign=The mouseover text of "Claim victory". You don't have to translate it like this; you can translate to e.g. "Force victory", or whatever best explains the button in your language. Mouseover texts can be as long as you want, within reason.
+Make your opponent resign=The mouseover text of "Claim victory". You do not have to translate it like this; you can translate to e.g. "Force victory", or whatever best explains the button in your language. Mouseover texts can be as long as you want, within reason.
 
 Claim victory=Clicking this ends the game and grants you the win. One of the two buttons that appears when your opponent leaves the game.
 
@@ -112,7 +112,7 @@ Computer analysis=An automated analysis of a game performed by lichess. It provi
 
 Computer analysis in progress=This is the text in a new box that comes up once you have requested a computer analysis of a chess game.
 
-The computer analysis has failed=This is an error message that appears when the computer analysis can't be displayed for some reason. It appears the "Computer analysis" tab.
+The computer analysis has failed=This is an error message that appears when the computer analysis cannot be displayed for some reason. It appears the "Computer analysis" tab.
 
 View the computer analysis=Clicking this button takes you to the computer analysis. The sentence appears only for the player that requested it, in the "Computer analysis" tab.
 
@@ -433,7 +433,7 @@ Find friends=Clicking on this takes you to a page that suggests players that cou
 
 Favorite opponents=The players you play most against. Appears in profile pages and leads to a table of favorite opponents. Example http://lichess.org/@/thibault/opponents — this lists the players Thibault plays most against.
 
-Follow=Clicking this lets you follow the player and find out what they've been up to around lichess through the activity timeline. Appears as a mouseover text of the thumbs up symbol, which in turn appears on profile pages and player name information boxes. It is recommended to use the translation for this on Twitter, where the words were taken from in the interests of familiarity. Should be translated as a verb.
+Follow=Clicking this lets you follow the player and find out what they have been up doing around lichess through the activity timeline. Appears as a mouseover text of the thumbs up symbol, which in turn appears on profile pages and player name information boxes. It is recommended to use the translation for this on Twitter, where the words were taken from in the interests of familiarity. Should be translated as a verb.
 
 Following=Indicates that you are following the player. Replaces the "Follow" button, which appears on profile pages and in popups over player names. It is recommended to use the same translation for this as the one on Twitter, where the words were taken from in the interests of familiarity.
 
@@ -519,7 +519,7 @@ Save position=This sentence is not currently used on the site, but feel free to 
 
 Load position=Clicking this opens a form that lets you paste a FEN text (FEN is a notation system used to store precise positions on a board). Being a board editor feature, it appears on the board editor's page — http://lichess.org/editor
 
-Private=Means the tournament you're looking at is protected with a password. Appears in the information box on the tournament's page. Example: http://lichess.org/tournament/67hj23c2
+Private=Means the tournament you are looking at is protected with a password. Appears in the information box on the tournament's page. Example: http://lichess.org/tournament/67hj23c2
 
 Report %s to moderators=%s is the name of the player. Clicking this will take you to a form where you can report the player for things like cheating and trolling. Appears on player profiles.
 
@@ -725,7 +725,7 @@ Other=Choose this option if you have another reason than the ones in the dropdow
 
 Paste the link to the game(s) and explain what is wrong about this user behavior.=Appears under the description box on the page for reporting a user (http://lichess.org/report).
 
-by %s=The %s is the username of the poster in the forum. This is used in the 'Last post' column (http://lichess.org/forum/general-chess-discussion).
+by %s=The %s is the username of the poster in the forum. This is used in the "Last post" column (http://lichess.org/forum/general-chess-discussion).
 
 This topic is now closed.=This sentence appears in the forum when a topic is closed.
 
@@ -751,13 +751,13 @@ Piece animation=Here you can change the speed of your piece animation or select 
 
 Material difference=Choose if you want to see the difference in material while playing a game. (http://lichess.org/account/preferences).
 
-Close account=Clicking this lets you close your account. Appears in the menu on the preferences page http://lichess.org/account/preferences and as a heading on the "Close account" page. Please do not translate to 'delete account' unless you have to, as some data like the games you played on the site are retained.
+Close account=Clicking this lets you close your account. Appears in the menu on the preferences page http://lichess.org/account/preferences and as a heading on the "Close account" page. Please do not translate to "delete account" unless you have to, as some data like the games you played on the site are retained.
 
 Close your account=Appears as a heading on the page for closing your account http://lichess.org/account/close
 
 Close my account=Your account gets removed when you click this button. Appears here http://lichess.org/account/close
 
-I changed my mind, don't close my account=This sentence appears on the page for closing your account http://lichess.org/account/close. You can click this button if you don't want to close your account. When you click the button you will get redirected to your profile page.
+I changed my mind, don't close my account=This sentence appears on the page for closing your account http://lichess.org/account/close. You can click this button if you do not want to close your account. When you click the button you will get redirected to your profile page.
 
 Are you sure you want to close your account? Closing your account is a permanent decision. You will no longer be able to login, and your profile page will no longer be accessible.=These sentences appear under the heading on the page for closing your account http://lichess.org/account/close.
 
@@ -801,7 +801,7 @@ Takebacks (with opponent approval)=Choose if you want to enable takebacks (abili
 
 Promote to Queen automatically=Choose if you want the pawn to promote to a queen automatically when you reach the other side of the board. (http://lichess.org/account/preferences)
 
-Claim draw on %sthreefold repetition%s automatically=IMPORTANT: These two %s should be put around the words that you translate "threefold repetition" into. This links to Wikipedia in English for a description of the meaning. The two %s can be left out if users of your language generally can't read English. On the preferences page (http://lichess.org/account/preferences) you can choose if you want to be able to automatically claim a draw when threefold repetition occurs.
+Claim draw on %sthreefold repetition%s automatically=IMPORTANT: These two %s should be put around the words that you translate "threefold repetition" into. This links to Wikipedia in English for a description of the meaning. The two %s can be left out if users of your language generally cannot read English. On the preferences page (http://lichess.org/account/preferences) you can choose if you want to be able to automatically claim a draw when threefold repetition occurs.
 
 Privacy=One of the subheadings on your account preferences page (http://lichess.org/account/preferences). In this section you can choose between different options regarding your privacy.
 
@@ -813,7 +813,7 @@ Sound=Subheading for the last section on your account preferences page (http://l
 
 The sound control is in the top bar of every page, on the right side.=This sentence informs you where the sound control is on lichess. Appears on your account preferences page: http://lichess.org/account/preferences
 
-Your preferences have been saved.=This sentence appears on the bottom of your account preferences page. http://lichess.org/account/preferences. It informs you that all the changes you've made have been saved.
+Your preferences have been saved.=This sentence appears on the bottom of your account preferences page. http://lichess.org/account/preferences. It informs you that all the changes you have made have been saved.
 
 None=Choose this option if you want to disable piece animation (movement). Appears on your account preferences page: http://lichess.org/account/preferences
 
@@ -866,3 +866,7 @@ Your city, region, or department.=This text appears under the field where you wr
 Tell about you, what you like in chess, your favorite openings, games, players…=This sentence appears under the biography description box on the page where you edit your profile http://lichess.org/account/profile
 
 Maximum: %s characters.=This text appears under the biography description box to inform you the maximum length your description can have. http://lichess.org/account/profile
+
+%s blocks=%s is the number of players you have blocked. Consider translating to "%s blocked players" if you think the context is not sufficient. Appears as a heading on your list of blocked players at http://lichess.org/rel/blocks
+
+List players that you have blocked="List" is used as a verb here. This is a descriptive sentence which appears when you hover the mouse over the block icon on your own profile. Clicking the icon will show you a list of players you have blocked.
