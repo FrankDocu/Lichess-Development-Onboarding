@@ -251,7 +251,7 @@ Standard="Standard" here means "not a variant". Selecting this means you play in
 
 Unlimited=This is short for "Unlimited time". It describes games that have no time controls and can therefore run for an infinite amount of time. This sentence appears in many locations, including game pages and the "Create a game" menu. Please keep this sentence as short as possible.
 
-Mode="Mode" here is in the context of filtering between Casual and Rated games. The sentence appears in the "Filter games" menu, which is just above the list of games on the "Play" page (http://lichess.org/).
+Mode="Mode" here is in the context of filtering between Casual (casual games are not rated) and Rated games. The sentence appears in the "Filter games" menu, which is just above the list of games on the "Play" page (http://lichess.org/).
 
 Casual="Casual" in this context means the game is unrated; players will not gain or lose points. Has been translated to "Friendly" (after the football term) and simply "Unrated" in some languages. Be creative. The sentence appears in the "Filter games" menu, which can be accessed through the "Play" page (http://lichess.org).
 
@@ -831,7 +831,7 @@ On slow games=Choose this option if you only want to see the list of moves on sl
 
 Always=Appears on the preferences page http://lichess.org/account/preferences
 
-In casual games only=Choose this if you only want to allow takebacks on casual games. Appears on your account preferences page: http://lichess.org/account/preferences
+In casual games only=Choose this if you only want to allow takebacks on casual games. Casual games are games which are not rated, so you cannot gain or lose points from them. Appears on your account preferences page: http://lichess.org/account/preferences
 
 When premoving=One of the options for promoting to a queen automatically. Appears on your account preferences page: http://lichess.org/account/preferences
 
