@@ -861,7 +861,7 @@ Starting:=This text appears to the left of the "join" button and it informs you 
 
 All information is public and optional.=This sentence appears under the header on the page where you change your profile http://lichess.org/account/profile
 
-Your city, region, or department.=This text appears under the field where you write your location. Appears in the profile editor: http://lichess.org/account/profile
+Your city, region, or province.=This text appears under the field where you write your location. You can leave out the word "your" if it helps you. Appears in the profile editor: http://lichess.org/account/profile
 
 Tell about you, what you like in chess, your favorite openings, games, players…=This sentence appears under the biography description box on the page where you edit your profile http://lichess.org/account/profile
 
