@@ -693,7 +693,7 @@ Topics=Appears as a column in the forum and shows how many topics a category has
 
 Posts=Appears in the forum and shows how many posts a category has (http://lichess.org/forum).
 
-Last post=Appears in the forum and shows the time of the last post (http://lichess.org/forum).
+Last post=shows the time the most recent post was made. Appears in the forum (http://lichess.org/forum) as a column. Translation must be kept short.
 
 Views=Appears in the forum and shows how many views a topic has (http://lichess.org/forum/general-chess-discussion).
 
