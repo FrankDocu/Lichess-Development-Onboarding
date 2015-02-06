@@ -870,3 +870,7 @@ Maximum: %s characters.=This text appears under the biography description box to
 %s blocks=%s is the number of players you have blocked. Consider translating to "%s blocked players" if you think the context is not sufficient. Appears as a heading on your list of blocked players at http://lichess.org/rel/blocks
 
 List players that you have blocked="List" is used as a verb here. This is a descriptive sentence which appears when you hover the mouse over the block icon on your own profile. Clicking the icon will show you a list of players you have blocked.
+
+Human=Button for playing against a human player (instead of playing against the computer). Appears in the "Create a game" menu of thelichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+
+Computer=Button for playing against a computer player (instead of playing against a human being). Appears in the "Create a game" menu of thelichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
