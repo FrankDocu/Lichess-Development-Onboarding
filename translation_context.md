@@ -54,7 +54,7 @@ White=The mouseover text of the White King button in the game creation menus (e.
 
 Black=The mouseover text of the Black King button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
-Random side=Makes Lichess randomly pick a side for you (white or black). The mouseover text of the large button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
+Random side=Makes Lichess randomly pick a side (White or Black) for you. The mouseover text of the large button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
 Create a game=This button opens a menu (http://lichess.org/setup/hook) that lets you create a game that is listed in the list (or graph) of open games. It is one of the 3 rectangular buttons on the "Play" page (http://lichess.org/).
 
@@ -869,24 +869,24 @@ Maximum: %s characters.=This text appears under the biography description box to
 
 List players that you have blocked="List" is used as a verb here. This is a descriptive sentence which appears when you hover the mouse over the block icon on your own profile. Clicking the icon will show you a list of players you have blocked.
 
-Human=Button for playing against a human player (instead of playing against the computer). Appears in the "Create a game" menu of thelichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+Human=Press this to play against a human player (instead of playing against the computer). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
-Computer=Button for playing against a computer player (instead of playing against a human being). Appears in the "Create a game" menu of thelichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+Computer=Press this button to play against a computer player (instead of playing against a human being). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
-Side=
+Side=Lets you select what side you want to play as (White, Black, or random). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png (the screenshot is from an old version; "Color" is now "Side"). All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
-Access is unauthorized.=
+Access is unauthorized.=This is a generic sentence that usually appears when the player is not signed in, or when an incorrect password is entered. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
-No internet connection. You can still play offline from the menu.=
+No internet connection. You can still play offline from the menu.=Descriptive sentence. Is only shown when your mobile device is lacking connectivity to the internet. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
-You are now connected to lichess.org=
+You are now connected to lichess.org=Notifies the player they are successfully connected to the site. This is only for mobile users, because the mobile app can also work offline. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
-You are now connected to lichess.org. You can sign in or start a new game from the menu.=
+You are now connected to lichess.org. You can sign in or start a new game from the menu.=Notifies the player they are successfully connected to the site. This is only for mobile users, because the mobile app can also work offline. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
-You have been signed out=
+You have been signed out=Notifies the player that they have successfully signed out of their account.
 
 Resume game=
 
-Play offline, over the board=
+Play offline, over the board="Over the board" means playing locally, on the device, usually between two players sitting across from each other. Offline play is only available on the lichess mobile app and thus *must* be kept compact, as mobile sentences need to scale to small devices.
 
-Show PGN=
+Show PGN=Pressing this button displays the PGN record. PGN is short for "Portable Game Notation"; it is the way chess moves are recorded (1. e4 e5, and so on). The sentence is only found in the lichess mobile app, and *must* be kept short, as mobile sentences need to scale to small devices.
