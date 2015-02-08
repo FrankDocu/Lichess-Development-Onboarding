@@ -54,7 +54,7 @@ White=The mouseover text of the White King button in the game creation menus (e.
 
 Black=The mouseover text of the Black King button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
-Random color=Makes Lichess randomly pick a side for you. The mouseover text of the large button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
+Random side=Makes Lichess randomly pick a side for you (white or black). The mouseover text of the large button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
 Create a game=This button opens a menu (http://lichess.org/setup/hook) that lets you create a game that is listed in the list (or graph) of open games. It is one of the 3 rectangular buttons on the "Play" page (http://lichess.org/).
 
@@ -304,8 +304,6 @@ Spectators:="Spectators:" precedes a list of spectators. It appears just below t
 %s draws=This appears as a clickable tab in player profiles. The %s is the number of games that ended in draw.
 
 Export games=This function lets you download a table of all your games in CSV format. The button in question is a folder with an arrow pointing downwards overlayed on it. It can be seen at profile pages, e.g. http://lichess.org/@/thibault.
-
-Color=Clicking this opens a menu that allows you to change the colour or texture of the chess board. This button appears on the top bar in a game page.
 
 Rating range=Below this is a slider that lets you choose the accepted player ratings. The sentence appears in the "Create a game" (http://lichess.org/setup/hook) and "Filter games" menus. Please do NOT translate "rating" to "Elo", because lichess has been using the superior Glicko-2 rating system since late 2013.
 
@@ -729,7 +727,7 @@ by %s=The %s is the username of the poster in the forum. This is used in the "La
 
 This topic is now closed.=This sentence appears in the forum when a topic is closed.
 
-Theming=Clicking this opens a menu that allows you to change the colour or texture of the chess board. This button that looks like an eye appears on the top bar in all the pages and it says "Theming" when you hover over it.
+Theming=Clicking this opens a menu that allows you to change the colour or texture of the chess board. This button that looks like an eye appears on the top bar in all the pages and it says "Theming" when you hover over it. You may also translate this to "Appearance".
 
 Donate=Click this button (at the bottom of all pages) to make a donation.
 
@@ -874,3 +872,21 @@ List players that you have blocked="List" is used as a verb here. This is a desc
 Human=Button for playing against a human player (instead of playing against the computer). Appears in the "Create a game" menu of thelichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
 Computer=Button for playing against a computer player (instead of playing against a human being). Appears in the "Create a game" menu of thelichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+
+Side=
+
+Access is unauthorized.=
+
+No internet connection. You can still play offline from the menu.=
+
+You are now connected to lichess.org=
+
+You are now connected to lichess.org. You can sign in or start a new game from the menu.=
+
+You have been signed out=
+
+Resume game=
+
+Play offline, over the board=
+
+Show PGN=
