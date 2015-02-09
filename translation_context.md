@@ -873,7 +873,7 @@ Human=Press this to play against a human player (instead of playing against the 
 
 Computer=Press this button to play against a computer player (instead of playing against a human being). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
-Side=Lets you select what side you want to play as (White, Black, or random). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png (the screenshot is from an old version; "Color" is now "Side"). All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+Side=Lets you select what side you want to play as (White, Black, or random). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
 Clock=Lets you select what time control you want to play with. Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
