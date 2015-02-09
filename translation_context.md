@@ -875,6 +875,8 @@ Computer=Press this button to play against a computer player (instead of playing
 
 Side=Lets you select what side you want to play as (White, Black, or random). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png (the screenshot is from an old version; "Color" is now "Side"). All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
+Clock=Lets you select what time control you want to play with. Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/master/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+
 Access is unauthorized.=This is a generic sentence that usually appears when the player is not signed in, or when an incorrect password is entered. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
 No internet connection. You can still play offline from the menu.=Descriptive sentence. Is only shown when your mobile device is lacking connectivity to the internet. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
@@ -884,8 +886,6 @@ You are now connected to lichess.org=Notifies the player they are successfully c
 You are now connected to lichess.org. You can sign in or start a new game from the menu.=Notifies the player they are successfully connected to the site. This is only for mobile users, because the mobile app can also work offline. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
 You have been signed out=Notifies the player that they have successfully signed out of their account.
-
-Resume game=
 
 Play offline, over the board="Over the board" means playing locally, on the device, usually between two players sitting across from each other. Offline play is only available on the lichess mobile app and thus *must* be kept compact, as mobile sentences need to scale to small devices.
 
