@@ -890,3 +890,7 @@ You have been signed out=Notifies the player that they have successfully signed 
 Play offline, over the board="Over the board" means playing locally, on the device, usually between two players sitting across from each other. Offline play is only available on the lichess mobile app and thus *must* be kept compact, as mobile sentences need to scale to small devices.
 
 Show PGN=Pressing this button displays the PGN record. PGN is short for "Portable Game Notation"; it is the way chess moves are recorded (1. e4 e5, and so on). The sentence is only found in the lichess mobile app, and *must* be kept short, as mobile sentences need to scale to small devices.
+
+This player artificially increases their rating=Appears in a red box on player profiles that have been trying to cheat the rating system. An example is http://lichess.org/@/anunn.
+
+Login successful=Notifies the player they are successfully logged in with their lichess username. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
