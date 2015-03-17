@@ -13,7 +13,6 @@ Before beginning, please make sure you have the following tools installed, using
 * `git`
 * `sbt` ([instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
 * `npm` (from nodejs, version `2.1.18` should be OK)
-* `svgcleaner` ([PPA](https://code.launchpad.net/~svg-cleaner-team/+archive/ubuntu/svgcleaner))
 * `zsh`
 
 ### Infrastructure
@@ -44,8 +43,6 @@ Before beginning, please make sure you have the following tools installed, using
 1. Run `./ui/build`
 
 1. Run `./bin/install-stockfish` (edit first if you are not running 64bit)
-
-1. Run `./bin/svg-optimize`
 
 ### Setting Up Your Web Server
 
