@@ -869,13 +869,13 @@ Maximum: %s characters.=This text appears under the biography description box to
 
 List players that you have blocked="List" is used as a verb here. This is a descriptive sentence which appears when you hover the mouse over the block icon on your own profile. Clicking the icon will show you a list of players you have blocked.
 
-Human=Press this to play against a human player (instead of playing against the computer). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.2.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+Human=Press this to play against a human player (instead of playing against the computer). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
-Computer=Press this button to play against a computer player (instead of playing against a human being). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.2.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+Computer=Press this button to play against a computer player (instead of playing against a human being). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
-Side=Lets you select what side you want to play as (White, Black, or random). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.2.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+Side=Lets you select what side you want to play as (White, Black, or random). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
-Clock=Lets you select what time control you want to play with. Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.2.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+Clock=Lets you select what time control you want to play with. Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
 Access is unauthorized.=This is a generic sentence that usually appears when the player is not signed in, or when an incorrect password is entered. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
@@ -891,10 +891,10 @@ Play offline, over the board="Over the board" means playing locally, on the devi
 
 Show PGN=Pressing this button displays the PGN record. PGN is short for "Portable Game Notation"; it is the way chess moves are recorded (1. e4 e5, and so on). Please translate "Show" as a verb. The sentence is only found in the lichess mobile app, and *must* be kept short, as mobile sentences need to scale to small devices.
 
-This player artificially increases their rating=Appears in a red box on player profiles that have been trying to cheat the rating system. An example is http://lichess.org/@/anunn.
+This player artificially increases/decreases their rating=Appears as a red box on the profiles of players that have been trying to cheat the rating system. An example is http://lichess.org/@/GrandMasterGnel1.
 
 You are now signed in=Notifies the player they are successfully logged in with their lichess username. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
-Play offline computer=Pressing this button lets you play against the offline chess engine. This is a mobile-only feature. The sentence must thus be kept compact, as mobile sentences need to scale to small devices. You can see how it looks here: https://raw.githubusercontent.com/veloce/lichobile/1.2.x/screens/android/menu2.png
+Play offline computer=Pressing this button lets you play against the offline chess engine. This is a mobile-only feature. The sentence must thus be kept compact, as mobile sentences need to scale to small devices. You can see how it looks here: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/menu2.png
 
-Opponent=The name of your opponent. Currently appears only in the mobile app. You can see how it looks here: https://github.com/veloce/lichobile/blob/1.2.x/screens/android/ai-menu.png
+Opponent=The name of your opponent. Currently appears only in the mobile app. You can see how it looks here: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/ai-menu.png
