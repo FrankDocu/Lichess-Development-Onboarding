@@ -883,18 +883,31 @@ No internet connection. You can still play offline from the menu.=Descriptive se
 
 You are now connected to lichess.org=Notifies the player they are successfully connected to the site. This is only for mobile users, because the mobile app can also work offline. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
-You are now connected to lichess.org. You can sign in or start a new game from the menu.=Notifies the player they are successfully connected to the site. This is only for mobile users, because the mobile app can also work offline. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
-
 You have been signed out=Notifies the player that they have successfully signed out of their account. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
-Play offline, over the board="Over the board" means playing locally, on the device, usually between two players sitting across from each other. Offline play is only available on the lichess mobile app and thus *must* be kept compact, as mobile sentences need to scale to small devices.
+Over the board="Over the board" means playing locally, on the device, usually between two players sitting across from each other. Offline play is only available on the lichess mobile app and thus *must* be kept compact, as mobile sentences need to scale to small devices.
 
-Show PGN=Pressing this button displays the PGN record. PGN is short for "Portable Game Notation"; it is the way chess moves are recorded (1. e4 e5, and so on). Please translate "Show" as a verb. The sentence is only found in the lichess mobile app, and *must* be kept short, as mobile sentences need to scale to small devices.
+Share PGN=Pressing this button opens native share widget to share the PGN record. PGN is short for "Portable Game Notation"; it is the way chess moves are recorded (1. e4 e5, and so on). The sentence is only found in the lichess mobile app, and *must* be kept short, as mobile sentences need to scale to small devices.
 
 This player artificially increases/decreases their rating=Appears as a red box on the profiles of players that have been trying to cheat the rating system. An example is http://lichess.org/@/GrandMasterGnel1.
 
 You are now signed in=Notifies the player they are successfully logged in with their lichess username. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
-Play offline computer=Pressing this button lets you play against the offline chess engine. This is a mobile-only feature. The sentence must thus be kept compact, as mobile sentences need to scale to small devices. You can see how it looks here: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/menu2.png
+Computer=Pressing this button lets you play against the offline chess engine. This is a mobile-only feature. The sentence must thus be kept compact, as mobile sentences need to scale to small devices. You can see how it looks here: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/menu2.png
 
 Opponent=The name of your opponent. Currently appears only in the mobile app. You can see how it looks here: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/ai-menu.png
+
+Increment=Increment of the game. As increment in seconds. It appears only in mobile app in the game creation form. You can see it here: https://raw.githubusercontent.com/veloce/lichobile/1.5.x/screens/android/create-human.png
+It *must* be very short, not longer than the word 'increment' ideally
+
+Board=appears in mobile app on settings screen, let you choose the board theme. Just translate 'board'
+
+Pieces=appears in mobile app on settings screen, let you choose the pieces theme. Just translate 'pieces'
+
+Play online=only in mobile app, on side menu. It is a menu label that helps to separate visually what is online from what is offline. *Must* be short
+
+Play offline=only in mobile app, on side menu. It is a menu label that helps to separate visually what is online from what is offline. *Must* be short
+
+Allow anonymous statistics=In mobile app settings, toggle to allow or not sending of anonymous app usage for statistics. Should be as short as possible.
+
+Share game URL=in mobile app on the game context menu, this button opens the native share widget to send the game URL. To keep very short.
