@@ -273,7 +273,13 @@ Cancel rematch offer=Clicking this cancels the rematch you offered. Obviously, t
 
 View rematch=A button that appears on game pages if the two players had a rematch. Example: http://lichess.org/rc7l3n66/black
 
-Play=Links to http://lichess.org. This is the home page of Lichess. It has a chat link, a feed of what your friends have been up to and various statistics, among other things. "Play" in this context is a verb.
+Play=One of the four menu sections. Contains links to game creation, tournaments, simuls, and lichess TV. "Play" in this context is a verb.
+
+Learn=One of the four menu sections. Contains links to training, openings, coordinates, and video library. "Learn" in this context is a verb.
+
+Community=One of the four menu sections. Contains links to list of players, teams, forums, and Q&A.
+
+Tools=One of the four menu sections. Contains links to board editor, analysis, import game, and advanced search.
 
 Inbox=This is in the title for the "Inbox" page (http://lichess.org/inbox) that you can go to by clicking the mail link at the top when you are signed in. The translation should match whatever is used for popular email clients such as GMail and Outlook in your language.
 
