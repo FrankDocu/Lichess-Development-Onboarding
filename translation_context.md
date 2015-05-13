@@ -62,6 +62,12 @@ White is victorious=Indicates the white player won the game. This appears in the
 
 Black is victorious=Indicates the black player won the game. This appears in the top left box of a game, and also the player profile.
 
+King in the center=Indicates that the game was won by the King being in one of the center tiles (King of the hill variant: http://de.lichess.org/king-of-the-hill).
+
+Three checks=Indicates that the game was won by a player checking their opponent three times.
+
+Variant ending=Indicates that the game was won due to variant special rules. Shown when no more specialized message is available.
+
 Play with the same opponent again=The mouseover text of "Rematch", a button that appears for players (not spectators) at the end of a game if they wish to play again.
 
 New opponent=Clicking this takes you back to the "Play" page (http://lichess.org). This is a button that appears at the end of a game just below the "Rematch" button.
