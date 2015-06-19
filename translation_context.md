@@ -18,11 +18,11 @@
 
 // Stylistically, the author of this document prefers [WP:MOS](https://en.wikipedia.org/wiki/WP:MOS). This style guide includes insightful guidelines about all aspects of the usage of the English language. For instance, it recommends against the usage of contractions (e.g. "It's" as opposed to "It is"). However, these guidelines are beyond the scope of this document.
 
-Play with a friend=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). This creates a unique URL that you can send to someone and play.
+Play with a friend=One of the 3 rectangular buttons on the "Play" page <http://lichess.org/>. This creates a unique URL that you can send to someone and play.
 
-Invite a friend to play with you=The mouseover text of the "Play with a friend" button on the "Play" page (http://lichess.org).
+Invite a friend to play with you=The mouseover text of the "Play with a friend" button on the "Play" page <http://lichess.org>.
 
-Play with the machine=One of the 3 rectangular buttons on the "Play" page (http://lichess.org/). Translate "machine" as "[chess] engine" if it sounds better in your language, omitting the word "chess".
+Play with the machine=One of the 3 rectangular buttons on the "Play" page <http://lichess.org/>. Translate "machine" as "[chess] engine" if it sounds better in your language, omitting the word "chess".
 
 Challenge the artificial intelligence=The mouseover text of "Play with the machine". "Challenge" here is used as a verb.
 
@@ -38,7 +38,7 @@ Your turn=This appears in the box while you are playing a game. It indicates it 
 
 %s level %s=AI name and level, e.g. "Stockfish level 3". Note that the "Stockfish" part will always be first no matter where you place the %s, though you can rearrange them to e.g. "%s at %s levels", which would produce e.g. "Stockfish at 3 levels". Use the translation that sounds best in your language. Appears in the box on the left-hand side in the page of the game, and also on your profile, in the list of games.
 
-Level=This appears in the "Play with the machine" menu (http://lichess.org/setup/ai) as a heading. Below it are skill levels (1 through 8) of the AI that you can play against.
+Level=This appears in the "Play with the machine" menu <http://lichess.org/setup/ai> as a heading. Below it are skill levels (1 through 8) of the AI that you can play against.
 
 Toggle the chat=Turns the chat room (or player chat) on or off. This is the mouseover text of the checkbox on the top-right of the chat box.
 
@@ -56,13 +56,13 @@ Black=The mouseover text of the Black King button in the game creation menus (e.
 
 Random side=Makes Lichess randomly pick a side (White or Black) for you. The mouseover text of the large button in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page.
 
-Create a game=This button opens a menu (http://lichess.org/setup/hook) that lets you create a game that is listed in the list (or graph) of open games. It is one of the 3 rectangular buttons on the "Play" page (http://lichess.org/).
+Create a game=This button opens a menu <http://lichess.org/setup/hook> that lets you create a game that is listed in the list (or graph) of open games. It is one of the 3 rectangular buttons on the "Play" page <http://lichess.org/>.
 
 White is victorious=Indicates the white player won the game. This appears in the top left box of a game, and also the player profile.
 
 Black is victorious=Indicates the black player won the game. This appears in the top left box of a game, and also the player profile.
 
-King in the center=Indicates that the game was won by the King being in one of the center tiles (King of the hill variant: http://lichess.org/king-of-the-hill).
+King in the center=Indicates that the game was won by the King being in one of the center tiles (King of the hill variant: <http://lichess.org/king-of-the-hill>).
 
 Three checks=Indicates that the game was won by a player checking their opponent three times. Only for the Three-check variant.
 
@@ -70,9 +70,9 @@ Variant ending=Indicates that the game was won due to variant special rules. Sho
 
 Play with the same opponent again=The mouseover text of "Rematch", a button that appears for players (not spectators) at the end of a game if they wish to play again.
 
-New opponent=Clicking this takes you back to the "Play" page (http://lichess.org). This is a button that appears at the end of a game just below the "Rematch" button.
+New opponent=Clicking this takes you back to the "Play" page <http://lichess.org>. This is a button that appears at the end of a game just below the "Rematch" button.
 
-Play with another opponent=Clicking this takes you back to the "Play" page (http://lichess.org). This is one of the two buttons that appear when your opponent offers you a rematch.
+Play with another opponent=Clicking this takes you back to the "Play" page <http://lichess.org>. This is one of the two buttons that appear when your opponent offers you a rematch.
 
 Your opponent wants to play a new game with you=This sentence appears when your opponent offers you a rematch.
 
@@ -142,7 +142,7 @@ Draw=This appears in various places, including players' profiles and the right-h
 
 %s players=The %s is the counter of how many players are connected right now. This sentence is displayed at the top of every page on lichess.
 
-Current games=This is a shorter phrase for "Games being played right now". It is what the link at the top that says "Games" links to (http://lichess.org/games). Please try to keep your translation as short as possible.
+Current games=This is a shorter phrase for "Games being played right now". It is what the link at the top that says "Games" links to <http://lichess.org/games>. Please try to keep your translation as short as possible.
 
 %s Games=%s here is the number of all the games ever played on Lichess. Links to http://lichess.org/games/all.
 
@@ -156,7 +156,7 @@ Current games=This is a shorter phrase for "Games being played right now". It is
 
 Bookmarked by %s players=%s is the number of players. This appears above the bookmark star in a game that has been bookmarked. Example: http://lichess.org/analyse/vyvcbk8s
 
-View in full size=Clicking one of these small boards brings you to the game's unique page. This is the mouseover text of the small chess boards dotted around the site. These small boards are most prominent in the "Games" pages (http://lichess.org/games).
+View in full size=Clicking one of these small boards brings you to the game's unique page. This is the mouseover text of the small chess boards dotted around the site. These small boards are most prominent in the "Games" pages <http://lichess.org/games>.
 
 Sign out=Clicking this signs you out of your lichess profile. This is part of the profile drop-down menu on the top of every page when you are signed in to an account.
 
@@ -166,15 +166,15 @@ New to Lichess?=It is next to a button that allows you to register an account on
 
 You need an account to do that=This error message appears when trying actions or going to pages that require being signed in with a user account.
 
-Register=Clicking this allows you to register an account. Appears as a button on the "Sign in" page and the "Training" page (http://lichess.org/training) when playing unregistered (encouraging the player to register an account with Lichess). It is recommended to translate this word as a verb.
+Register=Clicking this allows you to register an account. Appears as a button on the "Sign in" page and the "Training" page <http://lichess.org/training> when playing unregistered (encouraging the player to register an account with Lichess). It is recommended to translate this word as a verb.
 
 Games=The page displays games currently being played and has links to various other tools on the site to find out about past games on lichess, such as a search engine that queries the database of games. "Games" is one of the links at the top of every page, so keep it as short as possible. Links to http://lichess.org/games
 
 Forum=It is Lichess's webforum, where users can discuss various topics, chess-related or not. These are sometimes called "bulletin boards". "Forum" is one of the links at the top of every page, so keep it as short as possible. Links to http://lichess.org/forum
 
-%s posted in topic %s=The first %s is the player's name and the second %s is the title of the topic in the forum. By "topic" here we mean a discussion, sometimes called a "thread" in this context. Appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s posted in topic %s=The first %s is the player's name and the second %s is the title of the topic in the forum. By "topic" here we mean a discussion, sometimes called a "thread" in this context. Appears in the activity timeline on the left-hand side of the "Play" page <http://lichess.org/> after you have started following a player.
 
-Latest forum posts=A list of the most recent posts on the forum. Appears as a heading to a box near the bottom of the "Play" page (http://lichess.org/).
+Latest forum posts=A list of the most recent posts on the forum. Appears as a heading to a box near the bottom of the "Play" page <http://lichess.org/>.
 
 Players=Some have been translating as "[Chess] Players". This is acceptable only if it is one word (e.g. "Szachiści" in Polish). Otherwise, keep just translate to "Players". This appears as one of the links on the navigation bar at the top of every page.  Links to http://lichess.org/people
 
@@ -194,7 +194,7 @@ One day=Means each turn may take up to one day. This appears next to the slider 
 
 %s days=%s is maximum number of days for each turn. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend"). It also appears on the clock and information box in correspondence chess games. Please keep this sentence as short as possible.
 
-Time=The time control for the game. This appears as a column heading in the table of games you can join on the "Play" page (http://lichess.org/).
+Time=The time control for the game. This appears as a column heading in the table of games you can join on the "Play" page <http://lichess.org/>.
 
 User name=The name you use to sign in, e.g. "thibault". Appears on the sign-in and registration pages.
 
@@ -204,9 +204,9 @@ Have an account?=This appears on the top-right of the registration page (http://
 
 All you need is a user name and a password.=This appears in the registration page (http://lichess.org/signup -- must be signed out to see this). It explains the only two details a user needs to provide to have an account on Lichess.
 
-Change password=This is a link in the preferences page to a menu that allows you to change your password (http://lichess.org/account/passwd).
+Change password=This is a link in the preferences page to a menu that allows you to change your password <http://lichess.org/account/passwd>.
 
-Change email=Appears as a menu item and heading on the "Preferences" pages (http://lichess.org/account/email).
+Change email=Appears as a menu item and heading on the "Preferences" pages <http://lichess.org/account/email>.
 
 Email=Short for "Your email address", but please keep this sentence as short as possible. This appears above text boxes where you can type in your email, on the "Preferences" page.
 
@@ -244,9 +244,9 @@ Accept=Clicking this will accept your opponent's offer and let the action the op
 
 Decline=Clicking this will reject your opponent's offer. A generic word that appears as a button when your opponent sends an offer to do something (such as a takeback or ending the game by draw). Please translate as a verb if possible.
 
-Playing right now=This sentence indicates that the game you are looking at is playing right now. Appears on the "Tournaments" page (http://lichess.org/tournament) if any tournaments are currently being played, and also on the pages of individual games.
+Playing right now=This sentence indicates that the game you are looking at is playing right now. Appears on the "Tournaments" page <http://lichess.org/tournament> if any tournaments are currently being played, and also on the pages of individual games.
 
-Finished=This is for tournaments. It means the tournament is over. Appears on individual tournament pages (e.g. http://lichess.org/tournament/67hj23c2) and also on the "Tournaments" page (http://lichess.org/tournament) to denote finished tournaments. Translate as plural; another sentence will be added at some point for individual tournament pages.
+Finished=This is for tournaments. It means the tournament is over. Appears on individual tournament pages (e.g. <http://lichess.org/tournament/67hj23c2>) and also on the "Tournaments" page <http://lichess.org/tournament> to denote finished tournaments. Translate as plural; another sentence will be added at some point for individual tournament pages.
 // there should really be two words for this
 
 Abort game=Clicking this aborts the game. This means that no points are won or lost. You can only perform this action until the second move of the game. It is NOT a resignation (which has a different sentence). Appears in the right-hand side box on the page of a game you are playing.
@@ -257,13 +257,13 @@ Standard="Standard" here means "not a variant". Selecting this means you play in
 
 Unlimited=This is short for "Unlimited time". It describes games that have no time controls and can therefore run for an infinite amount of time. This sentence appears in many locations, including game pages and the "Create a game" menu. Please keep this sentence as short as possible.
 
-Mode="Mode" here is in the context of filtering between Casual (casual games are not rated) and Rated games. The sentence appears in the "Filter games" menu, which is just above the list of games on the "Play" page (http://lichess.org/).
+Mode="Mode" here is in the context of filtering between Casual (casual games are not rated) and Rated games. The sentence appears in the "Filter games" menu, which is just above the list of games on the "Play" page <http://lichess.org/>.
 
-Casual="Casual" in this context means the game is unrated; players will not gain or lose points. Has been translated to "Friendly" (after the football term) and simply "Unrated" in some languages. Be creative. The sentence appears in the "Filter games" menu, which can be accessed through the "Play" page (http://lichess.org).
+Casual="Casual" in this context means the game is unrated; players will not gain or lose points. Has been translated to "Friendly" (after the football term) and simply "Unrated" in some languages. Be creative. The sentence appears in the "Filter games" menu, which can be accessed through the "Play" page <http://lichess.org>.
 
 Rated="Rated" means that the outcome of the game will result in a gain or loss of rating points for either players. This sentence appears in a variety of places, including the pages of individual games (which are rated) and the "Filter games" page.
 
-This game is rated="Rated" means that the outcome of the game will result in a gain or loss of rating points for either players. This sentence appears in profile page listings of games and games lists (e.g. http://lichess.org/games/all).
+This game is rated="Rated" means that the outcome of the game will result in a gain or loss of rating points for either players. This sentence appears in profile page listings of games and games lists (e.g. <http://lichess.org/games/all>).
 
 Rematch=Translated as a verb if possible. This is a button that appears at the end of a game in the right hand side box. Clicking it sends a rematch offer.
 
@@ -287,7 +287,7 @@ Community=One of the four menu sections. Contains links to list of players, team
 
 Tools=One of the four menu sections. Contains links to board editor, analysis, import game, and advanced search.
 
-Inbox=This is in the title for the "Inbox" page (http://lichess.org/inbox) that you can go to by clicking the mail link at the top when you are signed in. The translation should match whatever is used for popular email clients such as GMail and Outlook in your language.
+Inbox=This is in the title for the "Inbox" page <http://lichess.org/inbox> that you can go to by clicking the mail link at the top when you are signed in. The translation should match whatever is used for popular email clients such as GMail and Outlook in your language.
 
 Chat room=The chat function for one-to-one chat. A box on the left-hand side on games pages. Appears only in games you are in, not games you are spectating.
 
@@ -297,17 +297,17 @@ Compose message=Another word for this could be "Create message". This is a link 
 
 No new messages=This is the text that appears when you mouseover the mail icon at the top, but have no new messages to read.
 
-Subject=Next to this is the field where you put in a few words about the subject, or topic, of your message. It appears on the page on which you can compose a new message. (http://lichess.org/inbox/new)
+Subject=Next to this is the field where you put in a few words about the subject, or topic, of your message. It appears on the page on which you can compose a new message. <http://lichess.org/inbox/new>
 
 Recipient=Next to this is a field where you can input the name of the player that receives this message.
 
-Send=This is the button you use to send messages in the compose message page. (http://lichess.org/inbox/new)
+Send=This is the button you use to send messages in the compose message page. <http://lichess.org/inbox/new>
 
 Increment in seconds=Increment in this context means how many seconds are added every time you make a move. So if you set time to 5 minutes and increment in seconds to 2, it would be a "5+2" game. This means that each player would have 5 minutes on the clock, and every time the player makes a move, 2 seconds are added. Appears in the game creation menus (e.g. "Create a game", "Play with a friend") on the "Play" page with the "Clock" time control.
 
 Free Online Chess=This sentence appears in the title of every page e.g. "lichess  • Free Online Chess" on the "Play" page as it appears in the English version. This means it shows up as the title of browser windows and tabs. Technical information: by title here we are literally referring to the HTML <title> tag that carries this.
 
-Spectators:="Spectators:" precedes a list of spectators. It appears just below the chat box on any game that is being spectated, such as the games on Lichess TV (http://lichess.org/tv).
+Spectators:="Spectators:" precedes a list of spectators. It appears just below the chat box on any game that is being spectated, such as the games on Lichess TV <http://lichess.org/tv>.
 
 %s wins=This appears as a clickable tab in player profiles. The %s is the number of games won.
 
@@ -317,7 +317,7 @@ Spectators:="Spectators:" precedes a list of spectators. It appears just below t
 
 Export games=This function lets you download a table of all your games in CSV format. The button in question is a folder with an arrow pointing downwards overlayed on it. It can be seen at profile pages, e.g. http://lichess.org/@/thibault.
 
-Rating range=Below this is a slider that lets you choose the accepted player ratings. The sentence appears in the "Create a game" (http://lichess.org/setup/hook) and "Filter games" menus. Please do NOT translate "rating" to "Elo", because lichess has been using the superior Glicko-2 rating system since late 2013.
+Rating range=Below this is a slider that lets you choose the accepted player ratings. The sentence appears in the "Create a game" <http://lichess.org/setup/hook> and "Filter games" menus. Please do NOT translate "rating" to "Elo", because lichess has been using the superior Glicko-2 rating system since late 2013.
 
 Give %s seconds=%s here is the number of seconds, usually 15. This is the mouseover text of the "+" button that appears next to players' names in timed matches. Clicking it adds "%s" seconds to the player's clock.
 
@@ -345,7 +345,7 @@ Bookmark this game=The mouseover text of the bookmark button (a star-shaped symb
 
 Toggle background color=This sentence is not currently used on the site, but feel free to translate it.
 
-Search=This is the placeholder text (greyed-out text that disappears when you click) for the search box on the forum page (http://lichess.org/forum). Should be translated as a verb if possible. Do not make it too long because it may not fit in the box.
+Search=This is the placeholder text (greyed-out text that disappears when you click) for the search box on the forum page <http://lichess.org/forum>. Should be translated as a verb if possible. Do not make it too long because it may not fit in the box.
 
 Advanced search=A powerful search engine that searches games in the database. Appears as a heading on the advanced search function's page, in the "Games" pages. Should be translated as a noun. Link: http://lichess.org/games/search
 
@@ -361,13 +361,13 @@ Return to tournament=Clicking this takes you back to the running tournament. App
 
 Return to game=Clicking this takes you back to the running game Appears as a button when you are analysing an ongoing game. Can also be translated to "Back to the game".
 
-%s tournament=%s is the name of the tournament. The name is created randomly from common English surnames, such as "Smith". Appears only on the tournaments page (http://lichess.org/tournament), not the "Play" page, so you can make this longer than usual if you can justify it.
+%s tournament=%s is the name of the tournament. The name is created randomly from common English surnames, such as "Smith". Appears only on the tournaments page <http://lichess.org/tournament>, not the "Play" page, so you can make this longer than usual if you can justify it.
 
 Free online Chess game. Play Chess now in a clean interface. No registration, no ads, no plugin required. Play Chess with the computer, friends or random opponents.=This is what search engines (like Google, Baidu or Yandex) see when Lichess.org appears as a search result. Keep it as short as possible and make Lichess sound good!
 
 Teams=Teams on lichess are groups of people with their own forum boards and chat channels. Appears at the top of every page on lichess.
 
-%s members=%s is the number of members. Appears on the top-right hand side on a team's page (e.g. http://lichess.org/team/linux).
+%s members=%s is the number of members. Appears on the top-right hand side on a team's page (e.g. <http://lichess.org/team/linux>).
 
 All teams=A list of all teams on lichess. Links to http://lichess.org/team. Appears as a tab in the "Teams" page.
 
@@ -377,43 +377,43 @@ My teams=A list of the teams you are a member of. Links to: http://lichess.org/t
 
 No team found=Appears when you are not a member of any team on http://lichess.org/team/me.
 
-Join team=Clicking this button makes you join the team you are looking at. Appears on the pages of teams (such as http://lichess.org/team/linux).
+Join team=Clicking this button makes you join the team you are looking at. Appears on the pages of teams (such as <http://lichess.org/team/linux>).
 
-Leave team=Clicking this button makes you leave the team. Appears on the pages of teams (such as http://lichess.org/team/linux).
+Leave team=Clicking this button makes you leave the team. Appears on the pages of teams (such as <http://lichess.org/team/linux>).
 
 Free for all=This is the joining policy of a team that has no application or invitation process; "free for all" means anyone can join it, without an application process of any sort.
 
-A confirmation is required to join=Means that the team leader must confirm every player's application to join the team. Appears as an option on the new team creation page (http://lichess.org/team/new).
+A confirmation is required to join=Means that the team leader must confirm every player's application to join the team. Appears as an option on the new team creation page <http://lichess.org/team/new>.
 
-Joining policy=This determines how players can join the team: by application or without restrictions. Appears on the new team creation page (http://lichess.org/team/new).
+Joining policy=This determines how players can join the team: by application or without restrictions. Appears on the new team creation page <http://lichess.org/team/new>.
 
 Team leader=Shows who the leader of the team is (usually its creator). Appears on team pages. Example: http://lichess.org/team/linux — "untitled" is the leader of the team.
 
 Best players=This is for teams. It is a listing of the best players in the team. It appears on the left-hand side of any team's page. Example http://lichess.org/team/saloon
 
-Recent members=This is for teams. It is a listing of all players in the team sorted by who joined most recently. It appears on the left-hand side of any team's page (e.g. http://lichess.org/team/saloon).
+Recent members=This is for teams. It is a listing of all players in the team sorted by who joined most recently. It appears on the left-hand side of any team's page (e.g. <http://lichess.org/team/saloon>).
 
-%s joined team %s=The first %s is the name of the player, and the second %s is the team the player joined. Appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s joined team %s=The first %s is the name of the player, and the second %s is the team the player joined. Appears in the activity timeline on the left-hand side of the "Play" page <http://lichess.org/> after you have started following a player.
 
-%s created team %s=The first %s is the name of the player, and the second %s is the team the player created. Appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s created team %s=The first %s is the name of the player, and the second %s is the team the player created. Appears in the activity timeline on the left-hand side of the "Play" page <http://lichess.org/> after you have started following a player.
 
 Average rating=This is the mean average rating of all players in the team. Appears on the information box on team pages. Example: http://lichess.org/team/linux
 
-Location=This is before an input box that lets you write where you are located (a city, town, or whatever you want to write in it). Appears in the "Edit profile" page (http://lichess.org/account/profile).
+Location=This is before an input box that lets you write where you are located (a city, town, or whatever you want to write in it). Appears in the "Edit profile" page <http://lichess.org/account/profile>.
 
 Settings=Appears in the profile dropdown on the top-right of every page, and also as a heading. Please keep it short. Links to the settings page: http://lichess.org/account/preferences
 
-Filter games=Clicking this opens a menu that lets you define criteria by which you can filter games in the game list. This appears above and to the right of the game list on the "Play" page (http://lichess.org/). Note that "filter" does not necessarily mean "reduce". It is recommended to translate this as search engines such as Google Search, Yandex or Baidu do.
+Filter games=Clicking this opens a menu that lets you define criteria by which you can filter games in the game list. This appears above and to the right of the game list on the "Play" page <http://lichess.org/>. Note that "filter" does not necessarily mean "reduce". It is recommended to translate this as search engines such as Google Search, Yandex or Baidu do.
 
-Reset=Clicking it resets all options back to their defaults. Appears in the "Filter games" sub-menu and your profile configuration (http://lichess.org/account/profile).
+Reset=Clicking it resets all options back to their defaults. Appears in the "Filter games" sub-menu and your profile configuration <http://lichess.org/account/profile>.
 
-Apply=Clicking this applies the game filtering rules that the player has chosen. Appears in the "Filter games" sub-menu, which in turn appears on the "Play" page (http://lichess.org/).
+Apply=Clicking this applies the game filtering rules that the player has chosen. Appears in the "Filter games" sub-menu, which in turn appears on the "Play" page <http://lichess.org/>.
 
-Leaderboard=A table of the best players on Lichess. Appears on the "Players" page (http://lichess.org/people). Could be translated as "Score table" or even "Best players" (though it is recommended to avoid this) if your language has no equivalent.
+Leaderboard=A table of the best players on Lichess. Appears on the "Players" page <http://lichess.org/people>. Could be translated as "Score table" or even "Best players" (though it is recommended to avoid this) if your language has no equivalent.
 
-Paste the FEN string here=This is the placeholder text (greyed-out text that disappears when you click)  for FEN pasting, so you can play a game from a certain position against the computer. Appears in the "Play with the computer" menu (http://lichess.org/setup/ai).
+Paste the FEN string here=This is the placeholder text (greyed-out text that disappears when you click)  for FEN pasting, so you can play a game from a certain position against the computer. Appears in the "Play with the computer" menu <http://lichess.org/setup/ai>.
 
-Paste the PGN string here=This is the placeholder text (greyed-out text that disappears when you click)  for importing games stored in PGN files. Appears in the "Import game" menu (http://lichess.org/paste).
+Paste the PGN string here=This is the placeholder text (greyed-out text that disappears when you click)  for importing games stored in PGN files. Appears in the "Import game" menu <http://lichess.org/paste>.
 
 From position="From position" means the game was started from a board set up in a non-standard way. Typically used to continue games. Appears on the pages of games started from position, as well as games lists on player profiles. Example: http://lichess.org/JHFiNdy2/black
 
@@ -457,29 +457,29 @@ Unblock=Appears when you hover the mouse cursor over the "Blocked" button, after
 
 Follows you=Indicates that this player is following you. Appears on the informative popups that appear when you hover the mouse cursor over players' names.
 
-%s started following %s=The two %s's are players' names. The first %s is the name of the follower, and the second %s is the name of the followed. Appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s started following %s=The two %s's are players' names. The first %s is the name of the follower, and the second %s is the name of the followed. Appears in the activity timeline on the left-hand side of the "Play" page <http://lichess.org/> after you have started following a player.
 
 %s followers=%s is the number of people that follow this player. Example: http://lichess.org/@/thibault — as of the time of writing, Thibault has 263 people following him.
 
 %s following=%s is the number of players this player is following. Example: http://lichess.org/@/thibault — as of the time of writing, Thibault is following 81 players.
 
-More=Generic message that lets you view more. Appears on the left-hand side of http://lichess.org/people, which lets you view a list of connected players. Also appears on the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) if there are too many messages in the timeline. "More" may be used in other places around Lichess in the future, so please make your translation as generic as possible.
+More=Generic message that lets you view more. Appears on the left-hand side of http://lichess.org/people, which lets you view a list of connected players. Also appears on the activity timeline on the left-hand side of the "Play" page <http://lichess.org/> if there are too many messages in the timeline. "More" may be used in other places around Lichess in the future, so please make your translation as generic as possible.
 
 Member since=Tells how long the player has been a member of lichess. Appears on profile pages. For example, http://lichess.org/@/thibault has been a member since 2010-11-22.
 
 Last sign in=The last time a player signed into this account. Appears on profile pages. Example: http://lichess.org/@/thibault — "Last sign in about 4 hours ago" (as of the time of writing).
 
-Challenge to a game=Clicking this lets you ask the player to play a game with you, and takes you to the game set-up view. Appears on profile pages and popups over player names as a mouseover text for the crossed swords symbol. Please translate "Challenge" as a verb if possible. Example. http://lichess.org/@/thibault.
+Challenge to a game=Clicking this lets you ask the player to play a game with you, and takes you to the game set-up view. Appears on profile pages and popups over player names as a mouseover text for the crossed swords symbol. Please translate "Challenge" as a verb if possible. Example. <http://lichess.org/@/thibault>.
 
-Player=Clicking on this lets you sort the list of games by player names. Appears as a column heading in the list of open games on the "Play" page (http://lichess.org/).
+Player=Clicking on this lets you sort the list of games by player names. Appears as a column heading in the list of open games on the "Play" page <http://lichess.org/>.
 
-List=This is one of the two ways of sorting open games on the "Play" page (http://lichess.org/). Clicking it presents all games you can join in a list format.
+List=This is one of the two ways of sorting open games on the "Play" page <http://lichess.org/>. Clicking it presents all games you can join in a list format.
 
-Graph=This is one of the two ways of sorting open games on the "Play" page (http://lichess.org/). Clicking it presents all games you can join on a graph, with x (time) and y (player rating) axes.
+Graph=This is one of the two ways of sorting open games on the "Play" page <http://lichess.org/>. Clicking it presents all games you can join on a graph, with x (time) and y (player rating) axes.
 
-Less than %s minutes=%s is the number of minutes. Ticking this checkbox means that games that last less than 3 minutes will show up in the list of games. The sentence appears in the "Filter games" menu, which can be accessed through the "Play" page (http://lichess.org).
+Less than %s minutes=%s is the number of minutes. Ticking this checkbox means that games that last less than 3 minutes will show up in the list of games. The sentence appears in the "Filter games" menu, which can be accessed through the "Play" page <http://lichess.org>.
 
-%s to %s minutes=%s, in both cases, is the number of minutes. Ticking this checkbox means that games that last certain predefined amounts (e.g. Blitz is 3 to 8 minutes) will show up in the list of games. The sentence appears in the "Filter games" menu, which can be accessed through the "Play" page (http://lichess.org).
+%s to %s minutes=%s, in both cases, is the number of minutes. Ticking this checkbox means that games that last certain predefined amounts (e.g. Blitz is 3 to 8 minutes) will show up in the list of games. The sentence appears in the "Filter games" menu, which can be accessed through the "Play" page <http://lichess.org>.
 
 Text is too short.=Error message that indicates the text put in the form is too short. Appears in forms around the site of all kinds, including registration and team creation.
 
@@ -487,9 +487,9 @@ Text is too long.=Error message that indicates the text put in the form is too l
 
 Required.=Error message that indicates that some required text fields in the form were not filled in. Appears in forms around the site of all kinds, including registration and team creation.
 
-Add to Chrome= Links to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg). This button appears only if you are using the Google Chrome web browser, at the footer (bottom) of every page.
+Add to Chrome= Links to the app for Lichess on the Chrome Web Store <https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg>. This button appears only if you are using the Google Chrome web browser, at the footer (bottom) of every page.
 
-Open tournaments="Open" here means you can join the tournament. Below it is a list of tournaments you are able to join. Appears as a heading on http://lichess.org/tournament and also on the "Play" page (http://lichess.org/)
+Open tournaments="Open" here means you can join the tournament. Below it is a list of tournaments you are able to join. Appears as a heading on http://lichess.org/tournament and also on the "Play" page <http://lichess.org/>
 
 Duration=Length of the tournament in minutes. Appears on the left-hand side box on the pages of tournaments. Example: http://lichess.org/tournament/67hj23c2
 
@@ -499,7 +499,7 @@ Standing=Shows the order of the players in a tournament, ordered by their score.
 
 Create a new tournament=Clicking this lets you create a new tournament. Appears as a heading and a button on the tournament creation page, among other places. Links to http://lichess.org/tournament/new.
 
-Join=Clicking this lets you enter the tournament. This button is found on the "Play" (http://lichess.org) and "Tournaments" (http://lichess.org/tournament) pages.
+Join=Clicking this lets you enter the tournament. This button is found on the "Play" <http://lichess.org> and "Tournaments" <http://lichess.org/tournament> pages.
 
 Withdraw=Clicking this makes you withdraw from (leave) the tournament you have entered. Appears on the tournament page after you have entered it.
 
@@ -517,7 +517,7 @@ Waiting for %s players=%s is the number of players. Indicates that more players 
 
 The tournament is starting=Appears as a pop-up when the tournament you have joined is about to start.
 
-Members only=Ticking this checkbox makes the game so only lichess members can join it. Appears in the game creation menu (http://lichess.org/setup/hook).
+Members only=Ticking this checkbox makes the game so only lichess members can join it. Appears in the game creation menu <http://lichess.org/setup/hook>.
 
 Board editor=The board editor lets you prepare a chess board and play from the position you set up. Appears as a heading on the editor page, and also as a tab in the "Games" pages. Links to http://lichess.org/editor
 
@@ -537,115 +537,115 @@ Profile=Links to your player profile (account). Appears in the drop-down menu fo
 
 Edit profile=Clicking this lets you edit the information about you displayed on your player profile. Appears on your profile page and also as a heading and tab on the preferences configuration pages. Links to http://lichess.org/account/profile
 
-Given name=Also known as a "first name", "forename" or even "Christian name" in some countries. This sentence appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
+Given name=Also known as a "first name", "forename" or even "Christian name" in some countries. This sentence appears in the "Edit profile" menu <http://lichess.org/account/profile>. Translate to whatever best describes this in your language or culture.
 
-Last name=Also known as "surname" or "family name". You put in your last name in this field, which will in turn appear on your profile page. This sentence appears in the "Edit profile" menu (http://lichess.org/account/profile). Translate to whatever best describes this in your language or culture.
+Last name=Also known as "surname" or "family name". You put in your last name in this field, which will in turn appear on your profile page. This sentence appears in the "Edit profile" menu <http://lichess.org/account/profile>. Translate to whatever best describes this in your language or culture.
 
-Biography=This is next to a text field where you can write anything you wish to describe yourself. For example, http://lichess.org/@/thibault reads "I write bugs for lichess.org". This sentence appears in the "Edit profile" menu (http://lichess.org/account/profile).
+Biography=This is next to a text field where you can write anything you wish to describe yourself. For example, http://lichess.org/@/thibault reads "I write bugs for lichess.org". This sentence appears in the "Edit profile" menu <http://lichess.org/account/profile>.
 
-Country=This is a field for the country you are located at. Appears on player profiles (example: http://lichess.org/@/thibault). The sentence appears in the "Edit profile" menu (http://lichess.org/account/profile).
+Country=This is a field for the country you are located at. Appears on player profiles (example: <http://lichess.org/@/thibault>). The sentence appears in the "Edit profile" menu <http://lichess.org/account/profile>.
 
 Preferences=Lets you configure lichess so it responds the way you prefer. Appears in the profile drop-down menu at the top of all pages when signed in. Links to http://lichess.org/account/preferences
 
-Watch Lichess TV=Clicking this take you to the TV page, where you can watch the current game being aired on lichess TV. Appears on the "Play" page (http://lichess.org/) below the miniboard showing the current TV game, as well as appearing as a tab on the "Games" pages (http://lichess.org/games). Links to http://lichess.org/tv — the TV page. Please keep this sentence as short as possible.
+Watch Lichess TV=Clicking this take you to the TV page, where you can watch the current game being aired on lichess TV. Appears on the "Play" page <http://lichess.org/> below the miniboard showing the current TV game, as well as appearing as a tab on the "Games" pages <http://lichess.org/games>. Links to http://lichess.org/tv — the TV page. Please keep this sentence as short as possible.
 
-Previously on Lichess TV=A list of games that were aired on lichess TV before. Appears as a heading to a box below the board on the TV page (http://lichess.org/tv).
+Previously on Lichess TV=A list of games that were aired on lichess TV before. Appears as a heading to a box below the board on the TV page <http://lichess.org/tv>.
 
-Today's leaders=A list of very highly-ranked players on lichess that have played at least one game today. Appears on the "Play" page (http://lichess.org) as a heading to a box that contains a list of the day's leaders. "The best of today" is an acceptable translation if you cannot come up with anything.
+Today's leaders=A list of very highly-ranked players on lichess that have played at least one game today. Appears on the "Play" page <http://lichess.org> as a heading to a box that contains a list of the day's leaders. "The best of today" is an acceptable translation if you cannot come up with anything.
 
 Online players=A list of players that are connected right now. Appears as a heading on http://lichess.org/people
 
-Progress today=A list of players ordered by the advance in rating (points) they have made over the last 24 hours. Appears on the "Play" page (http://lichess.org) as a heading to a box that contains a list of the day's leaders. Also appears as on the "Players" page (http://lichess.org/people).
+Progress today=A list of players ordered by the advance in rating (points) they have made over the last 24 hours. Appears on the "Play" page <http://lichess.org> as a heading to a box that contains a list of the day's leaders. Also appears as on the "Players" page <http://lichess.org/people>.
 
-Progress this week=A list of players ordered by the advance in rating (points) they have made over the last 7 days. Appears as a heading on the "Players" page (http://lichess.org/people).
+Progress this week=A list of players ordered by the advance in rating (points) they have made over the last 7 days. Appears as a heading on the "Players" page <http://lichess.org/people>.
 
-Progress this month=A list of players ordered by the advance in rating (points) they have made over the last 30 days. Appears as a heading on the "Players" page (http://lichess.org/people).
+Progress this month=A list of players ordered by the advance in rating (points) they have made over the last 30 days. Appears as a heading on the "Players" page <http://lichess.org/people>.
 
-Leaders this week=A list of very highly-ranked players that have played at least one game within the last 7 days. Appears as a heading on the "Players" page (http://lichess.org/people).
+Leaders this week=A list of very highly-ranked players that have played at least one game within the last 7 days. Appears as a heading on the "Players" page <http://lichess.org/people>.
 
-Leaders this month=A list of very highly-ranked players that have played at least one game within the last 30 days. Appears as a heading on the "Players" page (http://lichess.org/people).
+Leaders this month=A list of very highly-ranked players that have played at least one game within the last 30 days. Appears as a heading on the "Players" page <http://lichess.org/people>.
 
-Active today=A list of players ordered by how many games they played today. Appears as a heading on the "Players" page (http://lichess.org/people).
+Active today=A list of players ordered by how many games they played today. Appears as a heading on the "Players" page <http://lichess.org/people>.
 
-Active this week=A list of players ordered by how many games they have played over the last 7 days. Appears as a heading on the "Players" page (http://lichess.org/people).
+Active this week=A list of players ordered by how many games they have played over the last 7 days. Appears as a heading on the "Players" page <http://lichess.org/people>.
 
-Active players=A list of players ordered by how many games they have played over the last 30 days. Appears as a heading on the "Players" page (http://lichess.org/people).
+Active players=A list of players ordered by how many games they have played over the last 30 days. Appears as a heading on the "Players" page <http://lichess.org/people>.
 
-Best bullet players=A list of the best bullet players. "Bullet" refers to games that are less than 3 minutes in length. Appears as a heading on the "Players" page (http://lichess.org/people). The word "bullet" should NOT be translated unless your country's or locale's chess federation has a name for it in your language.
+Best bullet players=A list of the best bullet players. "Bullet" refers to games that are less than 3 minutes in length. Appears as a heading on the "Players" page <http://lichess.org/people>. The word "bullet" should NOT be translated unless your country's or locale's chess federation has a name for it in your language.
 
-Best blitz players=A list of the best blitz players. "Blitz" refers to games that are 3 to 8 minutes in length. Appears as a heading on the "Players" page (http://lichess.org/people). The word "blitz" should NOT be translated unless your country's or locale's chess federation has a name for it in your language.
+Best blitz players=A list of the best blitz players. "Blitz" refers to games that are 3 to 8 minutes in length. Appears as a heading on the "Players" page <http://lichess.org/people>. The word "blitz" should NOT be translated unless your country's or locale's chess federation has a name for it in your language.
 
-Best slow players=A list of the best slow players. "Slow" refers to games that are 8 to 20 minutes in length. Appears as a heading on the "Players" page (http://lichess.org/people). The word "slow" should NOT be translated unless your country's or locale's chess federation has a name for it in your language.
+Best slow players=A list of the best slow players. "Slow" refers to games that are 8 to 20 minutes in length. Appears as a heading on the "Players" page <http://lichess.org/people>. The word "slow" should NOT be translated unless your country's or locale's chess federation has a name for it in your language.
 
-Beware, the game is rated but has no clock!=Warning message that appears when you are about to join a game of unlimited time. This is only for games created via the "Play with a friend" menu (http://lichess.org/setup/friend), as creating public rated games with no time control is not allowed.
+Beware, the game is rated but has no clock!=Warning message that appears when you are about to join a game of unlimited time. This is only for games created via the "Play with a friend" menu <http://lichess.org/setup/friend>, as creating public rated games with no time control is not allowed.
 
 Move times=Time spent on each move by the players. Appears as a tab in the "Replay and analyse" view, below the chess board. Example: http://lichess.org/6iaj1eh0
 
 Training=A page that offers chess puzzles. These help you improve how you play chess. Could also be translated as "Practise" (verb) or a similar word. This appears as one of the links on the navigation bar at the top of every page, so it should be kept as short as possible. Links to http://lichess.org/training
 
-Your puzzle rating: %s=%s is your numerical puzzle rating. Appears in a box left of the board on the "Training" page (http://lichess.org/training), above the graph.
+Your puzzle rating: %s=%s is your numerical puzzle rating. Appears in a box left of the board on the "Training" page <http://lichess.org/training>, above the graph.
 
-Find the best move for white.=Informs the player what side they are playing. Appears on the right-hand side of the puzzle trainer, on the "Training" page (http://lichess.org/training).
+Find the best move for white.=Informs the player what side they are playing. Appears on the right-hand side of the puzzle trainer, on the "Training" page <http://lichess.org/training>.
 
-Find the best move for black.=Informs the player what side they are playing. Appears on the right-hand side of the puzzle trainer, on the "Training" page (http://lichess.org/training).
+Find the best move for black.=Informs the player what side they are playing. Appears on the right-hand side of the puzzle trainer, on the "Training" page <http://lichess.org/training>.
 
-To track your progress:=Encourages the player to register. Below this message is a "Register" button. Appears in a box left of the board on the "Training" page (http://lichess.org/training) when trying puzzles and not being signed in.
+To track your progress:=Encourages the player to register. Below this message is a "Register" button. Appears in a box left of the board on the "Training" page <http://lichess.org/training> when trying puzzles and not being signed in.
 
-Lichess will provide puzzles that match your ability, making for better training sessions.=Encourages the player to register an account to enjoy Lichess's "Training" feature more. Appears below the "Register" button when doing chess puzzles without being logged in, in a box left of the board on the "Training" page (http://lichess.org/training).
+Lichess will provide puzzles that match your ability, making for better training sessions.=Encourages the player to register an account to enjoy Lichess's "Training" feature more. Appears below the "Register" button when doing chess puzzles without being logged in, in a box left of the board on the "Training" page <http://lichess.org/training>.
 
-Recently played puzzles=A list of your last-played puzzles. Appears as a heading below the board on the "Training" page (http://lichess.org/training). Do NOT translate "played" as "finished", because that implies success at the puzzles, which is not always the case.
+Recently played puzzles=A list of your last-played puzzles. Appears as a heading below the board on the "Training" page <http://lichess.org/training>. Do NOT translate "played" as "finished", because that implies success at the puzzles, which is not always the case.
 
-Puzzle %s=%s is the number of the puzzle. This means the way it appears on the site will be something like "Puzzle 5705". Appears on the "Training" page (http://lichess.org/training).
+Puzzle %s=%s is the number of the puzzle. This means the way it appears on the site will be something like "Puzzle 5705". Appears on the "Training" page <http://lichess.org/training>.
 
-Puzzle of the day=A random chess puzzle presented on right-hand side the "Play" page (http://lichess.org). As the name suggests, there is a different puzzle every day.
+Puzzle of the day=A random chess puzzle presented on right-hand side the "Play" page <http://lichess.org>. As the name suggests, there is a different puzzle every day.
 
-Click to solve=The mouseover text of the chess board for the puzzle of the day on the "Play" page (http://lichess.org).
+Click to solve=The mouseover text of the chess board for the puzzle of the day on the "Play" page <http://lichess.org>.
 
-Good move=Informs the player that they played a good move, but not the best they could make. Appears in a green box on the left-hand side of the "Training" page (http://lichess.org/training), in reference to the chess puzzle you are currently playing. Keep your translation short, as a longer sentence (also translatable) just below this one informs them it is not the best move they could play.
+Good move=Informs the player that they played a good move, but not the best they could make. Appears in a green box on the left-hand side of the "Training" page <http://lichess.org/training>, in reference to the chess puzzle you are currently playing. Keep your translation short, as a longer sentence (also translatable) just below this one informs them it is not the best move they could play.
 
-But you can do better.=Informs you that your move was good, but not the best move possible. "But there is a better move" is an alternate way to translate this. Appears in a green box left of the board on the "Training" page (http://lichess.org/), just below the "Good move" sentence. It is used in reference to the chess puzzle you are currently playing.
+But you can do better.=Informs you that your move was good, but not the best move possible. "But there is a better move" is an alternate way to translate this. Appears in a green box left of the board on the "Training" page <http://lichess.org/>, just below the "Good move" sentence. It is used in reference to the chess puzzle you are currently playing.
 
-Best move!=Informs the player that the move they just played is the best they could possibly play. Appears in a green box on the left-hand side "Training" page (http://lichess.org/training) while playing a puzzle.
+Best move!=Informs the player that the move they just played is the best they could possibly play. Appears in a green box on the left-hand side "Training" page <http://lichess.org/training> while playing a puzzle.
 
-Keep going…=Informs you that the puzzle is not yet finished. Appears just below "Best move!" in a green box on the left of the board on the Training page (http://lichess.org/training), after you have made the best possible move.
+Keep going…=Informs you that the puzzle is not yet finished. Appears just below "Best move!" in a green box on the left of the board on the Training page <http://lichess.org/training>, after you have made the best possible move.
 
-Puzzle failed=Informs you that you lost the puzzle. Appears in a red box left of the board on the Training page (http://lichess.org/training) when you fail the puzzle by making a wrong move. Could also be translated as "You have failed the puzzle", if it is short enough and sounds better. 
+Puzzle failed=Informs you that you lost the puzzle. Appears in a red box left of the board on the Training page <http://lichess.org/training> when you fail the puzzle by making a wrong move. Could also be translated as "You have failed the puzzle", if it is short enough and sounds better. 
 
-But you can keep trying.=Informs you that the fact you failed the puzzle (again) does not mean you have given up. Appears in a red box left of the board on the Training page (http://lichess.org/training) when you are retrying a puzzle you have already failed… and fail it again.
+But you can keep trying.=Informs you that the fact you failed the puzzle (again) does not mean you have given up. Appears in a red box left of the board on the Training page <http://lichess.org/training> when you are retrying a puzzle you have already failed… and fail it again.
 
-Victory!=Informs the player that they completed the puzzle successfully. Appears in a green box left of the board on the "Training" page (http://lichess.org/training) when you beat a puzzle. Can also be translated as "Success!", but we found "Victory!" to sound more romantic/heroic.
+Victory!=Informs the player that they completed the puzzle successfully. Appears in a green box left of the board on the "Training" page <http://lichess.org/training> when you beat a puzzle. Can also be translated as "Success!", but we found "Victory!" to sound more romantic/heroic.
 
-Give up=Clicking this lets you go to the next puzzle and to the replay screen. It counts as failing the puzzle. Appears as a button in the box on the right of the board on the "Training" page (http://lichess.org/training) while you are playing the puzzle.
+Give up=Clicking this lets you go to the next puzzle and to the replay screen. It counts as failing the puzzle. Appears as a button in the box on the right of the board on the "Training" page <http://lichess.org/training> while you are playing the puzzle.
 
-Puzzle solved in %s seconds.=%s is the number of seconds it took you to solve the chess puzzle. Appears in the box left of the board on the "Training" page (http://lichess.org/training). You can address the player directly here, so something like "You solved the puzzle in %s seconds" is acceptable if it is kept short enough.
+Puzzle solved in %s seconds.=%s is the number of seconds it took you to solve the chess puzzle. Appears in the box left of the board on the "Training" page <http://lichess.org/training>. You can address the player directly here, so something like "You solved the puzzle in %s seconds" is acceptable if it is kept short enough.
 
-Was this puzzle any good?=Poses a question to the user on whether the chess puzzle they just played was good or not. This is intended to entice players to vote, so please be encouraging in tone. This message appears occasionally on the "Training" page (http://lichess.org/training), after a player has played several puzzles without voting. An alternate way to phrase this sentence could be "How did you find this puzzle?".
+Was this puzzle any good?=Poses a question to the user on whether the chess puzzle they just played was good or not. This is intended to entice players to vote, so please be encouraging in tone. This message appears occasionally on the "Training" page <http://lichess.org/training>, after a player has played several puzzles without voting. An alternate way to phrase this sentence could be "How did you find this puzzle?".
 
-Help lichess improve by voting, using the up or down arrow:=Inform the player why they should vote, and how to vote. Appears above a box with two buttons that you can use to vote on whether the puzzle was good or bad. This message appears occasionally on the "Training" page (http://lichess.org/training), after a player has played several puzzles without voting. You can phrase the first part as "Improve lichess by voting", if that helps.
+Help lichess improve by voting, using the up or down arrow:=Inform the player why they should vote, and how to vote. Appears above a box with two buttons that you can use to vote on whether the puzzle was good or bad. This message appears occasionally on the "Training" page <http://lichess.org/training>, after a player has played several puzzles without voting. You can phrase the first part as "Improve lichess by voting", if that helps.
 
-Thank you!=Politely thanks the players for voting. Appears on the "Training" page (http://lichess.org/training) after voting for a puzzle. Please use the polite version of "Thank you" in your language.
+Thank you!=Politely thanks the players for voting. Appears on the "Training" page <http://lichess.org/training> after voting for a puzzle. Please use the polite version of "Thank you" in your language.
 
-Rating: %s=%s is the numerical rating and rating deviation for the puzzle. This is the rating of individual chess puzzles in the "Training" pages (http://lichess.org/training/5705). Appears on the right-hand side box after you have succeeded at or failed at the puzzle. Note that this is the rating of the puzzle, NOT the player.
+Rating: %s=%s is the numerical rating and rating deviation for the puzzle. This is the rating of individual chess puzzles in the "Training" pages <http://lichess.org/training/5705>. Appears on the right-hand side box after you have succeeded at or failed at the puzzle. Note that this is the rating of the puzzle, NOT the player.
 
-Played %s times=%s is the number of times this puzzle has been played. Appears in the box on the right-hand side the "Training" page (http://lichess.org/training/) after you have succeeded at or failed the puzzle.
+Played %s times=%s is the number of times this puzzle has been played. Appears in the box on the right-hand side the "Training" page <http://lichess.org/training/> after you have succeeded at or failed the puzzle.
 
-From game %s=%s is the name of the game. Appears as a button title at the bottom of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
+From game %s=%s is the name of the game. Appears as a button title at the bottom of the "Training" page <http://lichess.org/training/> after you have succeeded or failed at the puzzle.
 
 Start training=Clicking this takes you to a new puzzle. Only happens for links to individual puzzles, e.g. http://lichess.org/training/6958. Appears as a button underneath the box on the right hand side after you have succeeded or failed at the puzzle. "Training" should be translated as a verb, or as "[the process of] training" for this sentence.
 
-Continue training=Clicking this takes you to a new puzzle. Appears as a button underneath the box on the right hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle. "Training" should be translated as a verb, or as "[the process of] training" for this sentence.
+Continue training=Clicking this takes you to a new puzzle. Appears as a button underneath the box on the right hand side of the "Training" page <http://lichess.org/training/> after you have succeeded or failed at the puzzle. "Training" should be translated as a verb, or as "[the process of] training" for this sentence.
 
-Retry this puzzle=Clicking this lets you try the same the puzzle again. Appears just below the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have failed the puzzle.
+Retry this puzzle=Clicking this lets you try the same the puzzle again. Appears just below the box on the right-hand side of the "Training" page <http://lichess.org/training/> after you have failed the puzzle.
 
-This puzzle is correct and interesting=The mouseover text of the upwards-pointing triangle (▴), which is a positive vote (+1) for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
+This puzzle is correct and interesting=The mouseover text of the upwards-pointing triangle (▴), which is a positive vote (+1) for a puzzle. Appears in the box on the right-hand side of the "Training" page <http://lichess.org/training/> after you have succeeded or failed at the puzzle.
 
-This puzzle is wrong or boring=The mouseover text of the downwards-pointing triangle (▾), which is a negative (-1) vote for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
+This puzzle is wrong or boring=The mouseover text of the downwards-pointing triangle (▾), which is a negative (-1) vote for a puzzle. Appears in the box on the right-hand side of the "Training" page <http://lichess.org/training/> after you have succeeded or failed at the puzzle.
 
-Computers and computer-assisted players are not allowed to play. Please do not get assistance from chess engines, databases, or from other players while playing.=The text users read when creating an account. Appears in the registration (new account) form (http://lichess.org/signup).
+Computers and computer-assisted players are not allowed to play. Please do not get assistance from chess engines, databases, or from other players while playing.=The text users read when creating an account. Appears in the registration (new account) form <http://lichess.org/signup>.
 
 You have %s seconds to make your first move!=Explains the rule for the pools feature. If you do not play in the first, say, 30 seconds, you automatically resign the game. Appears when playing a game in a pool, such as http://lichess.org/pool/3-0
 
-%s games in play=%s is the number of games. Appears below the title of "lichess.org" on the "Play" page (http://lichess.org). Could be translated as "%s games being played".
+%s games in play=%s is the number of games. Appears below the title of "lichess.org" on the "Play" page <http://lichess.org>. Could be translated as "%s games being played".
 
 Analysis=Button that leads to analysis page. Appears only on your own games, after they have finished.
 
@@ -663,51 +663,51 @@ Automatically proceed to next game after moving=Informs the player what the butt
 
 Rating=The rating of the player (e.g. 1500). Appears on the lobby list on http://lichess.org/
 
-Opening %s=%s is the number of the opening training. This means the way it appears on the site will be something like "Opening 5705". Appears on the "Opening" page (http://lichess.org/training/opening).
+Opening %s=%s is the number of the opening training. This means the way it appears on the site will be something like "Opening 5705". Appears on the "Opening" page <http://lichess.org/training/opening>.
 
-Your opening rating: %s=%s is your numerical opening trainer rating. Appears in a box left of the board on the "Opening" page (http://lichess.org/training/opening), above the graph.
+Your opening rating: %s=%s is your numerical opening trainer rating. Appears in a box left of the board on the "Opening" page <http://lichess.org/training/opening>, above the graph.
 
-Find %s strong moves=Informs the player home many opening strong moves they have to find. Appears on the right-hand side when using the opening trainer, on the "Opening" page (http://lichess.org/training/opening).
+Find %s strong moves=Informs the player home many opening strong moves they have to find. Appears on the right-hand side when using the opening trainer, on the "Opening" page <http://lichess.org/training/opening>.
 
-This move gives your opponent the advantage=Informs you that you played a weak move on the opening trainer. Appears in a red box left of the board on the Opening page (http://lichess.org/training/opening).
+This move gives your opponent the advantage=Informs you that you played a weak move on the opening trainer. Appears in a red box left of the board on the Opening page <http://lichess.org/training/opening>.
 
-Opening failed=Informs you that you lost the opening. Appears in a red box left of the board on the Training page (http://lichess.org/training) when the opening training completes with a loss. Could also be translated as "You have failed the opening", if it is short enough and sounds better. 
+Opening failed=Informs you that you lost the opening. Appears in a red box left of the board on the Training page <http://lichess.org/training> when the opening training completes with a loss. Could also be translated as "You have failed the opening", if it is short enough and sounds better. 
 
-Opening solved=Appears in the box left of the board on the "Opening" page (http://lichess.org/training/opening). You can address the player directly here, so something like "You solved the opening" is acceptable if it is kept short enough.
+Opening solved=Appears in the box left of the board on the "Opening" page <http://lichess.org/training/opening>. You can address the player directly here, so something like "You solved the opening" is acceptable if it is kept short enough.
 
-Recently played openings=A list of your last-played openings. Appears as a heading below the board on the "Opening" page (http://lichess.org/training/opening). Do NOT translate "played" as "finished", because that implies success at the openings, which is not always the case.
+Recently played openings=A list of your last-played openings. Appears as a heading below the board on the "Opening" page <http://lichess.org/training/opening>. Do NOT translate "played" as "finished", because that implies success at the openings, which is not always the case.
 
-Puzzles=One of the 3 rectangular buttons on the "training" page (http://lichess.org/training). This chooses puzzles as your training type.
+Puzzles=One of the 3 rectangular buttons on the "training" page <http://lichess.org/training>. This chooses puzzles as your training type.
 
-Coordinates=One of the 3 rectangular buttons on the "training" page (http://lichess.org/training). This chooses coordinates as your training type.
+Coordinates=One of the 3 rectangular buttons on the "training" page <http://lichess.org/training>. This chooses coordinates as your training type.
 
-Openings=One of the 3 rectangular buttons on the "training" page (http://lichess.org/training). This chooses openings as your training type.
+Openings=One of the 3 rectangular buttons on the "training" page <http://lichess.org/training>. This chooses openings as your training type.
 
-Latest updates=A list of the last blog updates. Appears as a heading to a box at the bottom of the "Play" page (http://lichess.org/).
+Latest updates=A list of the last blog updates. Appears as a heading to a box at the bottom of the "Play" page <http://lichess.org/>.
 
-Tournament winners=A list of tournament winners. Appears on the "Play" page (http://lichess.org) as a heading to a box that contains a list of the recent winners.
+Tournament winners=A list of tournament winners. Appears on the "Play" page <http://lichess.org> as a heading to a box that contains a list of the recent winners.
 
-Name=This appears in the form for creating a new team (http://lichess.org/team/new). You choose your team name in this field.
+Name=This appears in the form for creating a new team <http://lichess.org/team/new>. You choose your team name in this field.
 
-Description=This appears in the form for creating a new team (http://lichess.org/team/new). You can write a description for your team in this field.
+Description=This appears in the form for creating a new team <http://lichess.org/team/new>. You can write a description for your team in this field.
 
-No=Appears in the preferences page for multiple options (http://lichess.org/account/preferences).
+No=Appears in the preferences page for multiple options <http://lichess.org/account/preferences>.
 
-Yes=Appears in the preferences page for multiple options (http://lichess.org/account/preferences).
+Yes=Appears in the preferences page for multiple options <http://lichess.org/account/preferences>.
 
 Help:=Appears next to chess CAPTCHAs when signing up, posting on the forum and other actions with a link to the game it is referenced from.
 
-Create a new topic=Click this button in the forum (http://lichess.org/forum/general-chess-discussion) to create a new topic.
+Create a new topic=Click this button in the forum <http://lichess.org/forum/general-chess-discussion> to create a new topic.
 
-Topics=Appears as a column in the forum and shows how many topics a category has (http://lichess.org/forum).
+Topics=Appears as a column in the forum and shows how many topics a category has <http://lichess.org/forum>.
 
-Posts=Appears in the forum and shows how many posts a category has (http://lichess.org/forum).
+Posts=Appears in the forum and shows how many posts a category has <http://lichess.org/forum>.
 
-Last post=shows the time the most recent post was made. Appears in the forum (http://lichess.org/forum) as a column. Translation must be kept short.
+Last post=shows the time the most recent post was made. Appears in the forum <http://lichess.org/forum> as a column. Translation must be kept short.
 
-Views=Appears in the forum and shows how many views a topic has (http://lichess.org/forum/general-chess-discussion).
+Views=Appears in the forum and shows how many views a topic has <http://lichess.org/forum/general-chess-discussion>.
 
-Replies=Appears in the forum and shows how many replies a topic has (http://lichess.org/forum/general-chess-discussion).
+Replies=Appears in the forum and shows how many replies a topic has <http://lichess.org/forum/general-chess-discussion>.
 
 Reply to this topic=The title over your message when posting in the forum.
 
@@ -715,27 +715,27 @@ Reply=The button at the bottom of a topic page. Click the button to reply to a t
 
 Message=This is where you write your message for replying to a topic or creating a topic in the forum.
 
-Create the topic=The button at the bottom of forum pages (http://lichess.org/forum/general-chess-discussion/form). Click it to create your topic.
+Create the topic=The button at the bottom of forum pages <http://lichess.org/forum/general-chess-discussion/form>. Click it to create your topic.
 
-Report a user=Appears as a heading for this form (http://lichess.org/report). Use this form to report a user.
+Report a user=Appears as a heading for this form <http://lichess.org/report>. Use this form to report a user.
 
-User=To report a user, you need to write their name in this field (http://lichess.org/report).
+User=To report a user, you need to write their name in this field <http://lichess.org/report>.
 
-Reason=Choose a reason for reporting a user (http://lichess.org/report).
+Reason=Choose a reason for reporting a user <http://lichess.org/report>.
 
-What's the matter?=Default choice in drop-down menu that describes the options to choose from (http://lichess.org/report).
+What's the matter?=Default choice in drop-down menu that describes the options to choose from <http://lichess.org/report>.
 
-Cheat=Choose this option if a user cheated. Appears in the drop-down menu for reasons in the report form (http://lichess.org/report).
+Cheat=Choose this option if a user cheated. Appears in the drop-down menu for reasons in the report form <http://lichess.org/report>.
 
-Insult=Choose this option if a user insulted you. Appears in the drop-down menu for reasons in the report form (http://lichess.org/report).
+Insult=Choose this option if a user insulted you. Appears in the drop-down menu for reasons in the report form <http://lichess.org/report>.
 
-Troll=Choose this option if a user is trolling. Appears in the dropdown menu for reasons in the report form (http://lichess.org/report).
+Troll=Choose this option if a user is trolling. Appears in the dropdown menu for reasons in the report form <http://lichess.org/report>.
 
-Other=Choose this option if you have another reason than the ones in the dropdown list. Appears in the drop-down menu for reasons in the report form(http://lichess.org/report).
+Other=Choose this option if you have another reason than the ones in the dropdown list. Appears in the drop-down menu for reasons in the report form<http://lichess.org/report>.
 
-Paste the link to the game(s) and explain what is wrong about this user behavior.=Appears under the description box on the page for reporting a user (http://lichess.org/report).
+Paste the link to the game(s) and explain what is wrong about this user behavior.=Appears under the description box on the page for reporting a user <http://lichess.org/report>.
 
-by %s=The %s is the username of the poster in the forum. This is used in the "Last post" column (http://lichess.org/forum/general-chess-discussion).
+by %s=The %s is the username of the poster in the forum. This is used in the "Last post" column <http://lichess.org/forum/general-chess-discussion>.
 
 This topic is now closed.=This sentence appears in the forum when a topic is closed.
 
@@ -745,21 +745,21 @@ Donate=Click this button (at the bottom of all pages) to make a donation.
 
 Blog=Appears in the bottom left of any page and links to the blog.
 
-Map=Appears in the bottom left of any page and redirects you to the world map where you can see real time chess moves. (http://lichess.org/world-map)
+Map=Appears in the bottom left of any page and redirects you to the world map where you can see real time chess moves. <http://lichess.org/world-map>
 
 Real time world map of chess moves=This sentence appears when you hover over "Map" on the bottom left of any page. The link leads to http://lichess.org/world-map
 
-Questions & Answers=Appears when you hover over "Q&A" (http://lichess.org/qa) at the bottom left on any page. Translate freely. If you cannot find a good translation, consider leaving this untranslated so another speaker of your language can look at it.
+Questions & Answers=Appears when you hover over "Q&A" <http://lichess.org/qa> at the bottom left on any page. Translate freely. If you cannot find a good translation, consider leaving this untranslated so another speaker of your language can look at it.
 
 Notes=Appears on the left side while playing a game. You can type your private notes on the game in this tab.
 
 Type private notes here=Click in the box to type your private notes. This is the placeholder text (greyed-out text that disappears when you click) for the "Notes" box on the left side while playing a game. Please use a verb and active voice to address the user in this sentence
 
-Game display=The title on your account preferences page where you can change how the board and pieces are displayed, among other things (http://lichess.org/account/preferences).
+Game display=The title on your account preferences page where you can change how the board and pieces are displayed, among other things <http://lichess.org/account/preferences>.
 
-Piece animation=Here you can change the speed of your piece animation or select none (http://lichess.org/account/preferences).
+Piece animation=Here you can change the speed of your piece animation or select none <http://lichess.org/account/preferences>.
 
-Material difference=Choose if you want to see the difference in material while playing a game. (http://lichess.org/account/preferences).
+Material difference=Choose if you want to see the difference in material while playing a game. <http://lichess.org/account/preferences>.
 
 Close account=Clicking this lets you close your account. Appears in the menu on the preferences page http://lichess.org/account/preferences and as a heading on the "Close account" page. Please do not translate to "delete account" unless you have to, as some data like the games you played on the site are retained.
 
@@ -791,35 +791,35 @@ Board coordinates (A-H, 1-8)=Choose if you want to see the coordinates on the bo
 
 Move list while playing=Choose if you want to see a list of all moves made, on the right side of the board. http://lichess.org/account/preferences
 
-Chess clock=One of the subtitles on your account preferences page (http://lichess.org/account/preferences). In this section you can choose between different options regarding the time.
+Chess clock=One of the subtitles on your account preferences page <http://lichess.org/account/preferences>. In this section you can choose between different options regarding the time.
 
 Tenths of seconds=Choose if you want to see 1/10ths of seconds while playing a game. http://lichess.org/account/preferences
 
-Never=Appears in the preferences page for multiple options (http://lichess.org/account/preferences).
+Never=Appears in the preferences page for multiple options <http://lichess.org/account/preferences>.
 
-When time remaining < 10 seconds=An option to show 1/10ths of a second only when there are less than 10 seconds on your clock. Appears in the preferences page (http://lichess.org/account/preferences).
+When time remaining < 10 seconds=An option to show 1/10ths of a second only when there are less than 10 seconds on your clock. Appears in the preferences page <http://lichess.org/account/preferences>.
 
-Horizontal green progress bars=Choose if you want to see a green progress bar while playing a game. (http://lichess.org/account/preferences).
+Horizontal green progress bars=Choose if you want to see a green progress bar while playing a game. <http://lichess.org/account/preferences>.
 
-Sound when time gets critical=Choose if you want to hear a special sound, while playing a game, when you start running out of time. (http://lichess.org/account/preferences).
+Sound when time gets critical=Choose if you want to hear a special sound, while playing a game, when you start running out of time. <http://lichess.org/account/preferences>.
 
-Game behavior=One of the subheadings on your account preferences page (http://lichess.org/account/preferences). In this section you can choose between different options regarding the game.
+Game behavior=One of the subheadings on your account preferences page <http://lichess.org/account/preferences>. In this section you can choose between different options regarding the game.
 
-Premoves (playing during opponent turn)=Choose if you want to be able to make premoves while waiting for your opponent to make a move. (http://lichess.org/account/preferences).
+Premoves (playing during opponent turn)=Choose if you want to be able to make premoves while waiting for your opponent to make a move. <http://lichess.org/account/preferences>.
 
-Takebacks (with opponent approval)=Choose if you want to enable takebacks (ability to undo moves) in games. (http://lichess.org/account/preferences)
+Takebacks (with opponent approval)=Choose if you want to enable takebacks (ability to undo moves) in games. <http://lichess.org/account/preferences>
 
-Promote to Queen automatically=Choose if you want the pawn to promote to a queen automatically when you reach the other side of the board. (http://lichess.org/account/preferences)
+Promote to Queen automatically=Choose if you want the pawn to promote to a queen automatically when you reach the other side of the board. <http://lichess.org/account/preferences>
 
-Claim draw on %sthreefold repetition%s automatically=IMPORTANT: These two %s should be put around the words that you translate "threefold repetition" into. This links to Wikipedia in English for a description of the meaning. The two %s can be left out if users of your language generally cannot read English. On the preferences page (http://lichess.org/account/preferences) you can choose if you want to be able to automatically claim a draw when threefold repetition occurs.
+Claim draw on %sthreefold repetition%s automatically=IMPORTANT: These two %s should be put around the words that you translate "threefold repetition" into. This links to Wikipedia in English for a description of the meaning. The two %s can be left out if users of your language generally cannot read English. On the preferences page <http://lichess.org/account/preferences> you can choose if you want to be able to automatically claim a draw when threefold repetition occurs.
 
-Privacy=One of the subheadings on your account preferences page (http://lichess.org/account/preferences). In this section you can choose between different options regarding your privacy.
+Privacy=One of the subheadings on your account preferences page <http://lichess.org/account/preferences>. In this section you can choose between different options regarding your privacy.
 
 Let other players follow you=Choose if you want to let other players be able to follow you. It is an option on your account preferences page: http://lichess.org/account/preferences
 
 Let other players challenge you=Lets you choose if you want to let other players be able to challenge you to a game. It is an option on your account preferences page: http://lichess.org/account/preferences
 
-Sound=Subheading for the last section on your account preferences page (http://lichess.org/account/preferences).
+Sound=Subheading for the last section on your account preferences page <http://lichess.org/account/preferences>.
 
 The sound control is in the top bar of every page, on the right side.=This sentence informs you where the sound control is on lichess. Appears on your account preferences page: http://lichess.org/account/preferences
 
@@ -853,15 +853,15 @@ Normal=Click this button to select normal as your difficulty. Appears on the tra
 
 Hard=Click this button to select hard as your difficulty. Appears on the training page when solving puzzles http://lichess.org/training/
 
-%s left a note on %s=First %s is the name of the player that left a note, and the second %s is the player who got a note on their profile. Appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s left a note on %s=First %s is the name of the player that left a note, and the second %s is the player who got a note on their profile. Appears in the activity timeline on the left-hand side of the "Play" page <http://lichess.org/> after you have started following a player.
 
-%s competes in %s=First %s is the name of the player that competes in a tournament, and the second %s is the tournament name. Appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s competes in %s=First %s is the name of the player that competes in a tournament, and the second %s is the tournament name. Appears in the activity timeline on the left-hand side of the "Play" page <http://lichess.org/> after you have started following a player.
 
-%s asked %s=First %s is the name of the player that asked, and the second %s is the title of the question in Q&A. Appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s asked %s=First %s is the name of the player that asked, and the second %s is the title of the question in Q&A. Appears in the activity timeline on the left-hand side of the "Play" page <http://lichess.org/> after you have started following a player.
 
-%s answered %s=First %s is the name of the player that answered, and the second %s is the title of the question in Q&A. Appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s answered %s=First %s is the name of the player that answered, and the second %s is the title of the question in Q&A. Appears in the activity timeline on the left-hand side of the "Play" page <http://lichess.org/> after you have started following a player.
 
-%s commented %s=First %s is the name of the player that commented, and the second %s is the title of the question in Q&A. Appears in the activity timeline on the left-hand side of the "Play" page (http://lichess.org/) after you have started following a player.
+%s commented %s=First %s is the name of the player that commented, and the second %s is the title of the question in Q&A. Appears in the activity timeline on the left-hand side of the "Play" page <http://lichess.org/> after you have started following a player.
 
 Timeline=An activity timeline showing what people you follow on lichess have been up to. Appears on the main page under logotype http://lichess.org and http://lichess.org/timeline/more. Note: this only appears as soon as you follow a player on lichess.
 
