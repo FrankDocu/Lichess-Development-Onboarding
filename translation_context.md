@@ -1,12 +1,3 @@
-// It is recommended to enable _text wrapping_ to read this page.
-
-// The contexts tend to follow a format of first describing what action the string does, or what it informs the player about in other words. It could also be a description of a feature, such as computer analysis or the forum. Afterwards, each page the strings appear on is noted, preferably with a link to the pages for visual confirmation should the translator desire it.
-
-//FORMAT:
-
-// The content of format specifiers ("%s") is _always_ described at the start of the context, should any exist in the source strings.
-
-// Recommendations on how to translate the string are generally placed at the end of the translation context. Sometimes, an alternate way to phrase the original English string is placed at the start to ensure the sentence is understood. In rare situations, the functional context of the string is placed first (e.g. "Teams"); this is purely because lichess does not support grouping translatable strings as of yet.
 
 // Technical words such as "part of the ``<head>``" are to be avoided at all costs. When they do occur, a rigorous description must _always_ be trailing them, since translations are constantly being refined after being completed and even new ones are rarely translated in one go. Even the term "home page" is too technical (requires knowledge of common internet conventions) for the purposes of the project, as it is called "Play" on lichess.
 
@@ -881,13 +872,13 @@ Maximum: %s characters.=This text appears under the biography description box to
 
 List players that you have blocked="List" is used as a verb here. This is a descriptive sentence which appears when you hover the mouse over the block icon on your own profile. Clicking the icon will show you a list of players you have blocked.
 
-Human=Press this to play against a human player (instead of playing against the computer). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+Human=Press this to play against a human player (instead of playing against the computer). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.5.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
-Computer=Press this button to play against a computer player (instead of playing against a human being). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+Computer=Press this button to play against a computer player (instead of playing against a human being). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.5.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
-Side=Lets you select what side you want to play as (White, Black, or random). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+Side=Lets you select what side you want to play as (White, Black, or random). Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.5.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
-Clock=Lets you select what time control you want to play with. Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
+Clock=Lets you select what time control you want to play with. Appears in the "Create a game" menu of the lichess mobile app: https://raw.githubusercontent.com/veloce/lichobile/1.5.x/screens/android/create-human.png. All mobile app sentences *must* be kept compact, as they need to scale to small devices.
 
 Access is unauthorized.=This is a generic sentence that usually appears when the player is not signed in, or when an incorrect password is entered. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
@@ -905,9 +896,9 @@ This player artificially increases/decreases their rating=Appears as a red box o
 
 You are now signed in=Notifies the player they are successfully logged in with their lichess username. The sentence is only found in the lichess mobile app, and *must* be kept compact, as mobile sentences need to scale to small devices.
 
-Computer=Pressing this button lets you play against the offline chess engine. This is a mobile-only feature. The sentence must thus be kept compact, as mobile sentences need to scale to small devices. You can see how it looks here: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/menu2.png
+Computer=Pressing this button lets you play against the offline chess engine. This is a mobile-only feature. The sentence must thus be kept compact, as mobile sentences need to scale to small devices. You can see how it looks here: https://raw.githubusercontent.com/veloce/lichobile/1.5.x/screens/android/menu2.png
 
-Opponent=The name of your opponent. Currently appears only in the mobile app. You can see how it looks here: https://raw.githubusercontent.com/veloce/lichobile/1.4.x/screens/android/ai-menu.png
+Opponent=The name of your opponent. Currently appears only in the mobile app. You can see how it looks here: https://raw.githubusercontent.com/veloce/lichobile/1.5.x/screens/android/ai-menu.png
 
 Increment=Increment of the game. As increment in seconds. It appears only in mobile app in the game creation form. You can see it here: https://raw.githubusercontent.com/veloce/lichobile/1.5.x/screens/android/create-human.png
 It *must* be very short, not longer than the word 'increment' ideally
