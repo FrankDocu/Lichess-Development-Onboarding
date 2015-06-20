@@ -101,3 +101,16 @@ Before beginning, please make sure you have the following tools installed, using
 1. From the top level of the lichess project, execute `sbt -Dhttp.port=9663`
 
 1. When sbt is finished retrieving dependencies, type `run` and press enter.
+
+If you keep getting timeouts, you have to create this `SBT_OPTS` environment variable:
+
+    export SBT_OPTS="-Xms64M -Xmx2048M -Xss4M -XX:ReservedCodeCacheSize=64m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC"
+
+Then, it might be necessary to edit the sbt launcher (`/usr/share/sbt-launcher-packaging/bin/sbt-launch-lib.bash`), if a fix is not already applied, to avoid that the launcher overrides these options. Quoting ddugovic at https://github.com/sbt/sbt-launcher-package/issues/81#issuecomment-112404471
+
+> Workaround (fix?): I added to my `sbt-launch-lib.bash` the following (near the start of `get_mem_opts`):
+
+    elif [[ "${SBT_OPTS}" == *-Xmx* ]] || [[ "${SBT_OPTS}" == *-Xms* ]] || [[ "${SBT_OPTS}" == *-XX:MaxPermSize* ]] || [[ "${SBT_OPTS}" == *-XX:MaxMetaspaceSize* ]] || [[ "${SBT_OPTS}" == *-XX:ReservedCodeCacheSize* ]]; then
+         echo ""
+
+If you don't want to edit the launcher file and if it's no problem that the options are used by all other Java applications running by your user, you don't have to edit the launcher file but you can replace `SBT_OPTS` by `JAVA_OPTS`.
