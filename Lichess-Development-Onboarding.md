@@ -102,7 +102,9 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. When sbt is finished retrieving dependencies, type `run` and press enter.
 
-If you keep getting timeouts, you have to create this `SBT_OPTS` environment variable:
+### Troubleshooting
+
+If you keep getting timeouts when compiling, you have to create this `SBT_OPTS` environment variable:
 
     export SBT_OPTS="-Xms64M -Xmx2048M -Xss4M -XX:ReservedCodeCacheSize=64m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC"
 
