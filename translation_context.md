@@ -215,7 +215,7 @@ Games played=Before it is the number of games the player has played. For example
 
 %s games with you=%s is the number of games this player has played with you. This appears as a tab on the profile pages of people that you have played with. Try to keep it fairly short.
 
-Decline invitation=Clicking this refuses the takeback. A "takeback" undoes a move. Appears after a takeback has been proposed by your opponent.
+Decline invitation=Clicking this refuses the rematch proposed by the oopponent.
 
 Cancel=This is a generic word that appears in a wide variety of places and is used to cancel actions of all sorts. It is recommended to translate it according to whatever your operating system (e.g. Microsoft Windows) uses for your language.
 
