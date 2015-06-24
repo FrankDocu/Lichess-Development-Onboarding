@@ -48,6 +48,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Add the following line to your hosts file :
 `127.0.0.1 l.org en.l.org de.l.org le.l.org fr.l.org es.l.org l1.org socket.en.l.org socket.le.l.org socket.fr.l.org ru.l.org el.l.org hu.l.org socket.hu.l.org`
+(Expand this for any other languages you might want to use)
 
 1. Add the following 'Server' block to the bottom of your http block in your nginx configuration file: 
 
