@@ -914,3 +914,11 @@ Play offline=only in mobile app, on side menu. It is a menu label that helps to 
 Allow anonymous statistics=In mobile app settings, toggle to allow or not sending of anonymous app usage for statistics. Should be as short as possible.
 
 Share game URL=in mobile app on the game context menu, this button opens the native share widget to send the game URL. To keep very short.
+
+This field is required=Error message when a text input fields is left blank. Appears in the registration form and preferences menu (http://lichess.org/account/email).
+
+This email address is invalid=Error message for when the email address was typed in incorrectly. Appears in the registration form and preferences menu (http://lichess.org/account/email). 
+
+This email address is not acceptable=Error message for when people associate a disposable email address with their account (e.g. https://www.guerrillamail.com/) -- only permanent email addresses are permitted. Appears in the registration form and preferences menu (http://lichess.org/account/email).
+
+This email address is already taken=Error message for when you associate an account with an email address that is already in use by another account. Appears in the registration form and preferences menu (http://lichess.org/account/email).
