@@ -64,6 +64,10 @@ Before beginning, please make sure you have the following tools installed, using
 
           charset utf-8;
 
+          location /assets {
+            alias   /home/happy0/projects/lila/public;
+          }
+
           location / {
             proxy_set_header Host $http_host;
             proxy_set_header X-Forwarded-For $remote_addr;
@@ -89,7 +93,7 @@ Before beginning, please make sure you have the following tools installed, using
 
         }
 
-**Note**: Change the /robots.txt and /oops/ locations to the path of your checked out repository accordingly.
+**Note**: Change the `/home/happy0/projects/lila` locations to the path of your checked out repository accordingly.
 
 1. Restart (or start) nginx.
 
