@@ -922,3 +922,13 @@ This email address is invalid=Error message for when the email address was typed
 This email address is not acceptable=Error message for when people associate a disposable email address with their account (e.g. https://www.guerrillamail.com/) -- only permanent email addresses are permitted. Appears in the registration form and preferences menu (http://lichess.org/account/email).
 
 This email address is already taken=Error message for when you associate an account with an email address that is already in use by another account. Appears in the registration form and preferences menu (http://lichess.org/account/email).
+
+Blindfold chess=Appears as a preference on the preference page. The user may choose to hide their pieces in order to emulate playing blindfold chess.
+
+Move confirmation=Appears as a preference on the preference page. The user may choose to use an additional confirmation step when they make moves on the chess board.
+
+In correspondence games=Appears as a selectable option for the "move confirmation" setting on the preference page. The user may choose to only have an extra confirmation step for moves they make in correspondence games.
+
+If rating is +- 500=Appears as a selectable option for the "let other players challenge you" option. The user may choose to only accept challenges from within this rating range.
+
+Only friends=Appears as a selectable option for the "let other players challenge you" option. The user may choose to only accept challenges from friends.
