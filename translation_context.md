@@ -929,6 +929,6 @@ Move confirmation=Appears as a preference on the preference page. The user may c
 
 In correspondence games=Appears as a selectable option for the "move confirmation" setting on the preference page. The user may choose to only have an extra confirmation step for moves they make in correspondence games.
 
-If rating is +- 500=Appears as a selectable option for the "let other players challenge you" option. The user may choose to only accept challenges from within this rating range.
+If rating is ± 500=Appears as a selectable option for the "let other players challenge you" option. The user may choose to only accept challenges from within this rating range.
 
 Only friends=Appears as a selectable option for the "let other players challenge you" option. The user may choose to only accept challenges from friends.
