@@ -937,15 +937,15 @@ Watch=One of the four menu sections. Contains links to Lichess TV, international
 
 International events=Real-time worldwide chess tournaments, powered by FICS. Appears as a dropdown option on the menu bar as well as on menu page. Links to https://lichess.org/watch
 
-Video library=A carefully curated library of free chess videos.Appears as a dropdown option on the menu bar as well as on menu page. Links to https://lichess.org/video
+Video library=A carefully curated library of free chess videos. Appears as a dropdown option on the menu bar as well as on menu page. Links to https://lichess.org/video
 
 Mobile app=Lichess' very own free and open source Android and IOS application. Appears on the footer of the menu page. Links to https://lichess.org/mobile
 
 Webmasters=Information on how webmasters can embed Lichess features such as the daily puzzle or Lichess TV. Appears on the footer of the menu page. Links to https://lichess.org/developers
 
-Contribute=Information on how people can contribute to Lichess whether it through code, translation or donation. Appears on the footer of the menu page. Links to https://lichess.org/help-lichess
+Contribute=Information on how people can contribute to Lichess whether it be through code, translation or donation. Appears on the footer of the menu page. Links to https://lichess.org/help-lichess
 
-ThankYou=A page thanking all contributes of Lichess. Appears on the footer of the menu page. Links to https://lichess.org/thanks
+ThankYou=A page thanking all contributors of Lichess. Appears on the footer of the menu page. Links to https://lichess.org/thanks
 
 Donate=A page where one can find out how to donate to Lichess. Appears on the footer of the menu page. Links to https://lichess.org/donate
 
