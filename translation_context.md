@@ -960,3 +960,13 @@ Watch games= A button that allows users to watch the chess games of a particular
 tpTimeSpentPlaying=%s The total time the user has spent playing on Lichess. Appears on profile pages. Example: https://lichess.org/@/thibault/ has spent 15 days, 9 hours and 25 minutes playing at the time of writing.
 
 tpTimeSpentOnTv=%s The total time the user has spent watching Lichess TV (https://lichess.org/tv). Appears on profile pages. Example: https://lichess.org/@/thibault/ has spent 12 minutes watching at the time of writing.
+
+castling=Castling is a move in the game of chess involving a player's king and either of the player's original rooks. It is the only move in chess in which a player moves two pieces in the same move. Appears on board editor page (https://lichess.org/editor).
+
+whiteCastlingKingside=The option of whether white can still castle on the kingside. Appears as a setting on board editor page (https://lichess.org/editor).
+
+whiteCastlingQueenside=The option of whether white can still castle on the queenside. Appears as a setting on board editor page (https://lichess.org/editor).
+
+blackCastlingKingside=The option of whether black can still castle on the kingside. Appears as a setting on board editor page (https://lichess.org/editor).
+
+blackCastlingQueenside=The option of whether black can still castle on the queenside. Appears as a setting on board editor page (https://lichess.org/editor).
