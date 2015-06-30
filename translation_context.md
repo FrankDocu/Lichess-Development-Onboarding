@@ -1008,3 +1008,5 @@ Simul Clock Hint=Explains the Fischer clock time control settings found on the c
 Simul Add Extra Time=Suggests adding extra time for the simul. Found on the create simul form page (http://lichess.org/simul/new)
 
 Simul Host Extra Time= A setting for the simul host to add extra time. Found on the create simul form page (http://lichess.org/simul/new)
+
+Menu=Tooltip displayed when mouseover menu button viewable at the top of every lichess page.
