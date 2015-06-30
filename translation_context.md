@@ -614,7 +614,7 @@ Was this puzzle any good?=Poses a question to the user on whether the chess puzz
 
 Help lichess improve by voting, using the up or down arrow:=Inform the player why they should vote, and how to vote. Appears above a box with two buttons that you can use to vote on whether the puzzle was good or bad. This message appears occasionally on the "Training" page (http://lichess.org/training), after a player has played several puzzles without voting. You can phrase the first part as "Improve lichess by voting", if that helps.
 
-Thank you!=Politely thanks the players for voting. Appears on the "Training" page (http://lichess.org/training) after voting for a puzzle. Please use the polite version of "Thank you" in your language.
+Thank you!=Politely thanks the players for voting. Appears on the "Training" page (http://lichess.org/training) after voting for a puzzle. Also, a page thanking all contributors of Lichess. Appears on the footer of the menu page. Links to https://lichess.org/thanks . Please use the polite version of "Thank you" in your language.
 
 Rating: %s=%s is the numerical rating and rating deviation for the puzzle. This is the rating of individual chess puzzles in the "Training" pages (http://lichess.org/training/5705). Appears on the right-hand side box after you have succeeded at or failed at the puzzle. Note that this is the rating of the puzzle, NOT the player.
 
@@ -944,8 +944,6 @@ Mobile app=Lichess' very own free and open source Android and IOS application. A
 Webmasters=Information on how webmasters can embed Lichess features such as the daily puzzle or Lichess TV. Appears on the footer of the menu page. Links to https://lichess.org/developers
 
 Contribute=Information on how people can contribute to Lichess whether it be through code, translation or donation. Appears on the footer of the menu page. Links to https://lichess.org/help-lichess
-
-ThankYou=A page thanking all contributors of Lichess. Appears on the footer of the menu page. Links to https://lichess.org/thanks
 
 Donate=A page where one can find out how to donate to Lichess. Appears on the footer of the menu page. Links to https://lichess.org/donate
 
