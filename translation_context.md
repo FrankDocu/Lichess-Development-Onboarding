@@ -970,3 +970,41 @@ whiteCastlingQueenside=The option of whether white can still castle on the queen
 blackCastlingKingside=The option of whether black can still castle on the kingside. Appears as a setting on board editor page (https://lichess.org/editor).
 
 blackCastlingQueenside=The option of whether black can still castle on the queenside. Appears as a setting on board editor page (https://lichess.org/editor).
+
+Simulataneous Exhibitions=Clicking this takes you to a page all about simuls on Lichess, where you can see open, running and finished simuls, as well as create your own. Appears as one of the links at the top of the navigation bar and on menu page. Links to https://lichess.org/simul
+
+host=The person who created the simul. Appears as a column heading on http://lichess.org/simul
+
+Created Simuls = Appears as a heading on http://lichess.org/simul under which currently running and starting simuls are listed.
+
+Host a New Simul = A button that allows players to create a new simul event. Appears on http://lichess.org/simul and links to http://lichess.org/simul/new
+
+No Simul Found = A header warning when a simul event cannot be found. Displayed here http://lichess.org/simul/notfound
+
+No Simul Explanation = When a simul event cannot be found a new page is displayed here http://lichess.org/simul/notfound notifying the user why and how to proceed.
+
+Return to Simul Homepage = A link to the simul homepage (http://lichess.org/simul/) displayed here http://lichess.org/simul/notfound
+
+About Simul= A short explanation about what a simul is on the simul homepage (http://lichess.org/simul)
+
+About Simul Image=A short caption for the Bobby Fischer image found on the simul homepage (http://lichess.org/simul) after clicking'More...'
+
+About Simul Real Life=A short explanation about what a simul is on the simul homepage (http://lichess.org/simul) after clicking'More...'
+
+About Simul Rules=A short explanation about the rules of a simul found on the simul homepage (http://lichess.org/simul) after clicking'More...'
+
+About Simul Settings=A short explanation about typical simul settings found on the simul homepage (http://lichess.org/simul) after clicking'More...'
+
+Create= A button that finalises the creation of a new simul. Found at the bottom of the create simul form page (http://lichess.org/simul/new) 
+
+When Create Simul=A short explanation of what to expect from creating a simul. Found on the create simul form page (http://lichess.org/simul/new)
+
+Join Existing Simul=A link to currently joinable simul events. Found on the create simul form page (http://lichess.org/simul/new)
+
+Simul Variants Hint=Explains the variants checkboxes found on the create simul form page (http://lichess.org/simul/new)
+
+Simul Clock Hint=Explains the Fischer clock time control settings found on the create simul form page (http://lichess.org/simul/new)
+
+Simul Add Extra Time=Suggests adding extra time for the simul. Found on the create simul form page (http://lichess.org/simul/new)
+
+Simul Host Extra Time= A setting for the simul host to add extra time. Found on the create simul form page (http://lichess.org/simul/new)
