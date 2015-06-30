@@ -952,3 +952,11 @@ Contact= A page detailing the ways in which one can contact Lichess. Appears on 
 TermsOfService=A page detailing the Lichess' terms of service. Appears on the footer of the menu page. Links to https://lichess.org/terms-of-service
 
 SourceCode= Lichess' source code repository. Appears on the footer of the menu page. Links to https://github.com/ornicar/lila
+
+nbForumPosts=The number of times the user has posted on the forum (https://lichess.org/forum). Appears on profile pages. Example: http://lichess.org/@/thibault — Thibault has 3038 forum points as of the time of writing.
+
+Watch games= A button that allows users to watch the chess games of a particular player. Appears on profile pages. Example: Links to https://lichess.org/@/thibault/tv
+
+tpTimeSpentPlaying= The total time the user has spent playing on Lichess. Appears on profile pages. Example: https://lichess.org/@/thibault/ has spent 15 days, 9 hours and 25 minutes playing at the time of writing.
+
+tpTimeSpentOnTv= The total time the user has spent watching Lichess TV (https://lichess.org/tv). Appears on profile pages. Example: https://lichess.org/@/thibault/ has spent 12 minutes watching at the time of writing.
