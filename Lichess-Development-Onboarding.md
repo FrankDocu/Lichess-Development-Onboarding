@@ -113,6 +113,8 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. When sbt is finished retrieving dependencies, type `run` and press enter.
 
+1. Navigate to http://en.l.org with a browser.
+
 ### Troubleshooting
 
 If you keep getting timeouts when compiling, you have to create this `SBT_OPTS` environment variable:
