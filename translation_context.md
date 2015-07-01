@@ -1010,3 +1010,11 @@ Simul Add Extra Time=Suggests adding extra time for the simul. Found on the crea
 Simul Host Extra Time= A setting for the simul host to add extra time. Found on the create simul form page (http://lichess.org/simul/new)
 
 Menu=Tooltip displayed when mouseover menu button viewable at the top of every lichess page.
+
+Lichess Tournaments = A heading on the side of the tournaments homepage (http://lichess.org/tournament) under which the official tournaments of Lichess are listed.
+
+Tournament FAQ = A link to an FAQ page for Lichess tournaments. Links to http://lichess.org/tournament/help?system=arena and found on every tournament page as a small question mark like so: (?)
+
+Tournament Official = All official (not user created) Lichess tournaments have this shown in said tournament's information box shows that appears on the top left of the screen.
+
+Time Before Tournament Starts = Users creating new tournaments can decide when their tournament begins. Appears on the form used to create a new tournament (http://lichess.org/tournament/new)
