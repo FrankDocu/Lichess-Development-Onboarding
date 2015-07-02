@@ -1025,34 +1025,34 @@ tournamentYouWillBeNotified= A notification telling users they will be notified 
 
 playInNewTab=A link encouring users to open Lichess in another tab. Links to http://lichess.org
 
-tournamentIsItRatedQ=A question on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) asking if a tournament is rated or not. 
+tournamentIsItRatedQ=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking if a tournament is rated or not. 
 
-tournamentSomeAreRated=An answer on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) answering that some tournaments are rated and will affect rating.
+tournamentSomeAreRated=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) answering that some tournaments are rated and will affect rating.
 
-tournamentThisIsRated=An answer on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) answering that the tournament is rated and will affect rating.
+tournamentThisIsRated=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) answering that the tournament is rated and will affect rating.
 
-tournamentThisIsNotRated=An answer on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) answering that the tournament is not rated and will not affect rating.
+tournamentThisIsNotRated=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) answering that the tournament is not rated and will not affect rating.
 
-tournamentHowAreScoresCalculatedQ=A question on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) asking how tournament scores are calculated.
+tournamentHowAreScoresCalculatedQ=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking how tournament scores are calculated.
 
-tournamentHowAreScoresCalculatedA=An answer on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) explaining how tournament scores are calculated.
+tournamentHowAreScoresCalculatedA=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how tournament scores are calculated.
 
 tournamentBerserk=The name of mode where a player can half their time to double their points for that particular game. 
 
 tournamentBerserkExplan=An explaination of what Berserk mode is and what it does.
 
-tournamentHowWinnerIsDecidedQ=A question on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) asking how tournament winners are decided.
+tournamentHowWinnerIsDecidedQ=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking how tournament winners are decided.
 
-tournamentHowWinnerIsDecidedA=An answer on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) explaining how tournament winners are decided.
+tournamentHowWinnerIsDecidedA=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how tournament winners are decided.
 
-tournamentHowDoesPairingWorkQ=A question on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) asking how the tournament pairing system works.
+tournamentHowDoesPairingWorkQ=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking how the tournament pairing system works.
 
-tournamentHowDoesPairingWorkA=An answer on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) explaining how the tournament pairing system works.
+tournamentHowDoesPairingWorkA=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how the tournament pairing system works.
 
-tournamentHowDoesItEndQ=A question on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) asking how the tournament ends.
+tournamentHowDoesItEndQ=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking how the tournament ends.
 
-tournamentHowDoesItEndA=An answer on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) explaining how the tournament ends.
+tournamentHowDoesItEndA=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how the tournament ends.
 
-tournamentOtherImportantPointsQ=A heading on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena) under which other details pertaining to tournaments are found.
+tournamentOtherImportantPointsQ=A heading on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) under which other details pertaining to tournaments are found.
 
-tournamentOtherImportantPointsA=Other details not covered by the tournament's FAQ section. Found on all tournament's FAQ page (e.g lichess.org/tournament/help?system=arena)
+tournamentOtherImportantPointsA=Other details not covered by the tournament's FAQ section. Found on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena)
