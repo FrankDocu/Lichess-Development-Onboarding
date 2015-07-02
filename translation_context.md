@@ -614,7 +614,7 @@ Was this puzzle any good?=Poses a question to the user on whether the chess puzz
 
 Help lichess improve by voting, using the up or down arrow:=Inform the player why they should vote, and how to vote. Appears above a box with two buttons that you can use to vote on whether the puzzle was good or bad. This message appears occasionally on the "Training" page (http://lichess.org/training), after a player has played several puzzles without voting. You can phrase the first part as "Improve lichess by voting", if that helps.
 
-Thank you!=Politely thanks the players for voting. Appears on the "Training" page (http://lichess.org/training) after voting for a puzzle. Also, a page thanking all contributors of Lichess. Appears on the footer of the menu page. Links to https://lichess.org/thanks . Please use the polite version of "Thank you" in your language.
+Thank you!=Politely thanks the players for voting. Appears on the "Training" page (http://lichess.org/training) after voting for a puzzle. Also, a page thanking all contributors of Lichess. Appears on the footer of the menu page. Links to http://lichess.org/thanks . Please use the polite version of "Thank you" in your language.
 
 Rating: %s=%s is the numerical rating and rating deviation for the puzzle. This is the rating of individual chess puzzles in the "Training" pages (http://lichess.org/training/5705). Appears on the right-hand side box after you have succeeded at or failed at the puzzle. Note that this is the rating of the puzzle, NOT the player.
 
@@ -935,43 +935,43 @@ Only friends=Appears as a selectable option for the "let other players challenge
 
 Watch=One of the four menu sections. Contains links to Lichess TV, international events and the curated video library.
 
-International events=Real-time worldwide chess tournaments, powered by FICS. Appears as a dropdown option on the menu bar as well as on menu page. Links to https://lichess.org/watch
+International events=Real-time worldwide chess tournaments, powered by FICS. Appears as a dropdown option on the menu bar as well as on menu page. Links to http://lichess.org/watch
 
-Video library=A carefully curated library of free chess videos. Appears as a dropdown option on the menu bar as well as on menu page. Links to https://lichess.org/video
+Video library=A carefully curated library of free chess videos. Appears as a dropdown option on the menu bar as well as on menu page. Links to http://lichess.org/video
 
-Mobile app=Lichess' very own free and open source Android and IOS application. Appears on the footer of the menu page. Links to https://lichess.org/mobile
+Mobile app=Lichess' very own free and open source Android and IOS application. Appears on the footer of the menu page. Links to http://lichess.org/mobile
 
-Webmasters=Information on how webmasters can embed Lichess features such as the daily puzzle or Lichess TV. Appears on the footer of the menu page. Links to https://lichess.org/developers
+Webmasters=Information on how webmasters can embed Lichess features such as the daily puzzle or Lichess TV. Appears on the footer of the menu page. Links to http://lichess.org/developers
 
-Contribute=Information on how people can contribute to Lichess whether it be through code, translation or donation. Appears on the footer of the menu page. Links to https://lichess.org/help-lichess
+Contribute=Information on how people can contribute to Lichess whether it be through code, translation or donation. Appears on the footer of the menu page. Links to http://lichess.org/help-lichess
 
-Donate=A page where one can find out how to donate to Lichess. Appears on the footer of the menu page. Links to https://lichess.org/donate
+Donate=A page where one can find out how to donate to Lichess. Appears on the footer of the menu page. Links to http://lichess.org/donate
 
-Contact= A page detailing the ways in which one can contact Lichess. Appears on the footer of the menu page. Links to https://lichess.org/contact
+Contact= A page detailing the ways in which one can contact Lichess. Appears on the footer of the menu page. Links to http://lichess.org/contact
 
-TermsOfService=A page detailing the Lichess' terms of service. Appears on the footer of the menu page. Links to https://lichess.org/terms-of-service
+TermsOfService=A page detailing the Lichess' terms of service. Appears on the footer of the menu page. Links to http://lichess.org/terms-of-service
 
 SourceCode= Lichess' source code repository. Appears on the footer of the menu page. Links to https://github.com/ornicar/lila
 
 nbForumPosts=%s The number of times the user has posted on the forum (https://lichess.org/forum). Appears on profile pages. Example: http://lichess.org/@/thibault — Thibault has 3038 forum points as of the time of writing.
 
-Watch games= A button that allows users to watch the chess games of a particular player. Appears on profile pages. Example: Links to https://lichess.org/@/thibault/tv
+Watch games= A button that allows users to watch the chess games of a particular player. Appears on profile pages. Example: Links to http://lichess.org/@/thibault/tv
 
-tpTimeSpentPlaying=%s The total time the user has spent playing on Lichess. Appears on profile pages. Example: https://lichess.org/@/thibault/ has spent 15 days, 9 hours and 25 minutes playing at the time of writing.
+tpTimeSpentPlaying=%s The total time the user has spent playing on Lichess. Appears on profile pages. Example: http://lichess.org/@/thibault/ has spent 15 days, 9 hours and 25 minutes playing at the time of writing.
 
-tpTimeSpentOnTv=%s The total time the user has spent watching Lichess TV (https://lichess.org/tv). Appears on profile pages. Example: https://lichess.org/@/thibault/ has spent 12 minutes watching at the time of writing.
+tpTimeSpentOnTv=%s The total time the user has spent watching Lichess TV (https://lichess.org/tv). Appears on profile pages. Example: http://lichess.org/@/thibault/ has spent 12 minutes watching at the time of writing.
 
-castling=Castling is a move in the game of chess involving a player's king and either of the player's original rooks. It is the only move in chess in which a player moves two pieces in the same move. Appears on board editor page (https://lichess.org/editor).
+castling=Castling is a move in the game of chess involving a player's king and either of the player's original rooks. It is the only move in chess in which a player moves two pieces in the same move. Appears on board editor page (http://lichess.org/editor).
 
-whiteCastlingKingside=The option of whether white can still castle on the kingside. Appears as a setting on board editor page (https://lichess.org/editor).
+whiteCastlingKingside=The option of whether white can still castle on the kingside. Appears as a setting on board editor page (http://lichess.org/editor).
 
-whiteCastlingQueenside=The option of whether white can still castle on the queenside. Appears as a setting on board editor page (https://lichess.org/editor).
+whiteCastlingQueenside=The option of whether white can still castle on the queenside. Appears as a setting on board editor page (http://lichess.org/editor).
 
-blackCastlingKingside=The option of whether black can still castle on the kingside. Appears as a setting on board editor page (https://lichess.org/editor).
+blackCastlingKingside=The option of whether black can still castle on the kingside. Appears as a setting on board editor page (http://lichess.org/editor).
 
-blackCastlingQueenside=The option of whether black can still castle on the queenside. Appears as a setting on board editor page (https://lichess.org/editor).
+blackCastlingQueenside=The option of whether black can still castle on the queenside. Appears as a setting on board editor page (http://lichess.org/editor).
 
-Simulataneous Exhibitions=Clicking this takes you to a page all about simuls on Lichess, where you can see open, running and finished simuls, as well as create your own. Appears as one of the links at the top of the navigation bar and on menu page. Links to https://lichess.org/simul
+Simulataneous Exhibitions=Clicking this takes you to a page all about simuls on Lichess, where you can see open, running and finished simuls, as well as create your own. Appears as one of the links at the top of the navigation bar and on menu page. Links to http://lichess.org/simul
 
 host=The person who created the simul. Appears as a column heading on http://lichess.org/simul
 
@@ -993,7 +993,7 @@ About Simul Real Life=A short explanation about what a simul is on the simul hom
 
 About Simul Rules=A short explanation about the rules of a simul found on the simul homepage (http://lichess.org/simul) after clicking'More...'
 
-About Simul Settings=A short explanation about typical simul settings found on the simul homepage (http://lichess.org/simul) after clicking'More...'
+About Simul Settings=A short explanation about typical simul settings found on the simul homepage (http://lichess.org/simul) after clicking "More..."
 
 Create= A button that finalises the creation of a new simul. Found at the bottom of the create simul form page (http://lichess.org/simul/new) 
 
@@ -1013,7 +1013,7 @@ Menu=Tooltip displayed when mouseover menu button viewable at the top of every l
 
 Lichess Tournaments = A heading on the side of the tournaments homepage (http://lichess.org/tournament) under which the official tournaments of Lichess are listed.
 
-Tournament FAQ = A link to an FAQ page for Lichess tournaments. Links to http://lichess.org/tournament/help?system=arena and found on every tournament page as a small question mark like so: (?)
+Tournament FAQ = A link to an FAQ page for Lichess tournaments. Links to http://lichess.org/tournament/help?system=arena and found on every tournament page as a small question mark, like so: (?)
 
 Tournament Official = All official (not user created) Lichess tournaments have this shown in said tournament's information box shows that appears on the top left of the screen.
 
