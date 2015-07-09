@@ -1056,3 +1056,19 @@ tournamentHowDoesItEndA=An answer on all tournament's FAQ page (e.g http://liche
 tournamentOtherImportantPointsQ=A heading on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) under which other details pertaining to tournaments are found.
 
 tournamentOtherImportantPointsA=Other details not covered by the tournament's FAQ section. Found on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena)
+
+Average Centipawn Loss=This is one of the categories of problems discovered by the computer analysis. Appears on the right hand side of pages with analyzed games.
+
+Keyboard Shortcuts=A heading appearing in the bottom left side of pages with analyzed games under which are available keyboard shortcuts.
+
+or=A string used to link alternatives. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
+
+Key Move Backward Or Forward=Explains that the preceding keyboard shortcuts move the game backward or forward. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
+
+Key Go To Start Or End=Explains that the preceding keyboard shortcuts move the game to the start or end position. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
+
+Key Show Or Hide Comments=Explains that the preceding keyboard shortcuts show or hide comments. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
+
+Key Enter Or Exit Variation=Explains that the preceding keyboard shortcuts enter or exit variations. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
+
+Key You Can Draw Arrows Circles And Scroll To Move=Explains that using Shift+Click or right-clicking draws arrows and circles on the game board and that one can use the mouse scroll to play through game. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
