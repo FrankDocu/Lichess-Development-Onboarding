@@ -1061,8 +1061,6 @@ Average Centipawn Loss=This is one of the categories of problems discovered by t
 
 Keyboard Shortcuts=A heading appearing in the bottom left side of pages with analyzed games under which are available keyboard shortcuts.
 
-or=A string used to link alternatives. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
-
 Key Move Backward Or Forward=Explains that the preceding keyboard shortcuts move the game backward or forward. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
 
 Key Go To Start Or End=Explains that the preceding keyboard shortcuts move the game to the start or end position. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
