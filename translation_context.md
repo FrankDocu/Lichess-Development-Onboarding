@@ -949,27 +949,27 @@ Donate=A page where one can find out how to donate to Lichess. Appears on the fo
 
 Contact= A page detailing the ways in which one can contact Lichess. Appears on the footer of the menu page. Links to http://lichess.org/contact
 
-TermsOfService=A page detailing the Lichess' terms of service. Appears on the footer of the menu page. Links to http://lichess.org/terms-of-service
+Terms Of Service=A page detailing the Lichess' terms of service. Appears on the footer of the menu page. Links to http://lichess.org/terms-of-service
 
-SourceCode= Lichess' source code repository. Appears on the footer of the menu page. Links to https://github.com/ornicar/lila
+Source Code= Lichess' source code repository. Appears on the footer of the menu page. Links to https://github.com/ornicar/lila
 
-nbForumPosts=%s The number of times the user has posted on the forum (https://lichess.org/forum). Appears on profile pages. Example: http://lichess.org/@/thibault — Thibault has 3038 forum points as of the time of writing.
+%s Forum Posts =%s The number of times the user has posted on the forum (https://lichess.org/forum). Appears on profile pages. Example: http://lichess.org/@/thibault — Thibault has 3038 forum points as of the time of writing.
 
 Watch games= A button that allows users to watch the chess games of a particular player. Appears on profile pages. Example: Links to http://lichess.org/@/thibault/tv
 
-tpTimeSpentPlaying=%s The total time the user has spent playing on Lichess. Appears on profile pages. Example: http://lichess.org/@/thibault/ has spent 15 days, 9 hours and 25 minutes playing at the time of writing.
+Time Spent Playing %s=%s The total time the user has spent playing on Lichess. Appears on profile pages. Example: http://lichess.org/@/thibault/ has spent 15 days, 9 hours and 25 minutes playing at the time of writing.
 
-tpTimeSpentOnTv=%s The total time the user has spent watching Lichess TV (https://lichess.org/tv). Appears on profile pages. Example: http://lichess.org/@/thibault/ has spent 12 minutes watching at the time of writing.
+Time Spent On Tv %s=%s The total time the user has spent watching Lichess TV (https://lichess.org/tv). Appears on profile pages. Example: http://lichess.org/@/thibault/ has spent 12 minutes watching at the time of writing.
 
-castling=Castling is a move in the game of chess involving a player's king and either of the player's original rooks. It is the only move in chess in which a player moves two pieces in the same move. Appears on board editor page (http://lichess.org/editor).
+Castling=Castling is a move in the game of chess involving a player's king and either of the player's original rooks. It is the only move in chess in which a player moves two pieces in the same move. Appears on board editor page (http://lichess.org/editor).
 
-whiteCastlingKingside=The option of whether white can still castle on the kingside. Appears as a setting on board editor page (http://lichess.org/editor).
+White Castling Kingside=The option of whether white can still castle on the kingside. Appears as a setting on board editor page (http://lichess.org/editor).
 
-whiteCastlingQueenside=The option of whether white can still castle on the queenside. Appears as a setting on board editor page (http://lichess.org/editor).
+White Castling Queenside=The option of whether white can still castle on the queenside. Appears as a setting on board editor page (http://lichess.org/editor).
 
-blackCastlingKingside=The option of whether black can still castle on the kingside. Appears as a setting on board editor page (http://lichess.org/editor).
+Black Castling Kingside=The option of whether black can still castle on the kingside. Appears as a setting on board editor page (http://lichess.org/editor).
 
-blackCastlingQueenside=The option of whether black can still castle on the queenside. Appears as a setting on board editor page (http://lichess.org/editor).
+Black Castling Queenside=The option of whether black can still castle on the queenside. Appears as a setting on board editor page (http://lichess.org/editor).
 
 Simulataneous Exhibitions=Clicking this takes you to a page all about simuls on Lichess, where you can see open, running and finished simuls, as well as create your own. Appears as one of the links at the top of the navigation bar and on menu page. Links to http://lichess.org/simul
 
@@ -1019,43 +1019,43 @@ Tournament Official = All official (not user created) Lichess tournaments have t
 
 Time Before Tournament Starts = Users creating new tournaments can decide when their tournament begins. Appears on the form used to create a new tournament (http://lichess.org/tournament/new)
 
-tournamentThisIsPrivate=A heading explaining that a tournament is private and for other people to join a URL must be shared. Appears on the FAQ of the tournament's page.
+Tournament This Is Private=A heading explaining that a tournament is private and for other people to join a URL must be shared. Appears on the FAQ of the tournament's page.
 
-tournamentYouWillBeNotified= A notification telling users they will be notified when the tournament starts and so are safe to open a new tab of Lichess. Appears on the FAQ part of the tournament's page.
+Tournament You Will Be Notified= A notification telling users they will be notified when the tournament starts and so are safe to open a new tab of Lichess. Appears on the FAQ part of the tournament's page.
 
-playInNewTab=A link encouring users to open Lichess in another tab. Links to http://lichess.org
+Play In New Tab=A link encouring users to open Lichess in another tab. Links to http://lichess.org
 
-tournamentIsItRatedQ=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking if a tournament is rated or not. 
+Tournament Is It Rated Q=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking if a tournament is rated or not. 
 
-tournamentSomeAreRated=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) answering that some tournaments are rated and will affect rating.
+Tournament Some Are Rated=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) answering that some tournaments are rated and will affect rating.
 
-tournamentThisIsRated=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) answering that the tournament is rated and will affect rating.
+Tournament This Is Rated=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) answering that the tournament is rated and will affect rating.
 
-tournamentThisIsNotRated=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) answering that the tournament is not rated and will not affect rating.
+Tournament This Is Not Rated=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) answering that the tournament is not rated and will not affect rating.
 
-tournamentHowAreScoresCalculatedQ=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking how tournament scores are calculated.
+Tournament How Are Scores Calculated Q=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking how tournament scores are calculated.
 
-tournamentHowAreScoresCalculatedA=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how tournament scores are calculated.
+Tournament How Are Scores Calculated A=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how tournament scores are calculated.
 
-tournamentBerserk=The name of mode where a player can half their time to double their points for that particular game. 
+Tournament Berserk=The name of mode where a player can half their time to double their points for that particular game. 
 
-tournamentBerserkExplan=An explaination of what Berserk mode is and what it does.
+Tournament Berserk Explan=An explaination of what Berserk mode is and what it does.
 
-tournamentHowWinnerIsDecidedQ=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking how tournament winners are decided.
+Tournament How Winner Is Decided Q=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking how tournament winners are decided.
 
-tournamentHowWinnerIsDecidedA=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how tournament winners are decided.
+Tournament How Winner Is Decided A=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how tournament winners are decided.
 
-tournamentHowDoesPairingWorkQ=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking how the tournament pairing system works.
+Tournament How Does Pairing Work Q=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking how the tournament pairing system works.
 
-tournamentHowDoesPairingWorkA=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how the tournament pairing system works.
+Tournament How Does Pairing Work A=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how the tournament pairing system works.
 
-tournamentHowDoesItEndQ=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking how the tournament ends.
+Tournament How Does It End Q=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking how the tournament ends.
 
-tournamentHowDoesItEndA=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how the tournament ends.
+Tournament How Does It End A=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how the tournament ends.
 
-tournamentOtherImportantPointsQ=A heading on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) under which other details pertaining to tournaments are found.
+Tournament Other Important Points Q=A heading on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) under which other details pertaining to tournaments are found.
 
-tournamentOtherImportantPointsA=Other details not covered by the tournament's FAQ section. Found on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena)
+Tournament Other Important Points A=Other details not covered by the tournament's FAQ section. Found on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena)
 
 Average Centipawn Loss=This is one of the categories of problems discovered by the computer analysis. Appears on the right hand side of pages with analyzed games.
 
