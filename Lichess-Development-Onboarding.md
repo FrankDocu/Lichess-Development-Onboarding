@@ -129,6 +129,10 @@ Before beginning, please make sure you have the following tools installed, using
 
 ### Troubleshooting
 
+#### error: git clone git://github.com/../coach   Repository not found.
+Check `npm --version` you need at least version 2.
+
+#### compiling timeouts
 If you keep getting timeouts when compiling, you have to create this `SBT_OPTS` environment variable:
 
     export SBT_OPTS="-Xms64M -Xmx2048M -Xss4M -XX:ReservedCodeCacheSize=64m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC"
