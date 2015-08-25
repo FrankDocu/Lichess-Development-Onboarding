@@ -1070,3 +1070,17 @@ Key Show Or Hide Comments=Explains that the preceding keyboard shortcuts show or
 Key Enter Or Exit Variation=Explains that the preceding keyboard shortcuts enter or exit variations. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
 
 Key You Can Draw Arrows Circles And Scroll To Move=Explains that using Shift+Click or right-clicking draws arrows and circles on the game board and that one can use the mouse scroll to play through game. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
+
+New tournament=The title of the page where you can create a new tournament, http://lichess.org/tournament/new
+
+Chess tournament featuring various time controls and variants=The title of the tournaments home page (http://lichess.org/tournament) which is used for search engines.
+
+Play fast-paced chess tournaments! Join an official scheduled tournament, or create your own. Bullet, Blitz, Classical, Chess960, King of the Hill, Threecheck, and more options available for endless chess fun.=The description of the tournaments home page (http://lichess.org/tournament) which is used for search engines.
+
+Tournament not found=The heading that shows up when you go to a tournament that does not exist, or has been canceled.
+
+This tournament does not exist.=This is the first sentence that shows up under the "Tournament not found" header when you go to a tournament that does not exist.
+
+It may have been canceled, if all players left it before the tournament starts.=This is the second sentence that shows up under the "Tournament not found" header when you go to a tournament that does not exist.
+
+Return to tournaments homepage=This link shows up on a page of a tournament that does not exist. It leads to the tournaments home page.
