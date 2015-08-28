@@ -132,6 +132,9 @@ Before beginning, please make sure you have the following tools installed, using
 #### error: git clone git://github.com/../coach   Repository not found.
 Check `npm --version` you need at least version 2.
 
+#### warning: unresolved dependency: com.github.ornicar#scalalib_2.11;5.3: not found
+make sure this command runs successfully `./bin/build-deps.sh`
+
 #### compiling timeouts
 If you keep getting timeouts when compiling, you have to create this `SBT_OPTS` environment variable:
 
