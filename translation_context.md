@@ -927,7 +927,7 @@ Blindfold chess=Appears as a preference on the preference page. The user may cho
 
 Move confirmation=Appears as a preference on the preference page. The user may choose to use an additional confirmation step when they make moves on the chess board.
 
-In correspondence games=Appears as a selectable option for the "move confirmation" setting on the preference page. The user may choose to only have an extra confirmation step for moves they make in correspondence games.
+Correspondence games=Appears as a selectable option for the "move confirmation" setting on the preference page. The user may choose to only have an extra confirmation step for moves they make in correspondence games.
 
 If rating is ± %s=Appears as a selectable option for the "let other players challenge you" option. The user may choose to only accept challenges from within a certain rating range.
 
