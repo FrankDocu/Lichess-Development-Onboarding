@@ -135,6 +135,11 @@ Check `npm --version` you need at least version 2.
 #### unresolved dependency com.github.ornicar#scalalib_2.11;5.3
 Make sure `./bin/build-deps.sh` runs successfully.
 
+#### Can't create games
+    [ERROR] p.c.s.n.PlayDefaultUpstreamHandler Cannot invoke the action
+    java.lang.ArrayIndexOutOfBoundsException: 101
+check `mongo --version`, it might be too old. 2.4.14 may not work, while 2.6.11 is reported to work.
+
 #### compiling timeouts
 If you keep getting timeouts when compiling, you have to create this `SBT_OPTS` environment variable:
 
