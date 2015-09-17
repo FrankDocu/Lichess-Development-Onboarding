@@ -153,3 +153,11 @@ Then, it might be necessary to edit the sbt launcher (`/usr/share/sbt-launcher-p
          echo ""
 
 If you don't want to edit the launcher file and if it's no problem that the options are used by all other Java applications running by your user, you don't have to edit the launcher file but you can replace `SBT_OPTS` by `JAVA_OPTS`.
+
+### Updating the code
+
+If you get compile errors after pulling new code, check if any submodule has updates with `git status` and if so run `git submodule update --recursive`
+
+Run `./ui/build` to update the mithril modules. There is a special case when ui/game has been changed, likely the effect is that nothing works playing/analyse/tournaments/simuls because these modules depend on a fresh version of game. Run this to push out the update `rm -r ui/*/node_modules/game && ./ui/build`.
+
+For any 'Missing: No configuration setting', you need to add the new keys to base.conf. It's somewhat straightforward to guess what needs to be added, but if you can't cba or there is a huge number you could try bother for a new conf from the master chief.
