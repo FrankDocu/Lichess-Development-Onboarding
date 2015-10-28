@@ -115,8 +115,6 @@ Before beginning, please make sure you have the following tools installed, using
 
 ### Running the Application
 
-1. Add the base application configuration file to the `conf` directory in the checked out project. **This must be retrieved from Ornicar himself.**
-
 1. Add the application override configuration file to the `conf` directory in the checked out project. This can be found at : https://gist.github.com/clarkerubber/e0da7c22500fc6831a17 . **Note:** you should remove the exec_path unless you intend to use your own installed version of stockfish. If this is the case, you should change the path to point there instead.
 
 1. Make sure that mongodb and nginx are both running.
