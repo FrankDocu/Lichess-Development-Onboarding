@@ -133,6 +133,10 @@ Check `npm --version` you need at least version 2.
 #### unresolved dependency com.github.ornicar#scalalib_2.11;5.3
 Make sure `./bin/build-deps.sh` runs successfully.
 
+#### [PrimaryUnavailableException$: MongoError['No primary node is available!']]
+Make sure mongod is running, check /var/log/mongo/mongod.log for errors
+It might not start if you have to little free space (might need 3GB), or if there is a previous lock file that hasn't been cleaned up (maybe try removing /var/lib/mongodb/mongod.lock)
+
 #### Can't create games
     [ERROR] p.c.s.n.PlayDefaultUpstreamHandler Cannot invoke the action
     java.lang.ArrayIndexOutOfBoundsException: 101
