@@ -8,7 +8,7 @@
 
 ## reading debug logs
 
-`tail -20 lichessjournal`
+`tail -20 lichessjournal`  
 Replace 20 with the line count to display desired. The log file is sometimes very large (`wc -l lichessjournal`) so it's probably better to only print the last bulk of it.
 
 ## people with server access
