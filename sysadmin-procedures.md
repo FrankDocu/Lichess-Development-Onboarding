@@ -8,6 +8,6 @@
 
 ## people with server access
 
-thibault on IRC / or text thibault.duplessis@gmail.com
-Unihedron on IRC
-flugsio on IRC
+- thibault on IRC / or text thibault.duplessis@gmail.com
+- Unihedron on IRC
+- flugsio on IRC
