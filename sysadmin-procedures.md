@@ -13,6 +13,6 @@ Replace 20 with the line count to display desired. The log file is sometimes ver
 
 ## people with server access
 
-- thibault on IRC / or text thibault.duplessis@gmail.com
+- thibault on IRC / or text thibault.duplessis@gmail.com / LINE (id: thibalest)
 - Unihedron on IRC / or IM via LINE (id: unihedron) or Whatsapp (id: contact) or text vincentyification@gmail.com
 - flugsio on IRC
