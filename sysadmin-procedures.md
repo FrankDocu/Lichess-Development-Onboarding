@@ -11,6 +11,14 @@
 `tail -20 lichessjournal`  
 Replace 20 with the line count to display desired. The log file is sometimes very large (`wc -l lichessjournal`) so it's probably better to only print the last bulk of it.
 
+## access database
+
+`mongo` to start up the REPL environment  
+`> use lichess`  
+
+From there it is possible to query collections. For example,  
+`> db.user4.find().length()`
+
 ## people with server access
 
 - thibault on IRC / or text thibault.duplessis@gmail.com / LINE (id: thibalest)
