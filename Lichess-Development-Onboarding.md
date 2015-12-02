@@ -128,7 +128,12 @@ Before beginning, please make sure you have the following tools installed, using
 ### Troubleshooting
 
 #### error: git clone git://github.com/../coach   Repository not found.
+
 Check `npm --version` you need at least version 2.
+
+#### ./ui/build errors: git clone git@github.com:github:ornicar/chessground    is not a valid repository name
+
+Same as above, npm at least version 2.
 
 #### unresolved dependency com.github.ornicar#scalalib_2.11;5.3
 Make sure `./bin/build-deps.sh` runs successfully.
