@@ -19,6 +19,8 @@ Replace 20 with the line count to display desired. The log file is sometimes ver
 From there it is possible to query collections. For example,  
 `> db.user4.find().length()`
 
+## fix broken modzones
+
 ## people with server access
 
 - thibault on IRC / or text thibault.duplessis@gmail.com / LINE (id: thibalest)
