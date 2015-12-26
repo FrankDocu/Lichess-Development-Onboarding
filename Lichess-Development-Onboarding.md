@@ -193,11 +193,11 @@ Then, it might be necessary to edit the sbt launcher (`/usr/share/sbt-launcher-p
 
 If you don't want to edit the launcher file and if it's no problem that the options are used by all other Java applications running by your user, you don't have to edit the launcher file but you can replace `SBT_OPTS` by `JAVA_OPTS`.
 
+### Other unexpected issues with vagrant
+File an issue and ping arxanas.
+
 ## Updating the code
 
 If you get compile errors after pulling new code, check if any submodule has updates with `git status` and if so run `git submodule update --recursive`
 
 Run `./ui/build` to update the mithril modules. There is a special case when ui/game has been changed, likely the effect is that nothing works playing/analyse/tournaments/simuls because these modules depend on a fresh version of game. Run this to push out the update `rm -r ui/*/node_modules/game && ./ui/build`.
-
-## Other unexpected issues with vagrant
-File an issue and ping arxanas.
