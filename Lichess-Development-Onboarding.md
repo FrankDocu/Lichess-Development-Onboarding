@@ -5,28 +5,58 @@ It may be possible to build in Windows but this has not been verified. Some of t
 ## Getting Help
 If you get stuck during the install process the most suitable place to seek help is the `#lichess` IRC channel on `irc.freenode.org`. The main developer of Lichess (Ornicar) can be found there as well as several people who have successfully installed the stack.
 
-## Prerequisites
+## Automatic setup with Vagrant
+
+Rather than manually carry out the installation steps, you can use Vagrant to manage your development environment. Vagrant is a wrapper around virtual machine tools that helps you set up your development environment easily. If you encounter an unexpected issue (not covered in troubleshooting), file an issue and ping @arxanas.
+
+  * [Download Vagrant](https://www.vagrantup.com/) (or use your package manager).
+  * [Download Virtualbox](https://www.virtualbox.org/) (or use your package manager).
+
+Clone the repository somewhere on your system and run `vagrant up`:
+
+    $ git clone git@github.com:ornicar/lila
+    $ cd lila
+    $ vagrant up
+
+This starts the process of downloading the virtual machine image, downloading all dependencies, and initially building the code. It may take a while (1 hour 20 minutes on my machine) depending on your network and CPU.
+
+Once the initial build process has finished, it will print instructions to the screen. Follow those instructions to complete setup.
+
+### Vagrant primer
+
+Basic commands:
+
+  * `vagrant up`: Launch the development environment specified by the `Vagrantfile` in the current directory. This creates a virtual machine and runs any provisioning scripts, or if the virtual machine already exists, just boots it up.
+  * `vagrant suspend`: Put the virtual machine to sleep. If you don't want to allocate CPU/RAM/battery power to your virtual machine, it makes sense to suspend it. You can relaunch it with `vagrant up` later and resume working where you left off.
+  * `vagrant destroy`: Destroys the virtual machine. Frees up disk space used for the virtual machine. To launch the virtual machine later, you would have to restart the long build process with `vagrant up`. You may want to do this if you screwed something up and want to start clean.
+  * `vagrant ssh`: Starts an SSH connection to the virtual machine. You can then run commands inside the virtual machine (such as `sbt run`).
+
+The files in the repository are shared with the `/vagrant` directory in the virtual machine. (Note that you start out in the `/home/vagrant` directory after running `vagrant ssh`; if you want to see the repository files, you should run `cd /vagrant` afterward.) If you make changes in your host machine using your favorite text editor, they will immediately show up in the virtual machine, and vice-versa.
+
+## Manual setup
+
+### Prerequisites
 
 Before beginning, please make sure you have the following tools installed, using your favourite package manager to install them where applicable.
 
-### Tools and dependency managers
+#### Tools and dependency managers
 * `git`
 * `sbt` ([instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
 * `npm` (from nodejs, version `2.1.18` should be OK)
 * `zsh`
 
-### Infrastructure
+#### Infrastructure
 * `mongodb`
 * `nginx`
 
-### Compilers
+#### Compilers
 * `gcc` 
 * `make` (Required to build stockfish)
 * `closure` (JavaScript compiler)
 * `Java 8`
 
-## Installation Steps
-### Setting up your Lichess configuration and Compiling the Web App.
+### Installation Steps
+#### Setting up your Lichess configuration and Compiling the Web App.
 
 1. Fork the lila project on github and clone it from your repository using git.
 
@@ -52,7 +82,7 @@ Before beginning, please make sure you have the following tools installed, using
             file = "data/GeoLite2-City.mmdb"
         }
 
-### Setting Up Your Web Server
+#### Setting Up Your Web Server
 
 1. Add the following line to your hosts file :
 `127.0.0.1 l.org en.l.org de.l.org le.l.org fr.l.org es.l.org l1.org socket.en.l.org socket.le.l.org socket.fr.l.org ru.l.org el.l.org hu.l.org socket.hu.l.org`
@@ -115,7 +145,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Restart (or start) nginx.
 
-### Running the Application
+#### Running the Application
 
 1. Add the application override configuration file to the `conf` directory in the checked out project. This can be found at : https://gist.github.com/clarkerubber/e0da7c22500fc6831a17 . **Note:** you should remove the exec_path unless you intend to use your own installed version of stockfish. If this is the case, you should change the path to point there instead.
 
@@ -127,29 +157,29 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Navigate to http://en.l.org with a browser.
 
-### Troubleshooting
+## Troubleshooting
 
 #### error: git clone git://github.com/../coach   Repository not found.
 
 Check `npm --version` you need at least version 2.
 
-#### ./ui/build errors: git clone git@github.com:github:ornicar/chessground    is not a valid repository name
+### ./ui/build errors: git clone git@github.com:github:ornicar/chessground    is not a valid repository name
 
 Same as above, npm at least version 2.
 
-#### unresolved dependency com.github.ornicar#scalalib_2.11;5.3
+### unresolved dependency com.github.ornicar#scalalib_2.11;5.3
 Make sure `./bin/build-deps.sh` runs successfully.
 
-#### [PrimaryUnavailableException$: MongoError['No primary node is available!']]
+### [PrimaryUnavailableException$: MongoError['No primary node is available!']]
 Make sure mongod is running, check /var/log/mongo/mongod.log for errors
 It might not start if you have too little free space (might need 3GB), or if there is a previous lock file that hasn't been cleaned up (maybe try removing /var/lib/mongodb/mongod.lock)
 
-#### Can't create games
+### Can't create games
     [ERROR] p.c.s.n.PlayDefaultUpstreamHandler Cannot invoke the action
     java.lang.ArrayIndexOutOfBoundsException: 101
 check `mongo --version`, it might be too old. 2.4.14 may not work, while 2.6.11 is reported to work.
 
-#### compiling timeouts
+### compiling timeouts
 If you keep getting timeouts when compiling, you have to create this `SBT_OPTS` environment variable:
 
     export SBT_OPTS="-Xms64M -Xmx2048M -Xss4M -XX:ReservedCodeCacheSize=64m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC"
@@ -163,7 +193,7 @@ Then, it might be necessary to edit the sbt launcher (`/usr/share/sbt-launcher-p
 
 If you don't want to edit the launcher file and if it's no problem that the options are used by all other Java applications running by your user, you don't have to edit the launcher file but you can replace `SBT_OPTS` by `JAVA_OPTS`.
 
-### Updating the code
+## Updating the code
 
 If you get compile errors after pulling new code, check if any submodule has updates with `git status` and if so run `git submodule update --recursive`
 
