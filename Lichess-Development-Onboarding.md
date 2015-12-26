@@ -7,7 +7,7 @@ If you get stuck during the install process the most suitable place to seek help
 
 ## Automatic setup with Vagrant
 
-Rather than manually carry out the installation steps, you can use Vagrant to manage your development environment. Vagrant is a wrapper around virtual machine tools that helps you set up your development environment easily. If you encounter an unexpected issue (not covered in troubleshooting), file an issue and ping @arxanas.
+Rather than manually carrying out the installation steps, you can use Vagrant to manage your development environment. Vagrant is a wrapper around virtual machine tools that helps you set up your development environment easily.
 
   * [Download Vagrant](https://www.vagrantup.com/) (or use your package manager).
   * [Download Virtualbox](https://www.virtualbox.org/) (or use your package manager).
@@ -198,3 +198,6 @@ If you don't want to edit the launcher file and if it's no problem that the opti
 If you get compile errors after pulling new code, check if any submodule has updates with `git status` and if so run `git submodule update --recursive`
 
 Run `./ui/build` to update the mithril modules. There is a special case when ui/game has been changed, likely the effect is that nothing works playing/analyse/tournaments/simuls because these modules depend on a fresh version of game. Run this to push out the update `rm -r ui/*/node_modules/game && ./ui/build`.
+
+## Other unexpected issues with vagrant
+File an issue and ping arxanas.
