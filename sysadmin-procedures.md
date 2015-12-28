@@ -19,6 +19,11 @@ Replace 20 with the line count to display desired. The log file is sometimes ver
 From there it is possible to query collections. For example,  
 `> db.user4.find().length()`
 
+## terminate tournament
+
+__NOTE: ONLY FOR EXTREME MEASURES!__  
+In the db: `lichess> db.tournament2.update({_id: "tournamentID"}, {status: NumberInt(30), winner: "winnerID"})`
+
 ## fix broken modzones
 
 ## people with server access
