@@ -22,7 +22,7 @@ From there it is possible to query collections. For example,
 ## terminate tournament
 
 __NOTE: ONLY FOR EXTREME MEASURES!__  
-In the db: `lichess> db.tournament2.update({_id: "tournamentID"}, {status: NumberInt(30), winner: "winnerID"})`
+In the db: `lichess> db.tournament2.update({_id: "tournamentID"}, {$set: {status: NumberInt(30), winner: "winnerID"}})`
 
 ## fix broken modzones
 
