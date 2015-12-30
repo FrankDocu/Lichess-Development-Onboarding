@@ -2,9 +2,8 @@
 
 `systemctl restart lichess`
 
-## when hooks pile up, slowing down the server
+To be used only if the majority of players is affected. Restarting lichess is especially bad at peak hours. It can take a while when 4000+ players are connected.
 
--> restart lichess
 
 ## reading debug logs
 
@@ -19,15 +18,15 @@ Replace 20 with the line count to display desired. The log file is sometimes ver
 From there it is possible to query collections. For example,  
 `> db.user4.find().length()`
 
+Be extremely careful. To be used only for damage control. Some queries can be slow enough to overload the server (like querying the 130 million games without a proper index).
+
 ## terminate tournament
 
 __NOTE: ONLY FOR EXTREME MEASURES!__  
 In the db: `lichess> db.tournament2.update({_id: "tournamentID"}, {$set: {status: NumberInt(30), winner: "winnerID"}})`
 
-## fix broken modzones
-
 ## people with server access
 
-- thibault on IRC / or text thibault.duplessis@gmail.com / LINE (id: thibalest)
+- thibault on IRC / or text/email thibault.duplessis@gmail.com / LINE (id: thibalest)
 - Unihedron on IRC / or IM via LINE (id: unihedron) or Whatsapp (id: contact) or text vincentyification@gmail.com
 - flugsio on IRC
