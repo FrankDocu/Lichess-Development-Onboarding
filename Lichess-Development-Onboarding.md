@@ -9,7 +9,7 @@ If you get stuck during the install process the most suitable place to seek help
 
 Rather than manually carrying out the installation steps, you can use Vagrant to manage your development environment. Vagrant is a wrapper around virtual machine tools that helps you set up your development environment easily.
 
-  * [Download Vagrant](https://www.vagrantup.com/) (or use your package manager).
+  * [Download Vagrant](https://www.vagrantup.com/) (or use your package manager). These instructions have been tested on Vagrant 1.7.4; you will probably [need at least Vagrant 1.5](http://stackoverflow.com/q/33644359/344643).
   * [Download Virtualbox](https://www.virtualbox.org/) (or use your package manager).
 
 Clone the repository somewhere on your system and run `vagrant up`:
