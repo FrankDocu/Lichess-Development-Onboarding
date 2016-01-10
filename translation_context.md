@@ -1019,7 +1019,7 @@ Menu=Tooltip displayed when mouseover menu button viewable at the top of every l
 
 Lichess tournaments=A heading on the side of the tournaments homepage (http://lichess.org/tournament) under which the official tournaments of Lichess are listed.
 
-Arena tournament FAQ=A link to an FAQ page for Lichess tournaments. Links to http://lichess.org/tournament/help?system=arena and found on every tournament page as a small question mark, like so: (?)
+Arena tournament FAQ=A link to an FAQ page for Lichess tournaments. Links to http://lichess.org/tournament/help?system=arena and found on every tournament page as a small question mark.
 
 Official=All official (not user created) Lichess tournaments have this shown in said tournament's information box shows that appears on the top left of the screen.
 
