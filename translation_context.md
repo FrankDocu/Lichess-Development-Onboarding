@@ -977,7 +977,7 @@ Black O-O=The option of whether black can still castle on the kingside. Appears 
 
 Black O-O-O=The option of whether black can still castle on the queenside. Appears as a setting on board editor page (http://lichess.org/editor).
 
-Simultaneous Exhibitions=Clicking this takes you to a page all about simuls on Lichess, where you can see open, running and finished simuls, as well as create your own. Appears as one of the links at the top of the navigation bar and on menu page. Links to http://lichess.org/simul
+Simultaneous exhibitions=Clicking this takes you to a page all about simuls on Lichess, where you can see open, running and finished simuls, as well as create your own. Appears as one of the links at the top of the navigation bar and on menu page. Links to http://lichess.org/simul
 
 Host=The person who created the simul. Appears as a column heading on http://lichess.org/simul
 
@@ -989,9 +989,13 @@ Simul not found=A header warning when a simul event cannot be found. Displayed h
 
 This simultaneous exhibition does not exist.=When a simul event cannot be found a new page is displayed here http://lichess.org/simul/notfound notifying the user why and how to proceed.
 
-Return to simul Homepage = A link to the simul homepage (http://lichess.org/simul/) displayed here http://lichess.org/simul/notfound
+Return to simul homepage = A link to the simul homepage (http://lichess.org/simul/) displayed here http://lichess.org/simul/notfound
 
 Simuls involve a single player facing several players at once.= A short explanation about what a simul is on the simul homepage (http://lichess.org/simul)
+
+When you create a Simul, you get to play several players at once.=A short explanation of what to expect from creating a simul. Found on the create simul form page (http://lichess.org/simul/new)
+
+Simuls are always casual. Rematches, takebacks and "moretime" are disabled.=More explanations about lichess simuls, on the simul homepage (http://lichess.org/simul).
 
 Out of 50 opponents, Fischer won 47 games, drew 2 and lost 1.=A short caption for the Bobby Fischer image found on the simul homepage (http://lichess.org/simul) after clicking'More...'
 
@@ -999,19 +1003,15 @@ The concept is taken from real world events. In real life, this involves the sim
 
 When the simul starts, every player starts a game with the host, who gets to play the white pieces. The simul ends when all games are complete.=A short explanation about the rules of a simul found on the simul homepage (http://lichess.org/simul) after clicking'More...'
 
-Create= A button that finalises the creation of a new simul. Found at the bottom of the create simul form page (http://lichess.org/simul/new)
+Create= A button that finalises the creation of some event. Found, for insance, at the bottom of the create simul form page (http://lichess.org/simul/new)
 
-When Create Simul=A short explanation of what to expect from creating a simul. Found on the create simul form page (http://lichess.org/simul/new)
+If you select several variants, each player gets to choose which one to play.=Explains the variants checkboxes found on the create simul form page (http://lichess.org/simul/new)
 
-Join Existing Simul=A link to currently joinable simul events. Found on the create simul form page (http://lichess.org/simul/new)
+Fischer Clock setup. The more players you take on, the more time you may need.=Explains the Fischer clock time control settings found on the create simul form page (http://lichess.org/simul/new)
 
-Variants Hint=Explains the variants checkboxes found on the create simul form page (http://lichess.org/simul/new)
+You may add extra time to your clock to help cope with the simul.=Suggests adding extra time for the simul. Found on the create simul form page (http://lichess.org/simul/new)
 
-Simul Clock Hint=Explains the Fischer clock time control settings found on the create simul form page (http://lichess.org/simul/new)
-
-Simul Add Extra Time=Suggests adding extra time for the simul. Found on the create simul form page (http://lichess.org/simul/new)
-
-Simul Host Extra Time= A setting for the simul host to add extra time. Found on the create simul form page (http://lichess.org/simul/new)
+Host extra clock time= A setting for the simul host to add extra time. Found on the create simul form page (http://lichess.org/simul/new)
 
 Menu=Tooltip displayed when mouseover menu button viewable at the top of every lichess page.
 
