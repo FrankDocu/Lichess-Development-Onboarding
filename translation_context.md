@@ -185,6 +185,8 @@ One day=Means each turn may take up to one day. This appears next to the slider 
 
 %s days=%s is maximum number of days for each turn. This appears next to the slider for the correspondence chess time control in the game creation menus (e.g. "Create a game", "Play with a friend"). It also appears on the clock and information box in correspondence chess games. Please keep this sentence as short as possible.
 
+%s hours=%s is number of hours. Used to display correspondence clocks.
+
 Time=The time control for the game. This appears as a column heading in the table of games you can join on the "Play" page (http://lichess.org/).
 
 User name=The name you use to sign in, e.g. "thibault". Appears on the sign-in and registration pages.
@@ -284,6 +286,10 @@ Chat room=The chat function for one-to-one chat. A box on the left-hand side on 
 
 Spectator room=The chat room for spectators. Appears in a box to the left-hand side on analysis pages, as well as games pages while the game is playing. Example: http://lichess.org/vyvcbk8s
 
+Chat=Start a conversation with a player. Appears in the user tooltip when hovering a user name.
+
+Please be nice in the chat!=Chat input placeholder, encouraging players to behave. Visible in every chat, like on http://lichess.org/tournament/summer15. Keep it short so it fits in the input box.
+
 Compose message=Another word for this could be "Create message". This is a link on the left-hand side of http://lichess.org/inbox. Please follow the standard set by popular email clients such as GMail or Outlook in translating this sentence.
 
 No new messages=This is the text that appears when you mouseover the mail icon at the top, but have no new messages to read.
@@ -354,7 +360,7 @@ Return to game=Clicking this takes you back to the running game Appears as a but
 
 %s tournament=%s is the name of the tournament. The name is created randomly from common English surnames, such as "Smith". Appears only on the tournaments page (http://lichess.org/tournament), not the "Play" page, so you can make this longer than usual if you can justify it.
 
-Free online Chess game. Play Chess now in a clean interface. No registration, no ads, no plugin required. Play Chess with the computer, friends or random opponents.=This is what search engines (like Google, Baidu or Yandex) see when Lichess.org appears as a search result. Keep it as short as possible and make Lichess sound good!
+Free online Chess server. Play Chess now in a clean interface. No registration, no ads, no plugin required. Play Chess with the computer, friends or random opponents.=This is what search engines (like Google, Baidu or Yandex) see when Lichess.org appears as a search result. Keep it as short as possible and make Lichess sound good!
 
 Teams=Teams on lichess are groups of people with their own forum boards and chat channels. Appears at the top of every page on lichess.
 
@@ -402,9 +408,9 @@ Apply=Clicking this applies the game filtering rules that the player has chosen.
 
 Leaderboard=A table of the best players on Lichess. Appears on the "Players" page (http://lichess.org/people). Could be translated as "Score table" or even "Best players" (though it is recommended to avoid this) if your language has no equivalent.
 
-Paste the FEN string here=This is the placeholder text (greyed-out text that disappears when you click)  for FEN pasting, so you can play a game from a certain position against the computer. Appears in the "Play with the computer" menu (http://lichess.org/setup/ai).
+Paste the FEN text here=This is the placeholder text (greyed-out text that disappears when you click)  for FEN pasting, so you can play a game from a certain position against the computer. Appears in the "Play with the computer" menu (http://lichess.org/setup/ai).
 
-Paste the PGN string here=This is the placeholder text (greyed-out text that disappears when you click)  for importing games stored in PGN files. Appears in the "Import game" menu (http://lichess.org/paste).
+Paste the PGN text here=This is the placeholder text (greyed-out text that disappears when you click)  for importing games stored in PGN files. Appears in the "Import game" menu (http://lichess.org/paste).
 
 From position="From position" means the game was started from a board set up in a non-standard way. Typically used to continue games. Appears on the pages of games started from position, as well as games lists on player profiles. Example: http://lichess.org/JHFiNdy2/black
 
@@ -632,13 +638,13 @@ This puzzle is correct and interesting=The mouseover text of the upwards-pointin
 
 This puzzle is wrong or boring=The mouseover text of the downwards-pointing triangle (▾), which is a negative (-1) vote for a puzzle. Appears in the box on the right-hand side of the "Training" page (http://lichess.org/training/) after you have succeeded or failed at the puzzle.
 
-Computers and computer-assisted players are not allowed to play. Please do not get assistance from chess engines, databases, or from other players while playing.=The text users read when creating an account. Appears in the registration (new account) form (http://lichess.org/signup).
+Computers and computer-assisted players are not allowed to play. Please do not get assistance from chess engines, databases, or from other players while playing. Also note that making multiple accounts is strongly discouraged and excessive multi-accounting will lead to being banned.=The text users read when creating an account. Appears in the registration (new account) form (http://lichess.org/signup).
 
 You have %s seconds to make your first move!=Explains the rule for the pools feature. If you do not play in the first, say, 30 seconds, you automatically resign the game. Appears when playing a game in a pool, such as http://lichess.org/pool/3-0
 
 %s games in play=%s is the number of games. Appears below the title of "lichess.org" on the "Play" page (http://lichess.org). Could be translated as "%s games being played".
 
-Analysis=Button that leads to analysis page. Appears only on your own games, after they have finished.
+Analysis board=Button that leads to analysis page. Appears only on your own games, after they have finished.
 
 White offers draw=Informs that the White player wants to draw the game. This is a system message that appears in the chat box.
 
@@ -724,7 +730,7 @@ Troll=Choose this option if a user is trolling. Appears in the dropdown menu for
 
 Other=Choose this option if you have another reason than the ones in the dropdown list. Appears in the drop-down menu for reasons in the report form(http://lichess.org/report).
 
-Paste the link to the game(s) and explain what is wrong about this user behavior.=Appears under the description box on the page for reporting a user (http://lichess.org/report).
+Paste the link to the game(s) and explain what is wrong about this user behavior. Don't just say "they cheat", but tell us how you came to this conclusion. Your report will be processed faster if written in English.=Appears under the description box on the page for reporting a user (http://lichess.org/report).
 
 by %s=The %s is the username of the poster in the forum. This is used in the "Last post" column (http://lichess.org/forum/general-chess-discussion).
 
@@ -923,7 +929,7 @@ This email address is not acceptable=Error message for when people associate a d
 
 This email address is already taken=Error message for when you associate an account with an email address that is already in use by another account. Appears in the registration form and preferences menu (http://lichess.org/account/email).
 
-Blindfold chess=Appears as a preference on the preference page. The user may choose to hide their pieces in order to emulate playing blindfold chess.
+Blindfold chess (invisible pieces)=Appears as a preference on the preference page. The user may choose to hide their pieces in order to emulate playing blindfold chess.
 
 Move confirmation=Appears as a preference on the preference page. The user may choose to use an additional confirmation step when they make moves on the chess board.
 
@@ -939,7 +945,7 @@ International events=Real-time worldwide chess tournaments, powered by FICS. App
 
 Video library=A carefully curated library of free chess videos. Appears as a dropdown option on the menu bar as well as on menu page. Links to http://lichess.org/video
 
-Mobile app=Lichess' very own free and open source Android and IOS application. Appears on the footer of the menu page. Links to http://lichess.org/mobile
+Mobile App=Lichess' very own free and open source Android and IOS application. Appears on the footer of the menu page. Links to http://lichess.org/mobile
 
 Webmasters=Information on how webmasters can embed Lichess features such as the daily puzzle or Lichess TV. Appears on the footer of the menu page. Links to http://lichess.org/developers
 
@@ -949,51 +955,49 @@ Donate=A page where one can find out how to donate to Lichess. Appears on the fo
 
 Contact= A page detailing the ways in which one can contact Lichess. Appears on the footer of the menu page. Links to http://lichess.org/contact
 
-Terms Of Service=A page detailing the Lichess' terms of service. Appears on the footer of the menu page. Links to http://lichess.org/terms-of-service
+ToS=A page detailing the Lichess' terms of service. Appears on the footer of the menu page. Links to http://lichess.org/terms-of-service
 
 Source Code= Lichess' source code repository. Appears on the footer of the menu page. Links to https://github.com/ornicar/lila
 
-%s Forum Posts =%s The number of times the user has posted on the forum (https://lichess.org/forum). Appears on profile pages. Example: http://lichess.org/@/thibault — Thibault has 3038 forum points as of the time of writing.
+%s Forum Posts=%s The number of times the user has posted on the forum (https://lichess.org/forum). Appears on profile pages. Example: http://lichess.org/@/thibault — Thibault has 3038 forum points as of the time of writing.
 
 Watch games= A button that allows users to watch the chess games of a particular player. Appears on profile pages. Example: Links to http://lichess.org/@/thibault/tv
 
-Time Spent Playing %s=%s The total time the user has spent playing on Lichess. Appears on profile pages. Example: http://lichess.org/@/thibault/ has spent 15 days, 9 hours and 25 minutes playing at the time of writing.
+Time spent playing: %s=%s The total time the user has spent playing on Lichess. Appears on profile pages. Example: http://lichess.org/@/thibault/ has spent 15 days, 9 hours and 25 minutes playing at the time of writing.
 
-Time Spent On Tv %s=%s The total time the user has spent watching Lichess TV (https://lichess.org/tv). Appears on profile pages. Example: http://lichess.org/@/thibault/ has spent 12 minutes watching at the time of writing.
+Time on TV: %s=%s The total time the user has spent watching Lichess TV (https://lichess.org/tv). Appears on profile pages. Example: http://lichess.org/@/thibault/ has spent 12 minutes watching at the time of writing.
 
 Castling=Castling is a move in the game of chess involving a player's king and either of the player's original rooks. It is the only move in chess in which a player moves two pieces in the same move. Appears on board editor page (http://lichess.org/editor).
 
-White Castling Kingside=The option of whether white can still castle on the kingside. Appears as a setting on board editor page (http://lichess.org/editor).
+White O-O=The option of whether white can still castle on the kingside. Appears as a setting on board editor page (http://lichess.org/editor).
 
-White Castling Queenside=The option of whether white can still castle on the queenside. Appears as a setting on board editor page (http://lichess.org/editor).
+White O-O-O=The option of whether white can still castle on the queenside. Appears as a setting on board editor page (http://lichess.org/editor).
 
-Black Castling Kingside=The option of whether black can still castle on the kingside. Appears as a setting on board editor page (http://lichess.org/editor).
+Black O-O=The option of whether black can still castle on the kingside. Appears as a setting on board editor page (http://lichess.org/editor).
 
-Black Castling Queenside=The option of whether black can still castle on the queenside. Appears as a setting on board editor page (http://lichess.org/editor).
+Black O-O-O=The option of whether black can still castle on the queenside. Appears as a setting on board editor page (http://lichess.org/editor).
 
-Simulataneous Exhibitions=Clicking this takes you to a page all about simuls on Lichess, where you can see open, running and finished simuls, as well as create your own. Appears as one of the links at the top of the navigation bar and on menu page. Links to http://lichess.org/simul
+Simultaneous Exhibitions=Clicking this takes you to a page all about simuls on Lichess, where you can see open, running and finished simuls, as well as create your own. Appears as one of the links at the top of the navigation bar and on menu page. Links to http://lichess.org/simul
 
-host=The person who created the simul. Appears as a column heading on http://lichess.org/simul
+Host=The person who created the simul. Appears as a column heading on http://lichess.org/simul
 
-Created Simuls = Appears as a heading on http://lichess.org/simul under which currently running and starting simuls are listed.
+Newly created simuls=Appears as a heading on http://lichess.org/simul under which currently running and starting simuls are listed.
 
-Host a New Simul = A button that allows players to create a new simul event. Appears on http://lichess.org/simul and links to http://lichess.org/simul/new
+Host a new simul=A button that allows players to create a new simul event. Appears on http://lichess.org/simul and links to http://lichess.org/simul/new
 
-No Simul Found = A header warning when a simul event cannot be found. Displayed here http://lichess.org/simul/notfound
+Simul not found=A header warning when a simul event cannot be found. Displayed here http://lichess.org/simul/notfound
 
-No Simul Explanation = When a simul event cannot be found a new page is displayed here http://lichess.org/simul/notfound notifying the user why and how to proceed.
+This simultaneous exhibition does not exist.=When a simul event cannot be found a new page is displayed here http://lichess.org/simul/notfound notifying the user why and how to proceed.
 
-Return to Simul Homepage = A link to the simul homepage (http://lichess.org/simul/) displayed here http://lichess.org/simul/notfound
+Return to simul Homepage = A link to the simul homepage (http://lichess.org/simul/) displayed here http://lichess.org/simul/notfound
 
-About Simul= A short explanation about what a simul is on the simul homepage (http://lichess.org/simul)
+Simuls involve a single player facing several players at once.= A short explanation about what a simul is on the simul homepage (http://lichess.org/simul)
 
-About Simul Image=A short caption for the Bobby Fischer image found on the simul homepage (http://lichess.org/simul) after clicking'More...'
+Out of 50 opponents, Fischer won 47 games, drew 2 and lost 1.=A short caption for the Bobby Fischer image found on the simul homepage (http://lichess.org/simul) after clicking'More...'
 
-About Simul Real Life=A short explanation about what a simul is on the simul homepage (http://lichess.org/simul) after clicking'More...'
+The concept is taken from real world events. In real life, this involves the simul host moving from table to table to play a single move.=A short explanation about what a simul is on the simul homepage (http://lichess.org/simul) after clicking'More...'
 
-About Simul Rules=A short explanation about the rules of a simul found on the simul homepage (http://lichess.org/simul) after clicking'More...'
-
-About Simul Settings=A short explanation about typical simul settings found on the simul homepage (http://lichess.org/simul) after clicking "More..."
+When the simul starts, every player starts a game with the host, who gets to play the white pieces. The simul ends when all games are complete.=A short explanation about the rules of a simul found on the simul homepage (http://lichess.org/simul) after clicking'More...'
 
 Create= A button that finalises the creation of a new simul. Found at the bottom of the create simul form page (http://lichess.org/simul/new)
 
@@ -1001,7 +1005,7 @@ When Create Simul=A short explanation of what to expect from creating a simul. F
 
 Join Existing Simul=A link to currently joinable simul events. Found on the create simul form page (http://lichess.org/simul/new)
 
-Simul Variants Hint=Explains the variants checkboxes found on the create simul form page (http://lichess.org/simul/new)
+Variants Hint=Explains the variants checkboxes found on the create simul form page (http://lichess.org/simul/new)
 
 Simul Clock Hint=Explains the Fischer clock time control settings found on the create simul form page (http://lichess.org/simul/new)
 
@@ -1011,17 +1015,17 @@ Simul Host Extra Time= A setting for the simul host to add extra time. Found on 
 
 Menu=Tooltip displayed when mouseover menu button viewable at the top of every lichess page.
 
-Lichess Tournaments = A heading on the side of the tournaments homepage (http://lichess.org/tournament) under which the official tournaments of Lichess are listed.
+Lichess tournaments = A heading on the side of the tournaments homepage (http://lichess.org/tournament) under which the official tournaments of Lichess are listed.
 
-Tournament FAQ = A link to an FAQ page for Lichess tournaments. Links to http://lichess.org/tournament/help?system=arena and found on every tournament page as a small question mark, like so: (?)
+Arena tournament FAQ = A link to an FAQ page for Lichess tournaments. Links to http://lichess.org/tournament/help?system=arena and found on every tournament page as a small question mark, like so: (?)
 
-Tournament Official = All official (not user created) Lichess tournaments have this shown in said tournament's information box shows that appears on the top left of the screen.
+Official = All official (not user created) Lichess tournaments have this shown in said tournament's information box shows that appears on the top left of the screen.
 
-Time Before Tournament Starts = Users creating new tournaments can decide when their tournament begins. Appears on the form used to create a new tournament (http://lichess.org/tournament/new)
+Time before tournament starts = Users creating new tournaments can decide when their tournament begins. Appears on the form used to create a new tournament (http://lichess.org/tournament/new)
 
-Tournament This Is Private=A heading explaining that a tournament is private and for other people to join a URL must be shared. Appears on the FAQ of the tournament's page.
+Tournament this is private=A heading explaining that a tournament is private and for other people to join a URL must be shared. Appears on the FAQ of the tournament's page.
 
-Tournament You Will Be Notified= A notification telling users they will be notified when the tournament starts and so are safe to open a new tab of Lichess. Appears on the FAQ part of the tournament's page.
+Tournament you wIll be notified= A notification telling users they will be notified when the tournament starts and so are safe to open a new tab of Lichess. Appears on the FAQ part of the tournament's page.
 
 Play In New Tab=A link encouring users to open Lichess in another tab. Links to http://lichess.org
 
@@ -1057,19 +1061,19 @@ Tournament Other Important Points Q=A heading on all tournament's FAQ page (e.g 
 
 Tournament Other Important Points A=Other details not covered by the tournament's FAQ section. Found on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena)
 
-Average Centipawn Loss=This is one of the categories of problems discovered by the computer analysis. Appears on the right hand side of pages with analyzed games.
+Average centipawn loss=ACPL. This is one of the categories of problems discovered by the computer analysis. Appears on the right hand side of pages with analyzed games.
 
-Keyboard Shortcuts=A heading appearing in the bottom left side of pages with analyzed games under which are available keyboard shortcuts.
+Keyboard shortcuts=A heading appearing in the bottom left side of pages with analyzed games under which are available keyboard shortcuts.
 
-Key Move Backward Or Forward=Explains that the preceding keyboard shortcuts move the game backward or forward. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
+Key Go To Start Or End=Explains that the preceding keyboard shortcuts move the game backward or forward. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
 
-Key Go To Start Or End=Explains that the preceding keyboard shortcuts move the game to the start or end position. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
+go to start/end=Explains that the preceding keyboard shortcuts move the game to the start or end position. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
 
-Key Show Or Hide Comments=Explains that the preceding keyboard shortcuts show or hide comments. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
+show/hide comments=Explains that the preceding keyboard shortcuts show or hide comments. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
 
-Key Enter Or Exit Variation=Explains that the preceding keyboard shortcuts enter or exit variations. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
+enter/exit variation=Explains that the preceding keyboard shortcuts enter or exit variations. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
 
-Key You Can Draw Arrows Circles And Scroll To Move=Explains that using Shift+Click or right-clicking draws arrows and circles on the game board and that one can use the mouse scroll to play through game. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
+Press shift+click or right-click to draw circles and arrows on the board. You can also scroll over the board to move in the game.=Explains that using Shift+Click or right-clicking draws arrows and circles on the game board and that one can use the mouse scroll to play through game. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
 
 New tournament=The title of the page where you can create a new tournament, http://lichess.org/tournament/new
 
