@@ -171,7 +171,9 @@ Players=Some have been translating as "[Chess] Players". This is acceptable only
 
 Minutes per side=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") after you have ticked "Time control". Below it is a slider that lets you select how many minutes each player will have on their chess clock.
 
-Variant=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). Below it is a selection of variants the player can choose from. Currently only Standard chess and Chess960 are supported.
+Variant=This appears in all the game creation menus (e.g. "Create a game", "Play with a friend"). Below it is a selection of variants the player can choose from, such as Standard, Chess960, or King of the Hill.
+
+Variants=This appears in the simul creation page (http://lichess.org/simul/new). Below it is a selection of variants the player can choose from, such as Standard, Chess960, or King of the Hill.
 
 Time control=This sentence is a heading to time controls for the game. This appears in all the game creation menus (e.g. "Create a game", "Play with a friend") that can be found on the "Play" page.
 
@@ -229,7 +231,7 @@ Draw offer declined=Informs that the draw offer has been declined. This is a sys
 
 Draw offer accepted=Informs that a draw offer has been accepted. This is a system message that appears in the chat box. This ends the game.
 
-Draw offer canceled= Informs that the player that sent the draw offer canceled it before his/her opponent responded. This is a system message that appears in the chat box
+Draw offer canceled=Informs that the player that sent the draw offer canceled it before his/her opponent responded. This is a system message that appears in the chat box
 
 Your opponent offers a draw=This sentence appears in the right-hand side box while playing a game after your opponent offers you a draw.
 
@@ -484,7 +486,7 @@ Text is too long.=Error message that indicates the text put in the form is too l
 
 Required.=Error message that indicates that some required text fields in the form were not filled in. Appears in forms around the site of all kinds, including registration and team creation.
 
-Add to Chrome= Links to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg). This button appears only if you are using the Google Chrome web browser, at the footer (bottom) of every page.
+Add to Chrome=Links to the app for Lichess on the Chrome Web Store (https://chrome.google.com/webstore/detail/chess/kiefmccciemniajdkgikpnocipidaaeg). This button appears only if you are using the Google Chrome web browser, at the footer (bottom) of every page.
 
 Open tournaments="Open" here means you can join the tournament. Below it is a list of tournaments you are able to join. Appears as a heading on http://lichess.org/tournament and also on the "Play" page (http://lichess.org/)
 
@@ -953,15 +955,15 @@ Contribute=Information on how people can contribute to Lichess whether it be thr
 
 Donate=A page where one can find out how to donate to Lichess. Appears on the footer of the menu page. Links to http://lichess.org/donate
 
-Contact= A page detailing the ways in which one can contact Lichess. Appears on the footer of the menu page. Links to http://lichess.org/contact
+Contact=A page detailing the ways in which one can contact Lichess. Appears on the footer of the menu page. Links to http://lichess.org/contact
 
 ToS=A page detailing the Lichess' terms of service. Appears on the footer of the menu page. Links to http://lichess.org/terms-of-service
 
-Source Code= Lichess' source code repository. Appears on the footer of the menu page. Links to https://github.com/ornicar/lila
+Source Code=Lichess' source code repository. Appears on the footer of the menu page. Links to https://github.com/ornicar/lila
 
 %s Forum Posts=%s The number of times the user has posted on the forum (https://lichess.org/forum). Appears on profile pages. Example: http://lichess.org/@/thibault — Thibault has 3038 forum points as of the time of writing.
 
-Watch games= A button that allows users to watch the chess games of a particular player. Appears on profile pages. Example: Links to http://lichess.org/@/thibault/tv
+Watch games=A button that allows users to watch the chess games of a particular player. Appears on profile pages. Example: Links to http://lichess.org/@/thibault/tv
 
 Time spent playing: %s=%s The total time the user has spent playing on Lichess. Appears on profile pages. Example: http://lichess.org/@/thibault/ has spent 15 days, 9 hours and 25 minutes playing at the time of writing.
 
@@ -989,9 +991,9 @@ Simul not found=A header warning when a simul event cannot be found. Displayed h
 
 This simultaneous exhibition does not exist.=When a simul event cannot be found a new page is displayed here http://lichess.org/simul/notfound notifying the user why and how to proceed.
 
-Return to simul homepage = A link to the simul homepage (http://lichess.org/simul/) displayed here http://lichess.org/simul/notfound
+Return to simul homepage=A link to the simul homepage (http://lichess.org/simul/) displayed here http://lichess.org/simul/notfound
 
-Simuls involve a single player facing several players at once.= A short explanation about what a simul is on the simul homepage (http://lichess.org/simul)
+Simuls involve a single player facing several players at once.=A short explanation about what a simul is on the simul homepage (http://lichess.org/simul)
 
 When you create a Simul, you get to play several players at once.=A short explanation of what to expect from creating a simul. Found on the create simul form page (http://lichess.org/simul/new)
 
@@ -1003,7 +1005,7 @@ The concept is taken from real world events. In real life, this involves the sim
 
 When the simul starts, every player starts a game with the host, who gets to play the white pieces. The simul ends when all games are complete.=A short explanation about the rules of a simul found on the simul homepage (http://lichess.org/simul) after clicking'More...'
 
-Create= A button that finalises the creation of some event. Found, for insance, at the bottom of the create simul form page (http://lichess.org/simul/new)
+Create=A button that finalises the creation of some event. Found, for insance, at the bottom of the create simul form page (http://lichess.org/simul/new)
 
 If you select several variants, each player gets to choose which one to play.=Explains the variants checkboxes found on the create simul form page (http://lichess.org/simul/new)
 
@@ -1011,21 +1013,21 @@ Fischer Clock setup. The more players you take on, the more time you may need.=E
 
 You may add extra time to your clock to help cope with the simul.=Suggests adding extra time for the simul. Found on the create simul form page (http://lichess.org/simul/new)
 
-Host extra clock time= A setting for the simul host to add extra time. Found on the create simul form page (http://lichess.org/simul/new)
+Host extra clock time=A setting for the simul host to add extra time. Found on the create simul form page (http://lichess.org/simul/new)
 
 Menu=Tooltip displayed when mouseover menu button viewable at the top of every lichess page.
 
-Lichess tournaments = A heading on the side of the tournaments homepage (http://lichess.org/tournament) under which the official tournaments of Lichess are listed.
+Lichess tournaments=A heading on the side of the tournaments homepage (http://lichess.org/tournament) under which the official tournaments of Lichess are listed.
 
-Arena tournament FAQ = A link to an FAQ page for Lichess tournaments. Links to http://lichess.org/tournament/help?system=arena and found on every tournament page as a small question mark, like so: (?)
+Arena tournament FAQ=A link to an FAQ page for Lichess tournaments. Links to http://lichess.org/tournament/help?system=arena and found on every tournament page as a small question mark, like so: (?)
 
-Official = All official (not user created) Lichess tournaments have this shown in said tournament's information box shows that appears on the top left of the screen.
+Official=All official (not user created) Lichess tournaments have this shown in said tournament's information box shows that appears on the top left of the screen.
 
-Time before tournament starts = Users creating new tournaments can decide when their tournament begins. Appears on the form used to create a new tournament (http://lichess.org/tournament/new)
+Time before tournament starts=Users creating new tournaments can decide when their tournament begins. Appears on the form used to create a new tournament (http://lichess.org/tournament/new)
 
 Tournament this is private=A heading explaining that a tournament is private and for other people to join a URL must be shared. Appears on the FAQ of the tournament's page.
 
-Tournament you wIll be notified= A notification telling users they will be notified when the tournament starts and so are safe to open a new tab of Lichess. Appears on the FAQ part of the tournament's page.
+Tournament you wIll be notified=A notification telling users they will be notified when the tournament starts and so are safe to open a new tab of Lichess. Appears on the FAQ part of the tournament's page.
 
 Play In New Tab=A link encouring users to open Lichess in another tab. Links to http://lichess.org
 
@@ -1065,7 +1067,7 @@ Average centipawn loss=ACPL. This is one of the categories of problems discovere
 
 Keyboard shortcuts=A heading appearing in the bottom left side of pages with analyzed games under which are available keyboard shortcuts.
 
-Key Go To Start Or End=Explains that the preceding keyboard shortcuts move the game backward or forward. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
+move backward/forward=Explains that the preceding keyboard shortcuts move the game backward or forward. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
 
 go to start/end=Explains that the preceding keyboard shortcuts move the game to the start or end position. Appears on the bottom left side of pages with analyzed games under Keyboard Shortcuts dropdown.
 
