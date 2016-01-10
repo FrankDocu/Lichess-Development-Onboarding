@@ -600,7 +600,7 @@ Best move!=Informs the player that the move they just played is the best they co
 
 Keep going…=Informs you that the puzzle is not yet finished. Appears just below "Best move!" in a green box on the left of the board on the Training page (http://lichess.org/training), after you have made the best possible move.
 
-Puzzle failed=Informs you that you lost the puzzle. Appears in a red box left of the board on the Training page (http://lichess.org/training) when you fail the puzzle by making a wrong move. Could also be translated as "You have failed the puzzle", if it is short enough and sounds better. 
+Puzzle failed=Informs you that you lost the puzzle. Appears in a red box left of the board on the Training page (http://lichess.org/training) when you fail the puzzle by making a wrong move. Could also be translated as "You have failed the puzzle", if it is short enough and sounds better.
 
 But you can keep trying.=Informs you that the fact you failed the puzzle (again) does not mean you have given up. Appears in a red box left of the board on the Training page (http://lichess.org/training) when you are retrying a puzzle you have already failed… and fail it again.
 
@@ -662,7 +662,7 @@ Find %s strong moves=Informs the player home many opening strong moves they have
 
 This move gives your opponent the advantage=Informs you that you played a weak move on the opening trainer. Appears in a red box left of the board on the Opening page (http://lichess.org/training/opening).
 
-Opening failed=Informs you that you lost the opening. Appears in a red box left of the board on the Training page (http://lichess.org/training) when the opening training completes with a loss. Could also be translated as "You have failed the opening", if it is short enough and sounds better. 
+Opening failed=Informs you that you lost the opening. Appears in a red box left of the board on the Training page (http://lichess.org/training) when the opening training completes with a loss. Could also be translated as "You have failed the opening", if it is short enough and sounds better.
 
 Opening solved=Appears in the box left of the board on the "Opening" page (http://lichess.org/training/opening). You can address the player directly here, so something like "You solved the opening" is acceptable if it is kept short enough.
 
@@ -917,7 +917,7 @@ Share game URL=in mobile app on the game context menu, this button opens the nat
 
 This field is required=Error message when a text input fields is left blank. Appears in the registration form and preferences menu (http://lichess.org/account/email).
 
-This email address is invalid=Error message for when the email address was typed in incorrectly. Appears in the registration form and preferences menu (http://lichess.org/account/email). 
+This email address is invalid=Error message for when the email address was typed in incorrectly. Appears in the registration form and preferences menu (http://lichess.org/account/email).
 
 This email address is not acceptable=Error message for when people associate a disposable email address with their account (e.g. https://www.guerrillamail.com/) -- only permanent email addresses are permitted. Appears in the registration form and preferences menu (http://lichess.org/account/email).
 
@@ -995,7 +995,7 @@ About Simul Rules=A short explanation about the rules of a simul found on the si
 
 About Simul Settings=A short explanation about typical simul settings found on the simul homepage (http://lichess.org/simul) after clicking "More..."
 
-Create= A button that finalises the creation of a new simul. Found at the bottom of the create simul form page (http://lichess.org/simul/new) 
+Create= A button that finalises the creation of a new simul. Found at the bottom of the create simul form page (http://lichess.org/simul/new)
 
 When Create Simul=A short explanation of what to expect from creating a simul. Found on the create simul form page (http://lichess.org/simul/new)
 
@@ -1025,7 +1025,7 @@ Tournament You Will Be Notified= A notification telling users they will be notif
 
 Play In New Tab=A link encouring users to open Lichess in another tab. Links to http://lichess.org
 
-Tournament Is It Rated Q=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking if a tournament is rated or not. 
+Tournament Is It Rated Q=A question on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) asking if a tournament is rated or not.
 
 Tournament Some Are Rated=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) answering that some tournaments are rated and will affect rating.
 
@@ -1037,7 +1037,7 @@ Tournament How Are Scores Calculated Q=A question on all tournament's FAQ page (
 
 Tournament How Are Scores Calculated A=An answer on all tournament's FAQ page (e.g http://lichess.org/tournament/help?system=arena) explaining how tournament scores are calculated.
 
-Tournament Berserk=The name of mode where a player can half their time to double their points for that particular game. 
+Tournament Berserk=The name of mode where a player can half their time to double their points for that particular game.
 
 Tournament Berserk Explan=An explaination of what Berserk mode is and what it does.
 
