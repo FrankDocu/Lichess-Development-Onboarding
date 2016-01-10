@@ -1084,3 +1084,13 @@ This tournament does not exist.=This is the first sentence that shows up under t
 It may have been canceled, if all players left it before the tournament starts.=This is the second sentence that shows up under the "Tournament not found" header when you go to a tournament that does not exist.
 
 Return to tournaments homepage=This link shows up on a page of a tournament that does not exist. It leads to the tournaments home page.
+
+Monthly %s rating distribution=Title of the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. %s is a variant name (like Bullet, Blitz, or Chess960).
+
+%s %s players this month.=Number of players of a variant, on the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. The first %s is the number of players, the second %s is the variant name (like Bullet, Blitz, or Chess960).
+
+Your %s rating is %s.=Current user rating, on the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. The first %s is the the variant name (like Bullet, Blitz, or Chess960), the second %s is the rating itself (like 1900).
+
+You are better than %s% of %s players.=Current user ranking, on the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. The first %s is the percentage, the second %s is the variant name (like Bullet, Blitz, or Chess960).
+
+You do not have an established %s rating.=When the user rating is provisional, on the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. %s is a variant name (like Bullet, Blitz, or Chess960).
