@@ -662,6 +662,8 @@ Automatically proceed to next game after moving=Informs the player what the butt
 
 Rating=The rating of the player (e.g. 1500). Appears on the lobby list on http://lichess.org/
 
+Rating stats=Link to the rating distribution stats page (http://lichess.org/stat/rating/distribution/blitz), in the top menu, under "Community".
+
 Opening %s=%s is the number of the opening training. This means the way it appears on the site will be something like "Opening 5705". Appears on the "Opening" page (http://lichess.org/training/opening).
 
 Your opening rating: %s=%s is your numerical opening trainer rating. Appears in a box left of the board on the "Opening" page (http://lichess.org/training/opening), above the graph.
