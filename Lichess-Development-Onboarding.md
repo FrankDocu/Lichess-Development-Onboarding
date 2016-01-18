@@ -76,11 +76,12 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Run `./bin/install-stockfish` (edit first if you are not running 64bit)
 
-1. Run `./bin/gen/geoip` and add the following geoip section to application.conf:
+1. Run `./bin/gen/geoip` and add the following geoip section to application.conf (See section Running the Application):
 
         geoip {
             file = "data/GeoLite2-City.mmdb"
         }
+   
 
 #### Setting Up Your Web Server
 
