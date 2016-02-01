@@ -44,7 +44,7 @@ Before beginning, please make sure you have the following tools installed, using
 * `sbt` ([instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
 * `npm` (from nodejs, version `2.1.18` should be OK)
 * `zsh`
-* 'svgo' ([sudo] npm install -g svgo)
+* `svgo` ( https://www.npmjs.com/package/svgo )
 
 #### Infrastructure
 * `mongodb`
