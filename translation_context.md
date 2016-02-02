@@ -191,7 +191,7 @@ One day=Means each turn may take up to one day. This appears next to the slider 
 
 Time=The time control for the game. This appears as a column heading in the table of games you can join on the "Play" page (http://lichess.org/).
 
-User name=The name you use to sign in, e.g. "thibault". Appears on the sign-in and registration pages.
+User name or Email=The name or email you use to sign in, e.g. "thibault". Appears on the sign-in and registration pages.
 
 Password=This is the password you must type to sign in to your profile. Appears on the sign-in, registration, tournament creation and "Preferences" pages. Please keep this sentence as short as possible. Next to the sentence is a box where you can type in your password.
 
