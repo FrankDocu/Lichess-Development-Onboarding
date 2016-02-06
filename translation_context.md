@@ -1102,3 +1102,5 @@ Your %s rating is %s.=Current user rating, on the rating stats page: http://en.l
 You are better than %s of %s players.=Current user ranking, on the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. The first %s is the percentage, the second %s is the variant name (like Bullet, Blitz, or Chess960).
 
 You do not have an established %s rating.=When the user rating is provisional, on the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. %s is a variant name (like Bullet, Blitz, or Chess960).
+
+Race finished=Ending message of a Racing Kings game (http://lichess.org/variant/racingKings).
