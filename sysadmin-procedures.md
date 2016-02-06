@@ -22,8 +22,7 @@ Be extremely careful. To be used only for damage control. Some queries can be sl
 
 ## terminate tournament
 
-__NOTE: ONLY FOR EXTREME MEASURES!__  
-In the db: `lichess> db.tournament2.update({_id: "tournamentID"}, {$set: {status: NumberInt(30), winner: "winnerID"}})`
+lol, can't you see the panic button?
 
 ## people with server access
 
