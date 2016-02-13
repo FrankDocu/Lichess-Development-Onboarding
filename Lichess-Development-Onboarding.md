@@ -164,6 +164,10 @@ Before beginning, please make sure you have the following tools installed, using
 #### error: git clone git://github.com/../coach   Repository not found.
 
 Check `npm --version` you need at least version 2.
+Run "curl -L https://npmjs.org/install.sh | sh" and install latest npm. 
+Link node with "sudo ln -s /usr/bin/nodejs /usr/bin/node"
+Verify it by running "npm --version". latest version is 3.7.2
+
 
 ### ./ui/build errors: git clone git@github.com:github:ornicar/chessground    is not a valid repository name
 
