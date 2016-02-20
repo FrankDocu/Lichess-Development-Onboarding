@@ -161,12 +161,13 @@ Before beginning, please make sure you have the following tools installed, using
 
 ## Import Code into IDE.
 * Download latest eclipse Mars and extract/install
-* Install 'scala ide' plugin in eclipse
-* Install plugin 'sbt eclipse (This is to run 'sbt' from eclipse. I am packaging this eclipe plugin. Link will be provided later)
+* Install 'scala ide' (eclipse marketplace; This installs all scala ide plugins needed)
+* Install sbteclipse (https://github.com/typesafehub/sbteclipse This helps to import scala project into eclipse with "sbt eclipse" command line)
+* Install eclipse-sbt (https://github.com/jibijose/eclipse-sbt-plugin This hooks "sbt" commands into eclipse IDE)
 * Create file ~/.sbt/0.13/plugins/plugins.sbt Add line "addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "4.0.0")"
 * Checkout scala project and run "sbt eclipse". This will create eclipse files (.project, .classpath, .settings)
 * Import scala project as 'existing projects into eclipse'
-* If you have install plugin mentioned in step 3, then you can run sbt commands from eclipse (Like update config, run etc)
+* If you have install plugin mentioned in step 2-4, then you can run sbt commands from eclipse (Like update config, run etc)
 
 
 ## Troubleshooting
