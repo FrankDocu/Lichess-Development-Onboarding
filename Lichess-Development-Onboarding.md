@@ -107,6 +107,7 @@ Before beginning, please make sure you have the following tools installed, using
           }
 
           location / {
+            proxy_http_version 1.1;
             proxy_set_header Host $http_host;
             proxy_set_header X-Forwarded-For $remote_addr;
             proxy_read_timeout 90s;
@@ -159,7 +160,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Navigate to http://en.l.org with a browser.
 
-## Import Code into IDE.
+## Import Code into IDE
 * Download latest eclipse Mars and extract/install
 * Install 'scala ide' (eclipse marketplace; This installs all scala ide plugins needed)
 * Install sbteclipse (https://github.com/typesafehub/sbteclipse This helps to import scala project into eclipse with "sbt eclipse" command line)
