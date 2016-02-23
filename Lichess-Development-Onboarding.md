@@ -69,7 +69,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Compile the scala application with `sbt compile`
 
-1. Run `sudo npm install gulp -g` (or `npm install gulp` and then add the install path of gulp to your PATH variable.)
+1. Run `sudo npm install gulp-cli -g` (or `npm install gulp-cli` and then add the install path of gulp to your PATH variable.)
 
 1. Run `./ui/build`
 
