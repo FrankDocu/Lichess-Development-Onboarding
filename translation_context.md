@@ -556,16 +556,6 @@ Today's leaders=A list of very highly-ranked players on lichess that have played
 
 Online players=A list of players that are connected right now. Appears as a heading on http://lichess.org/people
 
-Progress today=A list of players ordered by the advance in rating (points) they have made over the last 24 hours. Appears on the "Play" page (http://lichess.org) as a heading to a box that contains a list of the day's leaders. Also appears as on the "Players" page (http://lichess.org/people).
-
-Progress this week=A list of players ordered by the advance in rating (points) they have made over the last 7 days. Appears as a heading on the "Players" page (http://lichess.org/people).
-
-Progress this month=A list of players ordered by the advance in rating (points) they have made over the last 30 days. Appears as a heading on the "Players" page (http://lichess.org/people).
-
-Leaders this week=A list of very highly-ranked players that have played at least one game within the last 7 days. Appears as a heading on the "Players" page (http://lichess.org/people).
-
-Leaders this month=A list of very highly-ranked players that have played at least one game within the last 30 days. Appears as a heading on the "Players" page (http://lichess.org/people).
-
 Active today=A list of players ordered by how many games they played today. Appears as a heading on the "Players" page (http://lichess.org/people).
 
 Active this week=A list of players ordered by how many games they have played over the last 7 days. Appears as a heading on the "Players" page (http://lichess.org/people).
