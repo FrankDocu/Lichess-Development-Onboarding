@@ -552,8 +552,6 @@ Watch Lichess TV=Clicking this take you to the TV page, where you can watch the 
 
 Previously on Lichess TV=A list of games that were aired on lichess TV before. Appears as a heading to a box below the board on the TV page (http://lichess.org/tv).
 
-Today's leaders=A list of very highly-ranked players on lichess that have played at least one game today. Appears on the "Play" page (http://lichess.org) as a heading to a box that contains a list of the day's leaders. "The best of today" is an acceptable translation if you cannot come up with anything.
-
 Online players=A list of players that are connected right now. Appears as a heading on http://lichess.org/people
 
 Active today=A list of players ordered by how many games they played today. Appears as a heading on the "Players" page (http://lichess.org/people).
