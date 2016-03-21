@@ -1157,4 +1157,6 @@ Network lag between you and lichess=Is an explanations of what PING is and it is
 
 Time to process a move on lichess server=Is an explanations of what SERVER is and it is shown at the window which opens when clicking on the login at the top of the site.
 
+You can also scroll over the board to move in the game.=Appears when hovering KeyboardShortcuts sign under the chess board.
 
+Press shift+click or right-click to draw circles and arrows on the board.=Appears when hovering KeyboardShortcuts sign under the chess board.
