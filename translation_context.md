@@ -1096,3 +1096,65 @@ You are better than %s of %s players.=Current user ranking, on the rating stats 
 You do not have an established %s rating.=When the user rating is provisional, on the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. %s is a variant name (like Bullet, Blitz, or Chess960).
 
 Race finished=Ending message of a Racing Kings game (http://lichess.org/variant/racingKings).
+
+Download annotated=Button for downloading a finished game in PGN format. Appears under the FEN & PGN tab in Analysis.
+
+Download raw=Button for downloading finished game as a text.
+
+Download imported=Button which appears in the FEN & PGN tab under at Analysis for downloading PGN of an imported game.
+
+Print-friendly PDF=Downloads a game in PDF format. It is located near the other downloads buttons in FEN & PGN tab under the finished game.
+
+Crosstable=The name of the tab which shows a total points sum between two players calculated based on their finished games. Shown under the board.
+
+Keyboard Shortcuts=A sign that shows shortcuts when hovering it. Located at the left down edge under the game board.
+
+move backward/forward=Is a part of shortcuts description.
+
+go to start/end=Is a part of shortcuts description.
+
+show/hide comments=Is a part of shortcuts description.
+
+enter/exit variation=Is a part of shortcuts desctiption.
+
+or=An article for different pages of the project.
+
+keyYouCanDrawArrowsCirclesAndScrollToMove=Is a description of a shortcut which appears when hovering the *Keyboard Shortcuts* sign under the chess board.
+
+Average centipawn loss=A paragraph in insights which appears under some graphs.
+
+Check your email=A message that is shown after registering at Lichess or password reset.
+
+We've sent you an email. Click the link in the email to activate your account.=That is shown to a new user at the registration finish page.
+
+If you don't see the email, check other places it might be, like your junk, spam, social, or other folders.=A part of post-signup or password reset message.
+
+Are you sure you even registered your email on lichess?=Appears when trying to reset the password and specified email is not found.
+
+It was not required for your registration.=The second part of failed password reset message when email is not found.
+
+New password=Is required at the register and password change pages.
+
+New password (again)=Goes after *new password* field in order to make sure that it was done correctly.
+
+We've sent an email to=Is a first part of a sentence when resetting password. An email of user goes after it.
+
+Click the link in the email to reset your password.=Appears on password reset page after email was sent.
+
+By registering, you agree to be bound by our=Is a first part of sentence at the registration page. Link to ToS goes after it.
+
+Terms of Service=Is shown at the register page and in the main menu.
+
+Cannot log in from your IP=Is a heading at the page which is shown for TOR users.
+
+We have detected that you are using TOR to remain anonymous on the Internet.=Appears on the TOR detected page.
+
+It's a great idea, and we'll make sure you stay Anonymous on lichess as well.=Appears on the TOR detected page.
+
+As an Anonymous user, you can play, train, and use all lichess features. Enjoy!=Appears on the TOR detected page.
+
+Network lag between you and lichess=Is an explanations of what PING is and it is shown at the window which opens when clicking on the login at the top of the site.
+
+Time to process a move on lichess server=Is an explanations of what SERVER is and it is shown at the window which opens when clicking on the login at the top of the site.
+
+
