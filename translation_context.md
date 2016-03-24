@@ -1107,17 +1107,17 @@ Print-friendly PDF=Downloads a game in PDF format. It is located near the other 
 
 Crosstable=The name of the tab which shows a total points sum between two players calculated based on their finished games. Shown under the board. (http://en.lichess.org/EE5OajWy, Crosstable tab)
 
-Keyboard Shortcuts=A sign that shows shortcuts when hovering it. Located at the left down edge under the game board.
+Keyboard Shortcuts=A sign that shows shortcuts when hovering it. Located at the left down edge under the game board. (http://en.lichess.org/g4XbumIh)
 
-move backward/forward=Is a part of shortcuts description.
+move backward/forward=Is a part of shortcuts description. (http://en.lichess.org/g4XbumIh)
 
-go to start/end=Is a part of shortcuts description.
+go to start/end=Is a part of shortcuts description. (http://en.lichess.org/g4XbumIh)
 
-show/hide comments=Is a part of shortcuts description.
+show/hide comments=Is a part of shortcuts description. (http://en.lichess.org/g4XbumIh)
 
-enter/exit variation=Is a part of shortcuts desctiption.
+enter/exit variation=Is a part of shortcuts desctiption. (http://en.lichess.org/g4XbumIh)
 
-keyYouCanDrawArrowsCirclesAndScrollToMove=Is a description of a shortcut which appears when hovering the *Keyboard Shortcuts* sign under the chess board.
+keyYouCanDrawArrowsCirclesAndScrollToMove=Is a description of a shortcut which appears when hovering the *Keyboard Shortcuts* sign under the chess board. (http://en.lichess.org/g4XbumIh)
 
 Average centipawn loss=A paragraph in insights which appears under some graphs.
 
@@ -1143,6 +1143,6 @@ Network lag between you and lichess=Is an explanations of what PING is and it is
 
 Time to process a move on lichess server=Is an explanations of what SERVER is and it is shown at the window which opens when clicking on the login at the top of the site.
 
-You can also scroll over the board to move in the game.=Appears when hovering KeyboardShortcuts sign under the chess board.
+You can also scroll over the board to move in the game.=Appears when hovering KeyboardShortcuts sign under the chess board. (http://en.lichess.org/g4XbumIh)
 
-Press shift+click or right-click to draw circles and arrows on the board.=Appears when hovering KeyboardShortcuts sign under the chess board.
+Press shift+click or right-click to draw circles and arrows on the board.=Appears when hovering KeyboardShortcuts sign under the chess board. (http://en.lichess.org/g4XbumIh)
