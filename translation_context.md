@@ -1117,8 +1117,6 @@ show/hide comments=Is a part of shortcuts description.
 
 enter/exit variation=Is a part of shortcuts desctiption.
 
-or=An article for different pages of the project.
-
 keyYouCanDrawArrowsCirclesAndScrollToMove=Is a description of a shortcut which appears when hovering the *Keyboard Shortcuts* sign under the chess board.
 
 Average centipawn loss=A paragraph in insights which appears under some graphs.
