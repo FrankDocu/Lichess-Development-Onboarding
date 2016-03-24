@@ -1097,15 +1097,15 @@ You do not have an established %s rating.=When the user rating is provisional, o
 
 Race finished=Ending message of a Racing Kings game (http://lichess.org/variant/racingKings).
 
-Download annotated=Button for downloading a finished game in PGN format. Appears under the FEN & PGN tab in Analysis.
+Download annotated=Button for downloading a finished game in PGN format. Appears under the FEN & PGN tab in Analysis. (http://en.lichess.org/EE5OajWy, FEN&PGN tab)
 
 Download raw=Button for downloading finished game as a text.
 
 Download imported=Button which appears in the FEN & PGN tab under at Analysis for downloading PGN of an imported game.
 
-Print-friendly PDF=Downloads a game in PDF format. It is located near the other downloads buttons in FEN & PGN tab under the finished game.
+Print-friendly PDF=Downloads a game in PDF format. It is located near the other downloads buttons in FEN & PGN tab under the finished game. (http://en.lichess.org/EE5OajWy, FEN&PGN tab)
 
-Crosstable=The name of the tab which shows a total points sum between two players calculated based on their finished games. Shown under the board.
+Crosstable=The name of the tab which shows a total points sum between two players calculated based on their finished games. Shown under the board. (http://en.lichess.org/EE5OajWy, Crosstable tab)
 
 Keyboard Shortcuts=A sign that shows shortcuts when hovering it. Located at the left down edge under the game board.
 
@@ -1123,21 +1123,21 @@ Average centipawn loss=A paragraph in insights which appears under some graphs.
 
 Check your email=A message that is shown after registering at Lichess or password reset.
 
-We've sent you an email. Click the link in the email to activate your account.=That is shown to a new user at the registration finish page.
+We've sent you an email. Click the link in the email to activate your account.=That is shown to a new user at the registration finish page. (http://ru.lichess.org/signup/check-your-email/test)
 
-If you don't see the email, check other places it might be, like your junk, spam, social, or other folders.=A part of post-signup or password reset message.
+If you don't see the email, check other places it might be, like your junk, spam, social, or other folders.=A part of post-signup or password reset message. (http://en.lichess.org/password/reset/sent/test@test.com)
 
-Are you sure you even registered your email on lichess?=Appears when trying to reset the password and specified email is not found.
+Are you sure you even registered your email on lichess?=Appears when trying to reset the password and specified email is not found. (http://en.lichess.org/password/reset/send)
 
-It was not required for your registration.=The second part of failed password reset message when email is not found.
+It was not required for your registration.=The second part of failed password reset message when email is not found. (http://en.lichess.org/password/reset/send)
 
-New password=Is required at the register and password change pages.
+New password=Is required at the register and password change pages. (http://en.lichess.org/password/reset/confirm)
 
-New password (again)=Goes after *new password* field in order to make sure that it was done correctly.
+New password (again)=Goes after *new password* field in order to make sure that it was done correctly. (http://en.lichess.org/password/reset/confirm)
 
-We've sent an email to %s. Click the link in the email to reset your password.=Appears on password resetting and also shows an email address of the user.
+We've sent an email to %s. Click the link in the email to reset your password.=Appears on password resetting and also shows an email address of the user. (http://en.lichess.org/password/reset/sent/test@test.com)
 
-By registering, you agree to be bound by our %s.=Is a first part of sentence at the registration page. Link to ToS is inserted inside it.
+By registering, you agree to be bound by our %s.=Is a first part of sentence at the registration page. Link to ToS is inserted inside it. (http://en.lichess.org/signup)
 
 Network lag between you and lichess=Is an explanations of what PING is and it is shown at the window which opens when clicking on the login at the top of the site.
 
