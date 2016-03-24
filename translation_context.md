@@ -1143,14 +1143,6 @@ By registering, you agree to be bound by our=Is a first part of sentence at the 
 
 Terms of Service=Is shown at the register page and in the main menu.
 
-Cannot log in from your IP=Is a heading at the page which is shown for TOR users.
-
-We have detected that you are using TOR to remain anonymous on the Internet.=Appears on the TOR detected page.
-
-It's a great idea, and we'll make sure you stay Anonymous on lichess as well.=Appears on the TOR detected page.
-
-As an Anonymous user, you can play, train, and use all lichess features. Enjoy!=Appears on the TOR detected page.
-
 Network lag between you and lichess=Is an explanations of what PING is and it is shown at the window which opens when clicking on the login at the top of the site.
 
 Time to process a move on lichess server=Is an explanations of what SERVER is and it is shown at the window which opens when clicking on the login at the top of the site.
