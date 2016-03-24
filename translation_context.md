@@ -1135,13 +1135,11 @@ New password=Is required at the register and password change pages.
 
 New password (again)=Goes after *new password* field in order to make sure that it was done correctly.
 
-We've sent an email to=Is a first part of a sentence when resetting password. An email of user goes after it.
+We've sent an email to %s.=Appears on password resetting and also shows an email address of the user.
 
 Click the link in the email to reset your password.=Appears on password reset page after email was sent.
 
-By registering, you agree to be bound by our=Is a first part of sentence at the registration page. Link to ToS goes after it.
-
-Terms of Service=Is shown at the register page and in the main menu.
+By registering, you agree to be bound by our %s.=Is a first part of sentence at the registration page. Link to ToS is inserted inside it.
 
 Network lag between you and lichess=Is an explanations of what PING is and it is shown at the window which opens when clicking on the login at the top of the site.
 
