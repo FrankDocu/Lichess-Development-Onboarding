@@ -1156,3 +1156,5 @@ Share your insights data=Appears at privacy settings. (http://en.lichess.org/acc
 You have already registered the email: %s=Is a message that is shown to a user at email settings when you already have an email connected with your account. (http://en.lichess.org/account/email)
 
 Kid mode=Is an option at preferences menu. (http://en.lichess.org/account/kid)
+
+Check your Email=Appears when signup is finished and email is sent. (http://en.lichess.org/signup/check-your-email/test)
