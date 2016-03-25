@@ -7,7 +7,7 @@ If you get stuck during the install process the most suitable place to seek help
 
 ## Automatic setup with Vagrant
 
-Rather than manually carrying out the installation steps, you can use Vagrant to manage your development environment. Vagrant is a wrapper around virtual machine tools that helps you set up your development environment easily.
+Rather than manually carrying out the installation steps, you can use Vagrant to manage your development environment. Vagrant is a wrapper around virtual machine tools that helps you set up your development environment.
 
   * [Download Vagrant](https://www.vagrantup.com/) (or use your package manager). These instructions have been tested on Vagrant 1.7.4; you will probably [need at least Vagrant 1.5](http://stackoverflow.com/q/33644359/344643).
   * [Download Virtualbox](https://www.virtualbox.org/) (or use your package manager).
@@ -18,7 +18,7 @@ Clone the repository somewhere on your system and run `vagrant up`:
     $ cd lila
     $ vagrant up
 
-This starts the process of downloading the virtual machine image, downloading all dependencies, and initially building the code. It may take a while (1 hour 20 minutes on my machine) depending on your network and CPU.
+This starts the process of downloading the virtual machine image, downloading all dependencies, and initially building the code. It may take a while (1 hour 20 minutes on the author's machine) depending on your network and CPU.
 
 Once the initial build process has finished, it will print instructions to the screen. Follow those instructions to complete setup.
 
@@ -176,8 +176,8 @@ Before beginning, please make sure you have the following tools installed, using
 #### error: git clone git://github.com/../coach   Repository not found.
 
 Check `npm --version` you need at least version 2.
-Run "curl -L https://npmjs.org/install.sh | sh" and install latest npm. 
 Link node with "sudo ln -s /usr/bin/nodejs /usr/bin/node"
+sudo to root, then run "curl -L https://npmjs.org/install.sh | sh" and install latest npm from root shell
 Verify it by running "npm --version". latest version is 3.7.2
 
 
