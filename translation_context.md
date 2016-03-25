@@ -1146,3 +1146,13 @@ Time to process a move on lichess server=Is an explanations of what SERVER is an
 You can also scroll over the board to move in the game.=Appears when hovering KeyboardShortcuts sign under the chess board. (http://en.lichess.org/g4XbumIh)
 
 Press shift+click or right-click to draw circles and arrows on the board.=Appears when hovering KeyboardShortcuts sign under the chess board. (http://en.lichess.org/g4XbumIh)
+
+Confirm resignation=An option at game preferences. (http://en.lichess.org/account/preferences/game-behavior)
+
+Let other players message you=Appears at privacy settings. (http://en.lichess.org/account/preferences/privacy)
+
+Share your insights data=Appears at privacy settings. (http://en.lichess.org/account/preferences/privacy)
+
+You have already registered the email: %s=Is a message that is shown to a user at email settings when you already have an email connected with your account. (http://en.lichess.org/account/email)
+
+Kid mode=Is an option at preferences menu. (http://en.lichess.org/account/kid)
