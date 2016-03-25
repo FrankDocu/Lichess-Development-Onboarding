@@ -23,7 +23,7 @@ Game Over=This appears in the right-hand side box when a game ends.
 
 Waiting for opponent=Indicates you are waiting for an opponent to join your game. This appears after you have created a public game (through the "Create a game" menu).
 
-Waiting=This appears in the right-hand side box while you are playing a game, and are waiting for your opponent to make a move and finish his/her turn.
+Waiting=This appears in the challenges box, when you are waiting for the opponent the accept the challenge.
 
 Your turn=This appears in the box while you are playing a game. It indicates it is your turn to play.
 
