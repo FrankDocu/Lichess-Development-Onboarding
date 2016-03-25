@@ -1156,3 +1156,15 @@ You have already registered the email: %s=Is a message that is shown to a user a
 Kid mode=Is an option at preferences menu. (http://en.lichess.org/account/kid)
 
 Check your Email=Appears when signup is finished and email is sent. (http://en.lichess.org/signup/check-your-email/test)
+
+Security=An options at account preferences. (http://en.lichess.org/account/security)
+
+This is a list of devices that have logged into your account. Revoke any sessions that you do not recognize.=This is a description of security page options. (http://en.lichess.org/account/security)
+
+CURRENT=Tells that the device in security list is user's current device. (http://en.lichess.org/account/security)
+
+Next=Used for pagination.
+
+Delete=Is a button which is used to delete a message thread. (http://en.lichess.org/inbox)
+
+This user blocks you. You cannot answer.=Appears when you're trying to write to someone who blocks you.
