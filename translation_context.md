@@ -1083,39 +1083,39 @@ It may have been canceled, if all players left it before the tournament starts.=
 
 Return to tournaments homepage=This link shows up on a page of a tournament that does not exist. It leads to the tournaments home page.
 
-Weekly %s rating distribution=Title of the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. %s is a variant name (like Bullet, Blitz, or Chess960).
+Weekly %s rating distribution=Title of the rating stats page: http://lichess.org/stat/rating/distribution/blitz. %s is a variant name (like Bullet, Blitz, or Chess960).
 
-%s %s players this week=Number of players of a variant, on the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. The first %s is the number of players, the second %s is the variant name (like Bullet, Blitz, or Chess960).
+%s %s players this week=Number of players of a variant, on the rating stats page: http://lichess.org/stat/rating/distribution/blitz. The first %s is the number of players, the second %s is the variant name (like Bullet, Blitz, or Chess960).
 
-Your %s rating is %s.=Current user rating, on the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. The first %s is the the variant name (like Bullet, Blitz, or Chess960), the second %s is the rating itself (like 1900).
+Your %s rating is %s.=Current user rating, on the rating stats page: http://lichess.org/stat/rating/distribution/blitz. The first %s is the the variant name (like Bullet, Blitz, or Chess960), the second %s is the rating itself (like 1900).
 
-You are better than %s of %s players.=Current user ranking, on the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. The first %s is the percentage, the second %s is the variant name (like Bullet, Blitz, or Chess960).
+You are better than %s of %s players.=Current user ranking, on the rating stats page: http://lichess.org/stat/rating/distribution/blitz. The first %s is the percentage, the second %s is the variant name (like Bullet, Blitz, or Chess960).
 
-You do not have an established %s rating.=When the user rating is provisional, on the rating stats page: http://en.lichess.org/stat/rating/distribution/blitz. %s is a variant name (like Bullet, Blitz, or Chess960).
+You do not have an established %s rating.=When the user rating is provisional, on the rating stats page: http://lichess.org/stat/rating/distribution/blitz. %s is a variant name (like Bullet, Blitz, or Chess960).
 
 Race finished=Ending message of a Racing Kings game (http://lichess.org/variant/racingKings).
 
-Download annotated=Button for downloading a game PGN with lichess annotations. (http://en.lichess.org/EE5OajWy, FEN&PGN tab)
+Download annotated=Button for downloading a game PGN with lichess annotations. (http://lichess.org/EE5OajWy, FEN&PGN tab)
 
-Download raw=Button for downloading a game PGN without lichess annotations. (http://en.lichess.org/EE5OajWy, FEN&PGN tab)
+Download raw=Button for downloading a game PGN without lichess annotations. (http://lichess.org/EE5OajWy, FEN&PGN tab)
 
 Download imported=Button which appears in the FEN & PGN tab under at Analysis for downloading the original PGN of an imported game.
 
-Print-friendly PDF=Downloads a game in PDF format. It is located near the other downloads buttons in FEN & PGN tab under the finished game. (http://en.lichess.org/EE5OajWy, FEN&PGN tab)
+Print-friendly PDF=Downloads a game in PDF format. It is located near the other downloads buttons in FEN & PGN tab under the finished game. (http://lichess.org/EE5OajWy, FEN&PGN tab)
 
-Crosstable=The name of the tab which shows a total points sum between two players calculated based on their finished games. Shown under the board. (http://en.lichess.org/EE5OajWy, Crosstable tab)
+Crosstable=The name of the tab which shows a total points sum between two players calculated based on their finished games. Shown under the board. (http://lichess.org/EE5OajWy, Crosstable tab)
 
-Keyboard Shortcuts=A sign that shows shortcuts when hovering it. Located at the left down edge under the game board. (http://en.lichess.org/g4XbumIh)
+Keyboard Shortcuts=A sign that shows shortcuts when hovering it. Located at the left down edge under the game board. (http://lichess.org/g4XbumIh)
 
-move backward/forward=Is a part of shortcuts description. (http://en.lichess.org/g4XbumIh)
+move backward/forward=Is a part of shortcuts description. (http://lichess.org/g4XbumIh)
 
-go to start/end=Is a part of shortcuts description. (http://en.lichess.org/g4XbumIh)
+go to start/end=Is a part of shortcuts description. (http://lichess.org/g4XbumIh)
 
-show/hide comments=Is a part of shortcuts description. (http://en.lichess.org/g4XbumIh)
+show/hide comments=Is a part of shortcuts description. (http://lichess.org/g4XbumIh)
 
-enter/exit variation=Is a part of shortcuts desctiption. (http://en.lichess.org/g4XbumIh)
+enter/exit variation=Is a part of shortcuts desctiption. (http://lichess.org/g4XbumIh)
 
-keyYouCanDrawArrowsCirclesAndScrollToMove=Is a description of a shortcut which appears when hovering the *Keyboard Shortcuts* sign under the chess board. (http://en.lichess.org/g4XbumIh)
+keyYouCanDrawArrowsCirclesAndScrollToMove=Is a description of a shortcut which appears when hovering the *Keyboard Shortcuts* sign under the chess board. (http://lichess.org/g4XbumIh)
 
 Average centipawn loss=A paragraph in insights which appears under some graphs.
 
@@ -1123,58 +1123,58 @@ Check your email=A message that is shown after registering at Lichess or passwor
 
 We've sent you an email. Click the link in the email to activate your account.=That is shown to a new user at the registration finish page. (http://ru.lichess.org/signup/check-your-email/test)
 
-If you don't see the email, check other places it might be, like your junk, spam, social, or other folders.=A part of post-signup or password reset message. (http://en.lichess.org/password/reset/sent/test@test.com)
+If you don't see the email, check other places it might be, like your junk, spam, social, or other folders.=A part of post-signup or password reset message. (http://lichess.org/password/reset/sent/test@test.com)
 
-Are you sure you even registered your email on lichess?=Appears when trying to reset the password and specified email is not found. (http://en.lichess.org/password/reset/send)
+Are you sure you even registered your email on lichess?=Appears when trying to reset the password and specified email is not found. (http://lichess.org/password/reset/send)
 
-It was not required for your registration.=The second part of failed password reset message when email is not found. (http://en.lichess.org/password/reset/send)
+It was not required for your registration.=The second part of failed password reset message when email is not found. (http://lichess.org/password/reset/send)
 
-New password=Is required at the register and password change pages. (http://en.lichess.org/password/reset/confirm)
+New password=Is required at the register and password change pages. (http://lichess.org/password/reset/confirm)
 
-New password (again)=Goes after *new password* field in order to make sure that it was done correctly. (http://en.lichess.org/password/reset/confirm)
+New password (again)=Goes after *new password* field in order to make sure that it was done correctly. (http://lichess.org/password/reset/confirm)
 
-We've sent an email to %s. Click the link in the email to reset your password.=Appears on password resetting and also shows an email address of the user. (http://en.lichess.org/password/reset/sent/test@test.com)
+We've sent an email to %s. Click the link in the email to reset your password.=Appears on password resetting and also shows an email address of the user. (http://lichess.org/password/reset/sent/test@test.com)
 
-By registering, you agree to be bound by our %s.=Is a first part of sentence at the registration page. Link to ToS is inserted inside it. (http://en.lichess.org/signup)
+By registering, you agree to be bound by our %s.=Is a first part of sentence at the registration page. Link to ToS is inserted inside it. (http://lichess.org/signup)
 
 Network lag between you and lichess=Is an explanations of what PING is and it is shown at the window which opens when clicking on the login at the top of the site.
 
 Time to process a move on lichess server=Is an explanations of what SERVER is and it is shown at the window which opens when clicking on the login at the top of the site.
 
-You can also scroll over the board to move in the game.=Appears when hovering KeyboardShortcuts sign under the chess board. (http://en.lichess.org/g4XbumIh)
+You can also scroll over the board to move in the game.=Appears when hovering KeyboardShortcuts sign under the chess board. (http://lichess.org/g4XbumIh)
 
-Press shift+click or right-click to draw circles and arrows on the board.=Appears when hovering KeyboardShortcuts sign under the chess board. (http://en.lichess.org/g4XbumIh)
+Press shift+click or right-click to draw circles and arrows on the board.=Appears when hovering KeyboardShortcuts sign under the chess board. (http://lichess.org/g4XbumIh)
 
-Confirm resignation=An option at game preferences. (http://en.lichess.org/account/preferences/game-behavior)
+Confirm resignation=An option at game preferences. (http://lichess.org/account/preferences/game-behavior)
 
-Let other players message you=Appears at privacy settings. (http://en.lichess.org/account/preferences/privacy)
+Let other players message you=Appears at privacy settings. (http://lichess.org/account/preferences/privacy)
 
-Share your insights data=Appears at privacy settings. (http://en.lichess.org/account/preferences/privacy)
+Share your insights data=Appears at privacy settings. (http://lichess.org/account/preferences/privacy)
 
-You have already registered the email: %s=Is a message that is shown to a user at email settings when you already have an email connected with your account. (http://en.lichess.org/account/email)
+You have already registered the email: %s=Is a message that is shown to a user at email settings when you already have an email connected with your account. (http://lichess.org/account/email)
 
-Kid mode=Is an option at preferences menu. (http://en.lichess.org/account/kid)
+Kid mode=Is an option at preferences menu. (http://lichess.org/account/kid)
 
-Check your Email=Appears when signup is finished and email is sent. (http://en.lichess.org/signup/check-your-email/test)
+Check your Email=Appears when signup is finished and email is sent. (http://lichess.org/signup/check-your-email/test)
 
-Security=An options at account preferences. (http://en.lichess.org/account/security)
+Security=An options at account preferences. (http://lichess.org/account/security)
 
-This is a list of devices that have logged into your account. Revoke any sessions that you do not recognize.=This is a description of security page options. (http://en.lichess.org/account/security)
+This is a list of devices that have logged into your account. Revoke any sessions that you do not recognize.=This is a description of security page options. (http://lichess.org/account/security)
 
-CURRENT=Tells that the device in security list is user's current device. (http://en.lichess.org/account/security)
+CURRENT=Tells that the device in security list is user's current device. (http://lichess.org/account/security)
 
 Next=Used for pagination.
 
-Delete=Is a button which is used to delete a message thread. (http://en.lichess.org/inbox)
+Delete=Is a button which is used to delete a message thread. (http://lichess.org/inbox)
 
 This user blocks you. You cannot answer.=Appears when you're trying to write to someone who blocks you.
 
-Play chess everywhere=Decription of mobile app. (http://en.lichess.org/mobile)
+Play chess everywhere=Description of mobile app. (http://lichess.org/mobile)
 
-As free as lichess=Decription of mobile app. (http://en.lichess.org/mobile)
+As free as lichess=Description of mobile app. (http://lichess.org/mobile)
 
-Built for the love of chess, not money=Decription of mobile app. (http://en.lichess.org/mobile)
+Built for the love of chess, not money=Description of mobile app. (http://lichess.org/mobile)
 
-Everybody gets all features for free=Decription of mobile app. (http://en.lichess.org/mobile)
+Everybody gets all features for free=Description of mobile app. (http://lichess.org/mobile)
 
-Zero advertisement=Decription of mobile app. (http://en.lichess.org/mobile)
+Zero advertisement=Description of mobile app. (http://lichess.org/mobile)
