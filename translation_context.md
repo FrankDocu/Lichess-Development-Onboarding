@@ -1168,3 +1168,13 @@ Next=Used for pagination.
 Delete=Is a button which is used to delete a message thread. (http://en.lichess.org/inbox)
 
 This user blocks you. You cannot answer.=Appears when you're trying to write to someone who blocks you.
+
+Play chess everywhere=Decription of mobile app. (http://en.lichess.org/mobile)
+
+As free as lichess=Decription of mobile app. (http://en.lichess.org/mobile)
+
+Built for the love of chess, not money=Decription of mobile app. (http://en.lichess.org/mobile)
+
+Everybody gets all features for free=Decription of mobile app. (http://en.lichess.org/mobile)
+
+Zero advertisement=Decription of mobile app. (http://en.lichess.org/mobile)
