@@ -1095,11 +1095,11 @@ You do not have an established %s rating.=When the user rating is provisional, o
 
 Race finished=Ending message of a Racing Kings game (http://lichess.org/variant/racingKings).
 
-Download annotated=Button for downloading a finished game in PGN format. Appears under the FEN & PGN tab in Analysis. (http://en.lichess.org/EE5OajWy, FEN&PGN tab)
+Download annotated=Button for downloading a game PGN with lichess annotations. (http://en.lichess.org/EE5OajWy, FEN&PGN tab)
 
-Download raw=Button for downloading finished game as a text.
+Download raw=Button for downloading a game PGN without lichess annotations. (http://en.lichess.org/EE5OajWy, FEN&PGN tab)
 
-Download imported=Button which appears in the FEN & PGN tab under at Analysis for downloading PGN of an imported game.
+Download imported=Button which appears in the FEN & PGN tab under at Analysis for downloading the original PGN of an imported game.
 
 Print-friendly PDF=Downloads a game in PDF format. It is located near the other downloads buttons in FEN & PGN tab under the finished game. (http://en.lichess.org/EE5OajWy, FEN&PGN tab)
 
