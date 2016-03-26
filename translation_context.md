@@ -1178,3 +1178,13 @@ Built for the love of chess, not money=Description of mobile app. (http://liches
 Everybody gets all features for free=Description of mobile app. (http://lichess.org/mobile)
 
 Zero advertisement=Description of mobile app. (http://lichess.org/mobile)
+
+Full featured=Description of mobile app. (http://lichess.org/mobile)
+
+Phone and tablet=Description of mobile app. (http://lichess.org/mobile)
+
+Bullet, blitz, classical=Description of mobile app. (http://lichess.org/mobile)
+
+Correspondence chess=Description of mobile app. (http://lichess.org/mobile)
+
+Online and offline play=Description of mobile app. (http://lichess.org/mobile)
