@@ -1193,7 +1193,7 @@ Game analysis=Description of mobile app. (http://lichess.org/mobile)
 
 Follow and challenge friends=Description of mobile app. (http://lichess.org/mobile)
 
-Available in 80+ languages!=Description of mobile app. (http://lichess.org/mobile)
+Available in 80 languages!=Description of mobile app. The number is goind to be between 80 and 100. (http://lichess.org/mobile)
 
 Lichess mobile=Description of mobile app. (http://lichess.org/mobile)
 
