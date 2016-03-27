@@ -1188,3 +1188,13 @@ Bullet, blitz, classical=Description of mobile app. (http://lichess.org/mobile)
 Correspondence chess=Description of mobile app. (http://lichess.org/mobile)
 
 Online and offline play=Description of mobile app. (http://lichess.org/mobile)
+
+Game analysis=Description of mobile app. (http://lichess.org/mobile)
+
+Follow and challenge friends=Description of mobile app. (http://lichess.org/mobile)
+
+Available in 80+ languages!=Description of mobile app. (http://lichess.org/mobile)
+
+Lichess mobile=Description of mobile app. (http://lichess.org/mobile)
+
+%s is built upon:=Description of mobile app. (http://lichess.org/mobile)
