@@ -468,7 +468,7 @@ More=Generic message that lets you view more. Appears on the left-hand side of h
 
 Member since=Tells how long the player has been a member of lichess. Appears on profile pages. For example, http://lichess.org/@/thibault has been a member since 2010-11-22.
 
-Last sign in=The last time a player signed into this account. Appears on profile pages. Example: http://lichess.org/@/thibault — "Last sign in about 4 hours ago" (as of the time of writing).
+Active %s=The last time a player was seen on the site; %s is a duration. Appears on profile pages. Example: http://lichess.org/@/thibault — "Active 4 minutes ago" (as of the time of writing).
 
 Challenge to a game=Clicking this lets you ask the player to play a game with you, and takes you to the game set-up view. Appears on profile pages and popups over player names as a mouseover text for the crossed swords symbol. Please translate "Challenge" as a verb if possible. Example. http://lichess.org/@/thibault.
 
