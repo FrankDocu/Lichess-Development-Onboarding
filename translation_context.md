@@ -1200,3 +1200,9 @@ Lichess mobile=Description of mobile app. (http://lichess.org/mobile)
 %s is built upon:=Description of mobile app. (http://lichess.org/mobile)
 
 correspondenceAndUnlimited=Is a button which selects both Correspondence and Unlimited games types at different parts of the site.
+
+gameAnalysis=Description of mobile app. (http://lichess.org/mobile)
+
+followAndChallengeFriends=Description of mobile app. (http://lichess.org/mobile)
+
+availableInNbLanguages=Description of mobile app. (http://lichess.org/mobile)
