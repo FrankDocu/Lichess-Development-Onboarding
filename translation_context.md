@@ -1206,3 +1206,5 @@ gameAnalysis=Description of mobile app. (http://lichess.org/mobile)
 followAndChallengeFriends=Description of mobile app. (http://lichess.org/mobile)
 
 availableInNbLanguages=Description of mobile app. (http://lichess.org/mobile)
+
+viewTheSolution=This appears when hovering the link of the game where captcha was taken fromin the captcha window.
