@@ -29,4 +29,4 @@ lol, can't you see the panic button?
 - thibault on IRC / or text/email thibault.duplessis@gmail.com / LINE (id: thibalest)
 - Unihedron on IRC / or IM via LINE (id: unihedron) or Whatsapp (id: contact) or text vincentyification@gmail.com
 - flugsio on IRC
-- lukh
+- lukhas on IRC
