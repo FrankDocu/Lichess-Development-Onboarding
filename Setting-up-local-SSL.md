@@ -102,3 +102,5 @@ server {
   }
 }
 ```
+
+Go to https://en.l.org/. The cert is self signed and thus needs to be accepted manually.
