@@ -103,4 +103,4 @@ server {
 }
 ```
 
-Go to https://en.l.org/. The cert is self signed and thus needs to be accepted manually.
+The cert is self signed and thus needs to be accepted manually. Cycle through the relevant domains to do this: https://socket.l.org/, https://l.org/, https://en.l.org/. 
