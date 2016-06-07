@@ -54,7 +54,7 @@ server {
   charset utf-8;
 
   location /assets {
-    alias   /home/happy0/projects/lila/public;
+    alias   /home/niklas/Projekte/lila/public;
   }
 
   location / {
@@ -74,17 +74,17 @@ server {
   error_page 504  /oops/timeout.html;
   error_page 429  /oops/toomanyrequests.html;
   location /oops/ {
-    root  /home/happy0/projects/lila/public/;
+    root  /home/niklas/Projekte/lila/public/;
   }
   location = /robots.txt {
-    root  /home/happy0/projects/lila/public/;
+    root  /home/niklas/Projekte/lila/public/;
   }
 
 }
 
 server {
   listen 443 ssl;
-  server_name ~^socket\.\w\w\.l\.org$;
+  server_name socket.l.org;
 
   ssl_certificate /etc/ssl/private/l.org.pem;
   ssl_certificate_key /etc/ssl/private/l.org.key;
