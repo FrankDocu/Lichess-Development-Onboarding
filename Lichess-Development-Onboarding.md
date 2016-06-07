@@ -103,7 +103,10 @@ Before beginning, please make sure you have the following tools installed, using
           charset utf-8;
 
           location /assets {
-            alias   /home/happy0/projects/lila/public;
+            alias /home/happy0/projects/lila/public;
+            location ~* \.(eot|otf|ttf|woff|json)$ {
+              add_header Access-Control-Allow-Origin "*";
+            }
           }
 
           location / {
