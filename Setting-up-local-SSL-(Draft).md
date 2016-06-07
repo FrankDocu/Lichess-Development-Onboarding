@@ -54,7 +54,10 @@ server {
   charset utf-8;
 
   location /assets {
-    alias   /home/niklas/Projekte/lila/public;
+    alias /home/niklas/Projekte/lila/public;
+    location ~* \.(eot|otf|ttf|woff|json)$ {
+      add_header Access-Control-Allow-Origin "*";
+    }
   }
 
   location / {
