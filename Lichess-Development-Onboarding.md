@@ -143,6 +143,29 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Restart (or start) nginx.
 
+#### Optional: Setup local SSL with a self signed certificate
+
+1. Generate a self signed certificate: `openssl req -x509 -sha256 -newkey rsa:2048 -keyout /etc/ssl/private/l.org.key.orig -out /etc/ssl/private/l.org.pem -days 365` (Common Name should be `l.org *.l.org *.*.l.org`, all other fields can be empty. Choose a temporary passphrase.)
+
+2. Remove the passphrase: `openssl rsa -in /etc/ssl/private/l.org.key.orig -out /etc/ssl/private/l.org.key` (Needs to be entered one last time)
+
+3. Add the following directives to each of the server blocks in the nginx config.
+
+        listen 443 ssl;
+
+        ssl_certificate /etc/ssl/private/l.org.pem;
+        ssl_certificate_key /etc/ssl/private/l.org.key;
+        ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+        ssl_session_cache shared:SSL:10m;
+        ssl_prefer_server_ciphers on;
+        ssl_ciphers AES128+EECDH:AES128+EDH:!aNULL;
+
+4. Reload nginx.
+
+5. In your browser, accept the certificate on https://l.org, https://socket.l.org, https://en.l.org/, etc.
+
+6. Optionally set `protocol = "https://"` in the `net { }` block of your `conf/application.conf` to use https as the default protocol.
+
 #### Running the Application
 
 1. Add the application override configuration file to the `conf` directory in the checked out project. This can be found at : https://gist.github.com/clarkerubber/e0da7c22500fc6831a17 . **Note:** you should remove the exec_path unless you intend to use your own installed version of stockfish. If this is the case, you should change the path to point there instead.
