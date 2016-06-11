@@ -87,15 +87,14 @@ Before beginning, please make sure you have the following tools installed, using
 #### Setting Up Your Web Server
 
 1. Add the following line to your hosts file :
-`127.0.0.1 l.org en.l.org de.l.org le.l.org fr.l.org es.l.org l1.org socket.en.l.org socket.le.l.org socket.fr.l.org ru.l.org el.l.org hu.l.org socket.hu.l.org`
+`127.0.0.1 l.org socket.l.org en.l.org de.l.org le.l.org fr.l.org es.l.org l1.org en.l.org le.l.org fr.l.org ru.l.org el.l.org hu.l.org hu.l.org`
 (Expand this for any other languages you might want to use)
 
 1. Add the following 'Server' blocks to the bottom of your http block in your nginx configuration file: 
 
         server {
-          listen 80;
-
           server_name l.org ~^\w\w\.l\.org$;
+          listen 80;
 
           error_log /var/log/nginx/lila.error.log;
           access_log /var/log/nginx/lila.access.log;
@@ -103,42 +102,35 @@ Before beginning, please make sure you have the following tools installed, using
           charset utf-8;
 
           location /assets {
+            add_header "Access-Control-Allow-Origin" "*";
             alias /home/happy0/projects/lila/public;
-            location ~* \.(eot|otf|ttf|woff|json)$ {
-              add_header Access-Control-Allow-Origin "*";
-            }
           }
 
           location / {
-            proxy_http_version 1.1;
             proxy_set_header Host $http_host;
             proxy_set_header X-Forwarded-For $remote_addr;
             proxy_read_timeout 90s;
+            proxy_http_version 1.1;
             proxy_pass http://127.0.0.1:9663/;
           }
 
-          location /ai/ {
-            proxy_set_header Host $http_host;
-            proxy_set_header X-Forwarded-For $remote_addr;
-            proxy_pass http://127.0.0.1:9663/ai/;
-          }
-
           error_page 500 501 502 503 /oops/servererror.html;
-          error_page 504  /oops/timeout.html;
-          error_page 429  /oops/toomanyrequests.html;
+          error_page 504 /oops/timeout.html;
+          error_page 429 /oops/toomanyrequests.html;
           location /oops/ {
-            root  /home/happy0/projects/lila/public/;
+            root /home/happy0/projects/lila/public/;
           }
           location = /robots.txt {
-            root  /home/happy0/projects/lila/public/;
+            root /home/happy0/projects/lila/public/;
           }
-
         }
 
         server {
+          server_name socket.l.org;
           listen 80;
-          server_name ~^socket\.\w\w\.l\.org$;
+
           charset utf-8;
+
           location / {
             proxy_http_version 1.1;
             proxy_set_header Upgrade $http_upgrade;
