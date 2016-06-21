@@ -1208,3 +1208,15 @@ followAndChallengeFriends=Description of mobile app. (https://lichess.org/mobile
 availableInNbLanguages=Description of mobile app. (https://lichess.org/mobile)
 
 viewTheSolution=This appears when hovering the link of the game where captcha was taken from in the captcha window. (https://lichess.org/forum/lichess-feedback/form)
+
+source=Parameter of advanced search. (https://lichess.org/games/search)
+
+nbOfTurns=Parameter of advanced search. (https://lichess.org/games/search)
+
+result=Parameter of advanced search. (https://lichess.org/games/search)
+
+winnerColor=Parameter of advanced search. (https://lichess.org/games/search)
+
+sort=Parameter of advanced search. (https://lichess.org/games/search)
+
+permalink=This button appears below advanced search's form and brings you to the direct link of search results. (https://lichess.org/games/search)
