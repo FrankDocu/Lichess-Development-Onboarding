@@ -87,7 +87,7 @@ Before beginning, please make sure you have the following tools installed, using
 #### Setting Up Your Web Server
 
 1. Add the following line to your hosts file :
-`127.0.0.1 l.org socket.l.org en.l.org de.l.org le.l.org fr.l.org es.l.org l1.org en.l.org le.l.org fr.l.org ru.l.org el.l.org hu.l.org hu.l.org`
+`127.0.0.1 l.org socket.l.org en.l.org de.l.org le.l.org fr.l.org es.l.org l1.org ru.l.org el.l.org hu.l.org`
 (Expand this for any other languages you might want to use)
 
 1. Add the following 'Server' blocks to the bottom of your http block in your nginx configuration file: 
