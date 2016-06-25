@@ -75,8 +75,6 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Run `./bin/svg-optimize`
 
-1. Run `./bin/install-stockfish` (edit first if you are not running 64bit)
-
 1. Run `./bin/gen/geoip` and add the following geoip section to application.conf (See section Running the Application how to retrieve the file):
 
         geoip {
