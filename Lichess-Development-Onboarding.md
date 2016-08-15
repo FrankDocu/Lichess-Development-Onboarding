@@ -193,10 +193,15 @@ Before beginning, please make sure you have the following tools installed, using
 ## Troubleshooting
 
 ### when running vagrant up: ./ui/build: /bin/sh^M: bad interpreter: No such file or directory
+
 Most probably, you are running windows and git has replaced all line breaks in all the files. Configure git correctly before checking out the project, something like this:
+
 `git config --global core.autocrlf input`
+
 Although you might want to set it for this project only if you use git for other stuff, I'll leave this as an exercise for the windows user, read at least everything about it here:
+
 `git help config`
+
 Note that there's probably none that succeded past this issue before, so there is likely a alot more issues up ahead when using windows. Feel free to update this section about your journey, good luck
 
 #### error: git clone git://github.com/../coach   Repository not found.
