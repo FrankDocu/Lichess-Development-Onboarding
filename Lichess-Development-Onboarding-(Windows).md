@@ -106,6 +106,8 @@ Don't forget to change `<path\to\>` into an actual path.
         http {
           port = 9663
         }
-2. Run `sbt`.
-3. When you can input a command, type `run 9663` and press enter.
-4. In your browser, navigate to `l.org`
+2. Make sure nginx is running.
+3. Make sure a MongoDB server instance is running.
+4. Run `sbt`.
+5. When you can input a command, type `run 9663` and press enter.
+6. In your browser, navigate to `l.org`
