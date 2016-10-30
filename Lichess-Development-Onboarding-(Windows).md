@@ -1,5 +1,7 @@
 The following instructions explain how to set up your development environment for Lichess on Windows.
 
+GNU/Linux instructions: https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding
+
 ## Prequisites
  - Git
  - [sbt](http://www.scala-sbt.org/0.13/docs/Installing-sbt-on-Windows.html)
