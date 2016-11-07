@@ -24,6 +24,10 @@ prismic doesn't deal well with concurrent edits.
 - Synchronize with the team (tell them when you start and stop editing)
 - Always reload the page before you start editing a post, so you start from the latest version
 
+### Embed a study chapter
+
+Use the study chapter URL as both the link text and URL.
+
 3. Preview the blog post
 ------------------------
 
