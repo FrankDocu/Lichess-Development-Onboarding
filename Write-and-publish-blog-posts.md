@@ -48,6 +48,7 @@ click `Planned releases` on the left side.
 - `Publish`
 
 5. Modify a published blog post
+-------------------------------
 
 Make modifications to the document, then
 
