@@ -44,7 +44,7 @@ When everything is ready and the post was reviewed by other team members,
 click `Planned releases` on the left side.
 
 - `Publish`
-- `Apply now`.
+- `Apply now`
 - `Publish`
 
 5. Modify a published blog post
