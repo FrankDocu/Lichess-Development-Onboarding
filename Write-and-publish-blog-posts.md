@@ -35,6 +35,8 @@ prismic doesn't deal well with concurrent edits.
 - `Add to release`
 - Go to https://lichess.org/blog?ref=wcc1 where you replace "wcc1" with your release name.
 
+The second time, don't make a new release, but reuse the existing one.
+
 4. Publish the blog post
 ------------------------
 
