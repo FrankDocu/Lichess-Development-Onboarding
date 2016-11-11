@@ -2,6 +2,8 @@ The following instructions explain how to set up your development environment fo
 
 GNU/Linux instructions: https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding
 
+Note that Windows is not officially supported for lila builds. You can get it to work now, but there is no guarantee that it stays like that.
+
 ## Prequisites
  - Git
  - [sbt](http://www.scala-sbt.org/0.13/docs/Installing-sbt-on-Windows.html)
