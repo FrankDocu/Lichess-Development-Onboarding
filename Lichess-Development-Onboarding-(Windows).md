@@ -31,7 +31,7 @@ Note that Windows is not officially supported for lila builds. You can get it to
 7. If you want to compile now, you'll run into an `UnmappableCharacterException` from the i18n module. It looks like it's related to something with the encoding, but I couldn't figure out the root cause of the issue. There is a workaround though: in `modules\i18n\messages\`, delete everything *except* the `messages` file (the one without file extension). This works unless you want to do something specific to the i18n module, so it's still very ugly. If you find a better way to make the compilation work - without deleting the messages files - please edit this section. Also note that if you want to make a Git commit to submit a pull request to lila, make sure that you do not accidentally commit the deletion of these messages files.
 7. Compile the application using `sbt compile`.
 8. Run `npm install -g gulp-cli` to be able to build the lichess UI.
-9. Run this `build-ui.bat` script to build the UI (based on `ui/build`): https://gist.github.com/ProgramFOX/5608e07f81daa6a4aa5b9501c684bdf4
+9. Run this `build-ui.bat` script to build the UI (based on `ui/build`): https://gist.github.com/ProgramFOX/5608e07f81daa6a4aa5b9501c684bdf4 (make sure to run it from the lila root directory)
 10. Download http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz and unpack it. Then create a `data` folder in your lila application root and put GeoLite2-City.mmdb in there.
 
 
