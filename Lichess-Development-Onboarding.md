@@ -245,7 +245,7 @@ If you don't want to edit the launcher file and if it's no problem that the opti
 ### Other unexpected issues with vagrant
 File an issue and ping arxanas.
 
-### DatabaseException['<none>']
+### `DatabaseException['<none>']`
 You are probably running mongodb 3.4. Downgrade to 3.2 and it should work.
 
 ## Updating the code
