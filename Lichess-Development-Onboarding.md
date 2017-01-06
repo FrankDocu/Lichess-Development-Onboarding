@@ -29,7 +29,8 @@ Before beginning, please make sure you have the following tools installed, using
 * `Java 8`
 
 ### Installation Steps
-#### Setting up your Lichess configuration and Compiling the Web App.
+
+#### Setting up your Lichess configuration and Compiling the Web App
 
 1. Fork the lila project from github on your computer: `git clone https://github.com/ornicar/lila.git`
 
@@ -252,4 +253,4 @@ You are probably running mongodb 3.4. Downgrade to 3.2 and it should work.
 
 If you get compile errors after pulling new code, check if any submodule has updates with `git status` and if so run `git submodule update --recursive`
 
-Run `./ui/build` to update the mithril modules. There is a special case when ui/game has been changed, likely the effect is that nothing works playing/analyse/tournaments/simuls because these modules depend on a fresh version of game. Run this to push out the update `rm -r ui/*/node_modules/game && ./ui/build`.
+Run `./ui/build` to update the mithril modules.
