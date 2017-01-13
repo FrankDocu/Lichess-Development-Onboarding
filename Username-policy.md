@@ -9,6 +9,3 @@ If a username is deemed inappropriate, the user account should be closed. Adding
 * Usernames impersonating living people (impersonating means that you can reasonably mistaken for someone you are not)
 * Usernames implying a FIDE title while not having that title verified on Lichess
 * Usernames advertising other websites
-
-**OK**
-* Usernames impersonating dead/fictional people
