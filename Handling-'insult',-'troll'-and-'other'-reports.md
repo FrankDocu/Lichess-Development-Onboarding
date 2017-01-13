@@ -7,7 +7,7 @@ When handling reports of offensive communication, the goal is to determine wheth
 These are some principles to follow when reviewing user communication (public chats, game chats, messages):
 
 **More likely to take action**
-* Multiple/repeated infractions (user displays a pattern)
+* Many infractions (user displays a pattern)
 * Highly offensive/sensitive topics, e.g. race, gender, sexuality (indicating intent to shock)
 * Direct attacks on other users
 * User was not provoked
@@ -20,3 +20,13 @@ These are some principles to follow when reviewing user communication (public ch
 * Banter with friends
 
 ## Intentionally leaving games or stalling on time
+
+Some players will let the time run out, or outright quit an ongoing chess game instead of playing it to the end or resigning. This is not strictly forbidden, but excessive and repeated should be prevented. If there is good evidence for this type of behavior, it is advisable to warn the user and make a note on that user account. If the player continues the behavior, consider closing their account.
+
+**More likely to take action**
+* Many infractions
+* Already warned
+* Presence of communication substantiating an intent to annoy
+
+**Less likely to take action**
+* Few infractions, anyone can get an important phone call, lose their internet connection, etc.
