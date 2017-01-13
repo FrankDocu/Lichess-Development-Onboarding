@@ -6,4 +6,4 @@ These are the requirements that must be fulfilled for a user to be added to the 
 * The user must have verified FIDE title on Lichess (see [Handling title verification requests](Handling-title-verification-requests))
 * The user must have experience with chess coaching in an online environment
 
-When the requirements are fulfilled and if applicant is approved, the user should be given the ROLE_COACH role and informed. The user can then edit their coach page on https://lichess.org/coach/edit
+When the requirements are fulfilled and if the applicant is approved, the user should be given the ROLE_COACH role and informed. The user can then edit their coach page on https://lichess.org/coach/edit
