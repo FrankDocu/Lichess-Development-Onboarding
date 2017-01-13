@@ -29,4 +29,4 @@ Some players will let the time run out, or outright quit an ongoing chess game i
 * Presence of communication substantiating an intent to annoy
 
 **Less likely to take action**
-* Few infractions, anyone can get an important phone call, lose their internet connection, etc.
+* Few infractions (anyone can get an important phone call, lose their internet connection, etc.)
