@@ -11,4 +11,4 @@ If a username is deemed inappropriate, the user account should be closed. Adding
 * Usernames advertising other websites
 
 **OK**
-* Usernames impersonating fictional people
+* Usernames impersonating dead/fictional people
