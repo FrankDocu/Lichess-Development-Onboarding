@@ -12,6 +12,7 @@ lila = (**li**chess in sca**la**)
 * [Handling 'insult', 'troll' and 'other' reports](Handling-'insult',-'troll'-and-'other'-reports)
 
 ### For email administrators
+* [Handling streamer requests](Handling-streamer-requests)
 * [Handling title verification requests](Handling-title-verification-requests)
 * [Handling coach requests](Handling-coach-requests)
 
