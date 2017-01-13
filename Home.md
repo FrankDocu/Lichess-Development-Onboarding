@@ -22,6 +22,7 @@ lila = (**li**chess in sca**la**)
 
 ### For system administrators
 * [Common sysadmin procedures](sysadmin-procedures)
+* [Monitoring](Monitoring)
 
 ### Miscellaneous
 * [Lichess Operating Expenses](https://docs.google.com/spreadsheets/d/1CGgu-7aNxlZkjLl9l-OlL00fch06xp0Q7eCVDDakYEE/edit)
