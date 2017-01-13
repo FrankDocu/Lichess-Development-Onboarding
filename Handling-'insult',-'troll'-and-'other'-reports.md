@@ -6,13 +6,13 @@ When handling reports of offensive communication, the goal is to determine wheth
 
 These are some principles to follow when reviewing user communication (public chats, game chats, messages):
 
-More likely to take action
+**More likely to take action**
 * Multiple/repeated infractions (user displays a pattern)
 * Highly offensive/sensitive topics, e.g. race, gender, sexuality (indicating intent to shock)
 * Direct attacks on other users
 * User was not provoked
 
-Less likely to take action
+**Less likely to take action**
 * Single infraction (user doesn't display a pattern)
 * Targets themselves, e.g. "fuck me", "i'm so stupid"
 * Apologetic behavior
