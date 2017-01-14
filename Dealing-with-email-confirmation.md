@@ -4,7 +4,7 @@ When a user sends an email about not receiving a confirmation email, here's the 
 2. If the user is found:
   1. See if they have a game played.
   2. If the user has a game, it means they could eventually log in. Discard their email, we're done.
-  3. If no game, open the user mod view, and click the tick to confirm their email. Then used the "Email confirmed" canned response. Done.
+  3. If no game, open the user mod view, and click the tick to confirm their email. Then use the "Email confirmed" canned response. Done.
 3. If no user is not found:
   1. See if they mentioned their username in their request email
   2. If they mentioned their username:
