@@ -14,8 +14,22 @@ The intention of this page is to provide canned responses that can be used by em
 ***
 
 
+# Coach
+
+**Coach -> Accepted**
+>Congratulations, you have been selected!
+>
+>Your coach profile awaits you on https://lichess.org/coach/edit
+
+**Coach: Deny FIDE**
+>Lichess receives requests to be included on our list of coaches on a daily basis. In order to maintain a certain level of quality, we require that new coaches have a FIDE title.
+>
+>Unfortunately, you don't meet this requirement. Despite this, we hope you continue to enjoy Lichess. Good luck in your games!
+
+# Miscellaneous
+
 **Cheat -> False positive apology**
->After investigating you case, we have determined that our cheat detection algorithms flagged your account due to a false positive. We are continuously improving our cheat detection so that we can aggressively prevent cheating while minimizing the false positives. We apologize for the inconvenience, and have now removed the flag on your account.
+>After investigating your case, we have determined that our cheat detection algorithms flagged your account due to a false positive. We are continuously improving our cheat detection so that we can aggressively prevent cheating while minimizing the false positives. We apologize for the inconvenience, and have now removed the flag on your account.
 
 **Email -> GMail dots**
 >For GMail accounts, dots in the email address doesn't actually make any difference. "foobar@gmail.com", "foo.bar@gmail.com" and "f.o.o.b.a.r@gmail.com" are all the same.
@@ -29,4 +43,15 @@ The intention of this page is to provide canned responses that can be used by em
 >We trust that you understand the mistakes you have made, and that you will not repeat them. Should you continue to break the rules, we reserve the right to permanently close your account and deny you future access to Lichess.
 
 **Password -> New/change**
->Visit https://lichess.org/password/reset in order to get a new password.
+>In order to change your password, please visit https://lichess.org/password/reset
+
+**User report -> Use /report**
+>In order to report players for bad behavior, please visit https://lichess.org/report
+
+**Bug report -> Thanks**
+>Thank you for the bug report. We're working on a fix for the problem.
+
+**Browser**
+>lichess.org will work better in a modern browser; and so will all the other sites as well.
+>
+>Try the latest version of chrome, chromium or firefox for the best results.
