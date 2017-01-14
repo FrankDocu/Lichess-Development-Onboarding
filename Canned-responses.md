@@ -2,8 +2,17 @@ The intention of this page is to provide canned responses that can be used by mo
 
 > **Warning: Leaving games**
 >
-> In your game history I see that you have many games where you have left the game instead of playing or resigning. This can be very annoying for your opponents. If this behavior continues to happen and we get more complains about it, we may be forced to terminate your account. -- Moderator on Lichess
+> In your game history, you have several games where you have left the game instead of playing or resigning. This can be very annoying for your opponents. If this behavior continues to happen, we may be forced to terminate your account. -- Moderator on Lichess
 
 > **Thanks for your report**
 >
 > Just wanted to let you know that we have received your report and we are handling it appropriately. -- Moderator on Lichess
+
+
+> **Warning: Sandbagging**
+> 
+> In your game history, you have several games where you clearly have intentionally lost the game. Attempts to artificially manipulate your own or someone else's rating is unacceptable. If this behavior continues to happen, we may be forced to terminate your account. -- Moderator on Lichess
+
+> **Warning: Boosting**
+> 
+> In your game history, you have several games where the opponent clearly have intentionally lost the game. Attempts to artificially manipulate your own or someone else's rating is unacceptable. If this behavior continues to happen, we may be forced to terminate your account. -- Moderator on Lichess
