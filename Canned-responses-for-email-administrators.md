@@ -43,7 +43,7 @@ The intention of this page is to provide canned responses that can be used by em
 >We trust that you understand the mistakes you have made, and that you will not repeat them. Should you continue to break the rules, we reserve the right to permanently close your account and deny you future access to Lichess.
 
 **Appeal: Request docs**
->Unfortunately, excellent performances can attract suspicion. We would like to clear out these suspicions for good. One way to do that, is for you to send us a photo/scan of your ID card, driver license, passport or any other official document that proves your identity. Such evidence would allow us the close the case. Hoping that you will be disposed to help us with this matter, we wish you a great day.
+>Unfortunately, excellent performances can attract suspicion. We would like to clear out these suspicions for good. One way to do that, is for you to send us a photo/scan of your ID card, driver license, passport or any other official document that proves your identity. Such evidence would allow us the close the case. Thank you for your understanding in this matter.
 
 
 # Title
@@ -85,14 +85,14 @@ The intention of this page is to provide canned responses that can be used by em
 
 # Miscellaneous
 
-**Request: Username**
+**Misc: Request username**
 >What's your Lichess username?
 
-**Request: IP**
+**Misc: Request IP**
 >Can you please go to http://www.whatsmyip.org/ and tell me what your IP is?
 
-**User report: Use /report**
+**Misc: Use /report**
 >In order to report players for bad behavior, please visit https://lichess.org/report
 
-**En passant**
+**Misc: En passant**
 >This is called "en passant" and is one of the rules of chess. Check https://en.lichess.org/learn#/15 to learn more about it.
