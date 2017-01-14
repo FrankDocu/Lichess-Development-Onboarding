@@ -14,10 +14,10 @@ lila = (**li**chess in sca**la**)
 * [Canned responses for moderators](Canned-responses-for-moderators)
 
 ### For email administrators
-* [Canned responses for email administrators](Canned-responses-for-email-administrators)
 * [Handling streamer requests](Handling-streamer-requests) TODO!
 * [Handling title verification requests](Handling-title-verification-requests)
 * [Handling coach requests](Handling-coach-requests)
+* [Canned responses for email administrators](Canned-responses-for-email-administrators)
 
 ### For social media administrators
 * [Social media accounts and guidelines](Social-media-accounts-and-guidelines)
