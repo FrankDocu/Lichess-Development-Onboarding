@@ -20,7 +20,7 @@ The intention of this page is to provide canned responses that can be used by em
 >We have confirmed your email address. You should now be able to login on https://lichess.org/login
 
 **Email: GMail dots**
->For GMail accounts, dots in the email address doesn't actually make any difference. "foobar@gmail.com", "foo.bar@gmail.com" and "f.o.o.b.a.r@gmail.com" are all the same.
+>For GMail accounts, dots in the email address don't actually make any difference. "foobar@gmail.com", "foo.bar@gmail.com" and "f.o.o.b.a.r@gmail.com" are all the same.
 
 
 # Password
