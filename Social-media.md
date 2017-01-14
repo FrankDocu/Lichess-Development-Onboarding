@@ -1,7 +1,7 @@
 # General social media guidelines
 
 * Always be professional and helpful
-* It's better to under-promise and over-deliver, than over-promise and under-deliver
+* Avoid making promises
 * Avoid negativity
 * Don't feed the trolls
 
