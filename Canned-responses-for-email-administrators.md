@@ -85,11 +85,11 @@ The intention of this page is to provide canned responses that can be used by em
 
 # Miscellaneous
 
-**Misc: Request username**
+**Misc: Username?**
 >What's your Lichess username?
 
-**Misc: Request IP**
->Can you please go to http://www.whatsmyip.org/ and tell me what your IP is?
+**Misc: IP?**
+>Could you please go to http://www.whatsmyip.org/ and tell us what your IP address is?
 
 **Misc: Use /report**
 >In order to report players for bad behavior, please visit https://lichess.org/report
