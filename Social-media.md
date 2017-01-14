@@ -1,7 +1,8 @@
 # General social media guidelines
 
-Asdf.
-
+* Always be professional and helpful
+* Avoid negativity
+* Don't feed the trolls
 
 # Facebook
 
