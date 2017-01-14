@@ -2,13 +2,13 @@ The intention of this page is to provide canned responses that can be used by em
 
 **Always start with:**
 >Hi,    
->
+>    
 
 **Always end with:**
 >    
 >    
-> Regards,     
-> Lichess mod team
+>Regards,     
+>Lichess mod team
 
 
 ***
