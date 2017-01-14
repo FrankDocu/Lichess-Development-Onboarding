@@ -84,13 +84,13 @@ This document was most recently implemented/updated in Gmail on 2017-01-14.
 # Streamer
 
 **Streamer: Request**
->We receive requests from streamers who want to be featured on Lichess on a daily basis. In order to maintain a high level of quality, we require that the streamer is a Twitch partner or has a FIDE title. If you meet either or both of these requirements, please send us documentation we can verify. If you haven't already done so, make sure to also send us your username on Lichess and your username on Twitch.
+>We receive requests from streamers who want to be featured on Lichess on a daily basis. In order to maintain a high level of quality, we require that the streamer has a large following (e.g. is a Twitch partner) or is a strong chess player (e.g. FIDE titled). If you meet either or both of these requirements, please send us documentation we can verify. If you haven't already done so, make sure to also send us your username on Lichess and a link to your stream.
 
 **Streamer: Accepted**
 >Congratulations, you have been selected as a featured streamer on Lichess. This means that a link to your stream will appear on Lichess whenever your stream is online and the title has "lichess.org" in it. Whenever you want to stream something other than chess, you MUST remove "lichess.org" from the stream title so that your stream is not shown on Lichess.
 
 **Streamer: Deny**
->We receive requests from streamers who want to be featured on Lichess on a daily basis. In order to maintain a high level of quality, we require that the streamer is a Twitch partner or has a FIDE title. Whenever you meet one of these requirements, you are welcome to contact us again. In the mean time, we wish you luck in both your streaming and chess endeavors.
+>We receive requests from streamers who want to be featured on Lichess on a daily basis. In order to maintain a high level of quality, we require that the streamer has a large following (e.g. is a Twitch partner) or is a strong chess player (e.g. FIDE titled). As far as we can see, you don't meet any of these requirements. Should that change, you're welcome to contact us again. In the mean time, we wish you luck in both your streaming and chess endeavors.
 
 # Bug
 
