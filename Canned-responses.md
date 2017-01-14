@@ -15,4 +15,4 @@ The intention of this page is to provide canned responses that can be used by mo
 
 > **Warning: Boosting**
 > 
-> In your game history, you have several games where the opponent clearly have intentionally lost the game. Attempts to artificially manipulate your own or someone else's rating is unacceptable. If this behavior continues to happen, we may be forced to terminate your account. -- Moderator on Lichess
+> In your game history, you have several games where the opponent clearly has intentionally lost against you. Attempts to artificially manipulate your own or someone else's rating is unacceptable. If this behavior continues to happen, we may be forced to terminate your account. -- Moderator on Lichess
