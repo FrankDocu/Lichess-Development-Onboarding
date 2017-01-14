@@ -18,7 +18,7 @@ lila = (**li**chess in sca**la**)
 * [Handling title verification requests](Handling-title-verification-requests)
 * [Handling coach requests](Handling-coach-requests)
 
-### For social media administrators?
+### For social media administrators
 * [Social media](Social-media)
 
 ### For system administrators
