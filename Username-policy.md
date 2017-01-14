@@ -2,7 +2,7 @@ This is a draft, and does not necessarily reflect current policy. Moderators wil
 
 If a username is deemed inappropriate, the user account should be closed. Adding a shadowban before closing the account, will ensure that the email address can't be used to create a new account.
 
-In general, **a username chosen with the intent of generating emotional reactions**, is bad. This includes:
+In general, **a username chosen with the intent of generating negative emotional reactions**, is bad. This includes:
 
 * Usernames with highly offensive/sensitive topics, e.g. race, gender, sexuality
 * Usernames with sexual references
