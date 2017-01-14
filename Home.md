@@ -15,7 +15,7 @@ lila = (**li**chess in sca**la**)
 
 ### For email administrators
 * [Handling email address confirmation](Handling-email-address-confirmation)
-* [Handling streamer requests](Handling-streamer-requests) TODO!
+* [Handling streamer requests](Handling-streamer-requests)
 * [Handling title verification requests](Handling-title-verification-requests)
 * [Handling coach requests](Handling-coach-requests)
 * [Canned responses for email administrators](Canned-responses-for-email-administrators)
