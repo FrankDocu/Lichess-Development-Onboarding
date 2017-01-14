@@ -12,7 +12,6 @@ lila = (**li**chess in sca**la**)
 * [Handling 'insult', 'troll' and 'other' reports](Handling-'insult',-'troll'-and-'other'-reports)
 * [Username policy](Username-policy)
 * [Canned responses for moderators](Canned-responses-for-moderators)
-* [Dealing with email confirmation](Dealing-with-email-confirmation)
 
 ### For email administrators
 * [Handling email address confirmation](Handling-email-address-confirmation)
