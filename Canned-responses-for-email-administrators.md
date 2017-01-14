@@ -16,7 +16,7 @@ The intention of this page is to provide canned responses that can be used by em
 
 # Email
 
-**Email: Confirmation**
+**Email: Confirmed**
 >We have confirmed your email address. You should now be able to login on https://lichess.org/login
 
 **Email: GMail dots**
@@ -25,70 +25,71 @@ The intention of this page is to provide canned responses that can be used by em
 
 # Password
 
-**Password: New/change**
->In order to change your password, please visit https://lichess.org/password/reset
+**Password: Reset**
+>In order to reset your password, please visit https://lichess.org/password/reset
 
 **Password -> Email set**
->I set your email on the account. Please try again to reset the password on https://lichess.org/password/reset
+>We have set the email address on your account. In order to reset your password, please visit https://lichess.org/password/reset
 
 
-# Appeals
+# Appeal
 
 **Appeal: False positive apology**
 >After investigating your case, we have determined that our cheat detection algorithms flagged your account due to a false positive. We are continuously improving our cheat detection so that we can aggressively prevent cheating while minimizing the false positives. We apologize for the inconvenience, and have now removed the flag on your account.
 
 **Appeal: New account**
->You have broken the rules, and we will not give you a second chance on your current account. However, we will let you make a second (and final) account, where you can play rated games. You will need to register the new account under a different email address.
+>You have broken the rules, and we will not give you a second chance on your current account. However, we will let you make a second (and final) account, where you can play rated games. You will need to register the new account with a different email address.
 >
 >We trust that you understand the mistakes you have made, and that you will not repeat them. Should you continue to break the rules, we reserve the right to permanently close your account and deny you future access to Lichess.
 
 **Appeal: Request docs**
->Great performances always attract suspicions; several players are doubting your fair play, and reporting you to the moderators. We would like to clear out these suspicions for good.
->
->A straightforward solution would be for you to send us a picture of your ID card, or driver license, or any document that proves your identity. Such evidence would allow us the close the case. Hoping that you will be disposed to help us with this matter, we wish you a great day.
+>Unfortunately, excellent performances can attract suspicion. We would like to clear out these suspicions for good. One way to do that, is for you to send us a photo/scan of your ID card, driver license, passport or any other official document that proves your identity. Such evidence would allow us the close the case. Hoping that you will be disposed to help us with this matter, we wish you a great day.
 
 
 # Title
 
 **Title: Request docs**
->We will need a proof of your identity. It can be a picture of a document, like an ID card or a driving license.
+>In order to verify your FIDE title, please send us a photo or scan of your ID card, driver license, passport or any other official document that proves your identity.
 >
->Alternatively you can message https://www.chess.com/member/ornicar if you have a titled account on chess.com.
+>Alternatively, if you happen to already have a verified titled account on chess.com, you can send a message to https://www.chess.com/member/ornicar
+>
+>We will process your title verification request as soon as one of these two requirements are fulfilled.
 
 **Title: Confirmed**
->Thank you very much! We confirmed your title on lichess.org.
+>We have now confirmed your FIDE title on Lichess.
 
 
 # Coach
 
-**Coach: Accepted**
->Congratulations, you have been selected!
+**Coach: Request**
+>Lichess receives requests to be included on our list of coaches on a daily basis. In order to maintain a high level of quality, we require that new coaches have a FIDE title. If you meet this requirement, please send us a photo or scan of your ID card, driver license, passport or any other official document that proves your identity.
 >
->Your coach profile awaits you on https://lichess.org/coach/edit
+> Additionally, please also send us a paragraph or two describing why Lichess should list you on Make sure to describe your experience teaching chess online, as this is also a requirement. Thank you for your understanding in this matter.
+
+**Coach: Accepted**
+>Congratulations, you have been selected to appear on the Lichess list of coaches. Your coach profile awaits you on https://lichess.org/coach/edit
 
 **Coach: Deny FIDE**
->Lichess receives requests to be included on our list of coaches on a daily basis. In order to maintain a certain level of quality, we require that new coaches have a FIDE title.
+>Lichess receives requests to be included on our list of coaches on a daily basis. In order to maintain a high level of quality, we require that new coaches have a FIDE title. 
 >
 >Unfortunately, you don't meet this requirement. Despite this, we hope you continue to enjoy Lichess. Good luck in your games!
 
-# Bugs
+# Bug
 
 **Bug: Thanks**
 >Thank you for the bug report. We're working on a fix for the problem.
 
 **Bug: Modern bowser**
->lichess.org will work better in a modern browser; and so will all the other sites as well.
->
->Try the latest version of chrome, chromium or firefox for the best results.
+>As most websites, Lichess works best in a modern browser. Please try the latest version of Chrome or Firefox.
 
 
 # Miscellaneous
 
-**Request -> Username**
+**Request: Username**
 >What's your Lichess username?
 
-**Request -> IP**
->You might be logging in from a banned IP. Can you please go to http://www.whatsmyip.org/ and tell me what your IP is?
+**Request: IP**
+>Can you please go to http://www.whatsmyip.org/ and tell me what your IP is?
 
 **User report: Use /report**
 >In order to report players for bad behavior, please visit https://lichess.org/report
