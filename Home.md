@@ -11,9 +11,10 @@ lila = (**li**chess in sca**la**)
 * [Handling 'cheat', 'print' and 'boost' reports](Handling-'cheat',-'print'-and-'boost'-reports)
 * [Handling 'insult', 'troll' and 'other' reports](Handling-'insult',-'troll'-and-'other'-reports)
 * [Username policy](Username-policy)
-* [Canned respones](Canned-responses)
+* [Canned responses for moderators](Canned-responses-for-moderators)
 
 ### For email administrators
+* [Canned responses for email administrators](Canned-responses-for-email-administrators)
 * [Handling streamer requests](Handling-streamer-requests) TODO!
 * [Handling title verification requests](Handling-title-verification-requests)
 * [Handling coach requests](Handling-coach-requests)
