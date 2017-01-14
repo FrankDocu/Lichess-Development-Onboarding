@@ -19,7 +19,7 @@ lila = (**li**chess in sca**la**)
 * [Handling coach requests](Handling-coach-requests)
 
 ### For social media administrators?
-* 
+* [Social media](Social-media)
 
 ### For system administrators
 * [Common sysadmin procedures](sysadmin-procedures)
