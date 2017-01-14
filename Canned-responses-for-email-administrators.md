@@ -7,8 +7,7 @@ The intention of this page is to provide canned responses that can be used by em
 **Always end with:**
 >
 >
-> Regards, 
->
+> Regards,     
 > Lichess mod team
 
 
