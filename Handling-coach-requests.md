@@ -7,3 +7,8 @@ These are the requirements that must be fulfilled for a user to be added to the 
 * The user must have experience with chess coaching in an online environment
 
 When the requirements are fulfilled and if the applicant is approved, the user should be given the ROLE_COACH role and informed. The user can then edit their coach page on https://lichess.org/coach/edit
+
+**Relevant Gmail canned responses**
+* Coach: Request
+* Coach: Accepted
+* Coach: Deny FIDE
