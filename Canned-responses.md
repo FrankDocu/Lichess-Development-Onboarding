@@ -1,13 +1,12 @@
 The intention of this page is to provide canned responses that can be used by moderators to communicate efficiently with users on Lichess in routine use cases.
 
-> **Warning: Leaving games**
->
-> In your game history, you have several games where you have left the game instead of playing or resigning. This can be very annoying for your opponents. If this behavior continues to happen, we may be forced to terminate your account. -- Moderator on Lichess
-
 > **Thanks for your report**
 >
 > Just wanted to let you know that we have received your report and we are handling it appropriately. -- Moderator on Lichess
 
+> **Warning: Leaving games**
+>
+> In your game history, you have several games where you have left the game instead of playing or resigning. This can be very annoying for your opponents. If this behavior continues to happen, we may be forced to terminate your account. -- Moderator on Lichess
 
 > **Warning: Sandbagging**
 > 
