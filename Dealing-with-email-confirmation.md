@@ -10,7 +10,7 @@ When a user sends an email about not receiving a confirmation email, here's the 
   2. If they mentioned their username:
     1. Search for it on https://lichess.org/player
     2. If the user is found, open the mod view, set their email (from their request email) and click the tick. Done.
-    2. If they did not mention their username:
-      1. Tell them they didn't register, either with that email or that username. Done.
+  3. If they did not mention their username:
+    1. Tell them they didn't register, either with that email or that username. Done.
   3. If they didn't mention their username:
     1. Ask for it with the canned response "What's your username". Done.
