@@ -28,7 +28,7 @@ The intention of this page is to provide canned responses that can be used by em
 **Password: Reset**
 >In order to reset your password, please visit https://lichess.org/password/reset
 
-**Password -> Email set**
+**Password: Email set**
 >We have set the email address on your account. In order to reset your password, please visit https://lichess.org/password/reset
 
 
@@ -79,7 +79,7 @@ The intention of this page is to provide canned responses that can be used by em
 **Bug: Thanks**
 >Thank you for the bug report. We're working on a fix for the problem.
 
-**Bug: Modern bowser**
+**Bug: Modern browser**
 >As most websites, Lichess works best in a modern browser. Please try the latest version of Chrome or Firefox.
 
 
