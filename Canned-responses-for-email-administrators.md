@@ -1,5 +1,10 @@
 The intention of this page is to provide canned responses that can be used by email administrators to communicate efficiently with users of Lichess in routine support cases.
 
+# General guidelines
+
+* Make links actually links that can be clicked (not just text)
+* Use language neutral links (lichess.org instead of en.lichess.org)
+
 **Always start with:**
 >Hi,    
 >    
