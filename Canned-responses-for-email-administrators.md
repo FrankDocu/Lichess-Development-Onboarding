@@ -53,7 +53,7 @@ This document was most recently implemented/updated in Gmail on 2017-01-14.
 >Unfortunately, excellent performances can attract suspicion. We would like to clear out these suspicions for good. One way to do that, is for you to send us a photo/scan of your ID card, driver license, passport or any other official document that proves your identity. Such evidence would allow us the close the case. Thank you for your understanding in this matter.
 
 **Appeal: Deny**
->We are continuously improving our cheat detection so that we can aggressively prevent cheating while minimizing the false positives. After investigating your case, we have determined that our cheat detection algorithms flagged your account correctly. Your account will stay flagged.
+>We are continuously improving our cheat detection so that we can aggressively prevent cheating while minimizing the false positives. After investigating your case, we have determined that our cheat detection algorithms flagged your account with sufficient evidence for the mark to remain.
 
 
 # Title
