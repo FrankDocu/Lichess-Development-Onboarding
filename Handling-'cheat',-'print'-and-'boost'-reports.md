@@ -2,7 +2,7 @@
 
 The purpose of handling these reports is to prevent players from using external assistance (typically chess engines) in rated games on Lichess.
 
-THIS SECTION SHOULD PERHAPS BE RESTRICTED FROM THE PUBLIC?
+https://docs.google.com/document/d/1a6b4FEC2M5c291Q2DfZr2JJy959hjULScZYwx-iUMmc/edit
 
 ## Sandbagging and boosting
 
