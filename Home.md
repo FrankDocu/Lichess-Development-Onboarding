@@ -25,6 +25,9 @@ lila = (**li**chess in sca**la**)
 ### For social media administrators
 * [Social media accounts and guidelines](Social-media-accounts-and-guidelines)
 
+### For writers
+* [Write and publish Lichess blog posts](Writing-and-publishing-Lichess-blog-posts)
+
 ### For system administrators
 * [Common sysadmin procedures](sysadmin-procedures)
 * [Monitoring](Monitoring)
