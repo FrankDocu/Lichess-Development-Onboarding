@@ -1,1 +1,1 @@
-TODO
+https://docs.google.com/document/d/1T7NIclYqbJmjHsswtjAI2REJ41Q9C1IOD-NEqBGlU0w/edit
