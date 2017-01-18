@@ -23,26 +23,31 @@ Before beginning, please make sure you have the following tools installed, using
 * `nginx`
 
 #### Compilers
-* `gcc` 
-* `make` (Required to build stockfish)
-* `closure` (JavaScript compiler)
+* `closure` (if you wish to compile minified JavaScripts for production)
 * `Java 8`
 
 ### Installation Steps
 
 #### Setting up your Lichess configuration and Compiling the Web App
 
-1. Fork the lila project from github on your computer: `git clone https://github.com/ornicar/lila.git`
+1. Fork the lila project from github on your computer (including submodules): `git clone --recursive https://github.com/ornicar/lila.git`
 
 1. Using your favourite terminal emulator, change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts. `cd lila`
 
-1. Set up the submodules by executing the following command: `git submodule update --init --recursive`
+1. Create `conf/application.conf` with the following content:
 
+        include "base"                                                                  
+
+        net {                                                                           
+          domain = "l.org"                                                              
+          asset.domain = "en.l.org"                                                     
+        }
+ 
 1. Run `./bin/build-deps.sh`
 
 1. Compile the scala application with `sbt compile`
 
-1. Run `sudo npm install gulp-cli -g` (or `npm install gulp-cli` and then add the install path of gulp to your PATH variable.)
+1. Run `sudo npm install gulp-cli -g` (or `npm install gulp-cli` and then add the install path of gulp to your PATH variable).
 
 1. Run `./ui/build`
 
@@ -51,17 +56,17 @@ Before beginning, please make sure you have the following tools installed, using
 1. Run `./bin/gen/geoip` and add the following geoip section to application.conf (See section Running the Application how to retrieve the file):
 
         geoip {
-            file = "data/GeoLite2-City.mmdb"
+          file = "data/GeoLite2-City.mmdb"
         }
    
 
 #### Setting Up Your Web Server
 
-1. Add the following line to your hosts file :
+1. Add the following line to your `/etc/hosts` file:
 `127.0.0.1 l.org socket.l.org en.l.org de.l.org le.l.org fr.l.org es.l.org l1.org ru.l.org el.l.org hu.l.org`
 (Expand this for any other languages you might want to use)
 
-1. Add the following 'Server' blocks to the bottom of your http block in your nginx configuration file: 
+1. Add the following *server* blocks to the bottom of your http block in your nginx configuration file: 
 
         server {
           server_name l.org ~^\w\w\.l\.org$;
@@ -113,9 +118,17 @@ Before beginning, please make sure you have the following tools installed, using
           }
         }
 
-**Note**: Change the `/home/happy0/projects/lila` locations to the path of your checked out repository accordingly.
+   **Note**: Change the `/home/happy0/projects/lila` locations to the path of your checked out repository accordingly.
 
 1. Restart (or start) nginx.
+
+#### Optional: Setup fishnet for server side analysis and play
+
+[fishnet](https://github.com/niklasf/fishnet) is a Python script that manages Stockfish instances and let's them communicate with the server.
+
+1. Install it: `pip install fishnet`
+
+2. Run it and point it to your local installation: `python -m fishnet --endpoint http://en.l.org/fishnet` (will do some interactive configuration when started for the first time)
 
 #### Optional: Setup local SSL with a self signed certificate
 
@@ -141,8 +154,6 @@ Before beginning, please make sure you have the following tools installed, using
 6. Optionally set `protocol = "https://"` in the `net { }` block of your `conf/application.conf` to use https as the default protocol.
 
 #### Running the Application
-
-1. Add the application override configuration file to the `conf` directory in the checked out project. This can be found at : https://gist.github.com/clarkerubber/e0da7c22500fc6831a17 . **Note:** you should remove the exec_path unless you intend to use your own installed version of stockfish. If this is the case, you should change the path to point there instead.
 
 1. Make sure that mongodb and nginx are both running.
 
