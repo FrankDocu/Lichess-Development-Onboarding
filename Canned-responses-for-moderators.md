@@ -14,8 +14,12 @@ The intention of this page is to provide canned responses that can be used by mo
 
 > **Warning: Boosting**
 > 
-> In your game history, you have several games where the opponent clearly has intentionally lost against you. Attempts to artificially manipulate your own or someone else's rating is unacceptable. If this behavior continues to happen, we may be forced to terminate your account. -- Moderator on Lichess
+> In your game history, you have several games where the opponent clearly has intentionally lost against you. Attempts to artificially manipulate your own or someone else's rating is unacceptable. If this behavior continues to happen, we reserve the right to terminate your account. -- Moderator on Lichess
 
 > **Warning: Accusations**
 >
-> I would like to remind you that accusing other players of using computer assistance or otherwise cheating is not acceptable. If you are confident that a player is cheating, use the report button on their profile page to report them to the moderators. Don't report someone just because you lose a game though. -- Moderator on Lichess
+> I would like to remind you that accusing other players of using computer assistance or otherwise cheating is not acceptable on Lichess. If you are confident that a player is cheating, use the report button on their profile page to report them to the moderators. Don't report someone just because you lose a game though. -- Moderator on Lichess
+
+> **Warning: Excessive draw offers**
+>
+> I would like to remind you that offering an excessive amount of draws in order to distract or annoy an opponent is not acceptable on Lichess. If this behavior continues to happen, we reserve the right to terminate your account. -- Moderator on Lichess
