@@ -74,7 +74,7 @@ This document was most recently implemented/updated in Gmail on 2017-01-14.
 **Coach: Request**
 >Lichess receives requests to be included on our list of coaches on a daily basis. In order to maintain a high level of quality, we require that new coaches have a FIDE title. If you meet this requirement, please send us a photo or scan of your ID card, driver license, passport or any other official document that proves your identity.
 >
-> Additionally, please also send us a paragraph or two describing why Lichess should list you on Make sure to describe your experience teaching chess online, as this is also a requirement. Thank you for your understanding in this matter.
+> Additionally, please also send us a paragraph or two describing why Lichess should recommend you as a coach. Make sure to describe your experience teaching chess online, as this is also a requirement. Thank you for your understanding in this matter.
 
 **Coach: Accepted**
 >Congratulations, you have been selected to appear on the Lichess list of coaches. Your coach profile awaits you on https://lichess.org/coach/edit
