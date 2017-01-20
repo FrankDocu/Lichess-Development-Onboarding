@@ -34,4 +34,4 @@ The intention of this page is to provide canned responses that can be used by mo
 
 > **Use /report**
 >
-> In order to report players for bad behavior, please visit https://lichess.org/report
+> In order to report players for bad behavior, please visit https://lichess.org/report -- Moderator on Lichess
