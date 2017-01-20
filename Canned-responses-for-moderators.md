@@ -23,3 +23,11 @@ The intention of this page is to provide canned responses that can be used by mo
 > **Warning: Excessive draw offers**
 >
 > I would like to remind you that offering an excessive amount of draws in order to distract or annoy an opponent is not acceptable on Lichess. If this behavior continues to happen, we reserve the right to terminate your account. -- Moderator on Lichess
+
+> **Warning: Excessive cheat reports**
+> 
+> I have noticed that you have reported a significant number of players for cheating. However, none or very few of these cheat reports have turned out to be accurate. Please remember that these reports have to be checked manually by Lichess moderators. Before reporting anyone for cheating, please make sure that you have requested computer analysis of the relevant game(s) and do your absolute best to avoid false reports.
+
+> **En passant**
+>
+> This is called "en passant" and is one of the rules of chess. Check https://en.lichess.org/learn#/15 to learn more about it.
