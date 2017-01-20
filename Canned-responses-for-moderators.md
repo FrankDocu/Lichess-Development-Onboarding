@@ -31,3 +31,7 @@ The intention of this page is to provide canned responses that can be used by mo
 > **En passant**
 >
 > This is called "en passant" and is one of the rules of chess. Check https://en.lichess.org/learn#/15 to learn more about it. -- Moderator on Lichess
+
+> **Use /report**
+>
+> In order to report players for bad behavior, please visit https://lichess.org/report
