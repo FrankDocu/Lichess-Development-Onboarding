@@ -42,3 +42,4 @@ lila = (**li**chess in sca**la**)
 * Document how to handle cheat reports on https://github.com/ornicar/lila/wiki/Handling-'cheat',-'print'-and-'boost'-reports
 * Document how to handle appeals on https://github.com/ornicar/lila/wiki/Handling-appeals
 * Document policy on external assistance
+* Document policy on multi-accounting
