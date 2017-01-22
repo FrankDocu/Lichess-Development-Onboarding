@@ -16,15 +16,14 @@ Before beginning, please make sure you have the following tools installed, using
 * `sbt` ([instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
 * `npm` (from nodejs, version `2.1.18` should be OK)
 * `zsh`
-* `svgo` (https://www.npmjs.com/package/svgo)
 
 #### Infrastructure
 * `mongodb`
 * `nginx`
 
 #### Compilers
-* `closure` (if you wish to compile minified JavaScripts for production)
 * `Java 8`
+* `closure` (if you wish to compile minified JavaScripts for production)
 
 ### Installation Steps
 
@@ -51,7 +50,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Run `./ui/build`
 
-1. Run `./bin/svg-optimize`
+1. Run `npm install && ./bin/svg-optimize`
 
 1. Run `./bin/gen/geoip` and add the following geoip section to application.conf (See section Running the Application how to retrieve the file):
 
