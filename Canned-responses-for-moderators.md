@@ -32,6 +32,10 @@ The intention of this page is to provide canned responses that can be used by mo
 >
 > In your game history, you have many games where you aborted the game before play started. Repeatadly aborting games can be very annoying for your opponents. If this behavior continues to happen, we may be forced to terminate your account. -- Moderator on Lichess
 
+>Warning: Offensive/abusive language
+>
+> I would like to remind you that it's not okay to use offensive or abusive language on Lichess. Lichess is supposed to be a fun and friendly environment for everyone. You have stepped over the line several times. If the behavior continues, we reserve the right to take action against your user account. -- Moderator on Lichess
+
 > **En passant**
 >
 > This is called "en passant" and is one of the rules of chess. Check https://en.lichess.org/learn#/15 to learn more about it. -- Moderator on Lichess
