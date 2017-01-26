@@ -50,7 +50,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Run `./ui/build`
 
-1. Run `npm install && ./bin/svg-optimize`
+1. Run `npm install && ./bin/svg-optimize --no-svgcleaner` (or also install [svgcleaner](https://github.com/RazrFalcon/svgcleaner))
 
 1. Run `./bin/gen/geoip` and add the following geoip section to application.conf (See section Running the Application how to retrieve the file):
 
