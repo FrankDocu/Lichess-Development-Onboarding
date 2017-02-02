@@ -8,5 +8,6 @@ In general, **a username chosen with the intent of generating negative emotional
 * Usernames that are disparaging towards others
 * Usernames impersonating living people (impersonating means that you can reasonably mistaken for someone you are not)
 * Usernames advertising websites that are unrelated to chess. Chess websites are always ok to mention.
+* Usernames should not imply you have a title, when you don't ([code here](https://github.com/ornicar/lila/blob/master/modules/common/src/main/LameName.scala))
 
 Moderators will always be able to use their judgement to override these rules.
