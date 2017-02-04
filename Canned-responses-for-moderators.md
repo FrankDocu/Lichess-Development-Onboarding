@@ -47,3 +47,6 @@ The intention of this page is to provide canned responses that can be used by mo
 > **Warning: Username that implies you are a titled player**
 >
 > The username policy (https://github.com/ornicar/lila/wiki/Username-policy) for Lichess states that you can't have a username that implies that you have a FIDE title or the Lichess Master title. Actual titled players can send an email to support@lichess.org with evidence that documents their identity, e.g. a scanned ID card, driving license, passport or similar. We will then verify your identity and title, and your title will be shown in front of your username and on your Lichess user profile. Since your username implies that you have a title, we reserve the right to close your account within two weeks, if you have not verified your title within that time.
+> **Account marked for computer assistance**
+>
+> Our cheating detection algorithms have marked your account for using computer assistance. If you want to contest the mark please send an email to Lichess Contact <contact@lichess.org>. If you are a titled player we will need a proof of your identity. It can be a picture of a document, like an ID card or a driving license.
