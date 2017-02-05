@@ -17,3 +17,16 @@ Asdf.
 * [Lichess on Twitter](https://twitter.com/lichessorg)
 
 Asdf.
+
+# YouTube
+
+* [Lichess on YouTube](https://lichess.org/yt)
+* [YouTube vanity URL requirements](https://support.google.com/youtube/answer/2657968?hl=en)
+
+Guidelines to come.
+
+# Twitch
+
+* [Lichess on Twitch](https://twitch.tv/lichessdotorg)
+
+Asdf.
