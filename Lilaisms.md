@@ -20,6 +20,10 @@ lila makes little use of object orientation and particularly inheritance, but:
 
 ## Weird shit you will only see in lila
 
+If the function you're looking for is not here,
+try the [scala doc](http://www.scala-lang.org/files/archive/api/2.12.1/)
+or the [scalaz doc](https://oss.sonatype.org/service/local/repositories/releases/archive/org/scalaz/scalaz_2.11/7.1.11/scalaz_2.11-7.1.11-javadoc.jar/!/index.html).
+
 ## Disclaimer
 
 > Most of these lilaisms are driven by a compulsive tendency to play [code golf](https://en.wikipedia.org/wiki/Code_golf).
@@ -36,12 +40,12 @@ lila makes little use of object orientation and particularly inheritance, but:
 It prints the value and returns it.
 
 ```scala
-"foo".pp                   // prints "foo" to stdout
+"foo".pp                   // prints "foo" to stdout, and returns "foo"
 
 player.pp.make(move.pp).pp // behaves like player.make(move), but prints
-                           // the string representations of player, move, and the function result
+                           // player, move, and the result of player.make(move)
 
-"foo".pp("context")        // prints "context: foo" to stdout
+"foo".pp("context")        // prints "context: foo" to stdout, and returns "foo"
 ```
 
 #### `thenPp`
@@ -70,6 +74,14 @@ def fufail[A](a: String): Fu[A] = fufail(common.LilaException(a))
 val funit = fuccess(())
 ```
 
+### Int functions
+
+```scala
+// I think it reads better
+a atMost b                  // a min b
+a atLeast b                 // a max b
+```
+
 ### Option functions
 
 Some of these (like `|`) actually come from [scalaz](https://github.com/scalaz/scalaz)
@@ -77,7 +89,8 @@ Some of these (like `|`) actually come from [scalaz](https://github.com/scalaz/s
 > Reminder: In scala, `a.b(c)` == `a b c`. For instance, `1.+(2)` == `1 + 2`.
 
 ```scala
-val maybeInt: Option[Int]   // so far this is just scala
+42.some                     // Option(42) // or Some(42): Option[Int]
+none[Int]                   // None: Option[Int]
 
 maybeInt | 0                // maybeInt.getOrElse(0) // but with extra type safety (and code golfing)
 maybeInt ifTrue boolean     // maybeInt.filter(_ => boolean)
@@ -86,4 +99,49 @@ maybeInt has value          // maybeInt contains value // but with extra type sa
 
 ~maybeInt                   // maybeInt | 0 // where 0 is provided by the Zero[Int] typeclass instance
 maybeInt ?? f               // maybeInt.fold(0)(f)
+                            // e.g. 42.some ?? (_ + 1) == 43
+                            //      none[Int] ?? (_ + 1) == 0
+```
+
+### Boolean functions
+
+```scala
+boolean option 42           // if (boolean) Some(42) else None // or Some(42) ifTrue boolean
+
+boolean ?? 42               // if (boolean) 42 else 0
+boolean ?? "foo"            // if (boolean) "foo" else ""
+boolean ?? List(1, 2)       // if (boolean) List(1, 2) else List.empty[Int]
+boolean ?? 42.some          // if (boolean) 42.some else none
+boolean ?? fuccess(42)      // if (boolean) fuccess(42) else fuccess(0)
+boolean ?? asyncComputation // if (boolean) asyncComputation else funit
+
+// etc, with every type having a Zero instance.
+```
+
+### Future functions
+
+```scala
+val fu: Future[Int]
+val f: Int => Boolean
+
+fu dmap f                   // fu map f // but runs on the same thread (perf tweak)
+fu dforeach f               // fu foreach f // but runs on the same thread (perf tweak)
+
+fu.void                     // fu.map(_ => ()) // discards the result, returns Funit
+fu inject "foo"             // fu.map(_ => "foo") // replaces the result
+```
+
+#### Sequencing futures and effects
+
+```scala
+fu >> otherFu               // fu.flatMap(_ => otherFu) // sequence without using first result
+fu >>- effect               // fu andThen { case _ => effect } // run a side effect after completion
+
+fu1 >> fu2 >>- effect1 >>- effect2 // sequences f1 and f2, then runs effect1 then effect2
+```
+
+```scala
+val futures: List[Future[Int]]
+
+futures.sequenceFu: Future[List[Int]] // executes all futures and return one with a list of values
 ```
