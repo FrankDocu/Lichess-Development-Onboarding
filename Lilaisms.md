@@ -98,9 +98,15 @@ maybeInt ifFalse boolean    // maybeInt.filter(_ => !boolean)
 maybeInt has value          // maybeInt contains value // but with extra type safety
 
 ~maybeInt                   // maybeInt | 0 // where 0 is provided by the Zero[Int] typeclass instance
+~maybeString                // maybeString | "" // thanks to Zero[String] typeclass instance
+~maybeList                  // maybeList | Nil // thanks to Zero[List[_]] typeclass instance
+
 maybeInt ?? f               // maybeInt.fold(0)(f)
                             // e.g. 42.some ?? (_ + 1) == 43
                             //      none[Int] ?? (_ + 1) == 0
+maybeString ?? f            // maybeString.fold("")(f)
+
+// etc, with every type having a Zero instance.
 ```
 
 ### Boolean functions
