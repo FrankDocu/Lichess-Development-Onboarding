@@ -76,6 +76,8 @@ val funit = fuccess(())
 
 ### Int functions
 
+> Reminder: In scala, `a.b(c)` == `a b c`. For instance, `1.+(2)` == `1 + 2`.
+
 ```scala
 // I think it reads better
 a atMost b                  // a min b
@@ -85,8 +87,6 @@ a atLeast b                 // a max b
 ### Option functions
 
 Some of these (like `|`) actually come from [scalaz](https://github.com/scalaz/scalaz)
-
-> Reminder: In scala, `a.b(c)` == `a b c`. For instance, `1.+(2)` == `1 + 2`.
 
 ```scala
 42.some                     // Option(42) // or Some(42): Option[Int]
