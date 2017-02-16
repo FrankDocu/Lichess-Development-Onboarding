@@ -92,7 +92,7 @@ Some of these (like `|`) actually come from [scalaz](https://github.com/scalaz/s
 42.some                     // Option(42) // or Some(42): Option[Int]
 none[Int]                   // None: Option[Int]
 
-maybeInt | 0                // maybeInt.getOrElse(0) // but with extra type safety (and code golfing)
+maybeInt | 0                // maybeInt.getOrElse(0) // but with extra type safety
 maybeInt ifTrue boolean     // maybeInt.filter(_ => boolean)
 maybeInt ifFalse boolean    // maybeInt.filter(_ => !boolean)
 maybeInt has value          // maybeInt contains value // but with extra type safety
@@ -112,7 +112,8 @@ maybeString ?? f            // maybeString.fold("")(f)
 ### Boolean functions
 
 ```scala
-boolean option 42           // if (boolean) Some(42) else None // or Some(42) ifTrue boolean
+boolean option 42           // if (boolean) 42.some else None
+                            // or 42.some ifTrue boolean
 
 boolean ?? 42               // if (boolean) 42 else 0
 boolean ?? "foo"            // if (boolean) "foo" else ""
