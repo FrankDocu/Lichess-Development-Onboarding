@@ -418,7 +418,7 @@ Paste the PGN text here=This is the placeholder text (greyed-out text that disap
 
 From position="From position" means the game was started from a board set up in a non-standard way. Typically used to continue games. Appears on the pages of games started from position, as well as games lists on player profiles. Example: https://lichess.org/JHFiNdy2/black
 
-Position unplayable="Position unplayable" means the board was set up in a non-standard way such that the game cannot be played. Appears when setting up a game "from position" incorrectly. Unplayable positions include one where either side has more than one king, one where either side has no kings, one with a pawn on the promotion rank, and one that is guaranteed to be a draw. [Other positions](https://github.com/ornicar/lila/issues/2714) are unplayable against the machine. Example: https://en.lichess.org/editor/3bk3/8/8/8/8/8/8/4K3_w_-_-
+Position unplayable="Position unplayable" means the board was set up in a non-standard way such that the game cannot be played. Appears when setting up a game "from position" incorrectly. Example: https://en.lichess.org/editor/3bk3/8/8/8/8/8/8/4K3_w_-_- - Click "Continue from here"
 
 Continue from here=Clicking this lets you continue the game from that position against the AI, or a friend. Appears as a button with two crossed swords on it, just below the board on game pages. Example: https://lichess.org/vyvcbk8s — click on any move, then click the "Continue from here" button.
 
