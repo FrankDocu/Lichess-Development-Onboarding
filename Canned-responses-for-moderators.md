@@ -30,7 +30,7 @@ The intention of this page is to provide canned responses that can be used by mo
 
 > **Warning: Aborting games**
 >
-> In your game history, you have many games where you aborted the game before play started. Repeatadly aborting games can be very annoying for your opponents. If this behavior continues to happen, we may be forced to terminate your account. -- Moderator on Lichess
+> In your game history, you have many games where you aborted the game before play started. Repeatedly aborting games can be very annoying for your opponents. If this behavior continues to happen, we may be forced to terminate your account. -- Moderator on Lichess
 
 > **Warning: Offensive/abusive language**
 >
