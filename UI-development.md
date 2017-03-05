@@ -1,4 +1,4 @@
-Most UI code is in ui/. Say we work on `ui/round`, the playing UI.
+The mithril or snabbdom UI modules are in `ui/`. Say we work on `ui/round`, the playing UI.
 
 Enable auto-recompile:
 
