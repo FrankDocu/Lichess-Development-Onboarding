@@ -6,6 +6,7 @@ lila = (**li**chess in sca**la**)
 * [Setting up a lila development environment on Windows](Lichess-Development-Onboarding-(Windows))
 * [translation_context](translation_context)
 * [Lilaisms - how lila uses scala](Lilaisms)
+* [UI development](UI-development)
 
 ### For moderators
 * [Lichess Moderator Handbook](https://docs.google.com/document/d/1e6Vi_WPcx38uymvp0WDC921wrmtx8bRaCcQuvH8FcLM/edit)
