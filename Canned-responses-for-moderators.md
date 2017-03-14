@@ -60,6 +60,6 @@ The intention of this page is to provide canned responses that can be used by mo
 > strong chess player (e.g. FIDE titled). As far as we can see, you don't meet any of these requirements. Should 
 > that change, you're welcome to contact us again. In the mean time, we wish you luck in both your streaming and 
 > chess endeavors.
-> -- 
+>
 > Regards,
 > Lichess mod team
