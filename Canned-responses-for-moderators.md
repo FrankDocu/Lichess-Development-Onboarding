@@ -51,3 +51,14 @@ The intention of this page is to provide canned responses that can be used by mo
 > **Account marked for computer assistance**
 >
 > Our cheating detection algorithms have marked your account for using computer assistance. If you want to contest the mark please send an email to Lichess Contact <contact@lichess.org>. If you are a titled player we will need a proof of your identity. It can be a picture of a document, like an ID card or a driving license.
+
+> ** Questions regarding streaming**
+
+Hi,
+
+We receive requests from streamers who want to be featured on Lichess on a daily basis. In order to maintain a high level of quality, we require that the streamer has a large following (e.g. is a Twitch partner) or is a strong chess player (e.g. FIDE titled). As far as we can see, you don't meet any of these requirements. Should that change, you're welcome to contact us again. In the mean time, we wish you luck in both your streaming and chess endeavors.
+
+
+-- 
+Regards,
+Lichess mod team
