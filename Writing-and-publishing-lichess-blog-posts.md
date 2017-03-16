@@ -3,13 +3,13 @@ Publish blog post with prismic.io
 
 login to lichess.prismic.io.
 
-1. Start a new blog post
+Start a new blog post
 ------------------------
 
 - `Write something`
 - `Blog post`
 
-2. Write the blog post
+Write the blog post
 ----------------------
 
 - Fill in the title, and post body.
@@ -28,7 +28,15 @@ prismic doesn't deal well with concurrent edits.
 
 Use the study chapter URL as both the link text and URL.
 
-3. Preview the blog post
+### Embed a game
+
+Use the game URL as both the link text and URL.
+
+### Embed a game
+
+Use the game URL as both the link text and URL.
+
+Preview the blog post
 ------------------------
 
 - `Save`
