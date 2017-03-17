@@ -40,11 +40,12 @@ The intention of this page is to provide canned responses that can be used by mo
 
 # Chat issues
 
-## Abusive language
+## Offensive/Abusive language
 
-> **Warning: Offensive/abusive language**
+> **Warning: Offensive language**
 
-> I would like to remind you that it's not okay to use offensive or abusive language on Lichess. Lichess is supposed to be a fun and friendly environment for everyone. You have stepped over the line several times. If the behavior continues, we reserve the right to take action against your user account. -- Moderator on Lichess
+> Offensive or abusive language is not allowed on Lichess. Lichess is intended to be a fun and friendly environment for everyone. Please note that repeated violation of chat policy will result in loss of chat privileges.
+-- Your friendly lichess moderator.
 
 ## Complaining about en passant
 
