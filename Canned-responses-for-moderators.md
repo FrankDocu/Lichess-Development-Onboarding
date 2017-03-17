@@ -62,7 +62,7 @@ The intention of this page is to provide canned responses that can be used by mo
 
 > **Warning: Accusations**
 
-> I would like to remind you that accusing other players of using computer assistance or otherwise cheating is not acceptable on Lichess. If you are confident that a player is cheating, use the report button on their profile page to report them to the moderators. Don't report someone just because you lose a game though. -- Moderator on Lichess
+> I would like to remind you that accusing other players of using computer assistance or otherwise cheating is not acceptable on Lichess. If you are confident that a player is cheating, use the report button on their profile page to report them to the moderators. -- Moderator on Lichess
 
 ## Really annoying chat spam
 
