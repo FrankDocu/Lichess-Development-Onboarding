@@ -261,6 +261,6 @@ You are probably running mongodb 3.4. Downgrade to 3.2 and it should work.
 
 ## Updating the code
 
-If you get compile errors after pulling new code, check if any submodule has updates with `git status` and if so run `git submodule update --recursive`
+Pull new code `git pull`, check if any submodule has updates with `git status` and if so run `git submodule update --recursive`.
 
 Run `./ui/build` to update the mithril modules.
