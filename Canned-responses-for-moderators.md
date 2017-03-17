@@ -68,7 +68,7 @@ The intention of this page is to provide canned responses that can be used by mo
 
 > **WARNING: chat spam is not permitted**
 
-> You may post your tourney/simul link in at most one public tournament, if the time control and game type is similar. Repeated violations of chat policy will result in loss of chat privileges.
+> You may post your tourney/simul link in at most one public tournament, if the time control and game type is similar. Repeated violation of chat policy will result in loss of chat privileges.
 >
 > -- Your friendly lichess moderator.
 
