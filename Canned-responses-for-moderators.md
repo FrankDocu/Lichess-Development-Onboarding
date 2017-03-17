@@ -1,12 +1,5 @@
 The intention of this page is to provide canned responses that can be used by moderators to communicate efficiently with users on Lichess in routine use cases.
 
-# General notes
-
-## Acknowledge cheat/abuse report
-> **Thanks for your report**
-
-> Just wanted to let you know that we have received your report and we are handling it appropriately. -- Moderator on Lichess
-
 # Bad play warnings
 
 ## Leaving games / stalling instead of resigning
@@ -56,7 +49,7 @@ The intention of this page is to provide canned responses that can be used by mo
 ## Complaining about en passant
 
 > **En passant**
->
+
 > This is called "en passant" and is one of the rules of chess. Check https://en.lichess.org/learn#/15 to learn more about it. -- Moderator on Lichess
 
 ## Public accusations (friendly)
@@ -81,6 +74,11 @@ The intention of this page is to provide canned responses that can be used by mo
 
 
 # Misc
+
+## Acknowledge cheat/abuse report
+> **Thanks for your report**
+
+> Just wanted to let you know that we have received your report and we are handling it appropriately. -- Moderator on Lichess
 
 ## Titled username
 
