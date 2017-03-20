@@ -46,16 +46,16 @@ Before beginning, please make sure you have the following tools installed, using
         geoip {
           file = "data/GeoLite2-City.mmdb"
         }
- 
+
+1. Run `./bin/gen/geoip` 
+
 1. Run `./bin/build-deps.sh`
-
-1. Compile the scala application with `sbt compile`
-
-1. Run `./ui/build`
 
 1. Run `npm install && ./bin/svg-optimize --no-svgcleaner` (or also install [svgcleaner](https://github.com/RazrFalcon/svgcleaner))
 
-1. Run `./bin/gen/geoip` and add the following geoip section to application.conf (See section Running the Application how to retrieve the file):
+1. Run `./ui/build`
+
+1. Compile the scala application with `sbt compile`
    
 
 #### Setting Up Your Web Server
