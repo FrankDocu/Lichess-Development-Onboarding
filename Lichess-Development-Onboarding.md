@@ -16,6 +16,7 @@ Before beginning, please make sure you have the following tools installed, using
 * `sbt` ([instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
 * `npm` (from nodejs, version `2.1.18` should be OK)
 * `zsh`
+* `gulp-cli` (`sudo npm install -g gulp-cli`)
 
 #### Infrastructure
 * `mongodb`
@@ -41,22 +42,20 @@ Before beginning, please make sure you have the following tools installed, using
           domain = "l.org"                                                              
           asset.domain = "en.l.org"                                                     
         }
+
+        geoip {
+          file = "data/GeoLite2-City.mmdb"
+        }
  
 1. Run `./bin/build-deps.sh`
 
 1. Compile the scala application with `sbt compile`
-
-1. Run `sudo npm install gulp-cli -g` (or `npm install gulp-cli` and then add the install path of gulp to your PATH variable).
 
 1. Run `./ui/build`
 
 1. Run `npm install && ./bin/svg-optimize --no-svgcleaner` (or also install [svgcleaner](https://github.com/RazrFalcon/svgcleaner))
 
 1. Run `./bin/gen/geoip` and add the following geoip section to application.conf (See section Running the Application how to retrieve the file):
-
-        geoip {
-          file = "data/GeoLite2-City.mmdb"
-        }
    
 
 #### Setting Up Your Web Server
@@ -152,6 +151,8 @@ Before beginning, please make sure you have the following tools installed, using
 
 6. Optionally set `protocol = "https://"` in the `net { }` block of your `conf/application.conf` to use https as the default protocol.
 
+
+
 #### Running the Application
 
 1. Make sure that mongodb and nginx are both running.
@@ -162,7 +163,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Navigate to http://en.l.org with a browser.
 
-## Import Code into IDE
+## Using Eclipse IDE
 * Download latest eclipse Mars and extract/install
 * Install 'scala ide' (eclipse marketplace; This installs all scala ide plugins needed)
 * Install sbteclipse (https://github.com/typesafehub/sbteclipse This helps to import scala project into eclipse with "sbt eclipse" command line)
@@ -256,8 +257,6 @@ If you don't want to edit the launcher file and if it's no problem that the opti
 ### Other unexpected issues with vagrant
 File an issue and ping arxanas.
 
-### `DatabaseException['<none>']`
-You are probably running mongodb 3.4. Downgrade to 3.2 and it should work.
 
 ## Updating the code
 
