@@ -34,6 +34,8 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Using your favourite terminal emulator, change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts. `cd lila`
 
+1. `cp bin/dev.default bin/dev && chmod +x bin/dev`
+
 1. Create `conf/application.conf` with the following content:
 
         include "base"                                                                  
@@ -55,7 +57,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Run `./bin/build-deps.sh`
 
-1. Compile the scala application with `sbt compile`
+1. Compile the scala application with `./bin/dev compile`
    
 
 #### Setting Up Your Web Server
@@ -157,7 +159,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Make sure that mongodb and nginx are both running.
 
-1. From the top level of the lichess project, execute `sbt -Dhttp.port=9663`
+1. From the top level of the lichess project, execute `./bin/dev`
 
 1. When sbt is finished retrieving dependencies, type `run` and press enter.
 
@@ -197,7 +199,7 @@ Basic commands:
   * `vagrant up`: Launch the development environment specified by the `Vagrantfile` in the current directory. This creates a virtual machine and runs any provisioning scripts, or if the virtual machine already exists, just boots it up.
   * `vagrant suspend`: Put the virtual machine to sleep. If you don't want to allocate CPU/RAM/battery power to your virtual machine, it makes sense to suspend it. You can relaunch it with `vagrant up` later and resume working where you left off.
   * `vagrant destroy`: Destroys the virtual machine. Frees up disk space used for the virtual machine. To launch the virtual machine later, you would have to restart the long build process with `vagrant up`. You may want to do this if you screwed something up and want to start clean.
-  * `vagrant ssh`: Starts an SSH connection to the virtual machine. You can then run commands inside the virtual machine (such as `sbt run`).
+  * `vagrant ssh`: Starts an SSH connection to the virtual machine. You can then run commands inside the virtual machine (such as `./bin/dev run`).
 
 The files in the repository are shared with the `/vagrant` directory in the virtual machine. (Note that you start out in the `/home/vagrant` directory after running `vagrant ssh`; if you want to see the repository files, you should run `cd /vagrant` afterward.) If you make changes in your host machine using your favorite text editor, they will immediately show up in the virtual machine, and vice-versa.
 
@@ -241,7 +243,7 @@ It might not start if you have too little free space (might need 3GB), or if the
 check `mongo --version`, it might be too old. 2.4.14 may not work, while 2.6.11 is reported to work.
 
 ### compiling timeouts
-If you keep getting timeouts when compiling, you have to create this `SBT_OPTS` environment variable:
+If you keep getting timeouts when compiling, use the `./bin/dev` wrapper script (instead of running `sbt` directly): `cp bin/dev.default bin/dev && chmod +x bin/dev`. Alternatively you can create this `SBT_OPTS` environment variable:
 
     export SBT_OPTS="-Xms64M -Xmx2048M -Xss4M -XX:ReservedCodeCacheSize=64m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC"
 
