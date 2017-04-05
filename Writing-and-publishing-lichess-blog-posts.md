@@ -49,7 +49,7 @@ Preview the blog post
 
 The second time, don't make a new release, but reuse the existing one.
 
-4. Publish the blog post
+Publish the blog post
 ------------------------
 
 When everything is ready and the post was reviewed by other team members,
@@ -59,7 +59,7 @@ click `Planned releases` on the left side.
 - `Apply now`
 - `Publish`
 
-5. Modify a published blog post
+Modify a published blog post
 -------------------------------
 
 Make modifications to the document, then
