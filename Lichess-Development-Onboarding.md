@@ -88,7 +88,7 @@ Before beginning, please make sure you have the following tools installed, using
             proxy_set_header X-Forwarded-Proto $scheme;
             proxy_read_timeout 90s;
             proxy_http_version 1.1;
-            proxy_pass http://127.0.0.1:9663/;
+            proxy_pass http://127.0.0.1:9663;  # no trailing /
           }
 
           error_page 500 501 502 503 /oops/servererror.html;
@@ -114,7 +114,7 @@ Before beginning, please make sure you have the following tools installed, using
             proxy_set_header Connection "upgrade";
             proxy_set_header X-Forwarded-For $remote_addr;
             proxy_set_header X-Forwarded-Proto $scheme;
-            proxy_pass http://127.0.0.1:9663/;
+            proxy_pass http://127.0.0.1:9663;  # no trailing /
           }
         }
 
