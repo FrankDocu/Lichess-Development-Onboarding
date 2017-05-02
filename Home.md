@@ -15,6 +15,7 @@ lila = (**li**chess in sca**la**)
 * [Username policy](Username-policy)
 * [Canned responses for moderators](Canned-responses-for-moderators)
 * [Writing and publishing Lichess blog posts](Writing-and-publishing-Lichess-blog-posts)
+* [Reading Irwin AI hunter reports](Irwin-AI-hunter)
 
 ### For email administrators
 * [Handling email address confirmation](Handling-email-address-confirmation)
