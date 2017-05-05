@@ -27,7 +27,6 @@ lol, can't you see the panic button?
 ## people with server access
 
 - thibault on IRC / or text/email thibault.duplessis@gmail.com / LINE (id: thibalest)
-- Unihedron on IRC / or IM via LINE (id: unihedron) or Whatsapp (id: contact) or text vincentyification@gmail.com
 - flugsio on IRC
 - lukhas on IRC
 - revoof on IRC
