@@ -177,32 +177,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 ## Automatic setup with Vagrant
 
-Rather than manually carrying out the installation steps, you can use Vagrant to manage your development environment. Vagrant is a wrapper around virtual machine tools that helps you set up your development environment.
-
-  * [Download Vagrant](https://www.vagrantup.com/) (or use your package manager). These instructions have been tested on Vagrant 1.7.4; you will probably [need at least Vagrant 1.5](http://stackoverflow.com/q/33644359/344643).
-  * [Download Virtualbox](https://www.virtualbox.org/) (or use your package manager).
-
-Clone the repository somewhere on your system and run `vagrant up`:
-
-    $ git clone git@github.com:ornicar/lila
-    $ cd lila
-    $ vagrant up
-
-This starts the process of downloading the virtual machine image, downloading all dependencies, and initially building the code. It may take a while (1 hour 20 minutes on the author's machine) depending on your network and CPU.
-
-Once the initial build process has finished, it will print instructions to the screen. Follow those instructions to complete setup.
-
-### Vagrant primer
-
-Basic commands:
-
-  * `vagrant up`: Launch the development environment specified by the `Vagrantfile` in the current directory. This creates a virtual machine and runs any provisioning scripts, or if the virtual machine already exists, just boots it up.
-  * `vagrant suspend`: Put the virtual machine to sleep. If you don't want to allocate CPU/RAM/battery power to your virtual machine, it makes sense to suspend it. You can relaunch it with `vagrant up` later and resume working where you left off.
-  * `vagrant destroy`: Destroys the virtual machine. Frees up disk space used for the virtual machine. To launch the virtual machine later, you would have to restart the long build process with `vagrant up`. You may want to do this if you screwed something up and want to start clean.
-  * `vagrant ssh`: Starts an SSH connection to the virtual machine. You can then run commands inside the virtual machine (such as `./bin/dev run`).
-
-The files in the repository are shared with the `/vagrant` directory in the virtual machine. (Note that you start out in the `/home/vagrant` directory after running `vagrant ssh`; if you want to see the repository files, you should run `cd /vagrant` afterward.) If you make changes in your host machine using your favorite text editor, they will immediately show up in the virtual machine, and vice-versa.
-
+This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c294d7530111bbb98dc6077a328bcea6). If you create and maintain a vagrant install, please make a github repository for it, and we'll mention it here.
 
 ## Troubleshooting
 
