@@ -6,7 +6,7 @@ In general, **a username chosen with the intent of generating negative emotional
 
 * Usernames with offensive/sensitive topics, e.g. race, gender, sexuality, politics
 * Usernames that are disparaging towards others
-* Usernames impersonating living people (impersonating means that you can reasonably mistaken for someone you are not)
+* Usernames impersonating living people (impersonating means that you can reasonably be mistaken for someone you are not)
 * Usernames advertising websites that are unrelated to chess. Chess websites are always ok to mention.
 * Usernames should not imply you have a FIDE title or the Lichess Master title ([LameName.scala](https://github.com/ornicar/lila/blob/master/modules/common/src/main/LameName.scala))
 
