@@ -16,23 +16,14 @@ Note that Windows is not officially supported for lila builds. You can get it to
 1. Clone the lila project to your computer: `git clone https://github.com/ornicar/lila.git`
 2. Using the command prompt, navigate to the directory where you cloned it into: `cd lila`
 3. Set up the submodules: `git submodule update --init --recursive`
-4. The dependencies have to be built now. You can use this `build-deps.bat` script, based on `bin/build-deps.sh`: https://gist.github.com/ProgramFOX/e4d03e7f11e27814a044b52982234b8c
-5. This script does not include one necessary dependency, `scala-kit`, because that one has to be installed manually: the auto-install only seems to work on Linux because sbt for Windows doesn't like the `-D<name>=<value>` syntax to specify an option, which we need for this dependency.
-    1. Clone scala-kit: `git clone https://github.com/ornicar/scala-kit.git` and navigate to its directory: `cd scala-kit`
-    2. Run `git checkout b019b3a2522d3f1697c39ec0c79e88c18ea49a91`
-    3. Go to `project\Build.scala`, where you see the line `val buildVersion = Option(System.getProperty("version")).map(_.trim).getOrElse("1.0-SNAPSHOT")` and change it into:
-
-             val buildVersion = "1.2.11-THIB"
-    4. Run `sbt publish-local`
-    5. Delete the `scala-kit` directory.
-6. Before we compile, we have to change some options related to the memory management of Java, otherwise you'll get an OutOfMemoryException.
+4. Before we compile, we have to change some options related to the memory management of Java, otherwise you'll get an OutOfMemoryException.
 
         set JAVA_OPTS=-Xms64M -Xmx2048M -Xss4M -XX:ReservedCodeCacheSize=64m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC
-7. If you want to compile now, you'll run into an `UnmappableCharacterException` from the i18n module. It looks like it's related to something with the encoding, but I couldn't figure out the root cause of the issue. There is a workaround though: in `modules\i18n\messages\`, delete everything *except* the `messages` file (the one without file extension). This works unless you want to do something specific to the i18n module, so it's still very ugly. If you find a better way to make the compilation work - without deleting the messages files - please edit this section. Also note that if you want to make a Git commit to submit a pull request to lila, make sure that you do not accidentally commit the deletion of these messages files.
-7. Compile the application using `sbt compile`.
-8. Run `npm install -g gulp-cli` to be able to build the lichess UI.
-9. Run this `build-ui.bat` script to build the UI (based on `ui/build`): https://gist.github.com/ProgramFOX/5608e07f81daa6a4aa5b9501c684bdf4 (make sure to run it from the lila root directory)
-10. Download http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz and unpack it. Then create a `data` folder in your lila application root and put GeoLite2-City.mmdb in there.
+5. If you want to compile now, you'll run into an `UnmappableCharacterException` from the i18n module. It looks like it's related to something with the encoding, but I couldn't figure out the root cause of the issue. There is a workaround though: in `modules\i18n\messages\`, delete everything *except* the `messages` file (the one without file extension). This works unless you want to do something specific to the i18n module, so it's still very ugly. If you find a better way to make the compilation work - without deleting the messages files - please edit this section. Also note that if you want to make a Git commit to submit a pull request to lila, make sure that you do not accidentally commit the deletion of these messages files.
+6. Compile the application using `sbt compile`.
+7. Run `npm install -g gulp-cli` to be able to build the lichess UI.
+8. Run this `build-ui.bat` script to build the UI (based on `ui/build`): https://gist.github.com/ProgramFOX/5608e07f81daa6a4aa5b9501c684bdf4 (make sure to run it from the lila root directory)
+9. Download http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz and unpack it. Then create a `data` folder in your lila application root and put GeoLite2-City.mmdb in there.
 
 
 ## Setting up your web server

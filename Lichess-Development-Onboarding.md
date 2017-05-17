@@ -55,8 +55,6 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Run `./ui/build`
 
-1. Run `./bin/build-deps.sh`
-
 1. Compile the scala application with `./bin/dev compile`
    
 
@@ -188,9 +186,6 @@ Most probably, you are running Windows and Git has replaced all line breaks in a
 `git config --global core.autocrlf input`
 
 Then see the [Windows guide](https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding-(Windows)). Good luck.
-
-### unresolved dependency com.github.ornicar#scalalib_2.11;5.3
-Make sure `./bin/build-deps.sh` runs successfully.
 
 ### [PrimaryUnavailableException$: MongoError['No primary node is available!']]
 Make sure mongod is running, check /var/log/mongo/mongod.log for errors
