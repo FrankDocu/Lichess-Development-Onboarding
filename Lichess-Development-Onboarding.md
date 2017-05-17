@@ -14,7 +14,7 @@ Before beginning, please make sure you have the following tools installed, using
 #### Tools and dependency managers
 * `git`
 * `sbt` ([instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
-* `npm` (from nodejs, version `2.1.18` should be OK)
+* `npm` (from nodejs, version `4.8.3` should be OK)
 * `zsh`
 * `gulp-cli` (`sudo npm install -g gulp-cli`)
 
@@ -183,27 +183,11 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
 
 ### when running vagrant up: ./ui/build: /bin/sh^M: bad interpreter: No such file or directory
 
-Most probably, you are running windows and git has replaced all line breaks in all the files. Configure git correctly before checking out the project, something like this:
+Most probably, you are running Windows and Git has replaced all line breaks in all the files. Configure Git correctly before checking out the project, something like this:
 
 `git config --global core.autocrlf input`
 
-Although you might want to set it for this project only if you use git for other stuff, I'll leave this as an exercise for the windows user, read at least everything about it here:
-
-`git help config`
-
-Note that there's probably none that succeded past this issue before, so there is likely a alot more issues up ahead when using windows. Feel free to update this section about your journey, good luck
-
-#### error: git clone git://github.com/../coach   Repository not found.
-
-Check `npm --version` you need at least version 2.
-Link node with "sudo ln -s /usr/bin/nodejs /usr/bin/node"
-sudo to root, then run "curl -L https://npmjs.org/install.sh | sh" and install latest npm from root shell
-Verify it by running "npm --version". latest version is 3.7.2
-
-
-### ./ui/build errors: git clone git@github.com:github:ornicar/chessground    is not a valid repository name
-
-Same as above, npm at least version 2.
+Then see the [Windows guide](https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding-(Windows)). Good luck.
 
 ### unresolved dependency com.github.ornicar#scalalib_2.11;5.3
 Make sure `./bin/build-deps.sh` runs successfully.
@@ -231,12 +215,8 @@ Then, it might be necessary to edit the sbt launcher (`/usr/share/sbt-launcher-p
 
 If you don't want to edit the launcher file and if it's no problem that the options are used by all other Java applications running by your user, you don't have to edit the launcher file but you can replace `SBT_OPTS` by `JAVA_OPTS`.
 
-### Other unexpected issues with vagrant
-File an issue and ping arxanas.
-
-
 ## Updating the code
 
 Pull new code `git pull`, check if any submodule has updates with `git status` and if so run `git submodule update --recursive`.
 
-Run `./ui/build` to update the mithril modules.
+Run `./ui/build` to update the client side modules.
