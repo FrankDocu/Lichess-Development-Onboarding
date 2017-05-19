@@ -173,6 +173,14 @@ Before beginning, please make sure you have the following tools installed, using
 * Import scala project as 'existing projects into eclipse'
 * If you have install plugin mentioned in step 2-4, then you can run sbt commands from eclipse (Like update config, run etc)
 
+## Faster builds
+
+To speed up `ui/build`, install gnu parallel. The citation warning can be silenced with
+```sh
+mkdir -p ~/.parallel
+touch ~/.parallel/will-cite
+```
+
 ## Automatic setup with Vagrant
 
 This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c294d7530111bbb98dc6077a328bcea6). If you create and maintain a vagrant install, please make a github repository for it, and we'll mention it here.
