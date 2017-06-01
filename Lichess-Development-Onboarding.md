@@ -14,9 +14,9 @@ Before beginning, please make sure you have the following tools installed, using
 #### Tools and dependency managers
 * `git`
 * `sbt` ([instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
-* `npm` (from nodejs, version `4.8.3` should be OK)
+* `yarn` ([instructions](https://yarnpkg.com/en/docs/install))
 * `zsh`
-* `gulp-cli` (`sudo npm install -g gulp-cli`)
+* `gulp-cli` (`sudo yarn global add gulp-cli`)
 
 #### Infrastructure
 * `mongodb`
@@ -51,7 +51,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Run `./bin/gen/geoip` 
 
-1. Run `npm install && ./bin/svg-optimize --no-svgcleaner` (or also install [svgcleaner](https://github.com/RazrFalcon/svgcleaner))
+1. Run `yarn install && ./bin/svg-optimize --no-svgcleaner` (or also install [svgcleaner](https://github.com/RazrFalcon/svgcleaner))
 
 1. Run `./ui/build`
 
