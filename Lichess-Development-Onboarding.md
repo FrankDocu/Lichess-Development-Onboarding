@@ -38,11 +38,10 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Create `conf/application.conf` with the following content:
 
-        include "base"                                                                  
+        include "base"
 
-        net {                                                                           
-          domain = "l.org"                                                              
-          asset.domain = "en.l.org"                                                     
+        net {
+          domain = "l.org"
         }
 
         geoip {
@@ -61,8 +60,7 @@ Before beginning, please make sure you have the following tools installed, using
 #### Setting Up Your Web Server
 
 1. Add the following line to your `/etc/hosts` file:
-`127.0.0.1 l.org socket.l.org en.l.org de.l.org le.l.org fr.l.org es.l.org l1.org ru.l.org el.l.org hu.l.org`
-(Expand this for any other languages you might want to use)
+`127.0.0.1 l.org socket.l.org en.l.org`
 
 1. Add the following *server* blocks to the bottom of your http block in your nginx configuration file: 
 
@@ -126,7 +124,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Install it: `pip install fishnet`
 
-2. Run it and point it to your local installation: `python -m fishnet --endpoint http://en.l.org/fishnet` (will do some interactive configuration when started for the first time)
+2. Run it and point it to your local installation: `python -m fishnet --endpoint http://l.org/fishnet` (will do some interactive configuration when started for the first time)
 
 #### Optional: Setup local SSL with a self signed certificate
 
@@ -147,7 +145,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 4. Reload nginx.
 
-5. In your browser, accept the certificate on https://l.org, https://socket.l.org, https://en.l.org/, etc.
+5. In your browser, accept the certificate on https://l.org and https://socket.l.org.
 
 6. Optionally set `protocol = "https://"` in the `net { }` block of your `conf/application.conf` to use https as the default protocol.
 
@@ -161,7 +159,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. When sbt is finished retrieving dependencies, type `run` and press enter.
 
-1. Navigate to http://en.l.org with a browser.
+1. Navigate to http://l.org with a browser.
 
 ## Using Eclipse IDE
 * Download latest eclipse Mars and extract/install
