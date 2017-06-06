@@ -32,10 +32,6 @@ Use the study chapter URL as both the link text and URL.
 
 Use the game URL as both the link text and URL.
 
-### Embed a game
-
-Use the game URL as both the link text and URL.
-
 Preview the blog post
 ------------------------
 
