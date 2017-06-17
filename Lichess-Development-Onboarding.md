@@ -185,14 +185,6 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
 
 ## Troubleshooting
 
-### when running vagrant up: ./ui/build: /bin/sh^M: bad interpreter: No such file or directory
-
-Most probably, you are running Windows and Git has replaced all line breaks in all the files. Configure Git correctly before checking out the project, something like this:
-
-`git config --global core.autocrlf input`
-
-Then see the [Windows guide](https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding-(Windows)). Good luck.
-
 ### [PrimaryUnavailableException$: MongoError['No primary node is available!']]
 Make sure mongod is running, check /var/log/mongo/mongod.log for errors
 It might not start if you have too little free space (might need 3GB), or if there is a previous lock file that hasn't been cleaned up (maybe try removing /var/lib/mongodb/mongod.lock)
@@ -215,6 +207,10 @@ Then, it might be necessary to edit the sbt launcher (`/usr/share/sbt-launcher-p
          echo ""
 
 If you don't want to edit the launcher file and if it's no problem that the options are used by all other Java applications running by your user, you don't have to edit the launcher file but you can replace `SBT_OPTS` by `JAVA_OPTS`.
+
+### Couldn't find package "ceval" on the "npm" registry.
+
+Check your `yarn --version`. Requires at least yarn 0.26.
 
 ## Updating the code
 
