@@ -1,6 +1,6 @@
 ### 2017-06-18
 - deploy study sync/record
-- drak SSD failure
+- drake SSD failure
 
 ### 2017-06-17
 - start of event log
