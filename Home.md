@@ -36,6 +36,7 @@ lila = (**li**chess in sca**la**)
 * [Monitoring](Monitoring)
 
 ### Miscellaneous
+* [Event log](https://github.com/ornicar/lila/wiki/Notable-events-log)
 * [Lichess Operating Expenses](https://docs.google.com/spreadsheets/d/1CGgu-7aNxlZkjLl9l-OlL00fch06xp0Q7eCVDDakYEE/edit)
 * [Lichess Video Library](https://docs.google.com/spreadsheets/d/1qYU1XhvC8TlBggXEkjI481ieNGyYGmMTy97A9iboyrM/edit)
 * [Lichess Puzzle Tags](https://docs.google.com/spreadsheets/d/155eR2a6hjYjBkS709c5bp8HeXq4yIXUFP0gLkk315zY/edit)
