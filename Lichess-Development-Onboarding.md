@@ -15,11 +15,10 @@ Before beginning, please make sure you have the following tools installed, using
 * `git`
 * `sbt` ([instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
 * `yarn` (>= 0.26, to be downloaded from [yarn's GitHub releases](https://github.com/yarnpkg/yarn/releases))
-* `zsh`
 * `gulp-cli` (`sudo yarn global add gulp-cli`)
 
 #### Infrastructure
-* `mongodb`
+* `mongodb` (>= 3.4.0)
 * `nginx`
 
 #### Compilers
