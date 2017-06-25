@@ -4,6 +4,8 @@ GNU/Linux instructions: https://github.com/ornicar/lila/wiki/Lichess-Development
 
 Note that Windows is not officially supported for lila builds. You can get it to work now, but there is no guarantee that it stays like that.
 
+_Note: this page is outdated, but I'll update it soon. When this notice is gone, it means that the page will be updated._
+
 ## Prequisites
  - Git
  - [sbt](http://www.scala-sbt.org/0.13/docs/Installing-sbt-on-Windows.html)
