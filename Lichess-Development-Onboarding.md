@@ -14,7 +14,7 @@ Before beginning, please make sure you have the following tools installed, using
 #### Tools and dependency managers
 * `git`
 * `sbt` ([instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
-* `yarn` (>= 0.26, [instructions](https://yarnpkg.com/en/docs/install))
+* `yarn` (>= 0.26, to be downloaded from [yarn's GitHub releases](https://github.com/yarnpkg/yarn/releases))
 * `zsh`
 * `gulp-cli` (`sudo yarn global add gulp-cli`)
 
