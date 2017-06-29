@@ -1,3 +1,6 @@
+### 2017-06-28
+- mailgun delivery issues, contacted support, got new IP
+
 ### 2017-06-18
 - deploy study sync/record
 - drake SSD failure
