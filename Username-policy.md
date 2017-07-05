@@ -1,6 +1,6 @@
 If a username is deemed inappropriate, the user account should be closed. Adding a shadowban before closing the account, will ensure that the email address can't be used to create a new account.
 
-Usernames are public and displayed all other the site. They will be read by kids using lichess.
+Usernames are public and displayed all over the site. They will be read by kids using lichess.
 
 In general, **a username chosen with the intent of generating negative emotional reactions**, is bad. This includes, but is not limited to:
 
