@@ -2,9 +2,7 @@ The following instructions explain how to set up your development environment fo
 
 GNU/Linux instructions: https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding
 
-Note that Windows is not officially supported for lila builds. You can get it to work now, but there is no guarantee that it stays like that.
-
-_Note: this page is outdated, but I'll update it soon. When this notice is gone, it means that the page will be updated._
+Note that Windows is not officially supported for lila builds. It works now, but there is no guarantee that it stays like that.
 
 ## Prequisites
  - Git
@@ -12,19 +10,35 @@ _Note: this page is outdated, but I'll update it soon. When this notice is gone,
  - [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
  - `npm` from [Node.js](https://nodejs.org/en/).
  - [nginx](http://nginx.org/en/docs/windows.html)
+ - [yarn](https://yarnpkg.com/lang/en/docs/install/)
+ - `gulp-cli` (`yarn global add gulp-cli`)
+ - Powershell (likely already on your machine)
 
 ## Installation steps
 
-1. Clone the lila project to your computer: `git clone https://github.com/ornicar/lila.git`
-2. Using the command prompt, navigate to the directory where you cloned it into: `cd lila`
-3. Set up the submodules: `git submodule update --init --recursive`
-4. Before we compile, we have to change some options related to the memory management of Java, otherwise you'll get an OutOfMemoryException.
+1. Fork the lila project from github on your computer (including submodules): `git clone --recursive https://github.com/ornicar/lila.git`
+1. Change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts. `cd lila`.
+1. `copy bin\dev.default.windows.bat bin\dev.bat`
+1. Create `conf/application.conf` with the following content:
 
-        set JAVA_OPTS=-Xms64M -Xmx2048M -Xss4M -XX:ReservedCodeCacheSize=64m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC
-5. Compile the application using `sbt compile`.
-6. Run `npm install -g gulp-cli` to be able to build the lichess UI.
-7. Run this `build-ui.bat` script to build the UI (based on `ui/build`): https://gist.github.com/ProgramFOX/5608e07f81daa6a4aa5b9501c684bdf4 (make sure to run it from the lila root directory)
-8. Download http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz and unpack it. Then create a `data` folder in your lila application root and put GeoLite2-City.mmdb in there.
+        include "base"
+
+        net {
+          domain = "l.org"
+        }
+
+        geoip {
+           file = "data/GeoLite2-City.mmdb"
+        }
+
+        http {
+          port = 9663
+        }
+
+1. Run `powershell -executionpolicy bypass -File bin\gen\geoip.ps1` to download the GeoIP database.
+1. Run `yarn install`
+1. Run `.\ui\build.bat`
+1. Compile the Scala application with `.\bin\dev.bat compile`
 
 
 ## Setting up your web server
@@ -52,7 +66,7 @@ _Note: this page is outdated, but I'll update it soon. When this notice is gone,
             proxy_set_header X-Forwarded-Proto $scheme;
             proxy_read_timeout 90s;
             proxy_http_version 1.1;
-            proxy_pass http://127.0.0.1:9663/;
+            proxy_pass http://127.0.0.1:9663;
           }
         
           error_page 500 501 502 503 /oops/servererror.html;
@@ -78,32 +92,17 @@ _Note: this page is outdated, but I'll update it soon. When this notice is gone,
             proxy_set_header Connection "upgrade";
             proxy_set_header X-Forwarded-For $remote_addr;
             proxy_set_header X-Forwarded-Proto $scheme;
-            proxy_pass http://127.0.0.1:9663/;
+            proxy_pass http://127.0.0.1:9663;
           }
         }
 Don't forget to change `<path\to\>` into an actual path.
 
+3. Restart (or start) nginx.
+
 ## Running the application.
 
-1. Navigate into the `conf` directory of your lila application root. Create a file `application.conf` with these contents:
-
-        include "base"
-         
-        net {
-          domain = "l.org"
-          asset.domain = "en.l.org"
-          extra_ports = []
-        }
-         
-        geoip {
-          file = "data/GeoLite2-City.mmdb"
-        }
-        
-        http {
-          port = 9663
-        }
-2. Make sure nginx is running.
+1. Make sure nginx is running.
 3. Make sure a MongoDB server instance is running.
-4. Run `sbt`.
-5. When you can input a command, type `run 9663` and press enter.
+4. From the top level of the lichess project, execute `.\bin\dev.bat`
+5. When sbt is finished retrieving dependencies, type `run 9663` and press enter.
 6. In your browser, navigate to `l.org`
