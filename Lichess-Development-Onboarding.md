@@ -18,7 +18,7 @@ Before beginning, please make sure you have the following tools installed, using
 * `gulp-cli` (`sudo yarn global add gulp-cli`)
 
 #### Infrastructure
-* `mongodb` (>= 3.4.0)
+* `mongodb` (>= 3.4.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
 * `nginx`
 
 #### Compilers
