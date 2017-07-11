@@ -191,7 +191,7 @@ It might not start if you have too little free space (might need 3GB), or if the
 ### Can't create games
     [ERROR] p.c.s.n.PlayDefaultUpstreamHandler Cannot invoke the action
     java.lang.ArrayIndexOutOfBoundsException: 101
-check `mongo --version`, it might be too old. 2.4.14 may not work, while 2.6.11 is reported to work.
+check `mongo --version`, and that is satisfies the requirement at the top of this page.
 
 ### compiling timeouts
 If you keep getting timeouts when compiling, use the `./bin/dev` wrapper script (instead of running `sbt` directly): `cp bin/dev.default bin/dev && chmod +x bin/dev`. Alternatively you can create this `SBT_OPTS` environment variable:
