@@ -14,7 +14,7 @@ Asdf.
 
 # Twitter
 
-* [Lichess on Twitter](https://twitter.com/lichessorg)
+* [Lichess on Twitter](https://twitter.com/lichess)
 
 Asdf.
 
