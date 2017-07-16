@@ -160,6 +160,20 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Navigate to http://l.org with a browser.
 
+## Faster builds
+
+To speed up `ui/build`, install gnu parallel. The citation warning can be silenced with
+```sh
+mkdir -p ~/.parallel
+touch ~/.parallel/will-cite
+```
+
+## Updating the code
+
+Pull new code `git pull`, check if any submodule has updates with `git status` and if so run `git submodule update --recursive`.
+
+Run `./ui/build` to update the client side modules.
+
 ## Using Eclipse IDE
 * Download latest eclipse Mars and extract/install
 * Install 'scala ide' (eclipse marketplace; This installs all scala ide plugins needed)
@@ -169,14 +183,6 @@ Before beginning, please make sure you have the following tools installed, using
 * Checkout scala project and run "sbt eclipse". This will create eclipse files (.project, .classpath, .settings)
 * Import scala project as 'existing projects into eclipse'
 * If you have install plugin mentioned in step 2-4, then you can run sbt commands from eclipse (Like update config, run etc)
-
-## Faster builds
-
-To speed up `ui/build`, install gnu parallel. The citation warning can be silenced with
-```sh
-mkdir -p ~/.parallel
-touch ~/.parallel/will-cite
-```
 
 ## Automatic setup with Vagrant
 
@@ -210,9 +216,3 @@ If you don't want to edit the launcher file and if it's no problem that the opti
 ### Couldn't find package "ceval" on the "npm" registry.
 
 Check your `yarn --version`. Requires at least yarn 0.26.
-
-## Updating the code
-
-Pull new code `git pull`, check if any submodule has updates with `git status` and if so run `git submodule update --recursive`.
-
-Run `./ui/build` to update the client side modules.
