@@ -13,7 +13,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Tools and dependency managers
 * `git`
-* `sbt` ([instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
+* `sbt` (>= 0.13.14 [instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
 * `yarn` (>= 0.26, [instructions](https://yarnpkg.com/lang/en/docs/install/))
 * `gulp-cli` (`sudo yarn global add gulp-cli`)
 
@@ -204,14 +204,7 @@ If you keep getting timeouts when compiling, use the `./bin/dev` wrapper script 
 
     export SBT_OPTS="-Xms64M -Xmx2048M -Xss4M -XX:ReservedCodeCacheSize=64m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC"
 
-Then, it might be necessary to edit the sbt launcher (`/usr/share/sbt-launcher-packaging/bin/sbt-launch-lib.bash`), if a fix is not already applied, to avoid that the launcher overrides these options. Quoting ddugovic at https://github.com/sbt/sbt-launcher-package/issues/81#issuecomment-112404471
-
-> Workaround (fix?): I added to my `sbt-launch-lib.bash` the following (near the start of `get_mem_opts`):
-
-    elif [[ "${SBT_OPTS}" == *-Xmx* ]] || [[ "${SBT_OPTS}" == *-Xms* ]] || [[ "${SBT_OPTS}" == *-XX:MaxPermSize* ]] || [[ "${SBT_OPTS}" == *-XX:MaxMetaspaceSize* ]] || [[ "${SBT_OPTS}" == *-XX:ReservedCodeCacheSize* ]]; then
-         echo ""
-
-If you don't want to edit the launcher file and if it's no problem that the options are used by all other Java applications running by your user, you don't have to edit the launcher file but you can replace `SBT_OPTS` by `JAVA_OPTS`.
+If you are using an old sbt and if it's no problem that these options are used by all other Java applications running by your session, you may replace `SBT_OPTS` with `JAVA_OPTS`.
 
 ### Couldn't find package "ceval" on the "npm" registry.
 
