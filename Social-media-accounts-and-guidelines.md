@@ -20,8 +20,7 @@ Asdf.
 
 # YouTube
 
-* [Lichess on YouTube](https://lichess.org/yt)
-* [YouTube vanity URL requirements](https://support.google.com/youtube/answer/2657968?hl=en)
+* [Lichess on YouTube](http://www.youtube.com/c/LichessDotOrg)
 
 Guidelines to come.
 
