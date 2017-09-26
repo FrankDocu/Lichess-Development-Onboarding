@@ -23,7 +23,6 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Compilers
 * `Java 8`
-* `closure` (if you wish to compile minified JavaScripts for production)
 
 ### Installation Steps
 
