@@ -17,9 +17,10 @@ set INIT_SBT_VERSION=0.13.16
 
 ## Installation steps
 0. Turn off line feed conversion in windows (all checkins are made from linux).
-git config core.autocrlf false
-
+git config --global core.autocrlf false
 1. Fork the lila project from github on your computer (including submodules): `git clone --recursive https://github.com/ornicar/lila.git`
+git config --global core.autocrlf true
+
 1. Change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts. `cd lila`.
 1. `copy bin\dev.default.windows.bat bin\dev.bat`
 Edit dev.bat to have -Dfile.encoding=UTF-8, increase memory
