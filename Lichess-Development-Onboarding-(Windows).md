@@ -6,7 +6,8 @@ Note that Windows is not officially supported for lila builds. It works now, but
 
 ## Prequisites
  - Git
- - [sbt](http://www.scala-sbt.org/0.13/docs/Installing-sbt-on-Windows.html)
+ - [sbt](http://www.scala-sbt.org/0.13/docs/Installing-sbt-on-Windows.html) If 13.6 then open sbt.bat and update to below
+set INIT_SBT_VERSION=0.13.16
  - [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
  - `npm` from [Node.js](https://nodejs.org/en/).
  - [nginx](http://nginx.org/en/docs/windows.html)
@@ -15,10 +16,14 @@ Note that Windows is not officially supported for lila builds. It works now, but
  - Powershell (likely already on your machine)
 
 ## Installation steps
+0. Turn off line feed conversion in windows (all checkins are made from linux).
+git config core.autocrlf false
 
 1. Fork the lila project from github on your computer (including submodules): `git clone --recursive https://github.com/ornicar/lila.git`
 1. Change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts. `cd lila`.
 1. `copy bin\dev.default.windows.bat bin\dev.bat`
+Edit dev.bat to have -Dfile.encoding=UTF-8, increase memory
+-Xms2048M -Xmx3072M  -Dfile.encoding=UTF-8
 1. Create `conf/application.conf` with the following content:
 
         include "base"
