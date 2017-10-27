@@ -1,4 +1,4 @@
-Lichess users can apply to be listed on https://en.lichess.org/coach which is a curated list of the best online chess coaches. Being on the list can be seen as an endorsement, so users must go through an approval process before being added.
+Lichess users can apply to be listed on https://lichess.org/coach which is a curated list of the best online chess coaches. Being on the list can be seen as an endorsement, so users must go through an approval process before being added.
 
 In order to apply, the user should send an application to contact@lichess.org.
 
