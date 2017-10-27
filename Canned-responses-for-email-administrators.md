@@ -116,7 +116,7 @@ This document was most recently implemented/updated in Gmail on 2017-01-14.
 >In order to report players for bad behavior, please visit https://lichess.org/report
 
 **Misc: En passant**
->This is called "en passant" and is one of the rules of chess. Check https://en.lichess.org/learn#/15 to learn more about it.
+>This is called "en passant" and is one of the rules of chess. Check https://lichess.org/learn#/15 to learn more about it.
 
 **Misc: Opened closed account**
 >We have now opened your account. Enjoy!
