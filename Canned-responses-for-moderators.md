@@ -51,7 +51,7 @@ The intention of this page is to provide canned responses that can be used by mo
 
 > **En passant**
 
-> This is called "en passant" and is one of the rules of chess. Check https://en.lichess.org/learn#/15 to learn more about it. -- Moderator on Lichess
+> This is called "en passant" and is one of the rules of chess. Check https://lichess.org/learn#/15 to learn more about it. -- Moderator on Lichess
 
 ## Public accusations (friendly)
 
