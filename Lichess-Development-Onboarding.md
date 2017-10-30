@@ -36,15 +36,15 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Create `conf/application.conf` with the following content:
 
-        include "base"
+       include "base"
 
-        net {
-          domain = "l.org"
-        }
+       net {
+         domain = "l.org"
+       }
 
-        geoip {
-          file = "data/GeoLite2-City.mmdb"
-        }
+       geoip {
+         file = "data/GeoLite2-City.mmdb"
+       }
 
 1. Run `./bin/gen/geoip` 
 
@@ -62,56 +62,56 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Add the following *server* blocks to the bottom of your http block in your nginx configuration file: 
 
-        server {
-          server_name l.org ~^\w\w\.l\.org$;
-          listen 80;
+       server {
+         server_name l.org ~^\w\w\.l\.org$;
+         listen 80;
 
-          error_log /var/log/nginx/lila.error.log;
-          access_log /var/log/nginx/lila.access.log;
+         error_log /var/log/nginx/lila.error.log;
+         access_log /var/log/nginx/lila.access.log;
 
-          charset utf-8;
+         charset utf-8;
 
-          location /assets {
-            add_header "Access-Control-Allow-Origin" "*";
-            alias /home/happy0/projects/lila/public;
-          }
+         location /assets {
+           add_header "Access-Control-Allow-Origin" "*";
+           alias /home/happy0/projects/lila/public;
+         }
 
-          location / {
-            proxy_set_header Host $http_host;
-            proxy_set_header X-Forwarded-For $remote_addr;
-            proxy_set_header X-Forwarded-Proto $scheme;
-            proxy_read_timeout 90s;
-            proxy_http_version 1.1;
-            proxy_pass http://127.0.0.1:9663;  # no trailing /
-          }
+         location / {
+           proxy_set_header Host $http_host;
+           proxy_set_header X-Forwarded-For $remote_addr;
+           proxy_set_header X-Forwarded-Proto $scheme;
+           proxy_read_timeout 90s;
+           proxy_http_version 1.1;
+           proxy_pass http://127.0.0.1:9663;  # no trailing /
+         }
 
-          error_page 500 501 502 503 /oops/servererror.html;
-          error_page 504 /oops/timeout.html;
-          error_page 429 /oops/toomanyrequests.html;
-          location /oops/ {
-            root /home/happy0/projects/lila/public/;
-          }
-          location = /robots.txt {
-            root /home/happy0/projects/lila/public/;
-          }
-        }
+         error_page 500 501 502 503 /oops/servererror.html;
+         error_page 504 /oops/timeout.html;
+         error_page 429 /oops/toomanyrequests.html;
+         location /oops/ {
+           root /home/happy0/projects/lila/public/;
+         }
+         location = /robots.txt {
+           root /home/happy0/projects/lila/public/;
+         }
+       }
 
-        server {
-          server_name socket.l.org;
-          listen 80;
+       server {
+         server_name socket.l.org;
+         listen 80;
 
-          charset utf-8;
+         charset utf-8;
 
-          location / {
-            proxy_http_version 1.1;
-            proxy_set_header Host $http_host;
-            proxy_set_header Upgrade $http_upgrade;
-            proxy_set_header Connection "upgrade";
-            proxy_set_header X-Forwarded-For $remote_addr;
-            proxy_set_header X-Forwarded-Proto $scheme;
-            proxy_pass http://127.0.0.1:9663;  # no trailing /
-          }
-        }
+         location / {
+           proxy_http_version 1.1;
+           proxy_set_header Host $http_host;
+           proxy_set_header Upgrade $http_upgrade;
+           proxy_set_header Connection "upgrade";
+           proxy_set_header X-Forwarded-For $remote_addr;
+           proxy_set_header X-Forwarded-Proto $scheme;
+           proxy_pass http://127.0.0.1:9663;  # no trailing /
+         }
+       }
 
    **Note**: Change the `/home/happy0/projects/lila` locations to the path of your checked out repository accordingly.
 
@@ -133,14 +133,14 @@ Before beginning, please make sure you have the following tools installed, using
 
 3. Add the following directives to each of the server blocks in the nginx config.
 
-        listen 443 ssl;
+       listen 443 ssl;
 
-        ssl_certificate /etc/ssl/private/l.org.pem;
-        ssl_certificate_key /etc/ssl/private/l.org.key;
-        ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
-        ssl_session_cache shared:SSL:10m;
-        ssl_prefer_server_ciphers on;
-        ssl_ciphers AES128+EECDH:AES128+EDH:!aNULL;
+       ssl_certificate /etc/ssl/private/l.org.pem;
+       ssl_certificate_key /etc/ssl/private/l.org.key;
+       ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+       ssl_session_cache shared:SSL:10m;
+       ssl_prefer_server_ciphers on;
+       ssl_ciphers AES128+EECDH:AES128+EDH:!aNULL;
 
 4. Reload nginx.
 
