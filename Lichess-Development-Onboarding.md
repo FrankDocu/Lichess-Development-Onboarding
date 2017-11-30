@@ -48,9 +48,9 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Run `./bin/gen/geoip` 
 
-1. Run `yarn install && ./bin/svg-optimize --no-svgcleaner` (or also install [svgcleaner](https://github.com/RazrFalcon/svgcleaner))
-
 1. Run `./ui/build`
+
+1. Run `yarn install && ./bin/svg-optimize --no-svgcleaner` (or also install [svgcleaner](https://github.com/RazrFalcon/svgcleaner))
 
 1. Compile the scala application with `./bin/dev compile`
    
@@ -208,4 +208,4 @@ If you are using an old sbt and if it's no problem that these options are used b
 
 ### Couldn't find package "ceval" on the "npm" registry.
 
-Check your `yarn --version`. Requires at least yarn 0.26.
+Check your `yarn --version`. Requires at least yarn 1.0.
