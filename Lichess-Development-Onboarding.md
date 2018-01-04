@@ -16,6 +16,7 @@ Before beginning, please make sure you have the following tools installed, using
 * `sbt` (>= 0.13.14 [instructions](http://www.scala-sbt.org/release/tutorial/Setup.html)) 
 * `yarn` (>= 1.0, [instructions](https://yarnpkg.com/lang/en/docs/install/))
 * `gulp-cli` (`sudo yarn global add gulp-cli`)
+* `wget`
 
 #### Infrastructure
 * `mongodb` (>= 3.4.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
