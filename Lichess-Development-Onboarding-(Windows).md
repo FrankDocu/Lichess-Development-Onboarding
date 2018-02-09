@@ -13,7 +13,7 @@ set INIT_SBT_VERSION=0.13.16
  - [nginx](http://nginx.org/en/docs/windows.html)
  - [yarn](https://yarnpkg.com/lang/en/docs/install/)
  - `gulp-cli` (`yarn global add gulp-cli`)
- - Powershell (likely already on your machine)
+ - Powershell (likely already on your machine) - required version >= 4.0 (in order to have CopyTo method)
 
 ## Installation steps
 0. Turn off line feed conversion in windows (all checkins are made from linux).
