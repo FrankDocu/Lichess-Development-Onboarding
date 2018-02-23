@@ -50,7 +50,7 @@ This document was most recently implemented/updated in Gmail on 2017-01-14.
 >We trust that you understand the mistakes you have made, and that you will not repeat them. Should you continue to break the rules, we reserve the right to permanently close your account and deny you future access to Lichess.
 
 **Appeal: Request docs**
->Unfortunately, excellent performances can attract suspicion. We would like to clear out these suspicions for good. One way to do that, is for you to send us a photo/scan of your ID card, driver license, passport or any other official document that proves your identity. Such evidence would allow us the close the case. Thank you for your understanding in this matter.
+>Unfortunately, excellent performances can attract suspicion. We would like to clear out these suspicions for good. Would you mind filling out our title verification form at please fill out our title verification form at https://docs.google.com/forms/d/e/1FAIpQLSd64rDqXOihJzPlBsQba75di5ioL-WMFhkInS2_vhVTvDtBag/viewform ? Such evidence would allow us the close the case. Thank you for your understanding in this matter.
 
 **Appeal: Deny**
 >We are continuously improving our cheat detection so that we can aggressively prevent cheating while minimizing the false positives. After investigating your case, we have determined that our cheat detection algorithms flagged your account with sufficient evidence for the mark to remain.
@@ -59,20 +59,20 @@ This document was most recently implemented/updated in Gmail on 2017-01-14.
 # Title
 
 **Title: Request docs**
->In order to verify your FIDE title, please send us a photo or scan of your ID card, driver license, passport or any other official document that proves your identity.
+>In order to verify your FIDE or NM title, please fill out our title verification form at https://docs.google.com/forms/d/e/1FAIpQLSd64rDqXOihJzPlBsQba75di5ioL-WMFhkInS2_vhVTvDtBag/viewform
 >
 >Alternatively, if you happen to already have a verified titled account on chess.com, you can send a message to https://www.chess.com/member/ornicar
 >
 >We will process your title verification request as soon as one of these two requirements are fulfilled.
 
 **Title: Confirmed**
->We have now confirmed your FIDE title on Lichess.
+>We have now confirmed your title on Lichess.
 
 
 # Coach
 
 **Coach: Request**
->Lichess receives requests to be included on our list of coaches on a daily basis. In order to maintain a high level of quality, we require that new coaches have a FIDE title. If you meet this requirement, please send us a photo or scan of your ID card, driver license, passport or any other official document that proves your identity.
+>Lichess receives requests to be included on our list of coaches on a daily basis. In order to maintain a high level of quality, we require that new coaches have a FIDE title. If you meet this requirement, please fill out our title verification form at https://docs.google.com/forms/d/e/1FAIpQLSd64rDqXOihJzPlBsQba75di5ioL-WMFhkInS2_vhVTvDtBag/viewform
 >
 > Additionally, please also send us a paragraph or two describing why Lichess should recommend you as a coach. Make sure to describe your experience teaching chess online, as this is also a requirement. Thank you for your understanding in this matter.
 
