@@ -67,6 +67,9 @@ This document was most recently implemented/updated in Gmail on 2017-01-14.
 **Title: Confirmed**
 >We have now confirmed your title on Lichess.
 
+**Title: Deny**
+>We have reviewed your title verification application, and unfortunately found it necessary to deny it.
+
 **Title: Spontaneous ID request**
 >Great performances always attract suspicions; some players are doubting your fair play, and are reporting you to the moderators. We would like to clear out these suspicions for good.
 >
