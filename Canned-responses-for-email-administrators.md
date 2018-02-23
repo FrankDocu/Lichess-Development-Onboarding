@@ -49,8 +49,7 @@ This document was most recently implemented/updated in Gmail on 2017-01-14.
 >
 >We trust that you understand the mistakes you have made, and that you will not repeat them. Should you continue to break the rules, we reserve the right to permanently close your account and deny you future access to Lichess.
 
-**Appeal: Request docs**
->Unfortunately, excellent performances can attract suspicion. We would like to clear out these suspicions for good. Would you mind filling out our title verification form at please fill out our title verification form at https://docs.google.com/forms/d/e/1FAIpQLSd64rDqXOihJzPlBsQba75di5ioL-WMFhkInS2_vhVTvDtBag/viewform ? Such evidence would allow us the close the case. Thank you for your understanding in this matter.
+
 
 **Appeal: Deny**
 >We are continuously improving our cheat detection so that we can aggressively prevent cheating while minimizing the false positives. After investigating your case, we have determined that our cheat detection algorithms flagged your account with sufficient evidence for the mark to remain.
@@ -68,6 +67,10 @@ This document was most recently implemented/updated in Gmail on 2017-01-14.
 **Title: Confirmed**
 >We have now confirmed your title on Lichess.
 
+**Title: Spontaneous ID request**
+>Great performances always attract suspicions; some players are doubting your fair play, and are reporting you to the moderators. We would like to clear out these suspicions for good. 
+>Would you mind filling out our title verification form at please fill out our title verification form at https://docs.google.com/forms/d/e/1FAIpQLSd64rDqXOihJzPlBsQba75di5ioL-WMFhkInS2_vhVTvDtBag/viewform? Alternatively, if you have a confirmed chess.com account, you can send a quick message to https://www.chess.com/member/ornicar. 
+>Such evidence would allow us the close the case. If your account is anonymous, we will keep it that way. Thank you for your understanding in this matter.
 
 # Coach
 
