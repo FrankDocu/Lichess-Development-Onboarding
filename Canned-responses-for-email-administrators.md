@@ -68,8 +68,10 @@ This document was most recently implemented/updated in Gmail on 2017-01-14.
 >We have now confirmed your title on Lichess.
 
 **Title: Spontaneous ID request**
->Great performances always attract suspicions; some players are doubting your fair play, and are reporting you to the moderators. We would like to clear out these suspicions for good. 
+>Great performances always attract suspicions; some players are doubting your fair play, and are reporting you to the moderators. We would like to clear out these suspicions for good.
+>
 >Would you mind filling out our title verification form at please fill out our title verification form at https://docs.google.com/forms/d/e/1FAIpQLSd64rDqXOihJzPlBsQba75di5ioL-WMFhkInS2_vhVTvDtBag/viewform? Alternatively, if you have a confirmed chess.com account, you can send a quick message to https://www.chess.com/member/ornicar. 
+>
 >Such evidence would allow us the close the case. If your account is anonymous, we will keep it that way. Thank you for your understanding in this matter.
 
 # Coach
