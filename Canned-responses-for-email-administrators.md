@@ -64,8 +64,8 @@ This document was most recently implemented/updated in Gmail on 2018-02-23.
 >
 >We will process your title verification request as soon as one of these two requirements are fulfilled.
 
-**Title: Confirmed**
->We have now confirmed your title on Lichess.
+**Title: Approved**
+>After reviewing your request for a verified title on lichess.org we have now verified your title. Enjoy your games on Lichess!
 
 **Title: Deny**
 >We have reviewed your title verification application, and unfortunately found it necessary to deny it.
