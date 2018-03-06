@@ -36,17 +36,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. `cp bin/dev.default bin/dev && chmod +x bin/dev`
 
-1. Create `conf/application.conf` with the following content:
-
-       include "base"
-
-       net {
-         domain = "l.org"
-       }
-
-       geoip {
-         file = "data/GeoLite2-City.mmdb"
-       }
+1. `cp conf/application.conf.default conf/application.conf`
 
 1. Run `./bin/gen/geoip` 
 
