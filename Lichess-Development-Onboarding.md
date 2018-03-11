@@ -3,7 +3,7 @@ The following instructions outline how to set up your development environment fo
 If you want to set up the environment on a Windows machine, look here: https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding-(Windows)
 
 ## Getting Help
-If you get stuck during the install process the most suitable place to seek help is the `#lichess` IRC channel on `irc.freenode.org`. The main developer of Lichess (Ornicar) can be found there as well as several people who have successfully installed the stack.
+If you get stuck during the install process the most suitable place to seek help is the `#devs` channel on Discord (https://discord.gg/hy5jqSs). The main developer of Lichess (thibault) can be found there as well as several people who have successfully installed the stack.
 
 ## Manual setup
 
