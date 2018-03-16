@@ -2,7 +2,7 @@ In order for a Lichess user account to be given a FIDE or NM title, the user mus
 
 When the provided information is verified, the correct title can be set by a Lichess moderator and the player will be informed automatically by email. If the request is rejected, the user has to be informed manually.
 
-For Russian National titles, we give NM only for the MC title (aka Master of Sport).
+For Russian national titles, we give NM only for the MC title (aka Master of Sport).
 
 **Relevant Gmail canned responses**
 * Title: Request docs
