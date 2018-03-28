@@ -14,6 +14,8 @@ http://www.chess.cz/sachovy-svaz-cr/legislativa/klasifikacni-rad-sscr/
 
 For Indonesian national titles, we set NM only for the Indonesian MN title (aka Master Nasional).
 
+For Canadian national titles, we set (W)NM only for the Canadian (W)NM title. http://chess.ca/titleholders
+
 **Relevant Gmail canned responses**
 * Title: Request docs
 * Title: Confirmed
