@@ -12,7 +12,7 @@ For Czech national titles, we set NM for:
 We do not set NM for the Czech national KM title, "kandidát mistra"/"kandidátka mistryně" (2100+ for men, 1950+ for women)
 http://www.chess.cz/sachovy-svaz-cr/legislativa/klasifikacni-rad-sscr/
 
-For Indonesian national titles, we set NM only for the Indonesian MN title (aka Master Nasional). Look up players [here](https://docs.google.com/spreadsheets/d/1HLh1nJnd0ryrsVABJvJNg6RzF8ODgyzHO1KZH5Y6_4k/edit)
+For Indonesian national titles, use [this lookup](https://docs.google.com/spreadsheets/d/1HLh1nJnd0ryrsVABJvJNg6RzF8ODgyzHO1KZH5Y6_4k/edit). Only "MN" merits an NM lichess title.
 
 For Canadian national titles, we set (W)NM only for the Canadian (W)NM title. http://chess.ca/titleholders
 
