@@ -14,7 +14,7 @@ National **MC title, "mistr"/"mistryně"** (2300+ ELO for men, 2100+ ELO for wom
 _Bad: Czech national KM title, ["kandidát mistra"/"kandidátka mistryně"](http://www.chess.cz/sachovy-svaz-cr/legislativa/klasifikacni-rad-sscr/)_
 
 ### Indonesia
-"MN" = lichess NM. [Lookup tool](https://docs.google.com/spreadsheets/d/1HLh1nJnd0ryrsVABJvJNg6RzF8ODgyzHO1KZH5Y6_4k/edit).
+"MN" = lichess NM. https://www.pbpercasi.com/p/blog-page_22.html [Lookup tool](https://docs.google.com/spreadsheets/d/1HLh1nJnd0ryrsVABJvJNg6RzF8ODgyzHO1KZH5Y6_4k/edit).
 
 
 ### Canada
