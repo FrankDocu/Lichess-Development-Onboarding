@@ -50,64 +50,23 @@ Before beginning, please make sure you have the following tools installed, using
 #### Setting Up Your Web Server
 
 1. Add the following line to your `/etc/hosts` file:
-`127.0.0.1 l.org socket.l.org en.l.org`
+`127.0.0.1 lichess-assets.local`
 
 1. Add the following *server* blocks to the bottom of your http block in your nginx configuration file: 
 
        server {
-         server_name l.org ~^\w\w\.l\.org$;
+         server_name lichess-assets.local;
          listen 80;
-
-         error_log /var/log/nginx/lila.error.log;
-         access_log /var/log/nginx/lila.access.log;
-
          charset utf-8;
-
          location /assets {
            add_header "Access-Control-Allow-Origin" "*";
            alias /home/happy0/projects/lila/public;
-         }
-
-         location / {
-           proxy_set_header Host $http_host;
-           proxy_set_header X-Forwarded-For $remote_addr;
-           proxy_set_header X-Forwarded-Proto $scheme;
-           proxy_read_timeout 90s;
-           proxy_http_version 1.1;
-           proxy_pass http://127.0.0.1:9663;  # no trailing /
-         }
-
-         error_page 500 501 502 503 /oops/servererror.html;
-         error_page 504 /oops/timeout.html;
-         error_page 429 /oops/toomanyrequests.html;
-         location /oops/ {
-           root /home/happy0/projects/lila/public/;
-         }
-         location = /robots.txt {
-           root /home/happy0/projects/lila/public/;
-         }
-       }
-
-       server {
-         server_name socket.l.org;
-         listen 80;
-
-         charset utf-8;
-
-         location / {
-           proxy_http_version 1.1;
-           proxy_set_header Host $http_host;
-           proxy_set_header Upgrade $http_upgrade;
-           proxy_set_header Connection "upgrade";
-           proxy_set_header X-Forwarded-For $remote_addr;
-           proxy_set_header X-Forwarded-Proto $scheme;
-           proxy_pass http://127.0.0.1:9663;  # no trailing /
          }
        }
 
    **Note**: Change the `/home/happy0/projects/lila` locations to the path of your checked out repository accordingly.
 
-1. Restart (or start) nginx.
+1. Restart nginx.
 
 #### Optional: Setup fishnet for server side analysis and play
 
@@ -115,7 +74,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Install it: `pip install fishnet`
 
-2. Run it and point it to your local installation: `python -m fishnet --endpoint http://l.org/fishnet` (will do some interactive configuration when started for the first time)
+2. Run it and point it to your local installation: `python -m fishnet --endpoint http://localhost:9663/fishnet` (will do some interactive configuration when started for the first time)
 
 #### Optional: Setup local SSL with a self signed certificate
 
@@ -150,7 +109,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. When sbt is finished retrieving dependencies, type `run` and press enter.
 
-1. Navigate to http://l.org with a browser.
+1. Navigate to http://localhost:9663 with a browser.
 
 ## Faster builds
 
