@@ -29,10 +29,6 @@ Edit dev.bat to have -Dfile.encoding=UTF-8, increase memory
 
         include "base"
 
-        net {
-          domain = "l.org"
-        }
-
         geoip {
            file = "data/GeoLite2-City.mmdb"
         }
@@ -49,58 +45,18 @@ Edit dev.bat to have -Dfile.encoding=UTF-8, increase memory
 
 ## Setting up your web server
 
-1. Add the following line to your hosts file (`C:\Windows\System32\drivers\etc\hosts`): `127.0.0.1 l.org socket.l.org en.l.org`
+1. Add the following line to your hosts file (`C:\Windows\System32\drivers\etc\hosts`): `127.0.0.1 lichess-assets.local`
 2. Open your `nginx.conf` file, and add this 'Server' block to the `http` block:
 
-        server {
-          server_name l.org ~^\w\w\.l\.org$;
-          listen 80;
-        
-          error_log logs\lila.access.log;
-          access_log logs\lila.error.log;
-        
-          charset utf-8;
-        
-          location /assets {
-            add_header "Access-Control-Allow-Origin" "*";
-            alias <path\to\>\lila\public;
-          }
-        
-          location / {
-            proxy_set_header Host $http_host;
-            proxy_set_header X-Forwarded-For $remote_addr;
-            proxy_set_header X-Forwarded-Proto $scheme;
-            proxy_read_timeout 90s;
-            proxy_http_version 1.1;
-            proxy_pass http://127.0.0.1:9663;
-          }
-        
-          error_page 500 501 502 503 /oops/servererror.html;
-          error_page 504 /oops/timeout.html;
-          error_page 429 /oops/toomanyrequests.html;
-          location /oops/ {
-            root <path\to\>\lila\public;
-          }
-          location = /robots.txt {
-             root <path\to\>\lila\public;
-          }
-        }
-        
-        server {
-          server_name socket.l.org;
-          listen 80;
-        
-          charset utf-8;
-        
-          location / {
-            proxy_http_version 1.1;
-            proxy_set_header Upgrade $http_upgrade;
-            proxy_set_header Connection "upgrade";
-            proxy_set_header X-Forwarded-For $remote_addr;
-            proxy_set_header X-Forwarded-Proto $scheme;
-            proxy_pass http://127.0.0.1:9663;
-          }
-        }
+       server {
+         server_name lichess-assets.local;
+         listen 80;
+         charset utf-8;
+         location /assets {
+           add_header "Access-Control-Allow-Origin" "*";
+           alias /home/happy0/projects/lila/public;
+         }
+       }
 Don't forget to change `<path\to\>` into an actual path.
 
 3. Restart (or start) nginx.
@@ -111,4 +67,4 @@ Don't forget to change `<path\to\>` into an actual path.
 3. Make sure a MongoDB server instance is running.
 4. From the top level of the lichess project, execute `.\bin\dev.bat`
 5. When sbt is finished retrieving dependencies, type `run 9663` and press enter.
-6. In your browser, navigate to `l.org`
+6. In your browser, navigate to `localhost:9663`
