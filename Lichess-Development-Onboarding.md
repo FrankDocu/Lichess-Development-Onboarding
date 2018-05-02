@@ -135,6 +135,10 @@ Run `./ui/build` to update the client side modules.
 * Import scala project as 'existing projects into eclipse'
 * If you have install plugin mentioned in step 2-4, then you can run sbt commands from eclipse (Like update config, run etc)
 
+## Automatic setup with Docker
+
+There is an external project called [lichocker](https://github.com/BrandonE/lichocker), which allows you to run lila in a Docker container. Running in Docker simplifies setup and guarantees that your development environment will perfectly match that of anyone else who uses lichocker, eliminating the "it works on my machine" phenomena. However, it is always more performant to run any project directly on its host-machine, and lichocker is a work-in-progress that might not be reliable for your use.
+
 ## Automatic setup with Vagrant
 
 This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c294d7530111bbb98dc6077a328bcea6). If you create and maintain a vagrant install, please make a github repository for it, and we'll mention it here.
