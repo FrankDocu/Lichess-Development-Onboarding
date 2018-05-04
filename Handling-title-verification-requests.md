@@ -22,6 +22,7 @@ Canadian (W)NM titles, http://chess.ca/titleholders
 
 ### Israel
 http://www.chess.org.il/ContentPages/ContentPage.aspx?Id=58
+
 We accept:
 2290 - Artist
 2400 - Senior Artist
@@ -32,6 +33,7 @@ We don't accept:
 
 ### Poland
 http://katalogbazszachowych.pl/
+
 We accept:
 M
 
