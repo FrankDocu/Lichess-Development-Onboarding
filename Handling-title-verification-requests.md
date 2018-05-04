@@ -20,6 +20,26 @@ _Bad: Czech national KM title, ["kandidát mistra"/"kandidátka mistryně"](http
 ### Canada
 Canadian (W)NM titles, http://chess.ca/titleholders
 
+### Israel
+http://www.chess.org.il/ContentPages/ContentPage.aspx?Id=58
+We accept:
+2290 - Artist
+2400 - Senior Artist
+
+We don't accept:
+2070 - Candidate for the Artist
+2180 - Senior candidate for the artist
+
+### Poland
+http://katalogbazszachowych.pl/
+We accept:
+M
+
+We don't accept:
+K++
+K+
+K
+
 # More info
 ### Relevant Gmail canned responses
 * Title: Request docs
