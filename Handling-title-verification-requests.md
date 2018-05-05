@@ -20,7 +20,6 @@ https://www.pbpercasi.com/p/blog-page_22.html [Lookup tool](https://docs.google.
 
 * We accept: MN
 
-
 ### Canada
 http://chess.ca/titleholders
 
@@ -37,6 +36,12 @@ http://katalogbazszachowych.pl/
 
 * We accept: M
 * We don't accept: K++, K+, K
+
+### Costa Rica
+https://fcacostarica.com/jugadores/
+
+* We accept: NM
+
 
 # More info
 ### Relevant Gmail canned responses
