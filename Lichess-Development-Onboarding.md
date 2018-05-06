@@ -70,7 +70,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Optional: Setup fishnet for server side analysis and play
 
-[fishnet](https://github.com/niklasf/fishnet) is a Python script that manages Stockfish instances and let's them communicate with the server.
+[fishnet](https://github.com/niklasf/fishnet) is a Python script that manages Stockfish instances and lets them communicate with the server.
 
 1. Install it: `pip install fishnet`
 
