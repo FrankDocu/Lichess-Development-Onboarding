@@ -6,8 +6,7 @@ Note that Windows is not officially supported for lila builds. It works now, but
 
 ## Prequisites
  - Git
- - [sbt](http://www.scala-sbt.org/0.13/docs/Installing-sbt-on-Windows.html) If 13.6 then open sbt.bat and update to below
-set INIT_SBT_VERSION=0.13.16
+ - [sbt](http://www.scala-sbt.org/0.13/docs/Installing-sbt-on-Windows.html) If 13.6 then open `bin/sbt.bat` and change `set INIT_SBT_VERSION=_TO_BE_REPLACED` to `set INIT_SBT_VERSION=0.13.16` (around line 50)
  - [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
  - `npm` from [Node.js](https://nodejs.org/en/).
  - [nginx](http://nginx.org/en/docs/windows.html)
@@ -20,8 +19,7 @@ set INIT_SBT_VERSION=0.13.16
 1. Fork the lila project from github on your computer (including submodules): `git clone --recursive https://github.com/ornicar/lila.git`
 1. Change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts. `cd lila`.
 1. `copy bin\dev.default.windows.bat bin\dev.bat`
-Edit dev.bat to have -Dfile.encoding=UTF-8, increase memory
--Xms2048M -Xmx3072M  -Dfile.encoding=UTF-8
+1. Edit dev.bat so java uses UTF8 file encoding and increased memory. Add the following parameters to `JAVA_OPTS` for that: `-Xms2048M -Xmx3072M  -Dfile.encoding=UTF-8`
 1. Create `conf/application.conf` with the following content:
 
         include "base"
@@ -51,10 +49,10 @@ Edit dev.bat to have -Dfile.encoding=UTF-8, increase memory
          charset utf-8;
          location /assets {
            add_header "Access-Control-Allow-Origin" "*";
-           alias /home/happy0/projects/lila/public;
+           alias "C:/projects/lila/public/";
          }
        }
-Don't forget to change `<path\to\>` into an actual path.
+Don't forget to change `C:/projects/lila` into the actual path where lila is cloned to. Convert backward slashes to forward slashes (or escape them)
 
 3. Restart (or start) nginx.
 
