@@ -16,7 +16,8 @@ http://www.chess.cz/sachovy-svaz-cr/legislativa/klasifikacni-rad-sscr/
 * We don't accept: KM
 
 ### Indonesia
-https://www.pbpercasi.com/p/blog-page_22.html [Lookup tool](https://docs.google.com/spreadsheets/d/1HLh1nJnd0ryrsVABJvJNg6RzF8ODgyzHO1KZH5Y6_4k/edit).
+[**Lookup tool**](https://docs.google.com/spreadsheets/d/1HLh1nJnd0ryrsVABJvJNg6RzF8ODgyzHO1KZH5Y6_4k/edit),
+based on https://www.pbpercasi.com/p/blog-page_22.html.
 
 * We accept: MN
 
