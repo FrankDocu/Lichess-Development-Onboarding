@@ -60,6 +60,7 @@ Before beginning, please make sure you have the following tools installed, using
          charset utf-8;
          location /assets {
            add_header "Access-Control-Allow-Origin" "*";
+           rewrite ^/assets/\d+/(.*)$ /assets/$1;
            alias /home/happy0/projects/lila/public;
          }
        }
@@ -77,6 +78,8 @@ Before beginning, please make sure you have the following tools installed, using
 2. Run it and point it to your local installation: `python -m fishnet --endpoint http://localhost:9663/fishnet` (will do some interactive configuration when started for the first time)
 
 #### Optional: Setup local SSL with a self signed certificate
+
+:warning: Instructions outdated
 
 1. Generate a self signed certificate: `openssl req -x509 -sha256 -newkey rsa:2048 -keyout /etc/ssl/private/l.org.key.orig -out /etc/ssl/private/l.org.pem -days 365` (Common Name should be `l.org *.l.org *.*.l.org`, all other fields can be empty. Choose a temporary passphrase.)
 
