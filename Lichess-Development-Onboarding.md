@@ -66,7 +66,9 @@ Before beginning, please make sure you have the following tools installed, using
        }
 
    **Note**: Change the `/home/happy0/projects/lila` locations to the path of your checked out repository accordingly.
-  **Note**: New versions of nginx listen 8080 port by default. Verify that nginx listens 80 port.
+
+   **Note**: New versions of nginx listen 8080 port by default. Verify that nginx listens 80 port (Probably in nginx.conf http block).
+
       server {
         listen       80;
         server_name  localhost;
