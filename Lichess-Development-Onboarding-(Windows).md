@@ -18,7 +18,7 @@ Note that Windows is not officially supported for lila builds. It works now, but
 0. Turn off line feed conversion in windows (all checkins are made from linux): `git config --global core.autocrlf false`
 1. Fork the lila project from github on your computer (including submodules): `git clone --recursive https://github.com/ornicar/lila.git`
 1. Change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts. `cd lila`.
-1. `copy bin\dev.default.windows.bat bin\dev.bat`
+1. `copy bin\dev.default.bat bin\dev.bat`
 1. Edit dev.bat so java uses UTF8 file encoding and increased memory. Add the following parameters to `JAVA_OPTS` for that: `-Xms2048M -Xmx3072M  -Dfile.encoding=UTF-8`
 1. Create `conf/application.conf` with the following content:
 
