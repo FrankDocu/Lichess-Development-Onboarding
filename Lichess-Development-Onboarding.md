@@ -34,7 +34,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Using your favourite terminal emulator, change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts. `cd lila`
 
-1. `cp bin/dev.default bin/dev && chmod +x bin/dev`
+1. `cp bin/dev.default bin/dev`
 
 1. `cp conf/application.conf.default conf/application.conf`
 
