@@ -42,8 +42,6 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Run `./ui/build`
 
-1. Run `yarn install && ./bin/svg-optimize --no-svgcleaner` (or also install [svgcleaner](https://github.com/RazrFalcon/svgcleaner))
-
 1. Compile the scala application with `./bin/dev compile`
    
 
