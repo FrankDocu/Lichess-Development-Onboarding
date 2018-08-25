@@ -83,33 +83,6 @@ Before beginning, please make sure you have the following tools installed, using
 
 2. Run it and point it to your local installation: `python -m fishnet --endpoint http://localhost:9663/fishnet` (will do some interactive configuration when started for the first time)
 
-#### Optional: Setup local SSL with a self signed certificate
-
-:warning: Instructions outdated
-
-1. Generate a self signed certificate: `openssl req -x509 -sha256 -newkey rsa:2048 -keyout /etc/ssl/private/l.org.key.orig -out /etc/ssl/private/l.org.pem -days 365` (Common Name should be `l.org *.l.org *.*.l.org`, all other fields can be empty. Choose a temporary passphrase.)
-
-2. Remove the passphrase: `openssl rsa -in /etc/ssl/private/l.org.key.orig -out /etc/ssl/private/l.org.key` (Needs to be entered one last time)
-
-3. Add the following directives to each of the server blocks in the nginx config.
-
-       listen 443 ssl;
-
-       ssl_certificate /etc/ssl/private/l.org.pem;
-       ssl_certificate_key /etc/ssl/private/l.org.key;
-       ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
-       ssl_session_cache shared:SSL:10m;
-       ssl_prefer_server_ciphers on;
-       ssl_ciphers AES128+EECDH:AES128+EDH:!aNULL;
-
-4. Reload nginx.
-
-5. In your browser, accept the certificate on https://l.org and https://socket.l.org.
-
-6. Optionally set `protocol = "https://"` in the `net { }` block of your `conf/application.conf` to use https as the default protocol.
-
-
-
 #### Running the Application
 
 1. Make sure that mongodb and nginx are both running.
@@ -122,7 +95,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 ## Faster builds
 
-To speed up `ui/build`, install gnu parallel. The citation warning can be silenced with
+To speed up `ui/build`, install GNU parallel. The citation warning can be silenced with
 ```sh
 mkdir -p ~/.parallel
 touch ~/.parallel/will-cite
