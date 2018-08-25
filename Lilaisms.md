@@ -70,7 +70,7 @@ Funit         // Future[Unit]
 ```scala
 def fuccess[A](a: A) = Future successful a
 def fufail[A <: Throwable, B](a: A): Fu[B] = Future failed a
-def fufail[A](a: String): Fu[A] = fufail(common.LilaException(a))
+def fufail[A](a: String): Fu[A] = fufail(base.LilaException(a))
 val funit = fuccess(())
 ```
 
