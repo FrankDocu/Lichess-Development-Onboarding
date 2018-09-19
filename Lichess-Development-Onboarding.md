@@ -58,8 +58,9 @@ Before beginning, please make sure you have the following tools installed, using
          charset utf-8;
          location /assets {
            add_header "Access-Control-Allow-Origin" "*";
-           rewrite ^/assets/\d+/(.*)$ /assets/$1;
+           rewrite "^/assets/_\w{6}/(.*)$" /assets/$1;
            alias /home/happy0/projects/lila/public;
+           break;
          }
        }
 
