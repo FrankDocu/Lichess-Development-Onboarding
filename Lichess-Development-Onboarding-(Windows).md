@@ -49,7 +49,9 @@ Note that Windows is not officially supported for lila builds. It works now, but
          charset utf-8;
          location /assets {
            add_header "Access-Control-Allow-Origin" "*";
+           rewrite "^/assets/_\w{6}/(.*)$" /assets/$1;
            alias "C:/projects/lila/public/";
+           break;
          }
        }
 Don't forget to change `C:/projects/lila` into the actual path where lila is cloned to. Convert backward slashes to forward slashes (or escape them)
