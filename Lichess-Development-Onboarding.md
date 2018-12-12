@@ -14,7 +14,7 @@ Before beginning, please make sure you have the following tools installed, using
 #### Tools and dependency managers
 * `git`
 * `sbt` (>= 0.13.14 [instructions](http://www.scala-sbt.org/release/tutorial/Setup.html))
-* `node` (>= 4, `nodejs-legacy` on Debian)
+* `node` (>= 10, `nodejs` on Debian, `nodejs-legacy` pre Debian Buster)
 * `yarn` (>= 1.0, [instructions](https://yarnpkg.com/lang/en/docs/install/))
 * `gulp-cli` (`sudo yarn global add gulp-cli`)
 * `wget`
