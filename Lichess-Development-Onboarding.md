@@ -107,7 +107,7 @@ check `mongo --version`, and that is satisfies the requirement at the top of thi
 ### compiling timeouts
 If you keep getting timeouts when compiling, use the `./bin/dev` wrapper script (instead of running `sbt` directly): `cp bin/dev.default bin/dev && chmod +x bin/dev`. Alternatively you can create this `SBT_OPTS` environment variable:
 
-    export SBT_OPTS="-Xms64M -Xmx2048M -Xss4M -XX:ReservedCodeCacheSize=64m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC"
+    export JAVA_OPTS="-Xms2048m -Xmx4g -XX:ReservedCodeCacheSize=64m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC -XX:+ExitOnOutOfMemoryError -Dkamon.auto-start=true"
 
 If you are using an old sbt and if it's no problem that these options are used by all other Java applications running by your session, you may replace `SBT_OPTS` with `JAVA_OPTS`.
 
