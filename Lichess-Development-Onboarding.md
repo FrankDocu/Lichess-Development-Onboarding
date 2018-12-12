@@ -40,9 +40,9 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Run `./bin/gen/geoip` 
 
-1. Run `./ui/build`
+1. Compile the client side modules with `./ui/build`
 
-1. Compile the scala application with `./bin/dev compile`
+1. Compile the Scala application with `./bin/dev compile`
    
 
 #### Setting Up Your Web Server
@@ -124,7 +124,7 @@ There is an external project called [lichocker](https://github.com/BrandonE/lich
 
 ## Automatic setup with Vagrant
 
-This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c294d7530111bbb98dc6077a328bcea6). If you create and maintain a vagrant install, please make a github repository for it, and we'll mention it here.
+This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c294d7530111bbb98dc6077a328bcea6). If you create and maintain a vagrant install, please make a GitHub repository for it, and we'll mention it here.
 
 ## Troubleshooting
 
