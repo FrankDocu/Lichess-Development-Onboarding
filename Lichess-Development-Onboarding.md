@@ -21,7 +21,6 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Infrastructure
 * `mongodb` (>= 3.4.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
-* `nginx`
 
 #### Compilers
 * `Java 8`
@@ -43,38 +42,16 @@ Before beginning, please make sure you have the following tools installed, using
 1. Compile the client side modules with `./ui/build`
 
 1. Compile the Scala application with `./bin/dev compile`
-   
 
-#### Setting Up Your Web Server
+#### Running the Application
 
-1. Add the following line to your `/etc/hosts` file:
-`127.0.0.1 lichess-assets.local`
+1. Make sure that mongodb is running. By default lila will try to connect to `mongodb://127.0.0.1:27017/lichess`.
 
-1. Add the following *server* blocks to the bottom of your http block in your nginx configuration file: 
+1. From the top level of the lichess project, execute `./bin/dev`
 
-       server {
-         server_name lichess-assets.local;
-         listen 80;
-         charset utf-8;
-         location /assets {
-           add_header "Access-Control-Allow-Origin" "*";
-           rewrite "^/assets/_\w{6}/(.*)$" /assets/$1;
-           alias /home/happy0/projects/lila/public;
-           break;
-         }
-       }
+1. When sbt is finished retrieving dependencies, type `run` and press enter.
 
-   **Note**: Change the `/home/happy0/projects/lila` locations to the path of your checked out repository accordingly.
-
-   **Note**: New versions of nginx listen 8080 port by default. Verify that nginx listens 80 port (Probably in nginx.conf http block).
-
-      server {
-        listen       80;
-        server_name  localhost;
-        ...
-      }
-
-1. Restart nginx.
+1. Navigate to http://localhost:9663/ with a browser.
 
 #### Optional: Setup fishnet for server side analysis and play
 
@@ -83,16 +60,6 @@ Before beginning, please make sure you have the following tools installed, using
 1. Install it: `pip install fishnet`
 
 2. Run it and point it to your local installation: `python -m fishnet --endpoint http://localhost:9663/fishnet` (will do some interactive configuration when started for the first time)
-
-#### Running the Application
-
-1. Make sure that mongodb and nginx are both running.
-
-1. From the top level of the lichess project, execute `./bin/dev`
-
-1. When sbt is finished retrieving dependencies, type `run` and press enter.
-
-1. Navigate to http://localhost:9663 with a browser.
 
 ## Faster builds
 
