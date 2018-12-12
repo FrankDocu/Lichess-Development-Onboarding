@@ -1,8 +1,9 @@
-The following instructions outline how to set up your development environment for starting development on Lichess. The instructions are aimed to be agnostic of the platform the stack is installed on, so a working knowledge the specifics of your GNU/Linux distribution or other such Unix based Operating System is assumed. 
+The following instructions outline how to set up your development environment for starting development on Lichess. The instructions are aimed to be agnostic of the platform the stack is installed on, so a working knowledge the specifics of your GNU/Linux distribution or other such Unix based operating system is assumed. 
 
 If you want to set up the environment on a Windows machine, look here: https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding-(Windows)
 
 ## Getting Help
+
 If you get stuck during the install process the most suitable place to seek help is the `#devs` channel on Discord (https://discord.gg/hy5jqSs). The main developer of Lichess (thibault) can be found there as well as several people who have successfully installed the stack. There is also a `#lichess` IRC channel on `irc.freenode.org`.
 
 ## Manual setup
@@ -27,7 +28,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 ### Installation Steps
 
-#### Setting up your Lichess configuration and Compiling the Web App
+#### Setting up your Lichess configuration and compiling the web app
 
 1. Fork the lila project from github on your computer (including submodules): `git clone --recursive https://github.com/ornicar/lila.git`
 
@@ -47,11 +48,9 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Make sure that mongodb is running. By default lila will try to connect to `mongodb://127.0.0.1:27017/lichess`.
 
-1. From the top level of the lichess project, execute `./bin/dev`
+1. From the top level of the lichess project, execute `./bin/dev run`
 
-1. When sbt is finished retrieving dependencies, type `run` and press enter.
-
-1. Navigate to http://localhost:9663/ with a browser.
+1. Navigate to http://localhost:9663/ with a browser. It can take a while to compile some remaining files.
 
 #### Optional: Setup fishnet for server side analysis and play
 
@@ -63,19 +62,20 @@ Before beginning, please make sure you have the following tools installed, using
 
 ## Faster builds
 
-To speed up `ui/build`, install GNU parallel. The citation warning can be silenced with
+To speed up `./ui/build`, install GNU parallel. The citation warning can be silenced with
 ```sh
-mkdir -p ~/.parallel
-touch ~/.parallel/will-cite
+mkdir -p ~/.parallel && touch ~/.parallel/will-cite
 ```
-
 ## Updating the code
 
 Pull new code `git pull`, check if any submodule has updates with `git status` and if so run `git submodule update --recursive`.
 
 Run `./ui/build` to update the client side modules.
 
+For the server, `sbt` (invoked by `./bin/dev`) will automatically recompile any changed files.
+
 ## Using Eclipse IDE
+
 * Download latest eclipse Mars and extract/install
 * Install 'scala ide' (eclipse marketplace; This installs all scala ide plugins needed)
 * Install sbteclipse (https://github.com/typesafehub/sbteclipse This helps to import scala project into eclipse with "sbt eclipse" command line)
