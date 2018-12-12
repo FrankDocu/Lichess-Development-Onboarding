@@ -72,7 +72,7 @@ Pull new code `git pull`, check if any submodule has updates with `git status` a
 
 Run `./ui/build` to update the client side modules.
 
-For the server, `sbt` (invoked by `./bin/dev`) will automatically recompile any changed files.
+For the server, `sbt` (invoked by `./bin/dev`) will automatically recompile any changed files. (In rare cases it does not manage to do this. You can use `sbt clean` as a last resort).
 
 ## Using Eclipse IDE
 
