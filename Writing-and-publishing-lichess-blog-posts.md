@@ -35,15 +35,7 @@ Use the game URL as both the link text and URL.
 Preview the blog post
 ------------------------
 
-- `Save`
-- `Publish`
-- `Publish it during a release`
-- `Publish it during a new release`
-- Type a new release name. No spaces or fancy chars. Exemple: "wcc1".
-- `Add to release`
-- Go to https://lichess.org/blog?ref=wcc1 where you replace "wcc1" with your release name.
-
-The second time, don't make a new release, but reuse the existing one.
+click the top-right round eye icon in prismic
 
 Publish the blog post
 ------------------------
