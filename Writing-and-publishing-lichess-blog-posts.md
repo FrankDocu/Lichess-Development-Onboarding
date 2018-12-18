@@ -41,18 +41,18 @@ Publish the blog post
 ------------------------
 
 When everything is ready and the post was reviewed by other team members,
-click `Planned releases` on the left side.
+click `Publish` , then
 
-- `Publish`
-- `Apply now`
-- `Publish`
+- Click `Publish` on top right
+- Select `Publish it now`
+- Click `Publish`
 
 Modify a published blog post
 -------------------------------
 
 Make modifications to the document, then
 
-- `Save`
-- `Publish`
-- `Publish it now`
-- `Publish`
+- Click `Save`
+- Click `Publish` on top right
+- Select `Publish it now`
+- Click `Publish`
