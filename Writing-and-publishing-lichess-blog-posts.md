@@ -35,7 +35,7 @@ Use the game URL as both the link text and URL.
 Preview the blog post
 ------------------------
 
-click the top-right round eye icon in prismic
+Click the top-right round eye icon in prismic, then 'prod'
 
 Publish the blog post
 ------------------------
