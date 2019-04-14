@@ -74,6 +74,10 @@ Run `./ui/build` to update the client side modules.
 
 For the server, `sbt` (invoked by `./bin/dev`) will automatically recompile any changed files. (In rare cases it does not manage to do this. You can use `sbt clean` as a last resort).
 
+## Working on ...
+
+Here are [some hints](Working-on-...) for working on various parts of the system.
+
 ## Using Eclipse IDE
 
 * Download latest eclipse Mars and extract/install
