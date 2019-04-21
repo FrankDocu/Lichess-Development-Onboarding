@@ -24,7 +24,7 @@ Before beginning, please make sure you have the following tools installed, using
 * `mongodb` (>= 3.4.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
 
 #### Compilers
-* `Java 8`
+* `Java 8` (:warning: higher version will not work)
 
 ### Installation Steps
 
