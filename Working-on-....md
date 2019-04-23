@@ -14,3 +14,7 @@ gulp
 1. New translation keys are added in `translation/source/site.xml` in British English.
 1. Then regenerate translation keys for Scala: `node bin/trans-dump.js`
 1. Do not touch `translations/dest/`. New translations from crowdin will automatically be applied here.
+
+# Puzzles
+
+Get some puzzles in your local DB: https://github.com/ornicar/lichess-puzzle-kit
