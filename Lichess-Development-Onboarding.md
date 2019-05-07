@@ -48,7 +48,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Make sure that mongodb is running. By default lila will try to connect to `mongodb://127.0.0.1:27017/lichess`.
 
-1. From the top level of the lichess project, execute `./bin/dev run`
+1. From the top level of the lichess project, execute `SERVE_ASSETS=1 ./bin/dev run`
 
 1. Navigate to http://localhost:9663/ with a browser. It can take a while to compile some remaining files.
 
