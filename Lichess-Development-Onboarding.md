@@ -72,30 +72,10 @@ server {
   location / {
     proxy_http_version 1.1;
     proxy_set_header Host $http_host;
+    proxy_set_header Upgrade $http_upgrade;
     proxy_set_header X-Forwarded-For $remote_addr;
     proxy_set_header X-Forwarded-Proto scheme;
     proxy_read_timeout 90s;
-    proxy_pass http://backend;
-  }
-}
-
-server {
-  server_name socket.localhost;
-  listen 80;
-  listen [::]:80;
-
-  error_log /var/log/nginx/lila.error.log;
-  access_log /var/log/nginx/lila.access.log;
-
-  charset utf-8;
-
-  location / {
-    proxy_http_version 1.1;
-    proxy_set_header Upgrade $http_upgrade;
-    proxy_set_header Connection "upgrade";
-    proxy_set_header Host $http_host;
-    proxy_set_header X-Forwarded-Proto $scheme;
-    proxy_set_header X-Forwarded-For $remote_addr;
     proxy_pass http://backend;
   }
 }
