@@ -31,7 +31,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Prepare web server
 
-Add the following *server* blocks to your nginx configuration. Don't forget to adjust paths and restart.
+Add the following *server* block to your nginx configuration. Don't forget to adjust paths and restart.
 
 ```
 upstream backend {
@@ -74,7 +74,7 @@ server {
     proxy_set_header Host $http_host;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header X-Forwarded-For $remote_addr;
-    proxy_set_header X-Forwarded-Proto scheme;
+    proxy_set_header X-Forwarded-Proto $scheme;
     proxy_read_timeout 90s;
     proxy_pass http://backend;
   }
