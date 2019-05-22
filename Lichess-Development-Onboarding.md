@@ -31,7 +31,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Prepare web server
 
-Add the following *server* block to your nginx configuration. Don't forget to adjust paths and restart.
+Put *server* block to your nginx configuration (for example replace the default config in `/etc/nginx/sites-enabled/default`). Don't forget to adjust paths and restart.
 
 ```
 upstream backend {
