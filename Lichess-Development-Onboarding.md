@@ -22,11 +22,84 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Infrastructure
 * `mongodb` (>= 3.4.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
+* `nginx`
 
 #### Compilers
 * `Java 8` (:warning: higher version will not work)
 
 ### Installation Steps
+
+#### Prepare web server
+
+Add the following *server* blocks to your nginx configuration. Don't forget to adjust paths and restart.
+
+```
+upstream backend {
+  server 127.0.0.1:9663;
+}
+
+server {
+  server_name localhost assets.localhost;
+  listen 80;
+  listen [::]:80;
+
+  error_log /var/log/nginx/lila.error.log;
+  access_log /var/log/nginx/lila.access.log;
+
+  charset utf-8;
+
+  location /assets {
+    rewrite "^/assets/_\w{6}/(.*)$" /assets/$1;
+    add_header "Access-Control-Allow-Origin" "*";
+    add_header "Service-Worker-Allowed" "/";
+    alias /home/niklas/Projekte/lila/public;
+    break;
+  }
+
+  error_page 500 501 502 503 /oops/servererror.html;
+  error_page 504 /oops/timeout.html;
+  error_page 429 /oops/toomanyrequests.html;
+  location /oops/ {
+    root /home/niklas/Projekte/lila/public/;
+  }
+  location = /robots.txt {
+    root /home/niklas/Projekte/lila/public/;
+  }
+  location = /manifest.json {
+    root /home/niklas/Projekte/lila/public/;
+  }
+
+  location / {
+    proxy_http_version 1.1;
+    proxy_set_header Host $http_host;
+    proxy_set_header X-Forwarded-For $remote_addr;
+    proxy_set_header X-Forwarded-Proto scheme;
+    proxy_read_timeout 90s;
+    proxy_pass http://backend;
+  }
+}
+
+server {
+  server_name socket.localhost;
+  listen 80;
+  listen [::]:80;
+
+  error_log /var/log/nginx/lila.error.log;
+  access_log /var/log/nginx/lila.access.log;
+
+  charset utf-8;
+
+  location / {
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
+    proxy_set_header Host $http_host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Forwarded-For $remote_addr;
+    proxy_pass http://backend;
+  }
+}
+```
 
 #### Setting up your Lichess configuration and compiling the web app
 
@@ -48,9 +121,9 @@ Before beginning, please make sure you have the following tools installed, using
 
 1. Make sure that mongodb is running. By default lila will try to connect to `mongodb://127.0.0.1:27017/lichess`.
 
-1. From the top level of the lichess project, execute `SERVE_ASSETS=1 ./bin/dev run`
+1. From the top level of the lichess project, execute `./bin/dev run`
 
-1. Navigate to http://localhost:9663/ with a browser. It can take a while to compile some remaining files.
+1. Navigate to http://localhost/ with a browser. It can take a while to compile some remaining files.
 
 #### Optional: Setup fishnet for server side analysis and play
 
