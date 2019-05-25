@@ -1,10 +1,10 @@
 The following instructions outline how to set up your development environment for starting development on Lichess. The instructions are aimed to be agnostic of the platform the stack is installed on, so a working knowledge of the specifics of your GNU/Linux distribution or other such Unix based operating system is assumed. 
 
-If you want to set up the environment on a Windows machine, look here: https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding-(Windows)
+You can also [set up the environment on a Windows machine](Lichess-Development-Onboarding-(Windows)).
 
 ## Getting Help
 
-If you get stuck during the install process the most suitable place to seek help is the `#devs` channel on Discord (https://discord.gg/hy5jqSs). The main developer of Lichess (thibault) can be found there as well as several people who have successfully installed the stack. There is also a `#lichess` IRC channel on `irc.freenode.org`.
+If you get stuck during the installation process the most suitable place to seek help is the `#devs` channel on Discord (https://discord.gg/hy5jqSs). The main developer of Lichess (thibault) can be found there as well as several people who have successfully installed the stack. There is also a `#lichess` IRC channel on `irc.freenode.org`.
 
 ## Manual setup
 
@@ -31,7 +31,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Prepare web server
 
-Add the following to your nginx configuration (for example replace the default config in `/etc/nginx/sites-enabled/default`). Don't forget to adjust paths and restart.
+Add the following to your nginx configuration (for example replace the default config in `/etc/nginx/sites-enabled/default`). Don't forget to adjust paths and reload.
 
 ```
 upstream backend {
@@ -111,7 +111,7 @@ server {
 
 1. Install it: `pip install fishnet`
 
-2. Run it and point it to your local installation: `python -m fishnet --endpoint http://localhost:9663/fishnet` (will do some interactive configuration when started for the first time)
+2. Run it and point it to your local installation: `python -m fishnet --endpoint http://localhost/fishnet` (will do some interactive configuration when started for the first time)
 
 ## Faster builds
 
