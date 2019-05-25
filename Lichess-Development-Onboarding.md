@@ -171,3 +171,7 @@ If you are using an old sbt and if it's no problem that these options are used b
 ### Couldn't find package "ceval" on the "npm" registry.
 
 Check your `yarn --version`. Requires at least yarn 1.0.
+
+### value toList is not a member of java.util.stream.Stream[String]
+
+Check your Java version. Only Java 8 is supported, no later.
