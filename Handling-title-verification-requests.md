@@ -43,6 +43,9 @@ https://fcacostarica.com/jugadores/
 
 * We accept: NM
 
+### Italy
+
+* We accept: Master (e.g: http://www.torneionline.com/giocatori_d.php?progre=7145&tipo=a )
 
 # More info
 ### Relevant Gmail canned responses
