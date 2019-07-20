@@ -23,6 +23,7 @@ Before beginning, please make sure you have the following tools installed, using
 #### Infrastructure
 * `mongodb` (>= 3.4.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
 * `nginx`
+* `redis`
 
 #### Compilers
 * `Java 8` (:warning: higher version will not work)
