@@ -14,8 +14,8 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Tools and dependency managers
 * `git`
-* `sbt` (>= 0.13.14 [instructions](https://www.scala-sbt.org/release/docs/Setup.html))
-* `node` (>= 10, `nodejs` on Debian, `nodejs-legacy` pre Debian Buster, [instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions))
+* `sbt` (>= 0.13.14 [instructions](https://www.scala-sbt.org/release/docs/Setup.html)), [check if WSL](https://github.com/microsoft/WSL/issues/3286#issuecomment-402594992)
+* `node` (>= 10, `nodejs` on Debian, `nodejs-legacy` pre Debian Buster, [instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions), [if Ubuntu](https://github.com/yarnpkg/yarn/issues/2821))
 * `yarn` (>= 1.0, [instructions](https://yarnpkg.com/lang/en/docs/install/))
 * `gulp-cli` (`sudo yarn global add gulp-cli`)
 * `wget`
