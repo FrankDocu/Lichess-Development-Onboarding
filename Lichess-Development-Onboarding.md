@@ -32,7 +32,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Prepare web server
 
-Add the following to your nginx configuration (for example replace the default config in `/etc/nginx/sites-enabled/default`). Don't forget to adjust paths and reload. (You may also want to replace `server_name localhost assets.localhost` with `server_name l.org ~^\w\w\.l\.org$;` and add `127.0.0.1 l.org` to your hosts file.
+Add the following to your nginx configuration (for example replace the default config in `/etc/nginx/sites-enabled/default`). Don't forget to adjust paths and reload. (You may also want to replace `server_name localhost assets.localhost` with `server_name l.org ~^\w\w\.l\.org$;` and add `127.0.0.1 l.org` to your hosts file.)
 
 ```
 upstream backend {
