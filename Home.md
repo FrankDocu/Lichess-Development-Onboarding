@@ -1,5 +1,5 @@
 # Welcome to the lila wiki!
-lila = (**li**chess in sca**la**)
+lila = **li**chess in sca**la**
 
 ### For developers
 * [Setting up a lila development environment on Linux](Lichess-Development-Onboarding)
