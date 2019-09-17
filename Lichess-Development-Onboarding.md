@@ -30,13 +30,17 @@ Before beginning, please make sure you have the following tools installed, using
 
 ### Installation Steps
 
-#### Prepare web server
+#### Prepare nginx
 
 Add the following to your nginx configuration (for example replace the default config in `/etc/nginx/sites-enabled/default`). Don't forget to adjust paths and reload.
 
 ```
 upstream backend {
   server 127.0.0.1:9663;
+}
+
+upstream socket_backend {
+  server 127.0.0.1:9664;
 }
 
 server {
@@ -82,7 +86,7 @@ server {
 }
 ```
 
-#### Setting up your Lichess configuration and compiling the web app
+#### Setup lila
 
 1. Fork the lila project from github on your computer (including submodules): `git clone --recursive https://github.com/ornicar/lila.git`
 
@@ -98,11 +102,17 @@ server {
 
 1. Compile the Scala application with `./bin/dev compile`
 
+#### Setup lila-ws
+
+1. `git clone https://github.com/ornicar/lila-ws.git`
+
 #### Running the Application
 
 1. Make sure that mongodb is running. By default lila will try to connect to `mongodb://127.0.0.1:27017/lichess`.
 
-1. From the top level of the lichess project, execute `./bin/dev run`
+1. From the top level of `lila-ws`, execute `sbt run -Dhttp.port=9664`
+
+1. From the top level of `lila`, execute `./bin/dev run`
 
 1. Navigate to http://localhost/ with a browser. It can take a while to compile some remaining files.
 
