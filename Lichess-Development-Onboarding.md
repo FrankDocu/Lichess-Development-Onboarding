@@ -36,11 +36,11 @@ Add the following to your nginx configuration (for example replace the default c
 
 ```
 upstream backend {
-  server 127.0.0.1:9663;
+  server 127.0.0.1:9663; # lila
 }
 
 upstream socket_backend {
-  server 127.0.0.1:9664;
+  server 127.0.0.1:9664; # lila-ws
 }
 
 server {
@@ -74,10 +74,23 @@ server {
     root /home/niklas/Projekte/lila/public/;
   }
 
+  location ~ ^/(socket/v|analysis/socket/v|lobby/socket/v) {
+    proxy_http_version 1.1;
+    proxy_set_header Host $http_host;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection $http_connection;
+    proxy_set_header X-Forwarded-For $remote_addr;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_read_timeout 90s;
+    proxy_buffering off;
+    proxy_pass http://socket_backend;
+  }
+
   location / {
     proxy_http_version 1.1;
     proxy_set_header Host $http_host;
     proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection $http_connection;
     proxy_set_header X-Forwarded-For $remote_addr;
     proxy_set_header X-Forwarded-Proto $scheme;
     proxy_read_timeout 90s;
