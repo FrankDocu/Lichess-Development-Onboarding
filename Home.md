@@ -1,13 +1,13 @@
 # Welcome to the lila wiki!
 lila = **li**chess in sca**la**
 
-### For developers
+## For developers
 * [Setting up a lila development environment on Linux](Lichess-Development-Onboarding)
 * [Setting up a lila development environment on Windows](Lichess-Development-Onboarding-(Windows))
 * [Lilaisms - how lila uses scala](Lilaisms)
 * [Working on ...](Working-on-...)
 
-### For moderators
+## For moderators
 * [Lichess Moderator Handbook](https://docs.google.com/document/d/1e6Vi_WPcx38uymvp0WDC921wrmtx8bRaCcQuvH8FcLM/edit)
 * [Handling 'cheat', 'print' and 'boost' reports](Handling-'cheat',-'print'-and-'boost'-reports)
 * [Handling 'insult', 'troll' and 'other' reports](Handling-'insult',-'troll'-and-'other'-reports)
@@ -16,7 +16,7 @@ lila = **li**chess in sca**la**
 * [Writing and publishing Lichess blog posts](Writing-and-publishing-Lichess-blog-posts)
 * [Reading Irwin AI hunter reports](Irwin-AI-hunter)
 
-### For email administrators
+## For email administrators
 * [Handling email address confirmation](Handling-email-address-confirmation)
 * [Handling appeals](Handling-appeals)
 * [Handling streamer requests](Handling-streamer-requests)
@@ -24,24 +24,24 @@ lila = **li**chess in sca**la**
 * [Handling coach requests](Handling-coach-requests)
 * [Canned responses for email administrators](Canned-responses-for-email-administrators)
 
-### For social media administrators
+## For social media administrators
 * [Social media accounts and guidelines](Social-media-accounts-and-guidelines)
 
-### For writers
+## For writers
 * [Write and publish Lichess blog posts](Writing-and-publishing-Lichess-blog-posts)
 
-### For system administrators
+## For system administrators
 * [Common sysadmin procedures](sysadmin-procedures)
 * [Monitoring](Monitoring)
 
-### Miscellaneous
+## Miscellaneous
 * [Event log](https://github.com/ornicar/lila/wiki/Notable-events-log)
 * [Lichess Operating Expenses](https://docs.google.com/spreadsheets/d/1CGgu-7aNxlZkjLl9l-OlL00fch06xp0Q7eCVDDakYEE/edit)
 * [Lichess Video Library](https://docs.google.com/spreadsheets/d/1qYU1XhvC8TlBggXEkjI481ieNGyYGmMTy97A9iboyrM/edit)
 * [Lichess Puzzle Tags](https://docs.google.com/spreadsheets/d/155eR2a6hjYjBkS709c5bp8HeXq4yIXUFP0gLkk315zY/edit)
 * [Lichess Rating System](https://docs.google.com/document/d/199egGx3_CyoSZnN_3CWcE56Krfq61HTT0ZonsNKxDJM/edit#)
 
-### Wiki TODO list
+## Wiki TODO list
 * Publish https://github.com/ornicar/lila/wiki/Username-policy on the Lichess website
 * Document how to handle cheat reports on https://github.com/ornicar/lila/wiki/Handling-'cheat',-'print'-and-'boost'-reports
 * Document how to handle appeals on https://github.com/ornicar/lila/wiki/Handling-appeals
