@@ -110,6 +110,8 @@ server {
 
 1. Make sure that mongodb is running. By default lila will try to connect to `mongodb://127.0.0.1:27017/lichess`.
 
+1. Make sure that redis is running. By default lila will try to connect to `redis://127.0.0.1`
+
 1. From the top level of `lila-ws`, execute `sbt run -Dhttp.port=9664`
 
 1. From the top level of `lila`, execute `./bin/dev run`
