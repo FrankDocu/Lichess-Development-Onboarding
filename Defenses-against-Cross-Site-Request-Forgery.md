@@ -14,6 +14,8 @@ For requests that cannot be anonymous (e.g. XHR and requests by the mobile app) 
 
 Since `Accept` headers are considered *simple*, it is insufficient to use only `Accept` to request a JSON response.
 
+TODO: Browser behavior changed in recent years to require CORS under more circumstances, which means the rule could possibly be relaxed.
+
 > **Rule 3:** Requests under /api/ must not use authentication via Cookie.
 
 This allows `/api/` to safely be whitelisted for CORS from all origins. When authentication is required, OAuth can be used instead.
