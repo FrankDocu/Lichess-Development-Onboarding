@@ -18,9 +18,9 @@ Since `Accept` headers are considered *simple*, it is insufficient to use only `
 
 This allows `/api/` to safely be whitelisted for CORS from all origins. When authentication is required, OAuth can be used instead.
 
-# Websockets
+# WebSockets
 
-WebSockets are special, because they are iniated with a safe request, and browsers allow creating WebSockets across origins.
+WebSockets are special, because they are iniated with a safe request, despite often being used to change server side state. Browsers allow creating WebSockets across origins, even in absence of CORS.
 
 > **Rule 4:** WebSockets from untrusted origins must be treated as unauthenticated/anonymous.
 
