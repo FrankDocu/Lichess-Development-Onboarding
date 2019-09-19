@@ -29,4 +29,4 @@ WebSockets are special, because they are iniated with a safe request, and browse
 * `https://lichess.org`
 * `file://` (mobile app web view, or user opened a trusted local HTML file)
 * `http://localhost:8080` (new mobile app web view, or controlled by the user)
-* Absense of `Origin` header (impossible to create in unsafe or cross site WebSocket requests)
+* Absense of `Origin` header (impossible to forge in unsafe or cross site WebSocket requests)
