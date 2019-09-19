@@ -5,6 +5,7 @@ lila = **li**chess in sca**la**
 * [Setting up a lila development environment on Linux](Lichess-Development-Onboarding)
 * [Setting up a lila development environment on Windows](Lichess-Development-Onboarding-(Windows))
 * [Lilaisms - how lila uses scala](Lilaisms)
+* [Defenses against Cross Site Request Forgery](Defenses-against-Cross-Site-Request-Forgery)
 * [Working on ...](Working-on-...)
 
 ## For moderators
