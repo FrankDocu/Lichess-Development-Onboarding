@@ -14,7 +14,7 @@ Before even routing, a global request handler [checks](https://github.com/ornica
 
 ~Since `Accept` headers are considered *simple*, it is insufficient to use only `Accept` to request a JSON response.~
 
-The above rule is no longer required in modern browsers (which are required to even access Lichess over HTTPS).
+The above rule is no longer required in modern browsers (and older browsers cannot load Lichess because we only support modern TLS).
 
 > **Rule 3:** Endpoints under /api/ must not use authentication via Cookie.
 
