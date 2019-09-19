@@ -16,7 +16,7 @@ Before even routing, a global request handler [checks](https://github.com/ornica
 
 The above rule is no longer required in modern browsers (which are required to even access Lichess over HTTPS).
 
-> **Rule 3:** Requests under /api/ must not use authentication via Cookie.
+> **Rule 3:** Endpoints under /api/ must not use authentication via Cookie.
 
 This allows `/api/` to safely be whitelisted for CORS from all origins. When authentication is required, OAuth can be used instead.
 
