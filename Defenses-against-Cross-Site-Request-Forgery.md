@@ -8,7 +8,7 @@ Before even routing, a global request handler [checks](https://github.com/ornica
 
 In absence of CORS, only JSON and XML can be read in cross site requests.
 
-> **Rule 2:** All JSON endpoints that can be queried with [simple requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Simple_requests) must treat requests as unauthenticated/anonymous and should live under `/api/`.
+> **Rule 2:** All JSON endpoints that can be queried with [simple requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Simple_requests) **must** treat requests as unauthenticated/anonymous and **should** live under `/api/`.
 
 For requests that cannot be anonymous (e.g. XHR and requests by the mobile app) simply require them to be *not simple*. This can be done by requiring the `X-Requested-With` header (check `isXhr()` in lila).
 
