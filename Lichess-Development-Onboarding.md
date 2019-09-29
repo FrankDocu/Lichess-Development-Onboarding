@@ -32,7 +32,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Prepare nginx
 
-Add the following to your nginx configuration (for example replace the default config in `/etc/nginx/sites-enabled/default`). Don't forget to adjust paths and reload.
+Add the following to your nginx configuration (for example replace the default config in `/etc/nginx/sites-enabled/default`). Don't forget to adjust paths, ensure nginx is allowed to read the public directory, and reload.
 
 ```
 upstream backend {
