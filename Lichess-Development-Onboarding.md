@@ -117,7 +117,7 @@ server {
 
 #### Setup lila-ws
 
-1. `git clone https://github.com/ornicar/lila-ws.git`
+1. `git clone --branch play https://github.com/ornicar/lila-ws.git`
 
 #### Running the Application
 
