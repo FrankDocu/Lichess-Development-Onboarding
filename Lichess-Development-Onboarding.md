@@ -117,7 +117,7 @@ server {
 
 #### Setup lila-ws
 
-1. `git clone --branch play https://github.com/ornicar/lila-ws.git`
+1. `git clone https://github.com/ornicar/lila-ws.git`
 
 #### Running the Application
 
@@ -130,14 +130,6 @@ server {
 1. From the top level of `lila`, execute `./bin/dev run`
 
 1. Navigate to http://localhost/ with a browser. It can take a while to compile some remaining files.
-
-#### Optional: Setup fishnet for server side analysis and play
-
-[fishnet](https://github.com/niklasf/fishnet) is a Python script that manages Stockfish instances and lets them communicate with the server.
-
-1. Install it: `pip install fishnet`
-
-2. Run it and point it to your local installation: `python -m fishnet --endpoint http://localhost/fishnet` (will do some interactive configuration when started for the first time)
 
 ## Faster builds
 
