@@ -193,3 +193,7 @@ Check your `yarn --version`. Requires at least yarn 1.0.
 ### value toList is not a member of java.util.stream.Stream[String]
 
 Check your Java version. Only Java 8 is supported, no later.
+
+### java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
+
+Check that MongoDB is running. Restart lila, if it was started before MongoDB.
