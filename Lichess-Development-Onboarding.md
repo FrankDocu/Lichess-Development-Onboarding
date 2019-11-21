@@ -74,7 +74,7 @@ server {
     root /home/niklas/Projekte/lila/public/;
   }
 
-  location ~ ^/(socket/v|analysis/socket/v|lobby/socket/v) {
+  location ~ ^/(socket/v|analysis/socket/v|lobby/socket/v|study/[^/]+/socket/v) {
     proxy_http_version 1.1;
     proxy_set_header Host $http_host;
     proxy_set_header Upgrade $http_upgrade;
