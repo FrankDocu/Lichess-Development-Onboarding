@@ -36,7 +36,7 @@ cd lila
 ```
 In SBT, type `~run` to start the HTTP server. It will recompile and restart when needed.
 
-Now open http://127.0.0.1:9000 in your browser. The very first load will take a couple minutes to compile everything.
+Now open http://127.0.0.1:9663 in your browser. The very first load will take a couple minutes to compile everything.
 
 > You could also type `~compile` in SBT to just compile and recompile when needed.
 
