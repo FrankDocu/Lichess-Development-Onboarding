@@ -30,19 +30,17 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Setup lila
 
-```git clone https://github.com/ornicar/lila.git`
+```
+git clone https://github.com/ornicar/lila.git
+cd lila
+./ui/build # builds the CSS and JS
+./lila # starts the SBT console
+```
+In SBT, type `~run` to start the HTTP server. It will recompile and restart when needed.
 
-1. Using your favourite terminal emulator, change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts. `cd lila`
+Now open http://127.0.0.1:9000 in your browser. The very first load will take a couple minutes to compile everything.
 
-1. Compile the client side modules with `./ui/build`
-
-1. Start the SBT console with `./lila`
-
-Type `~run` to start the HTTP server. It will recompile and restart when needed.
-
-> You could also type `~compile` to just compile and recompile when needed.
-
-1. Open http://127.0.0.1:9000 in your browser. 
+> You could also type `~compile` in SBT to just compile and recompile when needed.
 
 #### Setup websockets
 
