@@ -14,122 +14,43 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Tools and dependency managers
 * `git`
-* `sbt` (>= 0.13.14 [instructions](https://www.scala-sbt.org/release/docs/Setup.html), [check if WSL](https://github.com/microsoft/WSL/issues/3286#issuecomment-402594992))
+* `sbt` (>= 1.3 [instructions](https://www.scala-sbt.org/release/docs/Setup.html), [check if WSL](https://github.com/microsoft/WSL/issues/3286#issuecomment-402594992))
 * `node` (>= 10, `nodejs` on Debian, `nodejs-legacy` pre Debian Buster, [instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions), [check if Ubuntu](https://github.com/yarnpkg/yarn/issues/2821))
 * `yarn` (>= 1.0, [instructions](https://yarnpkg.com/lang/en/docs/install/))
 * `gulp-cli` (`sudo yarn global add gulp-cli`)
-* `wget`
 
 #### Infrastructure
-* `mongodb` (>= 3.4.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
-* `nginx`
+* `mongodb` (>= 3.6.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
 * `redis`
 
 #### Compilers
-* `Java 8` (:warning: higher version will not work)
+* `Java` Any version from 8 to 13.
 
 ### Installation Steps
 
-#### Prepare nginx
-
-Add the following to your nginx configuration (for example replace the default config in `/etc/nginx/sites-enabled/default`). Don't forget to adjust paths, ensure nginx is allowed to read the public directory, and reload.
-
-```
-upstream backend {
-  server 127.0.0.1:9663; # lila
-}
-
-upstream socket_backend {
-  server 127.0.0.1:9664; # lila-ws
-}
-
-server {
-  server_name localhost assets.localhost;
-  listen 80;
-  listen [::]:80;
-
-  error_log /var/log/nginx/lila.error.log;
-  access_log /var/log/nginx/lila.access.log;
-
-  charset utf-8;
-
-  location /assets {
-    rewrite "^/assets/_\w{6}/(.*)$" /assets/$1;
-    add_header "Access-Control-Allow-Origin" "*";
-    add_header "Service-Worker-Allowed" "/";
-    alias /home/niklas/Projekte/lila/public;
-    break;
-  }
-
-  error_page 500 501 502 503 /oops/servererror.html;
-  error_page 504 /oops/timeout.html;
-  error_page 429 /oops/toomanyrequests.html;
-  location /oops/ {
-    root /home/niklas/Projekte/lila/public/;
-  }
-  location = /robots.txt {
-    root /home/niklas/Projekte/lila/public/;
-  }
-  location = /manifest.json {
-    root /home/niklas/Projekte/lila/public/;
-  }
-
-  location ~ ^/(socket/v|analysis/socket/v|lobby/socket/v|study/[^/]+/socket/v) {
-    proxy_http_version 1.1;
-    proxy_set_header Host $http_host;
-    proxy_set_header Upgrade $http_upgrade;
-    proxy_set_header Connection $http_connection;
-    proxy_set_header X-Forwarded-For $remote_addr;
-    proxy_set_header X-Forwarded-Proto $scheme;
-    proxy_read_timeout 90s;
-    proxy_buffering off;
-    proxy_pass http://socket_backend;
-  }
-
-  location / {
-    proxy_http_version 1.1;
-    proxy_set_header Host $http_host;
-    proxy_set_header Upgrade $http_upgrade;
-    proxy_set_header Connection $http_connection;
-    proxy_set_header X-Forwarded-For $remote_addr;
-    proxy_set_header X-Forwarded-Proto $scheme;
-    proxy_read_timeout 90s;
-    proxy_pass http://backend;
-  }
-}
-```
-
 #### Setup lila
 
-1. Fork the lila project from github on your computer (including submodules): `git clone --recursive https://github.com/ornicar/lila.git`
+1. Fork the lila project from github on your computer: `git clone https://github.com/ornicar/lila.git`
 
 1. Using your favourite terminal emulator, change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts. `cd lila`
 
-1. `cp bin/dev.default bin/dev`
-
-1. `cp conf/application.conf.default conf/application.conf`
-
-1. Run `./bin/gen/geoip` 
-
 1. Compile the client side modules with `./ui/build`
 
-1. Compile the Scala application with `./bin/dev compile`
+1. Start the SBT console with `./lila`
 
-#### Setup lila-ws
+Type `~run` to start the HTTP server. It will recompile and restart when needed.
 
-1. `git clone https://github.com/ornicar/lila-ws.git`
+> You could also type `~compile` to just compile and recompile when needed.
 
-#### Running the Application
+1. Open http://127.0.0.1:9000 in your browser. 
 
-1. Make sure that mongodb is running. By default lila will try to connect to `mongodb://127.0.0.1:27017/lichess`.
+#### Setup websockets
 
-1. Make sure that redis is running. By default lila will try to connect to `redis://127.0.0.1`
-
-1. From the top level of `lila-ws`, execute `sbt run -Dhttp.port=9664`
-
-1. From the top level of `lila`, execute `./bin/dev run`
-
-1. Navigate to http://localhost/ with a browser. It can take a while to compile some remaining files.
+```sh
+git clone https://github.com/ornicar/lila-ws.git
+cd lila-ws
+sbt run
+```
 
 ## Faster builds
 
@@ -137,13 +58,6 @@ To speed up `./ui/build`, install GNU parallel. The citation warning can be sile
 ```sh
 mkdir -p ~/.parallel && touch ~/.parallel/will-cite
 ```
-## Updating the code
-
-Pull new code `git pull`, check if any submodule has updates with `git status` and if so run `git submodule update --recursive`.
-
-Run `./ui/build` to update the client side modules.
-
-For the server, `sbt` (invoked by `./bin/dev`) will automatically recompile any changed files. (In rare cases it does not manage to do this. You can use `sbt clean` as a last resort).
 
 ## Working on ...
 
