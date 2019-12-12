@@ -30,7 +30,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 #### Setup lila
 
-1. Fork the lila project from github on your computer: `git clone https://github.com/ornicar/lila.git`
+```git clone https://github.com/ornicar/lila.git`
 
 1. Using your favourite terminal emulator, change your current directory to the top level of the checked out repository. This is important for the successful execution of the Lichess build scripts. `cd lila`
 
