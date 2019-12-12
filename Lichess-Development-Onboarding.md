@@ -18,19 +18,17 @@ Before beginning, please make sure you have the following tools installed, using
 * `node` (>= 10, `nodejs` on Debian, `nodejs-legacy` pre Debian Buster, [instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions), [check if Ubuntu](https://github.com/yarnpkg/yarn/issues/2821))
 * `yarn` (>= 1.0, [instructions](https://yarnpkg.com/lang/en/docs/install/))
 * `gulp-cli` (`sudo yarn global add gulp-cli`)
+* `Java` Any version from 8 to 13.
 
 #### Infrastructure
 * `mongodb` (>= 3.6.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
 * `redis`
 
-#### Compilers
-* `Java` Any version from 8 to 13.
-
 ### Installation Steps
 
 #### Setup lila
 
-```
+```sh
 git clone https://github.com/ornicar/lila.git
 cd lila
 ./ui/build # builds the CSS and JS
@@ -44,6 +42,7 @@ Now open http://127.0.0.1:9000 in your browser. The very first load will take a 
 
 #### Setup websockets
 
+If you need websockets:
 ```sh
 git clone https://github.com/ornicar/lila-ws.git
 cd lila-ws
