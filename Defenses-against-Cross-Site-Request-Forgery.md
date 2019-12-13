@@ -29,6 +29,8 @@ WebSockets are special, because they are iniated with a safe request, despite of
 # Trusted origins
 
 * `https://lichess.org`
+* `ionic://localhost` (mobile app web view on iOS)
 * `file://` (mobile app web view, or user opened a trusted local HTML file)
 * `http://localhost:8080` (new mobile app web view, or controlled by the user)
+* `http://localhost:9663` (local development)
 * Absense of `Origin` header (mobile app web view, or programmatic access controlled by the user, impossible to forge in cross site requests)
