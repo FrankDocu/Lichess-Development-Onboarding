@@ -34,11 +34,12 @@ cd lila
 ./ui/build # builds the CSS and JS
 ./lila # starts the SBT console
 ```
-In SBT, type `~run` to start the HTTP server. It will recompile and restart when needed.
+Once the console has booted, you will see a `lila>` prompt. Type `compile` and sit back.
 
-Now open http://127.0.0.1:9663 in your browser. The very first load will take a couple minutes to compile everything.
+When it's done,  type `run` to start the HTTP server.
+Then open http://127.0.0.1:9663 in your browser.
 
-> You could also type `~compile` in SBT to just compile and recompile when needed.
+> [Read more about the SBT console commands](https://www.playframework.com/documentation/2.8.x/PlayConsole).
 
 #### Setup websockets
 
