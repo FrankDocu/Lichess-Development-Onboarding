@@ -50,6 +50,16 @@ cd lila-ws
 sbt run
 ```
 
+#### Code formatting
+
+These repositories use [scalafmt](https://scalameta.org/scalafmt/).
+
+Please [install it for your code editor](https://scalameta.org/scalafmt/docs/installation.html)
+if you're going to contribute to this project. We recommend scalafmt-native which is simpler to setup than the nailgun solution.
+
+If you don't install it, please run `scalafmtAll` in the sbt console before committing.
+
+
 ## Faster builds
 
 To speed up `./ui/build`, install GNU parallel. The citation warning can be silenced with
