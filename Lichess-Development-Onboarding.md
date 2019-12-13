@@ -90,21 +90,9 @@ It might not start if you have too little free space (might need 3GB), or if the
     [ERROR] p.c.s.n.PlayDefaultUpstreamHandler Cannot invoke the action
     java.lang.ArrayIndexOutOfBoundsException: 101
 check `mongo --version`, and that is satisfies the requirement at the top of this page.
-
-### compiling timeouts
-If you keep getting timeouts when compiling, use the `./bin/dev` wrapper script (instead of running `sbt` directly): `cp bin/dev.default bin/dev && chmod +x bin/dev`. Alternatively you can create this `SBT_OPTS` environment variable:
-
-    export JAVA_OPTS="-Xms2048m -Xmx4g -XX:ReservedCodeCacheSize=64m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC -XX:+ExitOnOutOfMemoryError -Dkamon.auto-start=true"
-
-If you are using an old sbt and if it's no problem that these options are used by all other Java applications running by your session, you may replace `SBT_OPTS` with `JAVA_OPTS`.
-
 ### Couldn't find package "ceval" on the "npm" registry.
 
 Check your `yarn --version`. Requires at least yarn 1.0.
-
-### value toList is not a member of java.util.stream.Stream[String]
-
-Check your Java version. Only Java 8 is supported, no later.
 
 ### java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
 
