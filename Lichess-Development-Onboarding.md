@@ -29,7 +29,7 @@ Before beginning, please make sure you have the following tools installed, using
 #### Setup lila
 
 ```sh
-git clone https://github.com/ornicar/lila.git
+git clone --recursive https://github.com/ornicar/lila.git
 cd lila
 ./ui/build # builds the CSS and JS
 ./lila # starts the SBT console
