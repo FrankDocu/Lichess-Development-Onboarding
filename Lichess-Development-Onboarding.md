@@ -6,13 +6,11 @@ You can also [set up the environment on a Windows machine](Lichess-Development-O
 
 If you get stuck during the installation process the most suitable place to seek help is the `#development` channel on Discord (https://discord.gg/hy5jqSs). The main developer of Lichess (thibault) can be found there as well as several people who have successfully installed the stack. There is also a `#lichess` IRC channel on `irc.freenode.org`.
 
-## Manual setup
-
-### Prerequisites
+## Prerequisites
 
 Before beginning, please make sure you have the following tools installed, using your favourite package manager to install them where applicable.
 
-#### Tools and dependency managers
+### Tools and dependency managers
 * `git`
 * `sbt` (>= 1.3 [instructions](https://www.scala-sbt.org/release/docs/Setup.html), [check if WSL](https://github.com/microsoft/WSL/issues/3286#issuecomment-402594992))
 * `node` (>= 10, `nodejs` on Debian, `nodejs-legacy` pre Debian Buster, [instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions), [check if Ubuntu](https://github.com/yarnpkg/yarn/issues/2821))
@@ -20,13 +18,13 @@ Before beginning, please make sure you have the following tools installed, using
 * `gulp-cli` (`sudo yarn global add gulp-cli`)
 * `Java` Any version from 8 to 13.
 
-#### Infrastructure
+### Infrastructure
 * `mongodb` (>= 3.6.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
 * `redis`
 
-### Installation Steps
+## Installation
 
-#### Setup lila
+### Setup lila
 
 ```sh
 git clone --recursive https://github.com/ornicar/lila.git
@@ -41,7 +39,7 @@ Then open http://127.0.0.1:9663 in your browser.
 
 > [Read more about the SBT console commands](https://www.playframework.com/documentation/2.8.x/PlayConsole).
 
-#### Setup websockets
+### Setup websockets
 
 If you need websockets:
 ```sh
@@ -50,7 +48,7 @@ cd lila-ws
 sbt run
 ```
 
-#### Code formatting
+## Code formatting
 
 These repositories use [scalafmt](https://scalameta.org/scalafmt/).
 
@@ -59,7 +57,6 @@ if you're going to contribute to this project. We recommend scalafmt-native whic
 
 If you don't install it, please run `scalafmtAll` in the sbt console before committing.
 
-
 ## Faster builds
 
 To speed up `./ui/build`, install GNU parallel. The citation warning can be silenced with
@@ -67,11 +64,13 @@ To speed up `./ui/build`, install GNU parallel. The citation warning can be sile
 mkdir -p ~/.parallel && touch ~/.parallel/will-cite
 ```
 
-## Working on ...
+## Development
 
 Here are [some hints](Working-on-...) for working on various parts of the system.
 
-## Using Eclipse IDE
+## Alternatives
+
+### Eclipse IDE (outdated)
 
 * Download latest eclipse Mars and extract/install
 * Install 'scala ide' (eclipse marketplace; This installs all scala ide plugins needed)
@@ -82,28 +81,34 @@ Here are [some hints](Working-on-...) for working on various parts of the system
 * Import scala project as 'existing projects into eclipse'
 * If you have install plugin mentioned in step 2-4, then you can run sbt commands from eclipse (Like update config, run etc)
 
-## Automatic setup with Docker
+### Docker (outdated)
 
 There is an external project called [lichocker](https://github.com/BrandonE/lichocker), which allows you to run lila in a Docker container. Running in Docker simplifies setup and guarantees that your development environment will perfectly match that of anyone else who uses lichocker, eliminating the "it works on my machine" phenomena. However, it is always more performant to run any project directly on its host-machine, and lichocker is a work-in-progress that might not be reliable for your use.
 
-## Automatic setup with Vagrant
+### Vagrant (outdated)
 
 This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c294d7530111bbb98dc6077a328bcea6). If you create and maintain a vagrant install, please make a GitHub repository for it, and we'll mention it here.
 
 ## Troubleshooting
 
-### [PrimaryUnavailableException$: MongoError['No primary node is available!']]
-Make sure mongod is running, check /var/log/mongo/mongod.log for errors
-It might not start if you have too little free space (might need 3GB), or if there is a previous lock file that hasn't been cleaned up (maybe try removing /var/lib/mongodb/mongod.lock)
+* ```
+  [PrimaryUnavailableException$: MongoError['No primary node is available!']]
+  ```
+  Make sure mongod is running, check `/var/log/mongo/mongod.log` for errors.
+  It might not start if you have too little free space (might need 3GB), or if there is a previous lock file that hasn't been cleaned up (maybe try removing `/var/lib/mongodb/mongod.lock`)
 
-### Can't create games
-    [ERROR] p.c.s.n.PlayDefaultUpstreamHandler Cannot invoke the action
-    java.lang.ArrayIndexOutOfBoundsException: 101
-check `mongo --version`, and that is satisfies the requirement at the top of this page.
-### Couldn't find package "ceval" on the "npm" registry.
+* Can't create games
+  ```
+  [ERROR] p.c.s.n.PlayDefaultUpstreamHandler Cannot invoke the action
+  java.lang.ArrayIndexOutOfBoundsException: 101
+  ```
+  Check `mongo --version`, and that is satisfies the requirement at the top of this page.
 
-Check your `yarn --version`. Requires at least yarn 1.0.
+* Couldn't find package "ceval" on the "npm" registry.
 
-### java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
+  Check your `yarn --version`. Requires at least yarn 1.0.
 
-Check that MongoDB is running. Restart lila, if it was started before MongoDB.
+* ```
+  java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
+  ```
+  Check that MongoDB is running. Restart lila, if it was started before MongoDB.
