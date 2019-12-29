@@ -4,8 +4,6 @@ Code concepts and functions that are specific to, and idiomatic to, the lila cod
 
 ## How lila uses scala
 
-Scala can be used as a better Java, or as a worse Haskell. lila definitely goes for the latter.
-
 lila makes little use of object orientation and particularly inheritance, but:
 
 - Immutability is required everywhere. Notable exceptions can be made:
@@ -13,6 +11,7 @@ lila makes little use of object orientation and particularly inheritance, but:
   - in performance sensitive functions. In this case, the mutability
     must be contained in the function scope. The function must expose
     an immutable signature.
+  - in atomic structures like java's `AtomicReference` or `ConcurrentHashMap`.
 - Strong typing is preferred. For instance, `FiniteDuration` is better than `Int`,
   and `case class Name(value: String)` is better than `String`.
   The more the value is used in the code, and the more useful it is to type it correctly.
@@ -21,13 +20,13 @@ lila makes little use of object orientation and particularly inheritance, but:
 ## Weird shit you will only see in lila
 
 If the function you're looking for is not here,
-try the [scala doc](http://www.scala-lang.org/files/archive/api/2.12.1/)
-or the [scalaz doc](https://oss.sonatype.org/service/local/repositories/releases/archive/org/scalaz/scalaz_2.11/7.1.11/scalaz_2.11-7.1.11-javadoc.jar/!/index.html).
+try the [scala doc](https://www.scala-lang.org/files/archive/api/current/)
+or the [scalaz doc](https://javadoc.io/doc/org.scalaz/scalaz-core_2.13/7.2.30/scalaz/index.html).
 
 ## Disclaimer
 
-> Most of these lilaisms are driven by a compulsive tendency to play [code golf](https://en.wikipedia.org/wiki/Code_golf).
-> However, they may also present benefits in terms of type safety.
+> Some of these lilaisms are driven by a compulsive tendency to play [code golf](https://en.wikipedia.org/wiki/Code_golf).
+> However, they also present benefits in terms of type safety.
 > In any case, contributors are never expected to use lilaisms. You can make use of them,
 > but a pull request will likely not be rejected because it isn't idiomatic to lila.
 > However, immutability and type safety remain requirements (with discussable exceptions).
