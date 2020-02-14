@@ -20,7 +20,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 ### Infrastructure
 * `mongodb` (>= 3.6.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/), [for WSL](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide/blob/master/readmes/installs/MongoDB.md))
-* `redis` ([For WSL,](https://redislabs.com/blog/redis-on-windows-10/))
+* `redis` ([For WSL](https://redislabs.com/blog/redis-on-windows-10/))
 
 ## Installation
 
