@@ -41,7 +41,7 @@ Then open http://127.0.0.1:9663 in your browser.
 
 ### Setup websockets
 
-If you need websockets:
+If you need websockets (which you probably do):
 ```sh
 git clone https://github.com/ornicar/lila-ws.git
 cd lila-ws
