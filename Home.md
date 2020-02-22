@@ -23,6 +23,7 @@ lila = **li**chess in sca**la**
 * [Handling streamer requests](Handling-streamer-requests)
 * [Handling title verification requests](Handling-title-verification-requests)
 * [Handling coach requests](Handling-coach-requests)
+* [Handling teacher applications](Handling-teacher-applications)
 * [Canned responses for email administrators](Canned-responses-for-email-administrators)
 
 ## For social media administrators
