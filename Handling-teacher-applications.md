@@ -1,0 +1,3 @@
+In order for a Lichess user account to gain Teacher status and access to Teacher features, the user must fill out the application form on https://lichess.org/class/verify-teacher . All teacher applications should be funneled into this form.
+
+When the provided information is verified, the teacher role can be given by a Lichess moderator and the user will be informed automatically by email(?). If the request is rejected, the user has to be informed manually.
