@@ -9,7 +9,6 @@ lila = **li**chess in sca**la**
 * [Working on ...](Working-on-...)
 
 ## For moderators
-* [Lichess Moderator Handbook](https://docs.google.com/document/d/1e6Vi_WPcx38uymvp0WDC921wrmtx8bRaCcQuvH8FcLM/edit)
 * [Handling 'cheat', 'print' and 'boost' reports](Handling-'cheat',-'print'-and-'boost'-reports)
 * [Handling 'insult', 'troll' and 'other' reports](Handling-'insult',-'troll'-and-'other'-reports)
 * [Username policy](Username-policy)
