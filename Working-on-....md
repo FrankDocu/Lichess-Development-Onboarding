@@ -17,4 +17,4 @@ gulp
 
 # Puzzles
 
-Get some puzzles in your local DB: https://github.com/ornicar/lichess-puzzle-kit
+Add some puzzles to your local DB: https://github.com/ornicar/lichess-puzzle-kit
