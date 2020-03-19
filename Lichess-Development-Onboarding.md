@@ -4,7 +4,7 @@ You can also [set up the environment on a Windows machine](Lichess-Development-O
 
 ## Getting Help
 
-If you get stuck during the installation process the most suitable place to seek help is the `#development` channel on Discord (https://discord.gg/hy5jqSs). The main developer of Lichess (thibault) can be found there as well as several people who have successfully installed the stack. There is also a `#lichess` IRC channel on `irc.freenode.org`.
+If you get stuck during the installation process the most suitable place to seek help is the `#lila-development` channel on Discord (https://discord.gg/hy5jqSs). The main developer of Lichess (thibault) can be found there as well as several people who have successfully installed the stack. There is also a `#lichess` IRC channel on `irc.freenode.org`.
 
 ## Prerequisites
 
