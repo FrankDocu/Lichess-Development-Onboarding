@@ -112,3 +112,4 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
   java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
   ```
   Check that MongoDB is running. Restart lila, if it was started before MongoDB.
+  On MacOS, the connection timeout might be needed to be increased initially (5 seconds could be too less for a cold start). The same can be changed from value '5' to '20'. Once the page is up, this can be reverted back to '5'. This can be changed in the file "base.conf" at ws.timeout.connection
