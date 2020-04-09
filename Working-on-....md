@@ -1,5 +1,4 @@
 # User interface
-
 The mithril or snabbdom UI modules are in `ui/`. Say we work on `ui/round`, the playing UI.
 
 Enable auto-recompile:
@@ -7,6 +6,13 @@ Enable auto-recompile:
 ```
 cd ui/round
 gulp
+```
+
+To enable auto-recompile for the .scss files:
+
+```
+cd ui
+gulp css
 ```
 
 # Translations
