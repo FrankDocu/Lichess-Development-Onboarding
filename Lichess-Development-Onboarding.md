@@ -68,6 +68,12 @@ mkdir -p ~/.parallel && touch ~/.parallel/will-cite
 
 Here are [some hints](Working-on-...) for working on various parts of the system.
 
+If you want to make a user admin, connect to the lichess db with `mongo lichess` and run
+```
+db.user4.update({ _id: "your_id" }, {$set: {roles: ["ROLE_SUPER_ADMIN"]}})
+```
+With `your_id` being the username in lowercase
+
 ## Alternatives
 
 ### Docker
