@@ -23,9 +23,9 @@ gulp css
 
 If you need to add a new file to `translation/source` (for example for translating a completely new page), you also need to add the name of the file (without the extension):
 In `bin/trans-dump`:
-https://github.com/ornicar/lila/blob/3b38ffdbbedc2730746becbb4a4f076ddfb5274c/bin/trans-dump.js#L5
+[here](https://github.com/ornicar/lila/blob/3b38ffdbbedc2730746becbb4a4f076ddfb5274c/bin/trans-dump.js#L5)
 In `/build.sbt`:
-https://github.com/ornicar/lila/blob/3b38ffdbbedc2730746becbb4a4f076ddfb5274c/build.sbt#L79
+[here](https://github.com/ornicar/lila/blob/3b38ffdbbedc2730746becbb4a4f076ddfb5274c/build.sbt#L79)
 
 # Puzzles
 
