@@ -119,9 +119,15 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
   ```
   Check that MongoDB is running. Restart lila, if it was started before MongoDB.
   On OS X, the connection timeout might be needed to be increased initially (5 seconds could be too short for a cold start). See [#6718](https://github.com/ornicar/lila/issues/6718).
-* If you have problems connecting to mongoreactive from lila-ws try bumping reactive mongo version in lila-ws to >= 0.20.10 and change `s"$reactivemongoVersion-linux-x86-64"` to `s"$reactivemongoVersion-osx-x86-64"`  in the `reactivemongo-shaded-native` dependency
+
+* OS X: If you have problems connecting to mongoreactive from lila-ws try bumping reactive mongo version in lila-ws to >= 0.20.10 and change `s"$reactivemongoVersion-linux-x86-64"` to `s"$reactivemongoVersion-osx-x86-64"`  in the `reactivemongo-shaded-native` dependency
 
 * ```
   The java installation you have is not up to date requires at least version 1.6+
   ```
   `sbt` >= 1.3 is required.
+
+* ```
+  reactivemongo.core.errors.DatabaseException$$anon$1: DatabaseException['error processing query: ns=lichess.challenge limit=50Tree: $and
+  ```
+  Run `db.challenge.ensureIndex({seenAt:1},{partialFilterExpression:{status:10,timeControl:{$exists:true},seenAt:{$exists:true}}})` in the `mongo lichess` shell.
