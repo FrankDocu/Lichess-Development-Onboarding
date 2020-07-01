@@ -131,3 +131,11 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
   reactivemongo.core.errors.DatabaseException$$anon$1: DatabaseException['error processing query: ns=lichess.challenge limit=50Tree: $and
   ```
   Run `db.challenge.ensureIndex({seenAt:1},{partialFilterExpression:{status:10,timeControl:{$exists:true},seenAt:{$exists:true}}})` in the `mongo lichess` shell.
+* ```
+  DatabaseException['cannot insert document because it exceeds 180 levels of nesting' (code = 15)]?
+  ```
+  In `/etc/mongodb.conf`:
+  ```
+  setParameter:
+    maxBSONDepth: 999
+  ```
