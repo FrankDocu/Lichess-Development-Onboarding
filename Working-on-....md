@@ -5,7 +5,7 @@ Enable auto-recompile:
 
 ```
 cd ui/round
-gulp
+yarn run dev --watch
 ```
 
 To enable auto-recompile for the .scss files:
@@ -38,14 +38,3 @@ Add some puzzles to your local DB: https://github.com/ornicar/lichess-puzzle-kit
 To activate Accessibility mode on lichess, press `tab` then `enter` on the homepage.
 
 Most of the code is located in `ui/nvui`, and it is then loaded as a plugin.
-
-Plugins are not built when building the frontend in dev mode. You need to build them separately:
-```
-cd ui/round
-gulp NVUI
-```
-or
-```
-cd ui/analyse
-gulp NVUI
-```
