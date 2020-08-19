@@ -22,3 +22,8 @@ This supports vim, emacs, atom, visual studio, sublime and more. I highly recomm
 For details about my setup and vim configs, checkout my [dotfiles repository](https://github.com/ornicar/lila).
 
 ![My vim setup for hacking lila scala code](https://i.imgur.com/wVGKrjM.png)
+
+## Known issues
+
+bloop doesn't watch and recompile playframework routes.
+Until we find a way to fix that (can you help?), the workaround after editing `conf/routes` is to run `./lila compile`.
