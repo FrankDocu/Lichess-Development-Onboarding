@@ -21,7 +21,7 @@ lila makes little use of object orientation and particularly inheritance, but:
 
 If the function you're looking for is not here,
 try the [scala doc](https://www.scala-lang.org/files/archive/api/current/)
-or the [scalaz doc](https://javadoc.io/doc/org.scalaz/scalaz-core_2.13/7.2.30/scalaz/index.html).
+or the [cats doc](https://typelevel.org/cats/).
 
 ## Disclaimer
 
@@ -84,8 +84,6 @@ a atLeast b                 // a max b
 ```
 
 ### Option functions
-
-Some of these (like `|`) actually come from [scalaz](https://github.com/scalaz/scalaz)
 
 ```scala
 42.some                     // Option(42) // or Some(42): Option[Int]
