@@ -64,6 +64,11 @@ To speed up `./ui/build`, install GNU parallel. The citation warning can be sile
 mkdir -p ~/.parallel && touch ~/.parallel/will-cite
 ```
 
+## Recommended setup for hacking lila scala code
+
+[Set up bloop for quick builds and IDE features](Lichess-Development-With-Bloop).
+
+
 ## Development
 
 Here are [some hints](Working-on-...) for working on various parts of the system.
