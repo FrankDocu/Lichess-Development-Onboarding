@@ -16,10 +16,10 @@ Before beginning, please make sure you have the following tools installed, using
 * `node` (>= 10, `nodejs` on Debian, `nodejs-legacy` pre Debian Buster, [instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions), [check if Ubuntu](https://github.com/yarnpkg/yarn/issues/2821))
 * `yarn` (>= 1.0, [instructions](https://yarnpkg.com/lang/en/docs/install/))
 * `gulp-cli` (`sudo yarn global add gulp-cli`)
-* `java` (JDK 14)
+* `java` (JDK >= 11)
 
 ### Infrastructure
-* `mongodb` (>= 3.6.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
+* `mongodb` (>= 4.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
 * `redis` 
 
 ## Installation
@@ -27,12 +27,12 @@ Before beginning, please make sure you have the following tools installed, using
 ### Setup lila
 
 ```sh
-git clone --recursive https://github.com/ornicar/lila.git
+git clone https://github.com/ornicar/lila.git
 cd lila
 ./ui/build # builds the CSS and JS
 ./lila # starts the SBT console
 ```
-Once the console has booted, you will see a `lila>` prompt. Type `compile` and sit back.
+Once the console has booted, you will see a `lila>` prompt. Type `compile` and sit back. The full compilation takes 5 minutes on GitHub CI servers.
 
 When it's done,  type `run` to start the HTTP server.
 Then open http://127.0.0.1:9663 in your browser.
@@ -53,11 +53,11 @@ sbt run
 These repositories use [scalafmt](https://scalameta.org/scalafmt/).
 
 Please [install it for your code editor](https://scalameta.org/scalafmt/docs/installation.html)
-if you're going to contribute to this project. We recommend scalafmt-native which is simpler to setup than the nailgun solution.
+if you're going to contribute to this project. We recommend using scalafmt-native.
 
 If you don't install it, please run `scalafmtAll` in the sbt console before committing.
 
-## Faster builds
+## Faster assets builds
 
 To speed up `./ui/build`, install GNU parallel. The citation warning can be silenced with
 ```sh
@@ -120,12 +120,7 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
   Check that MongoDB is running. Restart lila, if it was started before MongoDB.
   On OS X, the connection timeout might be needed to be increased initially (5 seconds could be too short for a cold start). See [#6718](https://github.com/ornicar/lila/issues/6718).
 
-* OS X: If you have problems connecting to mongoreactive from lila-ws try bumping reactive mongo version in lila-ws to >= 0.20.10 and change `s"$reactivemongoVersion-linux-x86-64"` to `s"$reactivemongoVersion-osx-x86-64"`  in the `reactivemongo-shaded-native` dependency
-
-* ```
-  The java installation you have is not up to date requires at least version 1.6+
-  ```
-  `sbt` >= 1.3 is required.
+* OS X: If you have problems connecting to mongoreactive from lila-ws, change `s"$reactivemongoVersion-linux-x86-64"` to `s"$reactivemongoVersion-osx-x86-64"` in the `reactivemongo-shaded-native` dependency
 
 * ```
   reactivemongo.core.errors.DatabaseException$$anon$1: DatabaseException['error processing query: ns=lichess.challenge limit=50Tree: $and
