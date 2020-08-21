@@ -8,7 +8,9 @@ systemctl --user enable bloop
 systemctl --user start bloop
 ```
 
-Bloop can be used to build lila (`bloop compile lila`) and run it (`bloop run lila -m play.core.server.ProdServerStart -c /path/to/lila/.bloop`).
+After being set up (`sbt installBloop`),
+bloop can be used to build lila (`bloop compile lila`) 
+and run it (`bloop run lila -m play.core.server.ProdServerStart -c /path/to/lila/.bloop`).
 
 I like to run my local lila as [a systemd service](https://github.com/ornicar/dotfiles/blob/master/systemd/lila.service), 
 and to restart it [by pressing F1](https://github.com/ornicar/dotfiles/blob/bdd905c72db104f8aea354c535c74f46377a3604/i3/config#L38).
@@ -22,6 +24,10 @@ This supports vim, emacs, atom, visual studio, sublime and more. I highly recomm
 For details about my setup and vim configs, checkout my [dotfiles repository](https://github.com/ornicar/lila).
 
 ![My vim setup for hacking lila scala code](https://i.imgur.com/wVGKrjM.png)
+
+bloop will also happily compile and run [scalachess](https://github.com/ornicar/scalachess), 
+[lila-ws](https://github.com/ornicar/lila-ws), [lila-fishnet](https://github.com/ornicar/lila-fishnet)
+and probably any scala project.
 
 ## Known issues
 
