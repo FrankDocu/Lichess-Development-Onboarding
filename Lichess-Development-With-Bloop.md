@@ -32,4 +32,4 @@ and probably any scala project.
 ## Known issues
 
 bloop doesn't watch and recompile playframework routes.
-Until we find a way to fix that (can you help?), the workaround after editing `conf/routes` is to run `./lila compile`.
+Until we find a way to fix that (can you help?), the workaround after editing `conf/routes` is to run `sbt playRoutes`.
