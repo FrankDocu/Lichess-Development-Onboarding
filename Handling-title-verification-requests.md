@@ -45,7 +45,7 @@ https://fcacostarica.com/jugadores/
 
 ### Italy
 
-* We accept: Master (e.g: http://www.torneionline.com/giocatori_d.php?progre=7145&tipo=a )
+* We accept: Master (e.g: http://www.torneionline.com/giocatori_d.php?progre=18118&tipo=a )
 
 # More info
 ### Relevant Gmail canned responses
