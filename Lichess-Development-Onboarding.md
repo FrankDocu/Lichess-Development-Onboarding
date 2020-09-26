@@ -48,6 +48,35 @@ cd lila-ws
 sbt run
 ```
 
+### Setup Computer Analysis
+
+[Optional] lilia-fishnet enables playing vs Stockfish and requesting server side analysis.
+
+```sh
+git clone https://github.com/ornicar/lila-fishnet.git
+cd lila-fishnet
+sbt run
+```
+
+Setup fishnet client
+
+```sh
+git clone https://github.com/niklasf/fishnet
+cd fishnet
+python -m fishnet configure
+
+Configure advanced options? (default: no) **yes**
+Fishnet API endpoint (default: https://lichess.org/fishnet/): **http://localhost:9665/fishnet/**
+
+python fishnet.py
+```
+
+```sh
+git clone https://github.com/ornicar/lila-fishnet.git
+cd lila-fishnet
+sbt run
+```
+
 ## Code formatting
 
 These repositories use [scalafmt](https://scalameta.org/scalafmt/).
