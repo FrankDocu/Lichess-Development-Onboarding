@@ -1,3 +1,4 @@
+juno_hacker https://hackerone.com/juno_hacker
 # Welcome to the lila wiki!
 lila = **li**chess in sca**la**
 
