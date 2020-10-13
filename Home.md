@@ -27,7 +27,7 @@ If you see possible improvements to these pages, please be bold and edit.
 * [Write and publish Lichess blog posts](Writing-and-publishing-Lichess-blog-posts)
 
 ## For system administrators
-* [Common sysadmin procedures](sysadmin-procedures)
+* [Private repository](https://github.com/lichess-org/sysadmin)
 * [Monitoring](Monitoring)
 
 ## Miscellaneous
