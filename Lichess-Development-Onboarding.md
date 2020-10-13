@@ -6,6 +6,10 @@ You can also [set up the environment on a Windows machine](Lichess-Development-O
 
 If you get stuck during the installation process the most suitable place to seek help is the `#how-to-setup-lila` channel on Discord (https://discord.gg/hy5jqSs). The main developer of Lichess (thibault) can be found there as well as several people who have successfully installed the stack.
 
+## Video introduction
+
+[![https://www.youtube.com/watch?v=AejdHlL902w](https://img.youtube.com/vi/AejdHlL902w/0.jpg)](https://www.youtube.com/watch?v=AejdHlL902w)
+
 ## Prerequisites
 
 Before beginning, please make sure you have the following tools installed, using your favourite package manager to install them where applicable.
