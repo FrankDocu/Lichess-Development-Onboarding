@@ -47,9 +47,9 @@ cd lila-ws
 sbt run
 ```
 
-### Setup Computer Analysis
+### Optional: Setup "Play with the computer"
 
-[Optional] lilia-fishnet enables playing vs Stockfish and requesting server side analysis.
+lila-fishnet enables playing vs Stockfish (not needed for analysis):
 
 ```sh
 git clone https://github.com/ornicar/lila-fishnet.git
@@ -57,23 +57,19 @@ cd lila-fishnet
 sbt run
 ```
 
-Setup fishnet client
+You will also need a client. Start a fishnet client for play against the machine:
 
 ```sh
 git clone https://github.com/niklasf/fishnet
 cd fishnet
-python -m fishnet configure
-
-Configure advanced options? (default: no) yes
-Fishnet API endpoint (default: https://lichess.org/fishnet/): http://localhost:9665/fishnet/
-
-python fishnet.py
+python -m fishnet --endpoint http://localhost:9665/fishnet/
 ```
 
+Start a fishnet client for analysis:
+
 ```sh
-git clone https://github.com/ornicar/lila-fishnet.git
-cd lila-fishnet
-sbt run
+cd fishnet
+python -m fishnet --endpoint http://localhost:9663/fishnet/
 ```
 
 ## Code formatting
