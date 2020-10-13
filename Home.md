@@ -34,8 +34,3 @@ lila = **li**chess in sca**la**
 * [Lichess Video Library](https://docs.google.com/spreadsheets/d/1qYU1XhvC8TlBggXEkjI481ieNGyYGmMTy97A9iboyrM/edit)
 * [Lichess Puzzle Tags](https://docs.google.com/spreadsheets/d/155eR2a6hjYjBkS709c5bp8HeXq4yIXUFP0gLkk315zY/edit)
 * [Lichess Rating System](https://docs.google.com/document/d/199egGx3_CyoSZnN_3CWcE56Krfq61HTT0ZonsNKxDJM/edit#)
-
-## Wiki TODO list
-* Publish https://github.com/ornicar/lila/wiki/Username-policy on the Lichess website
-* Document policy on external assistance
-* Document policy on multi-accounting
