@@ -170,3 +170,7 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
   setParameter:
     maxBSONDepth: 999
   ```
+
+* `sbt` prints `Killed` and exits
+
+  Most likely there was not enough free RAM to compile lila.
