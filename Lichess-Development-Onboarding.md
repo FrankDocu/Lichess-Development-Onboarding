@@ -12,13 +12,12 @@ Before beginning, please make sure you have the following tools installed, using
 
 ### Tools and dependency managers
 * `git`
-* `sbt` (>= 1.3 [instructions](https://www.scala-sbt.org/release/docs/Setup.html), [check if WSL](https://github.com/microsoft/WSL/issues/3286#issuecomment-402594992))
-* `node` (>= 10, `nodejs` on Debian, `nodejs-legacy` pre Debian Buster, [instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions), [check if Ubuntu](https://github.com/yarnpkg/yarn/issues/2821))
-* `yarn` (>= 1.0, [instructions](https://yarnpkg.com/lang/en/docs/install/))
-* `gulp-cli` (`sudo yarn global add gulp-cli`)
 * `java` (JDK >= 11)
+* `sbt` (>= 1.3, [instructions](https://www.scala-sbt.org/release/docs/Setup.html), [check if WSL](https://github.com/microsoft/WSL/issues/3286#issuecomment-402594992))
+* `node` (>= 10, `apt install nodejs` on Debian, `apt install nodejs-legacy` pre Debian Buster, [other instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions))
+* `yarn` (>= 1.0, `apt install yarnpkg` since Debian Buster, [other instructions](https://yarnpkg.com/lang/en/docs/install/))
 
-### Infrastructure
+### Running infrastructure
 * `mongodb` (>= 4.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
 * `redis` 
 
