@@ -162,7 +162,7 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
   Run `db.challenge.ensureIndex({seenAt:1},{partialFilterExpression:{status:10,timeControl:{$exists:true},seenAt:{$exists:true}}})` in the `mongo lichess` shell.
 
 * Mongo error when importing games
-```
+  ```
   DatabaseException['cannot insert document because it exceeds 180 levels of nesting' (code = 15)]?
   ```
   In `/etc/mongodb.conf`:
