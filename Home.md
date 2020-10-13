@@ -1,12 +1,12 @@
 # Welcome to the lila Wiki!
-lila = **li**chess in sca**la**
+lila = **li**chess in Sca**la**
 
 If you see possible improvements to these pages, please be bold and edit.
 
 ## For developers
 * [Setting up a lila development environment on Linux](Lichess-Development-Onboarding)
 * [Setting up a lila development environment on Windows](Lichess-Development-Onboarding-(Windows))
-* [Lilaisms - how lila uses scala](Lilaisms)
+* [Lilaisms - how lila uses Scala](Lilaisms)
 * [Defenses against Cross Site Request Forgery](Defenses-against-Cross-Site-Request-Forgery)
 * [Working on ...](Working-on-...)
 
