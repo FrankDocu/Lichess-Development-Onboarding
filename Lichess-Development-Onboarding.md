@@ -155,7 +155,7 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
 * OS X: If you have problems connecting to mongoreactive from lila-ws, change `s"$reactivemongoVersion-linux-x86-64"` to `s"$reactivemongoVersion-osx-x86-64"` in the `reactivemongo-shaded-native` dependency
 
 * Mongo error when Lila running
- ```
+  ```
   [error] reactivemongo.api.Cursor - fails to send request
   reactivemongo.core.errors.DatabaseException$$anon$1: DatabaseException['error processing query: ns=lichess.challenge limit=50Tree: $and
   ```
