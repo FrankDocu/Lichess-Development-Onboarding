@@ -65,9 +65,12 @@ cd fishnet
 python -m fishnet --endpoint http://localhost:9665/fishnet/
 ```
 
+### Optional: Setup Stockfish analyis
+
 Start a fishnet client for analysis:
 
 ```sh
+git clone https://github.com/niklasf/fishnet
 cd fishnet
 python -m fishnet --endpoint http://localhost:9663/fishnet/
 ```
