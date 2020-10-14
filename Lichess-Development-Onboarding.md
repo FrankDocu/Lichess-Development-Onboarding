@@ -22,7 +22,8 @@ Before beginning, please make sure you have the following tools installed, using
 * `yarn` (>= 1.0, `apt install yarnpkg` since Debian Buster, [other instructions](https://yarnpkg.com/lang/en/docs/install/))
 
 ### Running infrastructure
-* `mongodb` (>= 4.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/))
+* `mongodb` (>= 4.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/), [WSL2](https://stackoverflow.com/questions/62495999/installing-mongodb-in-wsl))
+  * For WSL2, you might want to manually create the default `/data/db` directory. If `sudo service mongod start` does not work, you may want to open a terminal and run `mongod` as super-user.
 * `redis` 
 
 ## Installation
