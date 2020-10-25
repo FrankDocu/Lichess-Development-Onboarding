@@ -8,7 +8,7 @@ systemctl --user enable bloop
 systemctl --user start bloop
 ```
 
-After being set up (`sbt installBloop`),
+After being set up (`sbt bloopInstall`),
 bloop can be used to build lila (`bloop compile lila`) 
 and run it (`bloop run lila -m play.core.server.ProdServerStart -c /path/to/lila/.bloop`).
 
