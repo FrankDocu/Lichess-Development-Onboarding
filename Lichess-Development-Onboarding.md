@@ -8,7 +8,7 @@ If you get stuck during the installation process the most suitable place to seek
 
 ## Video introduction
 
-[![https://www.youtube.com/watch?v=AejdHlL902w](https://img.youtube.com/vi/AejdHlL902w/0.jpg)](https://www.youtube.com/watch?v=AejdHlL902w)
+[![https://www.youtube.com/watch?v=AejdHlL902w](https://img.youtube.com/vi/AejdHlL902w/0.jpg)](https://www.youtube.com/watch?v=AejdHlL902w&list=PLe5ZNOR8Ttm1LlBRmmnccZkQa7XH1K0rK)
 
 ## Prerequisites
 
