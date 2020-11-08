@@ -6,7 +6,7 @@ You can also [set up the environment on a Windows machine](Lichess-Development-O
 
 If you get stuck during the installation process the most suitable place to seek help is the `#how-to-setup-lila` channel on Discord (https://discord.gg/hy5jqSs). The main developer of Lichess (thibault) can be found there as well as several people who have successfully installed the stack.
 
-## Video introduction
+## Stream recordings
 
 [![https://www.youtube.com/watch?v=AejdHlL902w](https://img.youtube.com/vi/AejdHlL902w/0.jpg)](https://www.youtube.com/watch?v=AejdHlL902w&list=PLe5ZNOR8Ttm1LlBRmmnccZkQa7XH1K0rK)
 
@@ -52,24 +52,6 @@ cd lila-ws
 sbt run
 ```
 
-### Optional: Setup "Play with the computer"
-
-lila-fishnet enables playing vs Stockfish (not needed for analysis):
-
-```sh
-git clone https://github.com/ornicar/lila-fishnet.git
-cd lila-fishnet
-sbt run
-```
-
-You will also need a client. Start a fishnet client for play against the machine:
-
-```sh
-git clone https://github.com/niklasf/fishnet
-cd fishnet
-python -m fishnet --endpoint http://localhost:9665/fishnet/
-```
-
 ### Optional: Setup Stockfish analyis
 
 Start a fishnet client for analysis:
@@ -78,6 +60,24 @@ Start a fishnet client for analysis:
 git clone https://github.com/niklasf/fishnet
 cd fishnet
 python -m fishnet --endpoint http://localhost:9663/fishnet/
+```
+
+### Optional: Setup "Play with the computer"
+
+lila-fishnet enables playing vs Stockfish (not needed for analysis):
+
+```sh
+git clone https://github.com/ornicar/lila-fishnet.git
+cd lila-fishnet
+sbt run -Dhttp.port=9665
+```
+
+You will also need a client. Start a fishnet client for play against the machine:
+
+```sh
+git clone https://github.com/niklasf/fishnet
+cd fishnet
+python -m fishnet --endpoint http://localhost:9665/fishnet/
 ```
 
 ## Code formatting
