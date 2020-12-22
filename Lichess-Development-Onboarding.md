@@ -57,7 +57,7 @@ sbt run
 Start a fishnet client for analysis:
 
 ```sh
-git clone https://github.com/niklasf/fishnet
+git clone --recursive https://github.com/niklasf/fishnet.git
 cd fishnet
 python -m fishnet --endpoint http://localhost:9663/fishnet/
 ```
@@ -75,7 +75,7 @@ sbt run -Dhttp.port=9665
 You will also need a client. Start a fishnet client for play against the machine:
 
 ```sh
-git clone https://github.com/niklasf/fishnet
+git clone --recursive https://github.com/niklasf/fishnet.git
 cd fishnet
 python -m fishnet --endpoint http://localhost:9665/fishnet/
 ```
