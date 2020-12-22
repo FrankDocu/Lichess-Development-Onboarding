@@ -54,12 +54,12 @@ sbt run
 
 ### Optional: Setup Stockfish analyis
 
-Start a fishnet client for analysis:
+Start a fishnet client for analysis (requires a recent [Rust toolchain](https://rustup.rs/) to build from source):
 
 ```sh
 git clone --recursive https://github.com/niklasf/fishnet.git
 cd fishnet
-python -m fishnet --endpoint http://localhost:9663/fishnet/
+cargo run -- --endpoint http://localhost:9663/fishnet/
 ```
 
 ### Optional: Setup "Play with the computer"
@@ -77,7 +77,7 @@ You will also need a client. Start a fishnet client for play against the machine
 ```sh
 git clone --recursive https://github.com/niklasf/fishnet.git
 cd fishnet
-python -m fishnet --endpoint http://localhost:9665/fishnet/
+cargo run -- --endpoint http://localhost:9665/fishnet/
 ```
 
 ## Code formatting
