@@ -32,6 +32,10 @@ Use the study chapter URL as both the link text and URL.
 
 Use the game URL as both the link text and URL.
 
+### Embed a table
+
+Change text type to preformatted and start with "markdown". Then use the markdown table syntax.
+
 Preview the blog post
 ------------------------
 
