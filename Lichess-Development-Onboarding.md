@@ -26,6 +26,24 @@ Before beginning, please make sure you have the following tools installed, using
   * For WSL2, you might want to manually create the default `/data/db` directory. If `sudo service mongod start` does not work, you may want to open a terminal and run `mongod` as super-user.
 * `redis` 
 
+Alternatively, if you have setup [docker-compose](https://docs.docker.com/compose/install/) on your machine, write a `docker-compose.yml` file:
+
+    version: "3.3"
+    services:
+      redis:
+        image: redis
+        ports:
+          - 6379:6379
+      mongo:
+        image: mongo
+        restart: always
+        ports:
+          - 27017:27017
+
+and spin up a `redis` and `mongodb` instance with:
+
+    docker-compose up
+
 ## Installation
 
 ### Setup lila
