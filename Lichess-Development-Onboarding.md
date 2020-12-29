@@ -14,6 +14,10 @@ If you get stuck during the installation process the most suitable place to seek
 
 Before beginning, please make sure you have the following tools installed, using your favourite package manager to install them where applicable.
 
+### Hardware 
+* At least 2 GB of RAM
+* A CPU with 64-bit architecture.
+
 ### Tools and dependency managers
 * `git`
 * `java` (JDK >= 11)
