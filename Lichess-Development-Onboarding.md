@@ -74,7 +74,7 @@ cd lila-ws
 sbt run
 ```
 
-### Optional: Setup Stockfish analyis
+### Optional: Setup Stockfish analysis
 
 Start a fishnet client for analysis (requires a recent [Rust toolchain](https://rustup.rs/) to build from source, [alternatives](https://github.com/niklasf/fishnet#readme)):
 
