@@ -1,6 +1,6 @@
 The following instructions outline how to set up your development environment for starting development on Lichess. The instructions are aimed to be agnostic of the platform the stack is installed on, so a working knowledge of the specifics of your GNU/Linux distribution or other such Unix based operating system is assumed. 
 
-You can also [set up the environment on a Windows machine](Lichess-Development-Onboarding-(Windows)).
+You can also [set up the environment on a Windows machine](Lichess-Development-Onboarding-(Windows)) or on [macOS](Lichess-Development-Onboarding-(macOS)).
 
 ## Getting Help
 
