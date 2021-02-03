@@ -9,4 +9,4 @@ In general, **a username chosen with the intent of generating negative emotional
 * Usernames impersonating living people (impersonating means that you can reasonably be mistaken for someone you are not)
 * Usernames should not imply you have a FIDE title or the Lichess Master title ([LameName.scala](https://github.com/ornicar/lila/blob/master/modules/common/src/main/LameName.scala))
 
-Moderators will always be able to use their judgement to override these rules.
+Moderators will always be able to use their judgment to override these rules.
