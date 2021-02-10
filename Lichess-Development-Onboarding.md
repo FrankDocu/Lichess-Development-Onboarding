@@ -105,12 +105,11 @@ cargo run -- --endpoint http://localhost:9665/fishnet/
 
 ## Code formatting
 
-These repositories use [scalafmt](https://scalameta.org/scalafmt/).
+These repositories use [scalafmt](https://scalameta.org/scalafmt/) for Scala and [prettier](https://prettier.io/) for everything else.
 
-Please [install it for your code editor](https://scalameta.org/scalafmt/docs/installation.html)
-if you're going to contribute to this project. We recommend using scalafmt-native.
+Please [install scalafmt for your editor](https://scalameta.org/scalafmt/docs/installation.html), or run `scalafmtAll` in the sbt console before submitting code.
 
-If you don't install it, please run `scalafmtAll` in the sbt console before committing.
+Likewise, pick a plugin for prettier ([coc-prettier](https://github.com/neoclide/coc-prettier) is good for nvim), or use `yarn run format`.
 
 ## Faster assets builds
 
@@ -122,7 +121,6 @@ mkdir -p ~/.parallel && touch ~/.parallel/will-cite
 ## Recommended setup for hacking lila scala code
 
 [Set up bloop for quick builds and IDE features](Lichess-Development-With-Bloop).
-
 
 ## Development
 
