@@ -178,7 +178,7 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
   Check your `yarn --version`. Requires at least yarn 1.0.
 
 * ```
-  java.util.concurrent.TimeoutException: Futures timed out after [5 seconds]
+  java.util.concurrent.TimeoutException: Future timed out after [5 seconds]
   ```
   Check that MongoDB is running. Restart lila, if it was started before MongoDB.
   On OS X, the connection timeout might be needed to be increased initially (5 seconds could be too short for a cold start). See [#6718](https://github.com/ornicar/lila/issues/6718).
