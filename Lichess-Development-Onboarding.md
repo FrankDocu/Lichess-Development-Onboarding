@@ -24,6 +24,7 @@ Before beginning, please make sure you have the following tools installed, using
 * `sbt` (>= 1.3, [instructions](https://www.scala-sbt.org/release/docs/Setup.html), [check if WSL](https://github.com/microsoft/WSL/issues/3286#issuecomment-402594992))
 * `node` (>= 10, `apt install nodejs` on Debian, `apt install nodejs-legacy` pre Debian Buster, [other instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions))
 * `yarn` (>= 1.0, `apt install yarnpkg` since Debian Buster, [other instructions](https://yarnpkg.com/lang/en/docs/install/))
+* `python2` (build dependency for some node packages)
 
 ### Running infrastructure
 * `mongodb` (>= 4.0, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/), [WSL2](https://stackoverflow.com/questions/62495999/installing-mongodb-in-wsl))
