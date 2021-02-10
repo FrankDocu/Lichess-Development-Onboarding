@@ -2,7 +2,7 @@
 
 [bloop](https://scalacenter.github.io/bloop/) is a build server. It's the best way to work on lila.
 
-Install it with your package manager and create a userland [systemd service for it](https://github.com/ornicar/dotfiles/blob/master/systemd/bloop.service).
+Install it with your package manager and create a userland [systemd service for it](https://github.com/ornicar/dotfiles/blob/master/systemd/lila.service).
 ```
 systemctl --user enable bloop
 systemctl --user start bloop
