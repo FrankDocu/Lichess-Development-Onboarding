@@ -1,4 +1,4 @@
-If a username is deemed inappropriate, the user account should be closed. Adding a shadowban before closing the account, will ensure that the email address can't be used to create a new account.
+If a username is deemed inappropriate, the user account should be closed. Adding a shadowban before closing the account will ensure that the email address can't be used to create a new account.
 
 Usernames are public and displayed all over the site. They will be read by kids using lichess.
 
