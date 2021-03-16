@@ -12,7 +12,7 @@ To enable auto-recompile for the .scss files:
 
 ```
 cd ui
-gulp css
+yarn run gulp css
 ```
 
 # Translations
