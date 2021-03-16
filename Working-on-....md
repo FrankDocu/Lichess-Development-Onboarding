@@ -31,7 +31,7 @@ In `/build.sbt`:
 
 # Puzzles
 
-Add some puzzles to your local DB: https://github.com/ornicar/lichess-puzzle-kit
+~Add some puzzles to your local DB: https://github.com/ornicar/lichess-puzzle-kit~ (currently outdated)
 
 # Accessibility
 
