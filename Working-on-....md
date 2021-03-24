@@ -33,6 +33,10 @@ In `/build.sbt`:
 
 Import some data: https://gist.github.com/hi-ogawa/9bae1e8a809dc54a2371cbf849a6ac2d#file-seed-js
 
+# Forum
+
+Create the default categories: https://gist.github.com/kraktus/7a60362b6af362bb1bea0c1b6a212d15
+
 # Accessibility
 
 To activate Accessibility mode on lichess, press `tab` then `enter` on the homepage.
