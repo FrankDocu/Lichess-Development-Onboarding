@@ -22,7 +22,7 @@ Before beginning, please make sure you have the following tools installed, using
 * `git`
 * `java` (JDK >= 11)
 * `sbt` (>= 1.3, [instructions](https://www.scala-sbt.org/release/docs/Setup.html), [check if WSL](https://github.com/microsoft/WSL/issues/3286#issuecomment-402594992))
-* `node` (>= 10, `apt install nodejs` on Debian, `apt install nodejs-legacy` pre Debian Buster, [other instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions))
+* `node` ( 16 > node >= 10, install via [official install](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions) or [NVM install](https://github.com/nvm-sh/nvm#installing-and-updating))
 * `yarn` (>= 1.0, `apt install yarnpkg` since Debian Buster, [other instructions](https://yarnpkg.com/lang/en/docs/install/))
 * `python2` (build dependency for some node packages)
 
