@@ -122,6 +122,10 @@ mkdir -p ~/.parallel && touch ~/.parallel/will-cite
 
 [Set up bloop for quick builds and IDE features](Lichess-Development-With-Bloop).
 
+## Seed database
+
+https://github.com/ornicar/lila-db-seed can be used to create some dummy data, helping to work on parts of the site that require content (like puzzles).
+
 ## Development
 
 Here are [some hints](Working-on-...) for working on various parts of the system.
