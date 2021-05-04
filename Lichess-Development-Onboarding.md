@@ -77,7 +77,7 @@ sbt run
 
 ### Optional: Seed database
 
-Some parts of the site (like puzzles) require some minimal content to function.
+Parts of the site (like puzzles) require some minimal content to function.
 You can use https://github.com/ornicar/lila-db-seed to seed your local database with dummy data.
 
 ### Optional: Setup Stockfish analysis
