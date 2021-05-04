@@ -75,6 +75,11 @@ cd lila-ws
 sbt run
 ```
 
+### Optional: Seed database
+
+Some parts of the site (like puzzles) require some minimal content to function.
+You can use https://github.com/ornicar/lila-db-seed to seed your local database with dummy data.
+
 ### Optional: Setup Stockfish analysis
 
 Start a fishnet client for analysis (requires a recent [Rust toolchain](https://rustup.rs/) to build from source, [alternatives](https://github.com/niklasf/fishnet#readme)):
@@ -121,10 +126,6 @@ mkdir -p ~/.parallel && touch ~/.parallel/will-cite
 ## Recommended setup for hacking lila scala code
 
 [Set up bloop for quick builds and IDE features](Lichess-Development-With-Bloop).
-
-## Seed database
-
-https://github.com/ornicar/lila-db-seed can be used to create some dummy data, helping to work on parts of the site that require content (like puzzles).
 
 ## Development
 
