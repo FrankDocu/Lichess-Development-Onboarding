@@ -31,7 +31,7 @@ In `/build.sbt`:
 
 # Puzzles
 
-Import some data: https://gist.github.com/hi-ogawa/9bae1e8a809dc54a2371cbf849a6ac2d#file-seed-js
+Import some puzzle data: https://github.com/ornicar/lila-db-seed
 
 # Forum
 
