@@ -51,6 +51,12 @@ and spin up a `redis` and `mongodb` instance with:
 
 ## Installation
 
+### Create database indexes
+
+```
+mongo lichess bin/mongo/indexes.js
+```
+
 ### Setup lila
 
 ```sh
@@ -73,12 +79,6 @@ If you need websockets (which you probably do):
 git clone https://github.com/ornicar/lila-ws.git
 cd lila-ws
 sbt run
-```
-
-### Create database indexes
-
-```
-mongo lichess bin/mongo/indexes.js
 ```
 
 ### Optional: Seed database
@@ -200,7 +200,7 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
   [error] reactivemongo.api.Cursor - fails to send request
   reactivemongo.core.errors.DatabaseException$$anon$1: DatabaseException['error processing query: ns=lichess.challenge limit=50Tree: $and
   ```
-  Run `db.challenge.ensureIndex({seenAt:1},{partialFilterExpression:{status:10,timeControl:{$exists:true},seenAt:{$exists:true}}})` in the `mongo lichess` shell.
+  See [Create database indexes](#Create_database_indexes).
 
 * Similar mongo error when visiting the homepage
   Run `db.simul.ensureIndex({hostSeenAt:-1},{partialFilterExpression:{status:10,featurable:true,createdAt:{$exists:true},hostSeenAt:{$exists:true}}})` the `mongo lichess` shell.
