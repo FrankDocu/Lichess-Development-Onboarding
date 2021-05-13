@@ -75,6 +75,12 @@ cd lila-ws
 sbt run
 ```
 
+### Create database indexes
+
+```
+mongo lichess bin/mongo/indexes.js
+```
+
 ### Optional: Seed database
 
 Parts of the site (like puzzles) require some minimal content to function.
