@@ -54,7 +54,7 @@ and spin up a `redis` and `mongodb` instance with:
 ### Create database indexes
 
 ```
-mongo lichess bin/mongo/indexes.js
+mongo lichess bin/mongodb/indexes.js
 ```
 
 ### Setup lila
