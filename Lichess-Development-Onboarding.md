@@ -200,13 +200,7 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
   [error] reactivemongo.api.Cursor - fails to send request
   reactivemongo.core.errors.DatabaseException$$anon$1: DatabaseException['error processing query: ns=lichess.challenge limit=50Tree: $and
   ```
-  See [Create database indexes](#create-database-indexes).
-
-* Similar mongo error when visiting the homepage
-  Run `db.simul.ensureIndex({hostSeenAt:-1},{partialFilterExpression:{status:10,featurable:true,createdAt:{$exists:true},hostSeenAt:{$exists:true}}})` the `mongo lichess` shell.
-
-* Similar mongo error when visiting a team's page
-  Run `db.simul.ensureIndex({hostId:1},{partialFilterExpression:{status:10,team:{$exists:true}}})` in the `mongo lichess` shell.
+  or similar excptions due to missing indexes: Redo the [Create database indexes](#create-database-indexes) step.
 
 * Mongo error when importing games
   ```
