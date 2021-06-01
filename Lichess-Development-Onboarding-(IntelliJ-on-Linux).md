@@ -91,6 +91,7 @@ And after use shut them down with:
 ## Starting lila
 
 1. `docker-compose up` to start the infrastructure 
+1. `./ui/build` to build CSS and JS
 1. Open up the `lila` and `lila-ws` projects in IntelliJ.
 1. Go to the sbt shells in your IntelliJ projects and type `run`
 1. Visit http://localhost:9663/ 
