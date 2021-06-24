@@ -51,17 +51,12 @@ and spin up a `redis` and `mongodb` instance with:
 
 ## Installation
 
-### Create database indexes
-
-```
-mongo lichess bin/mongodb/indexes.js
-```
-
 ### Setup lila
 
 ```sh
 git clone --recursive https://github.com/ornicar/lila.git
 cd lila
+mongo lichess bin/mongodb/indexes.js # creates database indexes
 ./ui/build # builds the CSS and JS
 ./lila # starts the SBT console
 ```
