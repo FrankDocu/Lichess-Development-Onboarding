@@ -28,7 +28,7 @@ Before beginning, please make sure you have the following tools installed, using
 
 ### Running infrastructure
 * `mongodb` (>= 4.2, [instructions](https://docs.mongodb.com/manual/administration/install-on-linux/), [WSL2](https://stackoverflow.com/questions/62495999/installing-mongodb-in-wsl))
-  * For WSL2, you might want to manually create the default `/data/db` directory. If `sudo service mongod start` does not work, you may want to open a terminal and run `mongod` as super-user.
+  * For WSL2, you might want to manually create the default `/data/db` directory and give ownership permissions to your user (``sudo chown -R `id -un` /data/db``). If `sudo service mongod start` does not work, you may want to open a terminal and run `mongod` as super-user.
 * `redis` 
 
 Alternatively, if you have setup [docker-compose](https://docs.docker.com/compose/install/) on your machine, write a `docker-compose.yml` file:
