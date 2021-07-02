@@ -195,7 +195,7 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
   [error] reactivemongo.api.Cursor - fails to send request
   reactivemongo.core.errors.DatabaseException$$anon$1: DatabaseException['error processing query: ns=lichess.challenge limit=50Tree: $and
   ```
-  or similar excptions due to missing indexes: Redo the [Create database indexes](#create-database-indexes) step.
+  or similar excptions due to missing indexes: Run `mongo lichess bin/mongodb/indexes.js` again.
 
 * Mongo error when importing games
   ```
