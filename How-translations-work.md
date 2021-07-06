@@ -81,12 +81,19 @@ For JS, the Scala code generally passes a JSON object with `{ transKey: value }`
 Here's an example from the swiss tournament pages: [`app/views/swiss.bits.scala`](https://github.com/ornicar/lila/blob/df603a006982f3cdbc0f655f12834922b6ec78dd/app/views/swiss/bits.scala#L84)
 
 ```scala
+import lila.app.templating.Environment._
+import lila.i18n.{ I18nKeys => trans }
+
+// ...
+
 def jsI18n(implicit ctx: Context) = i18nJsObject(i18nKeys)
 
 private val i18nKeys = List(
   trans.join,
   trans.withdraw,
   trans.youArePlaying,
+  // ...
+  trans.swiss.viewAllXRounds,
   // ...
 ).map(_.key)
 ```
