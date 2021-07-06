@@ -1,3 +1,5 @@
+See also: [Working with translations](https://github.com/ornicar/lila/wiki/Working-on-...#translations)
+
 ## Basics
 
 Everything starts with the various `.xml` files in [`translation/source`](https://github.com/ornicar/lila/tree/master/translation/source). They define all the individual phrases that can be translated. Each file contains phrases for a certain concept or part of Lichess, e.g. `swiss.xml` for swiss tournaments, `faq.xml` for the FAQ, etc. `site.xml` is the main file that contains all site-wide phrases and everything that doesn't fit anywhere else.
