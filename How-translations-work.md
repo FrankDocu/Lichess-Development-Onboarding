@@ -10,7 +10,7 @@ Each phrase has a key/name and the original text in British English, e.g.
 
 They can have placeholders marked by `%s`. These can be replaced by something, i.e. the number of games or a separate translated string that needs to be formatted differently or be a clickable link. `%1$s`, `%2$s`, etc. can be used for multiple placeholders.
 
-```
+```xml
 <string name="xStartedStreaming">%s started streaming</string>
 <string name="xStartedFollowingY">%1$s started following %2$s</string>
 ```
