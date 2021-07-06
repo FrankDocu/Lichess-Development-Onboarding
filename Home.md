@@ -10,6 +10,7 @@ If you see possible improvements to these pages, please be bold and edit.
 * [Lilaisms - how lila uses Scala](Lilaisms)
 * [Defenses against Cross Site Request Forgery](Defenses-against-Cross-Site-Request-Forgery)
 * [Working on ...](Working-on-...)
+* [How translations work](How-translations-work)
 
 ## For moderators
 * [Username policy](Username-policy)
