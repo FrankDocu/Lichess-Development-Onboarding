@@ -68,7 +68,7 @@ There are three different functions, each in two versions, one producing a fragm
 
 And then there are the three `String` version equivalents `trans.theKey.txt`, `trans.theKey.pluralTxt` and `trans.theKey.pluralSameTxt`.
 
-### `implicit Lang`
+### What is `implicit Lang`?
 
 All these functions have an implicit `Lang` parameter that specifies the target language to translate to when they are called. This parameter can be automatically extracted from an implicit `Context` in scope. Generally, that means adding additional `(implicit ctx: Context)` or `(implicit lang: Lang)` argument lists to all functions calling one of the translation functions, all the way up the call stack until the controller endpoints which will have an explicit `Context` available.
 
