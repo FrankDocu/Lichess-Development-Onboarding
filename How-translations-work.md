@@ -1,4 +1,4 @@
-See also: [Working with translations](https://github.com/ornicar/lila/wiki/Working-on-...#translations)
+See also: [Working on translations](https://github.com/ornicar/lila/wiki/Working-on-...#translations)
 
 ## Basics
 
