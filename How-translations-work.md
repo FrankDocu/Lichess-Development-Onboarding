@@ -26,7 +26,7 @@ There are also `plurals` elements for phrases that need to change depending on t
 </plurals>
 ```
 
-The content of those `.xml` files are automatically uploaded to <http://crowdin.com/project/lichess> where volunteers translate them. The resulting translations are again automatically downloaded and regularly merged in PRs named "New Crowdin updates", resulting in another batch of `.xml` files in [`translation/dest/<area>/<lang-code>.xml`](https://github.com/ornicar/lila/tree/master/translation/dest) where `<area>` is the `faq`, `site`, etc. from above.
+The content of those `.xml` files are automatically uploaded to [crowdin.com/project/lichess](http://crowdin.com/project/lichess) where volunteers translate them. The resulting translations are again automatically downloaded and regularly merged in PRs named "New Crowdin updates", resulting in another batch of `.xml` files in [`translation/dest/<area>/<lang-code>.xml`](https://github.com/ornicar/lila/tree/master/translation/dest) where `<area>` is the `faq`, `site`, etc. from above.
 
 ## Using translations in Scala
 
