@@ -31,15 +31,15 @@ In `/build.sbt`:
 
 # Puzzles
 
-Import some puzzle data: https://github.com/ornicar/lila-db-seed
+Import [some puzzle data](https://github.com/ornicar/lila-db-seed).
 
 # Forum
 
-Create the default categories: https://gist.github.com/kraktus/7a60362b6af362bb1bea0c1b6a212d15
+[Create the default categories](https://gist.github.com/kraktus/7a60362b6af362bb1bea0c1b6a212d15).
 
 # Insights
 
-1. Download insights sample data: https://github.com/ornicar/lila/files/6807098/insight.bson.zip
+1. [Download insights sample data](https://github.com/ornicar/lila/files/6807098/insight.bson.zip).
 2. run
 ```
 mongorestore --db lichess-insight --collection insight insight.bson
