@@ -60,3 +60,10 @@ Make modifications to the document, then
 - Click `Publish` on top right
 - Select `Publish it now`
 - Click `Publish`
+
+Writing documentation?
+=================================
+
+- Make sure your document is of type "Documentation"
+- Publish as normal
+- Use Settings -> Bookmarks to generate a lichess.org/page/<slug> URI for your document
