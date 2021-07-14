@@ -66,4 +66,4 @@ Writing documentation?
 
 - Make sure your document is of type "Documentation"
 - Publish as normal
-- Use Settings -> Bookmarks to generate a lichess.org/page/<slug> URI for your document
+- Use Settings -> Bookmarks to generate a lichess.org/page/slug URI for your document
