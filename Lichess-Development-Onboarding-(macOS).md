@@ -2,7 +2,7 @@ Note that development on macOS is not officially supported by the core team, but
 
 Follow the [Linux setup guide](Lichess-Development-Onboarding). Please note the following differences:
 
-It is recommended to use [homebrew](https://brew.sh/) as the package manager. Most dependencies can be installed from there.
+It is recommended to use the [homebrew](https://brew.sh/) package manager. Most dependencies can be installed from there.
 
 # lila-ws
 
