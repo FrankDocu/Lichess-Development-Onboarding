@@ -29,6 +29,8 @@ In `bin/trans-dump`:
 In `/build.sbt`:
 [here](https://github.com/ornicar/lila/blob/3b38ffdbbedc2730746becbb4a4f076ddfb5274c/build.sbt#L79)
 
+For an in-depth explanation of how the whole translation system works, see [How translations work](How-translations-work).
+
 # Puzzles
 
 Import [some puzzle data](https://github.com/ornicar/lila-db-seed).
