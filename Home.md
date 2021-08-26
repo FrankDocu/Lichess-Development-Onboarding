@@ -1,4 +1,4 @@
-# Welcome to the lila Wiki!
+# Welcome to the LICHESS Wiki!
 lila = **li**chess in Sca**la**
 
 If you see possible improvements to these pages, please be bold and edit.
