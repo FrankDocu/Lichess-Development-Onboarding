@@ -33,17 +33,29 @@ Before beginning, please make sure you have the following tools installed, using
 
 Alternatively, if you have setup [docker-compose](https://docs.docker.com/compose/install/) on your machine, write a `docker-compose.yml` file:
 
-    version: "3.3"
-    services:
-      redis:
-        image: redis
-        ports:
-          - 6379:6379
-      mongo:
-        image: mongo
-        restart: always
-        ports:
-          - 27017:27017
+```
+version: "3.3"
+services:
+  redis:
+    image: redis:6-alpine
+    ports:
+      - 6379:6379
+  mongo:
+    image: mongo:5.0
+    restart: always
+    container_name: lila_mongo
+    ports:
+      - 27017:27017
+    volumes:
+      # use `docker exec -it lila_mongo bash` to get a shell inside mongo
+      # container. Directory containing this docker-compose.yml will be mounted
+      # as /host inside container so you can import db dumps, etc.
+      - .:/host
+      - lila_mongo_data:/data/db
+
+volumes:
+  lila_mongo_data: {}
+```
 
 and spin up a `redis` and `mongodb` instance with:
 
