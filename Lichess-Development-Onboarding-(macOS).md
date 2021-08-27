@@ -6,15 +6,6 @@ It is recommended to use the [homebrew](https://brew.sh/) package manager. Most 
 
 # lila-ws
 
-The following change needs to be made for lila-ws to run correctly on macOS.
-
-## X86_64
-Edit [build.sbt](https://github.com/ornicar/lila-ws/blob/master/build.sbt) to make the following change (replace the red line with the green contents, without the leading +/- symbol):
-```diff
--libraryDependencies += "org.reactivemongo"           % "reactivemongo-shaded-native"  % s"$reactivemongoVersion-linux-x86-64"
-+libraryDependencies += "org.reactivemongo"           % "reactivemongo-shaded-native"  % s"$reactivemongoVersion-osx-x86-64"
-```
-
 ## Apple M1
 Remove this line from [build.sbt](https://github.com/ornicar/lila-ws/blob/master/build.sbt):
 ```diff
