@@ -200,7 +200,7 @@ This is [no longer supported](https://github.com/ornicar/lila/commit/75c87849c29
   Check that MongoDB is running. Restart lila, if it was started before MongoDB.
   On OS X, the connection timeout might be needed to be increased initially (5 seconds could be too short for a cold start). See [#6718](https://github.com/ornicar/lila/issues/6718).
 
-* OS X: If you have problems connecting to mongoreactive from lila-ws, change `s"$reactivemongoVersion-linux-x86-64"` to `s"$reactivemongoVersion-osx-x86-64"` in the `reactivemongo-shaded-native` dependency
+* M1 OS X: If you have problems connecting to mongoreactive from lila-ws, remove `reactivemongo-shaded-native` dependency from `build.sbt`. This applies to apple silicon only, should not be an issue on intel macs.
 
 * Mongo error when Lila running
   ```
