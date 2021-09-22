@@ -158,7 +158,7 @@ Here is a guide on how to [set up lila with the IntelliJ IDE](https://github.com
 
 ### Docker
 
-There is an external project called [lichocker](https://github.com/BrandonE/lichocker), which allows you to run lila in a Docker container. Running in Docker simplifies setup and guarantees that your development environment will perfectly match that of anyone else who uses lichocker, eliminating the "it works on my machine" phenomena. However, it is always more performant to run any project directly on its host-machine, and lichocker is a work-in-progress that might not be reliable for your use.
+[Here](https://github.com/benediktwerner/lichess-docker) is a Docker setup that allows running lila and all services required for it in a Docker container. Running in Docker simplifies setup and guarantees that your development environment will perfectly match that of anyone else who uses that setup, eliminating the "it works on my machine" phenomena. However, it is always more performant to run any project directly on its host machine.
 
 ### Eclipse IDE (outdated)
 
