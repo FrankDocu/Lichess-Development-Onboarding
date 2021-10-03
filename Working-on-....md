@@ -39,6 +39,12 @@ Import [some puzzle data](https://github.com/ornicar/lila-db-seed).
 
 [Create the default categories](https://gist.github.com/kraktus/7a60362b6af362bb1bea0c1b6a212d15).
 
+# Swiss
+
+You need to install and run [bbbPairings](https://github.com/cyanfish/bbpPairings). Mind that Lichess uses [cyanfish](https://github.com/cyanfish) fork.
+
+To set up a swiss tournament, you need to be a team leader. For the Lichess one's to be working properly it's advised to [create the team of the official Lichess swiss](https://gist.github.com/kraktus/92e302ed9fad705cd62d5c30343a5a95).
+
 # Insights
 
 1. [Download insights sample data](https://github.com/ornicar/lila/files/6807098/insight.bson.zip).
